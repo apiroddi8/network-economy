@@ -110,3 +110,43 @@ print(nostro_df.player_pos)
 
 #nostro_df.loc[pd.isnull(df['A']), 'A'] = mylist
 nostro_df.loc[pd.isnull(nostro_df['market_value']),'market_value']=lista_market_values
+
+#####################################################################################################################
+
+for row in nostro_df[nostro_df['trasnfer_value'].isna()].itertuples():
+
+    if row.dir=='left':
+        dict_na['giocatori'].append(row.player_name)
+        dict_na['squadre_partenza'].append(row.team1)
+        dict_na['squadre_arrivo'].append((row.team2))
+        dict_na['eta'].append(row.player_age)
+
+    elif row.dir=='in':
+        dict_na['giocatori'].append(row.player_name)
+        dict_na['squadre_partenza'].append(row.team2)
+        dict_na['squadre_arrivo'].append(row.team1)
+        dict_na['eta'].append(row.player_age)
+
+lista_transfer_values=[]
+
+for segnalibro in range(0,len(dict_na['giocatori'])):
+    check=False
+    for row in loro_df.itertuples():
+
+        if (row.Name==dict_na['giocatori'][segnalibro]) and ((row.Club==dict_na['squadre_partenza'][segnalibro] and
+                 row.ClubInvolved== dict_na['squadre_arrivo'[segnalibro]]) or str(row.Età)==str(dict_na['eta'][segnalibro])):
+
+            print('ok')
+            lista_transfer_values.append(row.Costo)
+            check=True
+            break
+
+    if not check:
+        lista_transfer_values.append('NA')
+        print(dict_na['giocatori'][segnalibro])
+
+print(lista_transfer_values)
+print(len(lista_transfer_values))
+
+
+nostro_df.loc[pd.isnull(nostro_df['transfer_value']),'transfer_value']=lista_transfer_values
