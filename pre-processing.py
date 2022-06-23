@@ -2,7 +2,7 @@ import pandas as pd
 from collections import defaultdict
 
 #CARICAMENTO DATASET:
-nostro_df= pd.read_csv('prova1.csv')
+nostro_df= pd.read_csv('transfers (1).csv')
 loro_df=pd.read_csv('df_7_file.csv')
 
 #RINOMINAZIONE COLONNE:
@@ -134,10 +134,10 @@ nostro_df.loc[(nostro_df['is_loan_end'] == True) | (nostro_df['is_free']==True) 
 print(nostro_df.to_string())
 #
 # #CONTEGGIO DEGLI NA UNA VOLTA TERMINATA LA PULIZIA:
-# print('CONTEGGIO NA POST PULIZIA \n')
-#
-# for column in nostro_df.columns:
-#     print(column,nostro_df[f'{column}'].isna().sum())
+print('CONTEGGIO NA POST PULIZIA \n')
+
+for column in nostro_df.columns:
+    print(column,nostro_df[f'{column}'].isna().sum())
 #
 #
 # #LA COLONNA DELL'ETA HA VALORI DI TIPO STRINGA, DOVREBBERO ESSERE INVECE NUEMERICI
@@ -157,25 +157,26 @@ print(nostro_df.to_string())
 
 
 #OTTENIMENTO DEI VALORI MANCANTI DEL MARKET VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
-dict_na=defaultdict(list)
+dict_na={}
 
-for row in nostro_df[nostro_df['market_value'].isna()].itertuples():
+dict_na['giocatori']=nostro_df['player_name'].tolist()
+dict_na['squadre_partenza']=nostro_df['team1'].tolist()
+dict_na['squadre_arrivo']=nostro_df['team2'].tolist()
+dict_na['eta']=nostro_df['player_age'].tolist()
 
-    dict_na['giocatori'].append(row.player_name)
-    dict_na['squadre_partenza'].append(row.team1)
-    dict_na['squadre_arrivo'].append((row.team2))
-    dict_na['eta'].append(row.player_age)
+print(dict_na)
 
 
 
 lista_market_values=[]
+
 
 for segnalibro in range(0,len(dict_na['giocatori'])):
     check=False
     for row in loro_df.itertuples():
 
         if (row.Name==dict_na['giocatori'][segnalibro]) and ((row.Club==dict_na['squadre_partenza'][segnalibro] and
-                 row.ClubInvolved== dict_na['squadre_arrivo'[segnalibro]]) or str(row.Età)==str(dict_na['eta'][segnalibro])):
+                 row.ClubInvolved== dict_na['squadre_arrivo'][segnalibro]) or str(row.Età)==str(dict_na['eta'][segnalibro])):
 
             print('ok')
             lista_market_values.append(row.MarketValue)
@@ -183,12 +184,12 @@ for segnalibro in range(0,len(dict_na['giocatori'])):
             break
 
     if not check:
-        lista_market_values.append('NaN')
+        #lista_market_values.append('NaN')
         print(dict_na['giocatori'][segnalibro])
 
 print(lista_market_values)
 print(len(lista_market_values))
 
+print(len(nostro_df.index))
 
-#nostro_df.loc[pd.isnull(df['A']), 'A'] = mylist
-nostro_df.loc[pd.isnull(nostro_df['market_value']),'market_value']=lista_market_values
+nostro_df['market_value']=lista_market_values
