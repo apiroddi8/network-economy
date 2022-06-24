@@ -146,14 +146,14 @@ nostro_df=nostro_df.astype({'player_age':float})
 nostro_df=nostro_df.astype({'player_age':int})
 
 print(nostro_df.to_string())
-#
-# #CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
-# for column in nostro_df.columns:
-#     print(column)
-#     print('numero stringhe', sum([1 for row in nostro_df[f'{column}']if type(row)==str]))
-#     print('numero float', sum([1 for row in nostro_df[f'{column}'] if type(row) == float]))
-#     print('numero interi', sum([1 for row in nostro_df[f'{column}'] if type(row) == int]))
-#     print('numero booleani', sum([1 for row in nostro_df[f'{column}'] if type(row) == bool]))
+
+#CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
+for column in nostro_df.columns:
+    print(column)
+    print('numero stringhe', sum([1 for row in nostro_df[f'{column}']if type(row)==str]))
+    print('numero float', sum([1 for row in nostro_df[f'{column}'] if type(row) == float]))
+    print('numero interi', sum([1 for row in nostro_df[f'{column}'] if type(row) == int]))
+    print('numero booleani', sum([1 for row in nostro_df[f'{column}'] if type(row) == bool]))
 
 
 #OTTENIMENTO DEI VALORI MANCANTI DEL MARKET VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
@@ -184,12 +184,16 @@ for segnalibro in range(0,len(dict_na['giocatori'])):
             break
 
     if not check:
-        #lista_market_values.append('NaN')
+        lista_market_values.append('-')
         print(dict_na['giocatori'][segnalibro])
 
 print(lista_market_values)
 print(len(lista_market_values))
 
 print(len(nostro_df.index))
-
+print(type(nostro_df.market_value[0]))
 nostro_df['market_value']=lista_market_values
+
+print(nostro_df.to_string())
+
+nostro_df.to_csv('nostro_df_pulito.csv')
