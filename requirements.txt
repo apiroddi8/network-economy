@@ -4,3 +4,4 @@ plotly
 pandas
 bs4
 requests
+scipy
