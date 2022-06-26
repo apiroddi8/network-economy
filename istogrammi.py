@@ -50,6 +50,7 @@ plt.ylabel(None)
 plt.show()
 #percentuale = dff2.iloc[:, 1]/tot_transfer_value_team2 * 100
 
+print('prova')
 
 
 
