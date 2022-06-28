@@ -2,10 +2,12 @@ import pandas as pd
 from collections import defaultdict
 #
 #CARICAMENTO DATASET:
-nostro_df= pd.read_csv('transfers (1).csv')
+nostro_df= pd.read_csv('dataset_finale15_18.csv')
 loro_df=pd.read_csv('df_7_file.csv')
-nostro_df_pulito=pd.read_csv('nostro_df_pulito.csv')
-# #
+loro_df_olanda=pd.read_csv('dataset_Ale.csv')
+
+
+#
 #RINOMINAZIONE COLONNE:
 nostro_df.rename(columns = {'league':'league_team1', 'team_name':'team1', 'team_country':'country_team1',
                      'counter_team_name':'team2','counter_team_country':'country_team2',
@@ -19,12 +21,15 @@ print('##########################################')
 #RINOMINAZIONE VALORI COLONNA LEGHE:
 nostro_df['league_team1'].replace('IT1','ITA1',inplace=True)
 nostro_df['league_team1'].replace('IT2','ITA2',inplace=True)
+nostro_df['league_team1'].replace(['ITJ1','ITJ2','IJ1','IJ2A','IJ2B'],'ITAJ',inplace=True)
+nostro_df['league_team1'].replace(['IT3A','IT3B','IT3C'],'ITA3',inplace=True)
 nostro_df['league_team1'].replace('ES1','SPA1',inplace=True)
 nostro_df['league_team1'].replace('GB1','ENG1',inplace=True)
 nostro_df['league_team1'].replace('L1','GER1',inplace=True)
 nostro_df['league_team1'].replace('FR1','FRA1',inplace=True)
 nostro_df['league_team1'].replace('PO1','POR1',inplace=True)
 nostro_df['league_team1'].replace('NL1','NED1',inplace=True)
+
 
 #print(nostro_df.to_string())
 print(len(nostro_df.index))
@@ -183,6 +188,13 @@ for column in nostro_df.columns:
     print('numero booleani', sum([1 for row in nostro_df[f'{column}'] if type(row) == bool]))
 
 
+
+
+
+
+
+
+
 #OTTENIMENTO DEI VALORI MANCANTI DEL MARKET VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
 dict_na={}
 
@@ -190,8 +202,26 @@ dict_na['giocatori']=nostro_df['player_name'].tolist()
 dict_na['squadre_partenza']=nostro_df['team1'].tolist()
 dict_na['squadre_arrivo']=nostro_df['team2'].tolist()
 dict_na['eta']=nostro_df['player_age'].tolist()
+dict_na['finestre']=nostro_df['window'].tolist()
 
-print(dict_na)
+
+condition2 = loro_df_olanda['movement'] == 'in'
+
+loro_df_olanda.loc[condition2, ['club', 'dealing_club']] = (
+    loro_df_olanda.loc[condition2, ['dealing_club', 'club']].values)
+
+loro_df_olanda['movement'].replace(['in'],'out',inplace=True)
+
+loro_df_olanda['market_value']=loro_df_olanda['market_value'].fillna('-')
+
+
+
+condition3 = loro_df['Movement'] == 'In'
+
+loro_df.loc[condition3, ['Club', 'ClubInvolved']] = (
+    loro_df.loc[condition3, ['ClubInvolved', 'Club']].values)
+
+loro_df['Movement'].replace(['In'],'Out',inplace=True)
 
 
 
@@ -200,30 +230,74 @@ lista_market_values=[]
 
 for segnalibro in range(0,len(dict_na['giocatori'])):
     check=False
-    for row in loro_df.itertuples():
+    for row in loro_df_olanda.itertuples():
 
-        if (row.Name==dict_na['giocatori'][segnalibro]) and ((row.Club==dict_na['squadre_partenza'][segnalibro] and
-                 row.ClubInvolved== dict_na['squadre_arrivo'][segnalibro]) or str(row.Età)==str(dict_na['eta'][segnalibro])):
+        if (row.name==dict_na['giocatori'][segnalibro] and row.club==dict_na['squadre_partenza'][segnalibro] and
+                 row.dealing_club== dict_na['squadre_arrivo'][segnalibro] and str(row.age)[:2]==str(dict_na['eta'][segnalibro])):
 
-            print('ok')
-            lista_market_values.append(row.MarketValue)
+            #print('ok1')
+            lista_market_values.append(row.market_value)
             check=True
             break
 
     if not check:
         lista_market_values.append('-')
-        #print(dict_na['giocatori'][segnalibro])
 
-print(lista_market_values)
+nostro_df['market_value']=lista_market_values
+
+print(lista_market_values[:100])
 print(len(lista_market_values))
 
+print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+
+lista_market_values2=[]
+
+dict_na2 = {}
+
+
+dict_na2['giocatori'] = nostro_df.loc[nostro_df['market_value'] == '-', 'player_name'].tolist()
+dict_na2['squadre_partenza'] = nostro_df.loc[nostro_df['market_value'] == '-', 'team1'].tolist()
+dict_na2['squadre_arrivo'] = nostro_df.loc[nostro_df['market_value'] == '-', 'team2'].tolist()
+dict_na2['eta'] = nostro_df.loc[nostro_df['market_value'] == '-', 'player_age'].tolist()
+
+
+for segnalibro in range(0,len(dict_na2['giocatori'])):
+    check=False
+    for row in loro_df.itertuples():
+
+        if (row.Name==dict_na2['giocatori'][segnalibro] and row.Club==dict_na2['squadre_partenza'][segnalibro] and
+                 row.ClubInvolved== dict_na2['squadre_arrivo'][segnalibro] and str(row.Età)==str(dict_na2['eta'][segnalibro])) :
+
+            #print('ok2')
+            lista_market_values2.append(row.MarketValue)
+            check=True
+            break
+
+        elif (row.Name==dict_na2['giocatori'][segnalibro] and str(row.Età)==str(dict_na2['eta'][segnalibro])):
+            #print('ok3')
+            lista_market_values2.append(row.MarketValue)
+            check = True
+            break
+
+    if not check:
+        lista_market_values2.append('-')
+        #print(dict_na['giocatori'][segnalibro])
+
+print(lista_market_values2[:100])
+print(len(lista_market_values2))
+
 print(len(nostro_df.index))
+
+
+nostro_df.market_value[nostro_df.market_value=='-']=lista_market_values2
 print(type(nostro_df.market_value[0]))
-nostro_df['market_value']=lista_market_values
 
 print(nostro_df.market_value)
 
 
+
+
+print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
 
 
@@ -233,68 +307,146 @@ print(nostro_df.market_value)
 
 #OTTENIMENTO DEI VALORI MANCANTI DEL TRANSFER VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
 
+loro_df_olanda['fee']=loro_df_olanda['fee'].fillna('?')
+
+dict_na3 = {}
+
+
+dict_na3['giocatori'] = nostro_df.loc[nostro_df['transfer_value'].isnull(), 'player_name'].tolist()
+dict_na3['squadre_partenza'] = nostro_df.loc[nostro_df['transfer_value'].isnull(), 'team1'].tolist()
+dict_na3['squadre_arrivo'] = nostro_df.loc[nostro_df['transfer_value'].isnull(), 'team2'].tolist()
+dict_na3['eta'] = nostro_df.loc[nostro_df['transfer_value'].isnull(), 'player_age'].tolist()
+
+
+
+
+
 lista_transfer_values=[]
 
-for segnalibro in range(0,len(dict_na['giocatori'])):
+
+for segnalibro in range(0,len(dict_na3['giocatori'])):
     check=False
-    for row in loro_df.itertuples():
+    for row in loro_df_olanda.itertuples():
 
-        if (row.Name==dict_na['giocatori'][segnalibro]) and ((row.Club==dict_na['squadre_partenza'][segnalibro] and
-                 row.ClubInvolved== dict_na['squadre_arrivo'[segnalibro]]) or str(row.Età)==str(dict_na['eta'][segnalibro])):
+        if (row.name==dict_na3['giocatori'][segnalibro] and row.club==dict_na3['squadre_partenza'][segnalibro] and
+                 row.dealing_club== dict_na3['squadre_arrivo'][segnalibro] and str(row.age)[:2]==str(dict_na3['eta'][segnalibro])):
 
-            print('ok')
-            lista_transfer_values.append(row.Costo)
+            #print('ok1')
+            lista_transfer_values.append(row.fee)
             check=True
             break
 
     if not check:
-        lista_transfer_values.append('-')
+        lista_transfer_values.append('?')
         #print(dict_na['giocatori'][segnalibro])
 
-print(lista_transfer_values)
+
+
+
+
+print(lista_transfer_values[:100])
 print(len(lista_transfer_values))
 
 print(len(nostro_df.index))
+
+nostro_df.loc[pd.isnull(nostro_df['transfer_value']),'transfer_value']=lista_transfer_values
 print(type(nostro_df.transfer_value[0]))
-nostro_df['transfer_value']=lista_transfer_values
+#nostro_df['transfer_value']=lista_transfer_values
+
+
 
 print(nostro_df.transfer_value)
 
-nostro_df.to_csv('nostro_df_pulito.csv')
+print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+
+
+
+dict_na4 = {}
+
+dict_na4['giocatori'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'player_name'].tolist()
+dict_na4['squadre_partenza'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'team1'].tolist()
+dict_na4['squadre_arrivo'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'team2'].tolist()
+dict_na4['eta'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'player_age'].tolist()
+dict_na4['finestre'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'window'].tolist()
+
+
+lista_transfer_values2=[]
+
+
+for segnalibro in range(0,len(dict_na4['giocatori'])):
+    check=False
+    for row in loro_df.itertuples():
+
+        if (row.Name==dict_na4['giocatori'][segnalibro] and row.Club==dict_na4['squadre_partenza'][segnalibro] and
+                 row.ClubInvolved== dict_na4['squadre_arrivo'][segnalibro] and str(row.Età)==str(dict_na4['eta'][segnalibro])):
+
+            #print('ok2')
+            lista_transfer_values2.append(row.Costo)
+            check=True
+            break
+
+        elif (row.Name==dict_na4['giocatori'][segnalibro] and str(row.Età)==str(dict_na4['eta'][segnalibro])):
+
+            #print('ok3')
+            lista_transfer_values2.append(row.Costo)
+            check=True
+            break
+
+
+    if not check:
+        lista_transfer_values2.append('?')
+        #print(dict_na['giocatori'][segnalibro])
+
+print(lista_transfer_values2)
+print(len(lista_transfer_values2))
+
+print(len(nostro_df.index))
+
+
+nostro_df.transfer_value[nostro_df.transfer_value=='?']=lista_transfer_values2
+print(type(nostro_df.transfer_value[0]))
+
+print(nostro_df.transfer_value)
+
+nostro_df.to_csv('pulito15_18.csv')
+
 
 
 
 # #CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
-for column in nostro_df_pulito.columns:
-    print(column)
-    print('numero stringhe', sum([1 for row in nostro_df_pulito[f'{column}']if type(row)==str]))
-    print('numero float', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == float]))
-    print('numero interi', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == int]))
-    print('numero booleani', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == bool]))
-
-nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='-']
-print(nostro_df_pulito_trattini)
-#print(nostro_df_pulito_trattini.market_value)
-nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' mln','0000',regex=True)
-nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' mila','000',regex=True)
-nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r'€','',regex=True)
-nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r',','',regex=True)
-nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' ','',regex=True)
-print(nostro_df_pulito_trattini.market_value)
-#nostro_df=nostro_df.astype({'player_age':float})
-nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':int})
+# for column in nostro_df_pulito.columns:
+#     print(column)
+#     print('numero stringhe', sum([1 for row in nostro_df_pulito[f'{column}']if type(row)==str]))
+#     print('numero float', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == float]))
+#     print('numero interi', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == int]))
+#     print('numero booleani', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == bool]))
 #
-
-media=int((nostro_df_pulito_trattini['market_value'].mean()))
-print(media)
-
-nostro_df_pulito_media=nostro_df_pulito.replace('-',f'{media}',inplace=False)
-nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mln','0000',regex=True)
-nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mila','000',regex=True)
-nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r'€','',regex=True)
-nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r',','',regex=True)
-nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' ','',regex=True)
-
-nostro_df_pulito_media=nostro_df_pulito_media.astype({'market_value':int})
-
-nostro_df_pulito_media.to_csv('nostro_df_pulito_media.csv')
+# nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='-']
+# print(nostro_df_pulito_trattini)
+# #print(nostro_df_pulito_trattini.market_value)
+# nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' mln','0000',regex=True)
+# nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' mila','000',regex=True)
+# nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r'€','',regex=True)
+# nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r',','',regex=True)
+# nostro_df_pulito_trattini['market_value']=nostro_df_pulito_trattini['market_value'].str.replace(r' ','',regex=True)
+# print(nostro_df_pulito_trattini.market_value)
+# #nostro_df=nostro_df.astype({'player_age':float})
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':int})
+# #
+#
+# media=int((nostro_df_pulito_trattini['market_value'].mean()))
+# print(media)
+#
+# nostro_df_pulito_media=nostro_df_pulito.replace('-',f'{media}',inplace=False)
+# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mln','0000',regex=True)
+# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mila','000',regex=True)
+# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r'€','',regex=True)
+# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r',','',regex=True)
+# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' ','',regex=True)
+#
+# nostro_df_pulito_media=nostro_df_pulito_media.astype({'market_value':int})
+#
+# nostro_df_pulito_media.to_csv('nostro_df_pulito_media.csv')
+#
+#
+#
