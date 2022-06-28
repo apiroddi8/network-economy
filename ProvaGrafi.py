@@ -98,29 +98,21 @@ import random
 ################################### SIMULAZIONE GRAFO SECONDA DOMANDA #############################################################
 dict_of_nodes = {'Player_1': [('C','A')], 'Player_2': [('C','B'), ('B','A') ]}
 #print([val for sublist in dict_of_nodes.values() for val in sublist])
-G = nx.Graph()
+G = nx.DiGraph()
 
 G.add_nodes_from( ['A', 'B', 'C'])
 G.add_edges_from([val for sublist in dict_of_nodes.values() for val in sublist])
 
-
 #Add attributes to edges
 for e in G.edges:
     new_dict = {key:e for (key, values) in dict_of_nodes.items() if e in values}
-    print(new_dict.keys())
-    G.edges[e]['player_ID'] = new_dict.keys()
+    key, value = list(new_dict.items())[0]
+    G.edges[e]['player_ID'] = key
 
 
-#print("G.edges.data():", G.edges.data())
+print("G.edges.data():", G.edges.data())
 
-# nx.add_path(G, ('B','A1'), id=100)
-# nx.add_path(G, ('B','A2','A1'), id=101)
-# nx.add_path(G, ('B', 'A3', 'A2', 'A1'), id=102)
-# nx.add_path(G, ('B','A3', 'B', 'A1'), id=104)
-#
-# print("G.nodes =", G.nodes)
-# print("G.edges =", G.edges)
-#
+distances = [for (u,v) in G.edges_iter() if
 # nx.draw(G)
 # plt.show()
 
