@@ -2,9 +2,9 @@ import pandas as pd
 from collections import defaultdict
 #
 #CARICAMENTO DATASET:
-nostro_df= pd.read_csv('dataset_finale_15_18.csv')
-loro_df=pd.read_csv('df_7_file.csv')
-loro_df_olanda=pd.read_csv('dataset_Ale.csv')
+nostro_df= pd.read_csv('dataset_finale10_11.csv')
+loro_df=pd.read_csv('dataset//df_7_file.csv')
+loro_df_olanda=pd.read_csv('new_data_po.csv')
 
 
 #
@@ -217,6 +217,7 @@ loro_df.loc[condition3, ['Club', 'ClubInvolved']] = (
 
 loro_df['Movement'].replace(['In'],'Out',inplace=True)
 
+loro_df['Costo'] = loro_df['Costo'].fillna("-")
 loro_df['Costo']=loro_df['Costo'].str.findall('(?<=:).*$').apply(','.join)
 loro_df['Costo'][loro_df['Costo']=='']='0 €'
 
@@ -410,27 +411,27 @@ print(type(nostro_df.transfer_value[0]))
 
 print(nostro_df.transfer_value)
 
-nostro_df.to_csv('PULITO15_18.csv')
+nostro_df.to_csv('dataset_finale_1011_pulito')
 
 #######################################################################################################################
 #######################################################################################################################
 #######################################################################################################################
 
 #UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
-nostro_df['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
-nostro_df['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
-nostro_df['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
-nostro_df['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
-nostro_df['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
-nostro_df['team2'].replace(['SSC Bari','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
-nostro_df['team1'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
-nostro_df['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
-nostro_df['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
-nostro_df['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
-#
-#
+# nostro_df['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
+# nostro_df['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
+# nostro_df['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
+# nostro_df['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
+# nostro_df['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+# nostro_df['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+# nostro_df['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+# nostro_df['team2'].replace(['SSC Bari','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+# nostro_df['team1'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+# nostro_df['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+# nostro_df['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+# nostro_df['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+# #
+# #
 #
 #
 # #CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
