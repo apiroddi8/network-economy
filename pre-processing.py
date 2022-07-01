@@ -2,7 +2,7 @@ import pandas as pd
 from collections import defaultdict
 #
 #CARICAMENTO DATASET:
-nostro_df= pd.read_csv('dataset_finale15_18.csv')
+nostro_df= pd.read_csv('dataset_finale_15_18.csv')
 loro_df=pd.read_csv('df_7_file.csv')
 loro_df_olanda=pd.read_csv('dataset_Ale.csv')
 
@@ -28,7 +28,7 @@ nostro_df['league_team1'].replace('GB1','ENG1',inplace=True)
 nostro_df['league_team1'].replace('L1','GER1',inplace=True)
 nostro_df['league_team1'].replace('FR1','FRA1',inplace=True)
 nostro_df['league_team1'].replace('PO1','POR1',inplace=True)
-nostro_df['league_team1'].replace('NL1','NED1',inplace=True)
+nostro_df['league_team1'].replace('NL1','NET1',inplace=True)
 
 
 #print(nostro_df.to_string())
@@ -112,19 +112,19 @@ print(len(nostro_df.index))
 
 
 #CHECK, PER OGNI STAGIONE, CHE TUTTE LE SQUADRE DEL CAMPIONATO SIANO PRESENTI:
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2021)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2020)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2019)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2018)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2017)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2016)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2015)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2014)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2013)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2012)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2011)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2010)]['team1']))))
-print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2009)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2021)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2020)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2019)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2018)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2017)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2016)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2015)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2014)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2013)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2012)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2011)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2010)]['team1']))))
+# print(len(set(list(nostro_df[(nostro_df['league_team1']=='PO1') & (nostro_df['season']==2009)]['team1']))))
 
 
 #CONTEGGIO NA DELLE VARIE COLONNE PRIMA DELLA PULIZIA:
@@ -144,13 +144,7 @@ nostro_df.dropna(subset=['player_age','player_nation','country_team2','transfer_
 #OTTENIMENTO DELLA LISTA DI TUTTI I RUOLI DI TRANSFERMARKT (PRESI UNA SOLA VOLTA):
 print(nostro_df.player_pos.unique())
 
-#UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
-nostro_df['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
-nostro_df['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
-nostro_df['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df['team1'].replace(['US Palermo','SSD Palermo'],'FC Inter',inplace=True)
-nostro_df['team2'].replace(['US Palermo','SSD Palermo'],'Fc Inter',inplace=True)
+
 
 #ACCORPAMENTO DEI VARI RUOLI NELLE 4 MACROCATEGORIE: PORTIERE, DIFENSORE, CENTROCAMPISTA, ATTACCANTE:
 nostro_df['player_pos'].replace(['GK'],'goalkeeper',inplace=True)
@@ -161,7 +155,7 @@ nostro_df['player_pos'].replace(['CF','SS','LW','RW','attack'],'striker',inplace
 #print(nostro_df.to_string())
 
 #ASSEGNAZIONE DEL VALORE ZERO AL VALORE DEL TRASFERIMENTO QUANDO IS FREE= TRUE; IS END LOAN= TRUE, TEAM2=WITHOUT CLUB:
-nostro_df.loc[(nostro_df['is_loan_end'] == True) | (nostro_df['is_free']==True) | (nostro_df['team2']=='Without Club'), 'transfer_value'] = 0.0
+nostro_df.loc[(nostro_df['is_loan_end'] == True) |(nostro_df['is_retired']==True)| (nostro_df['is_free']==True) | (nostro_df['team2']=='Without Club'), 'transfer_value'] = 0.0
 
 #print(nostro_df.to_string())
 #
@@ -189,10 +183,9 @@ for column in nostro_df.columns:
 
 
 
-
-
-
-
+#########################################################################################################
+#########################################################################################################
+#########################################################################################################
 
 
 #OTTENIMENTO DEI VALORI MANCANTI DEL MARKET VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
@@ -212,6 +205,7 @@ loro_df_olanda.loc[condition2, ['club', 'dealing_club']] = (
 
 loro_df_olanda['movement'].replace(['in'],'out',inplace=True)
 
+
 loro_df_olanda['market_value']=loro_df_olanda['market_value'].fillna('-')
 
 
@@ -222,6 +216,10 @@ loro_df.loc[condition3, ['Club', 'ClubInvolved']] = (
     loro_df.loc[condition3, ['ClubInvolved', 'Club']].values)
 
 loro_df['Movement'].replace(['In'],'Out',inplace=True)
+
+loro_df['Costo']=loro_df['Costo'].str.findall('(?<=:).*$').apply(','.join)
+loro_df['Costo'][loro_df['Costo']=='']='0 €'
+
 
 
 
@@ -240,8 +238,14 @@ for segnalibro in range(0,len(dict_na['giocatori'])):
             check=True
             break
 
+        elif (row.name==dict_na['giocatori'][segnalibro] and str(row.age)[:2]==str(dict_na['eta'][segnalibro])):
+            #print('ok3')
+            lista_market_values.append(row.market_value)
+            check = True
+            break
+
     if not check:
-        lista_market_values.append('-')
+        lista_market_values.append('NF')
 
 nostro_df['market_value']=lista_market_values
 
@@ -255,11 +259,10 @@ lista_market_values2=[]
 dict_na2 = {}
 
 
-dict_na2['giocatori'] = nostro_df.loc[nostro_df['market_value'] == '-', 'player_name'].tolist()
-dict_na2['squadre_partenza'] = nostro_df.loc[nostro_df['market_value'] == '-', 'team1'].tolist()
-dict_na2['squadre_arrivo'] = nostro_df.loc[nostro_df['market_value'] == '-', 'team2'].tolist()
-dict_na2['eta'] = nostro_df.loc[nostro_df['market_value'] == '-', 'player_age'].tolist()
-
+dict_na2['giocatori'] = nostro_df.loc[(nostro_df['market_value'] == '-')|(nostro_df['market_value']=='NF'), 'player_name'].tolist()
+dict_na2['squadre_partenza'] = nostro_df.loc[(nostro_df['market_value'] == '-')|(nostro_df['market_value']=='NF'), 'team1'].tolist()
+dict_na2['squadre_arrivo'] = nostro_df.loc[(nostro_df['market_value'] == '-')|(nostro_df['market_value']=='NF'), 'team2'].tolist()
+dict_na2['eta'] = nostro_df.loc[(nostro_df['market_value'] == '-')|(nostro_df['market_value']=='NF'), 'player_age'].tolist()
 
 for segnalibro in range(0,len(dict_na2['giocatori'])):
     check=False
@@ -280,7 +283,7 @@ for segnalibro in range(0,len(dict_na2['giocatori'])):
             break
 
     if not check:
-        lista_market_values2.append('-')
+        lista_market_values2.append('NF')
         #print(dict_na['giocatori'][segnalibro])
 
 print(lista_market_values2[:100])
@@ -307,7 +310,7 @@ print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
 #OTTENIMENTO DEI VALORI MANCANTI DEL TRANSFER VALUE ANDANDOLI A PESCARE DAL DATASET DEI COLLEGHI CAGLIARITANI:
 
-loro_df_olanda['fee']=loro_df_olanda['fee'].fillna('?')
+loro_df_olanda['fee']=loro_df_olanda['fee'].fillna('-')
 
 dict_na3 = {}
 
@@ -337,7 +340,7 @@ for segnalibro in range(0,len(dict_na3['giocatori'])):
             break
 
     if not check:
-        lista_transfer_values.append('?')
+        lista_transfer_values.append('NF')
         #print(dict_na['giocatori'][segnalibro])
 
 
@@ -363,13 +366,12 @@ print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 
 dict_na4 = {}
 
-dict_na4['giocatori'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'player_name'].tolist()
-dict_na4['squadre_partenza'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'team1'].tolist()
-dict_na4['squadre_arrivo'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'team2'].tolist()
-dict_na4['eta'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'player_age'].tolist()
-dict_na4['finestre'] = nostro_df.loc[nostro_df['transfer_value'] == '?', 'window'].tolist()
 
 
+dict_na2['giocatori'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'player_name'].tolist()
+dict_na2['squadre_partenza'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'team1'].tolist()
+dict_na2['squadre_arrivo'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'team2'].tolist()
+dict_na2['eta'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'age'].tolist()
 lista_transfer_values2=[]
 
 
@@ -385,16 +387,16 @@ for segnalibro in range(0,len(dict_na4['giocatori'])):
             check=True
             break
 
-        elif (row.Name==dict_na4['giocatori'][segnalibro] and str(row.Età)==str(dict_na4['eta'][segnalibro])):
-
-            #print('ok3')
-            lista_transfer_values2.append(row.Costo)
-            check=True
-            break
+        # elif (row.Name==dict_na4['giocatori'][segnalibro] and str(row.Età)==str(dict_na4['eta'][segnalibro])):
+        #
+        #     #print('ok3')
+        #     lista_transfer_values2.append(row.Costo)
+        #     check=True
+        #     break
 
 
     if not check:
-        lista_transfer_values2.append('?')
+        lista_transfer_values2.append('NF')
         #print(dict_na['giocatori'][segnalibro])
 
 print(lista_transfer_values2)
@@ -408,11 +410,29 @@ print(type(nostro_df.transfer_value[0]))
 
 print(nostro_df.transfer_value)
 
-nostro_df.to_csv('pulito15_18.csv')
+nostro_df.to_csv('PULITO15_18.csv')
 
+#######################################################################################################################
+#######################################################################################################################
+#######################################################################################################################
 
-
-
+#UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
+nostro_df['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
+nostro_df['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
+nostro_df['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
+nostro_df['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
+nostro_df['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+nostro_df['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+nostro_df['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+nostro_df['team2'].replace(['SSC Bari','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+nostro_df['team1'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+nostro_df['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+nostro_df['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+nostro_df['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+#
+#
+#
+#
 # #CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
 # for column in nostro_df_pulito.columns:
 #     print(column)
@@ -450,3 +470,21 @@ nostro_df.to_csv('pulito15_18.csv')
 #
 #
 #
+# import pandas as pd
+# import re
+# import string
+#
+# data={'Name':['Karan','Rohit','Sahil','Aryan'],'Age':['gratuito','Prestito','Fine prestito30','Spesa prestito:350 mila €']}
+#
+# df=pd.DataFrame(data)
+#
+#
+# # 'gratuito'
+# # 'Prestito'
+# # 'Fine prestito30'
+# # 'Spesa prestito:350 mila €'
+#
+# df['Age']=df['Age'].str.findall('(?<=:).*$').apply(','.join)
+# df['Age'][df['Age']=='']='0 €'
+# print(df)
+# #re.findall('(?<=com/).*$', "www.example.com/thedubaimall")
