@@ -2,7 +2,7 @@ import pandas as pd
 from collections import defaultdict
 #
 #CARICAMENTO DATASET:
-nostro_df= pd.read_csv('dataset_finale10_11.csv')
+nostro_df= pd.read_csv('dataset_finale12_17.csv')
 loro_df=pd.read_csv('dataset//df_7_file.csv')
 loro_df_olanda=pd.read_csv('new_data_po.csv')
 
@@ -372,7 +372,7 @@ dict_na4 = {}
 dict_na2['giocatori'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'player_name'].tolist()
 dict_na2['squadre_partenza'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'team1'].tolist()
 dict_na2['squadre_arrivo'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'team2'].tolist()
-dict_na2['eta'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'age'].tolist()
+dict_na2['eta'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'player_age'].tolist()
 lista_transfer_values2=[]
 
 
