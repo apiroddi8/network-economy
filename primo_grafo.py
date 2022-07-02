@@ -3,7 +3,7 @@ import networkx as nx
 import pandas as pd
 import numpy as np
 import scipy as sp
-
+from matplotlib.cm import ScalarMappable
 
 df = pd.read_csv("dataset/nostro_df_pulito.csv")
 df = df.dropna()
@@ -38,25 +38,50 @@ quantiles = np.quantile(bw_value, [0.25, 0.5, 0.75])
 
 
 #Visualize the graph
-plt.figure("football player transfer from 2009 to 2021")
-fig, ax = plt.subplots(figsize=(25, 15))
-#Simple 1-line code: nx.draw_networkx(G)
-color_map = []
-size_map = []
-for i in G.nodes:
-    size_map.append(bw_centrality[i] + 50)
-    if bw_centrality[i] <= quantiles[0]:
-        color_map.append('red')
-    elif bw_centrality[i] > quantiles[0] and bw_centrality[i] <= quantiles[1]:
-        color_map.append('yellow')
-    else:
-        color_map.append('green')
-nx.draw_networkx( G,
-        node_color=color_map,
-        node_size=size_map,
-        pos=nx.kamada_kawai_layout(G),    # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
-                                        #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
-        arrows=False, with_labels=True,
-        edge_color="gainsboro",
-        )
+# plt.figure("football player transfer from 2009 to 2021")
+# fig, ax = plt.subplots(figsize=(25, 15))
+# #Simple 1-line code: nx.draw_networkx(G)
+# color_map = []
+# size_map = []
+# for i in G.nodes:
+#     size_map.append(bw_centrality[i] + 50)
+#     if bw_centrality[i] <= quantiles[0]:
+#         color_map.append('red')
+#     elif bw_centrality[i] > quantiles[0] and bw_centrality[i] <= quantiles[1]:
+#         color_map.append('yellow')
+#     else:
+#         color_map.append('green')
+# nx.draw_networkx( G,
+#         node_color=color_map,
+#         node_size=size_map,
+#         pos=nx.kamada_kawai_layout(G),    # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
+#                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
+#         arrows=False, with_labels=True,
+#         edge_color="gainsboro",
+#         )
+# plt.show()
+
+
+#PUNTO B
+#CLUSTERING COEFFICIENT Nella teoria dei grafi, il coefficiente di clustering (o transitività) è la misura del grado in cui i nodi di un grafo tendono ad essere connessi fra loro.
+#L'evidenza suggerisce che nella maggior parte delle reti del mondo reale, e in particolare nelle reti sociali, i nodi tendono a creare gruppi fortemente uniti e caratterizzati da una densità di collegamenti
+#relativamente alta; il coefficiente di clustering delle reti reali tende quindi ad essere maggiore rispetto a quello dei grafi in cui i collegamenti sono generati casualmente.
+
+lcc = nx.clustering(G)
+
+cmap = plt.get_cmap('autumn')
+norm = plt.Normalize(0, max(lcc.values()))
+node_colors = [cmap(norm(lcc[node])) for node in G.nodes]
+
+fig, ax = plt.subplots( figsize=(25, 20))
+nx.draw_spring(G, node_color=node_colors, with_labels=True, ax=ax, edge_color="gainsboro")
+fig.colorbar(ScalarMappable(cmap=cmap, norm=norm), label='Clustering', shrink=0.95, ax=ax)
+
+
+fig, ax = plt.subplots( figsize=(15, 10))
+ax.hist(lcc.values(), bins=10)
+ax.set_xlabel('Clustering')
+ax.set_ylabel('Frequency')
+
+plt.tight_layout()
 plt.show()

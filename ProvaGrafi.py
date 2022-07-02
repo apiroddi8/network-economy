@@ -93,30 +93,52 @@ import random
 # plt.show()
 #
 
-
-
+#
 ################################### SIMULAZIONE GRAFO SECONDA DOMANDA #############################################################
-dict_of_nodes = {'Player_1': [('C','A')], 'Player_2': [('C','B'), ('B','A') ]}
-#print([val for sublist in dict_of_nodes.values() for val in sublist])
-G = nx.DiGraph()
+dict_of_nodes = { 'Player_1': [('D','A')], 'Player_2': [('D','C'), ('C','A') ], 'Player_3': [('D','C'), ('C','B'), ('B','A') ] }
+G = nx.MultiDiGraph()
 
-G.add_nodes_from( ['A', 'B', 'C'])
-G.add_edges_from([val for sublist in dict_of_nodes.values() for val in sublist])
+G.add_nodes_from( ['A', 'B', 'C', 'D'])
+for k,v in dict_of_nodes.items():
+    G.add_edges_from((edge for edge in v), player_ID = k)
 
-#Add attributes to edges
+print("Edges with attributes: ",G.edges.data())
+
+
+pos=nx.kamada_kawai_layout(G)
+nx.draw_networkx_nodes(G, pos=pos, node_color = 'r', node_size = 100, alpha = 1 )
+nx.draw_networkx_labels(G, pos=pos)
+ax = plt.gca()
 for e in G.edges:
-    new_dict = {key:e for (key, values) in dict_of_nodes.items() if e in values}
-    key, value = list(new_dict.items())[0]
-    G.edges[e]['player_ID'] = key
+    ax.annotate("",
+                xy=pos[e[1]], xycoords='data',
+                xytext=pos[e[0]], textcoords='data',
+                arrowprops=dict(arrowstyle="->", color="0.5",
+                                shrinkA=5, shrinkB=5,
+                                patchA=None, patchB=None,
+                                connectionstyle="arc3,rad=rrr".replace('rrr',str(0.3*e[2])
+                                ),
+                                ),
+                )
+plt.axis('off')
+plt.show()
+
+print("In-degree: ", G.in_degree)
+
+###PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
+distances = {key:len(value) for (key,value) in dict_of_nodes.items()}
+print(distances)
 
 
-print("G.edges.data():", G.edges.data())
+#quante volte per fare da D a A si passa per B
+#distances2 = {key:len(value) for (key,value) in dict_of_nodes.items() if 'B' in item for item in value}
+#print("\ndistances2:", distances2)
 
-distances = [for (u,v) in G.edges_iter() if
-# nx.draw(G)
-# plt.show()
+# NON SERVE, PERCHè TANTO CI SARA' SEMPRE UN GIOCATORE CHE PASSA DA D AD A
+# bw_centrality_nodeB = nx.betweenness_centrality_subset(G,['D'], ['A'],normalized=False)
+# print("\n\nBetweenness Centrality node B: ", bw_centrality_nodeB['C'])
 
-
+#G.add_edges_from([val for sublist in dict_of_nodes.values() for val in sublist])
 
 
 
