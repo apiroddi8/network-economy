@@ -293,7 +293,7 @@ print(len(lista_market_values2))
 print(len(nostro_df.index))
 
 
-nostro_df.market_value[nostro_df.market_value=='-']=lista_market_values2
+nostro_df.market_value[(nostro_df.market_value=='-')|nostro_df.market_value=='NF']=lista_market_values2
 print(type(nostro_df.market_value[0]))
 
 print(nostro_df.market_value)
@@ -406,7 +406,7 @@ print(len(lista_transfer_values2))
 print(len(nostro_df.index))
 
 
-nostro_df.transfer_value[nostro_df.transfer_value=='?']=lista_transfer_values2
+nostro_df.transfer_value[(nostro_df.transfer_value=='?')|(nostro_df.transfer_value=='-')|(nostro_df.transfer_value=='NF')]=lista_transfer_values2
 print(type(nostro_df.transfer_value[0]))
 
 print(nostro_df.transfer_value)
