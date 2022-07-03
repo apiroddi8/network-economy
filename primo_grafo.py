@@ -5,7 +5,7 @@ import numpy as np
 import scipy as sp
 from matplotlib.cm import ScalarMappable
 
-df = pd.read_csv("dataset_finale_1011_pulito.csv")
+df = pd.read_csv("dataset_finale10_pulito.csv")
 df = df.dropna()
 
 

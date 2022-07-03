@@ -485,7 +485,7 @@ nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'transfer_value':int
 #
 # nostro_df_pulito_media=nostro_df_pulito_media.astype({'market_value':int})
 
-nostro_df_pulito_trattini.to_csv('dataset_finale11-15pronto.csv')
+nostro_df_pulito_trattini.to_csv('dataset_finale10pronto.csv')
 
 
 
