@@ -48,14 +48,14 @@
 #         else:
 #             lista_colonna_league2.append(row.country_team2[:3].upper()+'2')
 #
-#     elif row.country_team2=='Italy':
-#
-#         if row.dir=='left' and len(list(nostro_df[(nostro_df['dir'] == 'in') & (nostro_df['team1'] == row.team2)]['league_team1']))>0:
-#             lista_colonna_league2.append(list(nostro_df[(nostro_df['dir'] == 'in') & (nostro_df['team1'] == row.team2)]['league_team1'])[0])######
-#         elif row.dir=='in' and len(list(nostro_df[(nostro_df['dir']=='left') & (nostro_df['team1']==row.team2)]['league_team1']))>0:
-#             lista_colonna_league2.append(list(nostro_df[(nostro_df['dir']=='left') & (nostro_df['team1']==row.team2)]['league_team1'])[0])########
-#         else:
-#             lista_colonna_league2.append(row.country_team2[:3].upper()+'4')
+    # elif row.country_team2=='Italy':
+    #
+    #     if  len(list(nostro_df[(nostro_df['team1'] == row.team2)& (nostro_df['season'] == row.season)]['league_team1']))>0:
+    #         lista_colonna_league2.append(list(nostro_df[(nostro_df['team1'] == row.team2)]['league_team1'])[0])######
+    #     elif len(list(nostro_df[(nostro_df['team1']==row.team2)]['league_team1']))>0:
+    #         lista_colonna_league2.append(list(nostro_df[(nostro_df['team1']==row.team2)& (nostro_df['season']==row.season)]['league_team1'])[0])########
+    #     else:
+    #         lista_colonna_league2.append(row.country_team2[:3].upper()+'4')
 #     else:
 #         lista_colonna_league2.append(row.country_team2[:3].upper())
 #
@@ -417,75 +417,77 @@
 #######################################################################################################################
 #######################################################################################################################
 #CARICAMENTO DATASET
-import pandas as pd
-
-nostro_df_pulito=pd.read_csv('dataset_finale11-15_pulito')
-
-#UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
-nostro_df_pulito['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
-nostro_df_pulito['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
-nostro_df_pulito['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
-nostro_df_pulito['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
-nostro_df_pulito['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df_pulito['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
-nostro_df_pulito['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
-nostro_df_pulito['team2'].replace(['SSC Bari','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
-nostro_df_pulito['team1'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
-nostro_df_pulito['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
-nostro_df_pulito['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
-nostro_df_pulito['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+# import pandas as pd
 #
+# nostro_df_pulito=pd.read_csv('dataset_finale11-15_pulito')
 #
+# #UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
+# nostro_df_pulito['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
+# nostro_df_pulito['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
+# nostro_df_pulito['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
+# nostro_df_pulito['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
+# nostro_df_pulito['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+# nostro_df_pulito['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
+# nostro_df_pulito['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+# nostro_df_pulito['team2'].replace(['SSC Bari','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
+# nostro_df_pulito['team1'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+# nostro_df_pulito['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
+# nostro_df_pulito['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+# nostro_df_pulito['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
 
 
-#CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
-for column in nostro_df_pulito.columns:
-    print(column)
-    print('numero stringhe', sum([1 for row in nostro_df_pulito[f'{column}']if type(row)==str]))
-    print('numero float', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == float]))
-    print('numero interi', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == int]))
-    print('numero booleani', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == bool]))
-
-#nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='-']
-#print(nostro_df_pulito_trattini)
-#print(nostro_df_pulito_trattini.market_value)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' mln','0000',regex=True)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' mila','000',regex=True)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r'-','0',regex=True)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r'€','',regex=True)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r',','',regex=True)
-nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' ','',regex=True)
-
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' mln','0000',regex=True)
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' mila','000',regex=True)
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r'-','0',regex=True)
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r'€','',regex=True)
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r',','',regex=True)
-nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' ','',regex=True)
-#print(nostro_df_pulito_trattini.market_value)
-#nostro_df=nostro_df.astype({'player_age':float})
-nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='NF']
-nostro_df_pulito_trattini=nostro_df_pulito_trattini[(nostro_df_pulito_trattini.transfer_value!='NF')&(nostro_df_pulito_trattini.transfer_value!='?')]
-nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':float})
-nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'transfer_value':float})
-nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':int})
-nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'transfer_value':int})
-# nostro_df_pulito_trattini
+# #
 # #
 #
-# media=int((nostro_df_pulito_trattini['market_value'].mean()))
-# print(media)
 #
-# nostro_df_pulito_media=nostro_df_pulito.replace('-',f'{media}',inplace=False)
-# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mln','0000',regex=True)
-# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mila','000',regex=True)
-# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r'€','',regex=True)
-# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r',','',regex=True)
-# nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' ','',regex=True)
+# #CONTEGGIO DEL TIPO DI VALORI ALL'INTERNO DI CIASCUNA COLONNA:
+# for column in nostro_df_pulito.columns:
+#     print(column)
+#     print('numero stringhe', sum([1 for row in nostro_df_pulito[f'{column}']if type(row)==str]))
+#     print('numero float', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == float]))
+#     print('numero interi', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == int]))
+#     print('numero booleani', sum([1 for row in nostro_df_pulito[f'{column}'] if type(row) == bool]))
 #
-# nostro_df_pulito_media=nostro_df_pulito_media.astype({'market_value':int})
-
-nostro_df_pulito_trattini.to_csv('dataset_finale10pronto.csv')
+# #nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='-']
+# #print(nostro_df_pulito_trattini)
+# #print(nostro_df_pulito_trattini.market_value)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' mln','0000',regex=True)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' mila','000',regex=True)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r'-','0',regex=True)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r'€','',regex=True)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r',','',regex=True)
+# nostro_df_pulito['market_value']=nostro_df_pulito['market_value'].str.replace(r' ','',regex=True)
+#
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' mln','0000',regex=True)
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' mila','000',regex=True)
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r'-','0',regex=True)
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r'€','',regex=True)
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r',','',regex=True)
+# nostro_df_pulito['transfer_value']=nostro_df_pulito['transfer_value'].str.replace(r' ','',regex=True)
+# #print(nostro_df_pulito_trattini.market_value)
+# #nostro_df=nostro_df.astype({'player_age':float})
+# nostro_df_pulito_trattini=nostro_df_pulito[nostro_df_pulito.market_value!='NF']
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini[(nostro_df_pulito_trattini.transfer_value!='NF')&(nostro_df_pulito_trattini.transfer_value!='?')]
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':float})
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'transfer_value':float})
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'market_value':int})
+# nostro_df_pulito_trattini=nostro_df_pulito_trattini.astype({'transfer_value':int})
+# # nostro_df_pulito_trattini
+# # #
+# #
+# # media=int((nostro_df_pulito_trattini['market_value'].mean()))
+# # print(media)
+# #
+# # nostro_df_pulito_media=nostro_df_pulito.replace('-',f'{media}',inplace=False)
+# # nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mln','0000',regex=True)
+# # nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' mila','000',regex=True)
+# # nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r'€','',regex=True)
+# # nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r',','',regex=True)
+# # nostro_df_pulito_media['market_value']=nostro_df_pulito_media['market_value'].str.replace(r' ','',regex=True)
+# #
+# # nostro_df_pulito_media=nostro_df_pulito_media.astype({'market_value':int})
+#
+# nostro_df_pulito_trattini.to_csv('dataset_finale10pronto.csv')
 
 
 
@@ -496,3 +498,45 @@ nostro_df_pulito_trattini.to_csv('dataset_finale10pronto.csv')
 # data={'Name':['Karan','Rohit','Sahil','Aryan'],'Age':['gratuito','Prestito','Fine prestito30','Spesa prestito:350 mila €']}
 #
 # df=pd.DataFrame(data)
+#
+# from collections import defaultdict
+# # dict_na4['eta'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'player_age'].tolist()
+# diz_teamITA=defaultdict(list)
+# lista_club1ITA=nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['league_team1']=='ITA1')|(nostro_df_pulito_trattini['league_team1']=='ITA2')|(nostro_df_pulito_trattini['league_team1']=='ITA3')|(nostro_df_pulito_trattini['league_team1']=='ITA4')|(nostro_df_pulito_trattini['league_team1']=='ITAJ'),'club1'].tolist()
+# set_club1ITA=set(lista_club1ITA)
+# lista_club2ITA=nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['league_team2']=='ITA1')|(nostro_df_pulito_trattini['league_team2']=='ITA2')|(nostro_df_pulito_trattini['league_team2']=='ITA3')|(nostro_df_pulito_trattini['league_team1']=='ITA4')|(nostro_df_pulito_trattini['league_team2']=='ITAJ'),'club2'].tolist()
+# set_club2ITA=set(lista_club2ITA)
+# set_clubITA=set_club1ITA.union(set_club2ITA)
+# lista_clubITA=list(set_clubITA)
+# for club in lista_clubITA:
+#     for year in range(2007,2021):
+#         diz_teamITA[club].append(nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['club']==club)& (nostro_df_pulito_trattini['season']==year),'league_team1'])
+
+
+
+
+import pandas as pd
+nostro_df_pulito_trattini= pd.read_csv("dataset//dataset_finale10_15pronto.csv")
+nostro_df_pulito_trattiniITA = nostro_df_pulito_trattini[nostro_df_pulito_trattini.league_team1.str.startswith("ITA")]
+print('############################################')
+print(nostro_df_pulito_trattiniITA.head(5))
+print('#############################################')
+nostro_df_pulito_trattiniITA_filter = nostro_df_pulito_trattiniITA.groupby(['team1','league_team1'])['season'].unique().apply(list).reset_index()
+print(nostro_df_pulito_trattiniITA_filter.head(5))
+print(nostro_df_pulito_trattiniITA_filter.team1)
+print('################################################')
+nostro_df_pulito_trattiniITA_filter= pd.DataFrame(data=nostro_df_pulito_trattiniITA_filter)
+nostro_df_pulito_trattiniITA_filter.to_csv("STEP1", index=False)
+
+nostro_df_pulito_trattiniITA_filter = pd.read_csv("STEP1")
+print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+nostro_df_pulito_trattiniITA_filter2 = nostro_df_pulito_trattiniITA_filter.groupby(['team1','league_team1'])["season"].agg(lambda x: x.str.len().max()).reset_index()
+print(nostro_df_pulito_trattiniITA_filter2.head(5))
+print('£££££££££££££££££££££££££££££££££££££££££££££££££££££££££')
+nostro_df_sorted = nostro_df_pulito_trattiniITA_filter2.sort_values(by='season')
+nostro_df_sorted = pd.DataFrame(data=nostro_df_sorted)
+nostro_df_sorted.to_csv("STEP3.csv")
+print(nostro_df_sorted)
+print(nostro_df_sorted.season)
+nostro_df_sorted.drop_duplicates(subset=['team1'],ignore_index=True,inplace=True,keep='last')
+nostro_df_sorted.to_csv('STEP4.csv')
