@@ -2,8 +2,8 @@ league,team,point
 GB1,Queens Park Rangers,92
 GB1,Cardiff City,64
 GB1,Huddersfield Town,53
-GB1,FC Brentford,46
-GB1,FC Blackpool,39
+GB1,Brentford FC,46
+GB1,Blackpool FC,39
 GB1,Charlton Athletic,34
 GB1,Derby County,11
 L1,SC Paderborn 07,51
@@ -16,7 +16,7 @@ L1,Eintracht Braunschweig,25
 NL1,De Graafschap Doetinchem,65
 NL1,SC Cambuur-Leeuwarden,50
 NL1,Fortuna Sittard,50
-NL1,Go Ahead Eagles Deventer,48
+NL1,Go Ahead Eagles,48
 NL1,FC Emmen,35
 NL1,FC Volendam,8
 NL1,FC Dordrecht,7
@@ -29,12 +29,12 @@ ES1,Gimnàstic de Tarragona,28
 ES1,Córdoba CF,20
 FR1,Grenoble Foot 38,67
 FR1,GFC Ajaccio,37
-FR1,Clermont Foot 63,36
+FR1,Clermont Foot Auvergne 63,36
 FR1,CS Sedan-Ardennes,35
 FR1,US Boulogne,31
 FR1,AC Le Havre,26
 FR1,Athlétic Club Arlésien,20
-PO1,CF Estrela Amadora SAD,100
+PO1,Clube Futebol Estrela da Amadora,100
 PO1,Leixões SC,92
 PO1,FC Vizela,33
 PO1,SC Farense,31
@@ -42,9 +42,8 @@ PO1,CF União Madeira,29
 PO1,CD Trofense,23
 PO1,FC Penafiel,22
 IT1,Delfino Pescara 1936,40
-IT1,Athletic Carpi 2021,38
-IT1,Novara FC,32
+IT1,Novara Calcio 1908,32
 IT1,US Salernitana 1919,31
-IT1,Ascoli Calcio,27
+IT1,Ascoli Calcio 1898,27
 IT1,Venezia FC,27
 IT1,ACR Messina,26
