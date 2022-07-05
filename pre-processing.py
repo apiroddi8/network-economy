@@ -423,9 +423,9 @@
 #
 # #UNIFICAZIONE DIVERSI NOMI PER STESSA SQUADRA:
 # nostro_df_pulito['team1'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
-# nostro_df_pulito['team2'].replace(['FC Internazionale','Inter Milan'],'Fc Inter',inplace=True)
+# nostro_df_pulito['team2'].replace(['FC Internazionale','Inter Milan'],'FC Inter',inplace=True)
 # nostro_df_pulito['team1'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
-# nostro_df_pulito['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'Fc Inter Primavera',inplace=True)
+# nostro_df_pulito['team2'].replace(['FC Internazionale Primavera','Inter Milan Primavera'],'FC Inter Primavera',inplace=True)
 # nostro_df_pulito['team1'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
 # nostro_df_pulito['team2'].replace(['SSC Bari','FC Bari 1908'],'Bari',inplace=True)
 # nostro_df_pulito['team1'].replace(['SSC Bari Primavera','FC Bari 1908 Primavera'],'Bari Primavera',inplace=True)
@@ -434,6 +434,10 @@
 # nostro_df_pulito['team2'].replace(['US Palermo','SSD Palermo'],'Palermo',inplace=True)
 # nostro_df_pulito['team1'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
 # nostro_df_pulito['team2'].replace(['US Palermo Primavera','SSD Palermo Primavera'],'Palermo Primavera',inplace=True)
+# nostro_df_pulito['team1'].replace(['Ascoli Calcio','Ascoli Picchio'],'Ascoli',inplace=True)
+# nostro_df_pulito['team2'].replace(['Ascoli Calcio','Ascoli Picchio'],'Ascoli',inplace=True)
+# nostro_df_pulito['team1'].replace(['US Salernitana 1919','Salernitana Calcio','Salerno Calcio'],'Salernitana',inplace=True)
+# nostro_df_pulito['team2'].replace(['US Salernitana 1919','Salernitana Calcio','Salerno Calcio'],'Salernitana',inplace=True)
 
 
 # #
@@ -491,26 +495,8 @@
 
 
 
-# import pandas as pd
-# import re
-# import string
-#
-# data={'Name':['Karan','Rohit','Sahil','Aryan'],'Age':['gratuito','Prestito','Fine prestito30','Spesa prestito:350 mila €']}
-#
-# df=pd.DataFrame(data)
-#
-# from collections import defaultdict
-# # dict_na4['eta'] = nostro_df.loc[(nostro_df['transfer_value'] == '-')|(nostro_df['transfer_value']=='NF')|(nostro_df['transfer_value']=='?'), 'player_age'].tolist()
-# diz_teamITA=defaultdict(list)
-# lista_club1ITA=nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['league_team1']=='ITA1')|(nostro_df_pulito_trattini['league_team1']=='ITA2')|(nostro_df_pulito_trattini['league_team1']=='ITA3')|(nostro_df_pulito_trattini['league_team1']=='ITA4')|(nostro_df_pulito_trattini['league_team1']=='ITAJ'),'club1'].tolist()
-# set_club1ITA=set(lista_club1ITA)
-# lista_club2ITA=nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['league_team2']=='ITA1')|(nostro_df_pulito_trattini['league_team2']=='ITA2')|(nostro_df_pulito_trattini['league_team2']=='ITA3')|(nostro_df_pulito_trattini['league_team1']=='ITA4')|(nostro_df_pulito_trattini['league_team2']=='ITAJ'),'club2'].tolist()
-# set_club2ITA=set(lista_club2ITA)
-# set_clubITA=set_club1ITA.union(set_club2ITA)
-# lista_clubITA=list(set_clubITA)
-# for club in lista_clubITA:
-#     for year in range(2007,2021):
-#         diz_teamITA[club].append(nostro_df_pulito_trattini.loc[(nostro_df_pulito_trattini['club']==club)& (nostro_df_pulito_trattini['season']==year),'league_team1'])
+#########################
+#CREAZIONE DATASET AGGIUNTIVO CON SQUADRE ITALIANE E LEGA DI MAGGIORE APPARTENENZA
 
 
 
@@ -518,25 +504,13 @@
 import pandas as pd
 nostro_df_pulito_trattini= pd.read_csv("dataset//dataset_finale10_15pronto.csv")
 nostro_df_pulito_trattiniITA = nostro_df_pulito_trattini[nostro_df_pulito_trattini.league_team1.str.startswith("ITA")]
-print('############################################')
-print(nostro_df_pulito_trattiniITA.head(5))
-print('#############################################')
 nostro_df_pulito_trattiniITA_filter = nostro_df_pulito_trattiniITA.groupby(['team1','league_team1'])['season'].unique().apply(list).reset_index()
-print(nostro_df_pulito_trattiniITA_filter.head(5))
-print(nostro_df_pulito_trattiniITA_filter.team1)
-print('################################################')
 nostro_df_pulito_trattiniITA_filter= pd.DataFrame(data=nostro_df_pulito_trattiniITA_filter)
 nostro_df_pulito_trattiniITA_filter.to_csv("STEP1", index=False)
-
 nostro_df_pulito_trattiniITA_filter = pd.read_csv("STEP1")
-print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
 nostro_df_pulito_trattiniITA_filter2 = nostro_df_pulito_trattiniITA_filter.groupby(['team1','league_team1'])["season"].agg(lambda x: x.str.len().max()).reset_index()
-print(nostro_df_pulito_trattiniITA_filter2.head(5))
-print('£££££££££££££££££££££££££££££££££££££££££££££££££££££££££')
 nostro_df_sorted = nostro_df_pulito_trattiniITA_filter2.sort_values(by='season')
 nostro_df_sorted = pd.DataFrame(data=nostro_df_sorted)
 nostro_df_sorted.to_csv("STEP3.csv")
-print(nostro_df_sorted)
-print(nostro_df_sorted.season)
 nostro_df_sorted.drop_duplicates(subset=['team1'],ignore_index=True,inplace=True,keep='last')
 nostro_df_sorted.to_csv('STEP4.csv')
