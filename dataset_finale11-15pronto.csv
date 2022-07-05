@@ -365,7 +365,7 @@
 444,444,4167,4167,ENG1,2011,s,Sunderland AFC,England,left,5917,John Mensah,28,Ghana,defender,Olympique Lyon,France,0,4000000,False,True,True,False,337580,FRA1
 445,445,4168,4168,ENG1,2011,s,Sunderland AFC,England,left,3682,Wayne Bridge,31,England,defender,Manchester City,England,0,4000000,False,True,True,False,680497,ENG1
 446,446,4169,4169,ENG1,2011,s,Sunderland AFC,England,left,66333,Ahmed Elmohamady,23,Egypt,defender,Enppi SC,Egypt,0,4000000,False,True,True,False,441139,EGY
-447,447,4170,4170,ENG1,2011,s,Sunderland AFC,England,left,17129,Sulley Muntari,26,Ghana,midfielder,Fc Inter,Italy,0,11000000,False,True,True,False,533449,ITA1
+447,447,4170,4170,ENG1,2011,s,Sunderland AFC,England,left,17129,Sulley Muntari,26,Ghana,midfielder,FC Inter,Italy,0,11000000,False,True,True,False,533449,ITA1
 448,448,4172,4172,SPA1,2011,s,Atlético de Madrid,Spain,left,26399,Sergio Agüero,23,Argentina,striker,Manchester City,England,40000000,36000000,False,False,False,False,611890,ENG1
 449,449,4174,4174,SER,2011,s,FK Partizan Belgrade,Serbia,left,107010,Stefan Savic,20,Montenegro,defender,Manchester City,England,12000000,6000000,False,False,False,False,596910,ENG1
 450,450,4176,4176,ROM,2011,s,Politehnica Timisoara ( - 2012),Romania,left,47659,Costel Pantilimon,24,Romania,goalkeeper,Manchester City,England,500000,3000000,False,True,False,False,616906,ENG1
@@ -1563,7 +1563,7 @@
 1902,1902,5743,5743,NET1,2013,s,Vitesse Arnhem,Netherlands,left,148657,Tomas Kalas,20,Czech Republic,defender,Chelsea FC,England,0,6000000,False,True,True,False,626046,ENG1
 1903,1903,5744,5744,ENG1,2013,s,Chelsea FC,England,left,88721,Jeffrey Bruma,21,Netherlands,defender,PSV Eindhoven,Netherlands,3500000,3000000,False,False,False,False,895050,NET1
 1904,1904,5745,5745,ENG1,2013,s,Chelsea FC,England,left,96341,Romelu Lukaku,20,Belgium,striker,Everton FC,England,3500000,24000000,False,True,False,False,943595,ENG1
-1905,1905,5746,5746,ENG1,2013,s,Chelsea FC,England,left,181779,Wallace Oliveira,19,Brazil,defender,Fc Inter,Italy,1500000,2000000,False,True,False,False,930893,ITA1
+1905,1905,5746,5746,ENG1,2013,s,Chelsea FC,England,left,181779,Wallace Oliveira,19,Brazil,defender,FC Inter,Italy,1500000,2000000,False,True,False,False,930893,ITA1
 1906,1906,5747,5747,ENG1,2013,s,Chelsea FC,England,left,59866,Victor Moses,22,Nigeria,midfielder,Liverpool FC,England,1200000,15000000,False,True,False,False,942700,ENG1
 1907,1907,5748,5748,ENG1,2013,s,Chelsea FC,England,left,66100,Oriol Romeu,21,Spain,midfielder,Valencia CF,Spain,1000000,7500000,False,True,False,False,906796,SPA1
 1908,1908,5749,5749,ENG1,2013,s,Chelsea FC,England,left,29159,Ross Turnbull,28,England,goalkeeper,Doncaster Rovers,England,0,1500000,True,False,False,False,875449,ENG2
@@ -2574,7 +2574,7 @@
 3113,3114,7033,7033,ENG1,2014,s,Manchester United,England,left,189740,Ángelo Henríquez,20,Chile,striker,GNK Dinamo Zagreb,Croatia,1500000,2800000,False,True,False,False,1109371,CRO
 3114,3115,7034,7034,ENG1,2014,s,Manchester United,England,left,3235,Rio Ferdinand,35,England,defender,Queens Park Rangers,England,0,1500000,True,False,False,False,1061355,ENG1
 3115,3116,7035,7035,ENG1,2014,s,Manchester United,England,left,61887,Federico Macheda,22,Italy,striker,Cardiff City,England,0,2500000,True,False,False,False,1065114,ENG2
-3116,3117,7036,7036,ENG1,2014,s,Manchester United,England,left,19726,Nemanja Vidic‎,32,Serbia,defender,Fc Inter,Italy,0,10000000,True,False,False,False,1016551,ITA1
+3116,3117,7036,7036,ENG1,2014,s,Manchester United,England,left,19726,Nemanja Vidic‎,32,Serbia,defender,FC Inter,Italy,0,10000000,True,False,False,False,1016551,ITA1
 3117,3118,7037,7037,ENG1,2014,s,Manchester United,England,left,96798,Davide Petrucci,22,Italy,midfielder,CFR Cluj,Romania,0,0,True,False,False,False,1127146,ROM
 3118,3119,7038,7038,ENG1,2014,s,Manchester United,England,left,257474,Vanja Milinković-Savić,17,Serbia,goalkeeper,FK Vojvodina Novi Sad,Serbia,0,0,False,True,False,False,1063600,SER
 3119,3120,7039,7039,ENG1,2014,s,Manchester United,England,left,110864,Sam Johnstone,21,England,goalkeeper,Doncaster Rovers,England,0,250000,False,True,False,False,1146335,ENG2
@@ -2828,7 +2828,7 @@
 3399,3401,7374,7374,ENG2,2014,w,Charlton Athletic,England,left,74869,Francis Coquelin,23,France,midfielder,Arsenal FC,England,0,3000000,False,True,True,False,1148077,ENG1
 3400,3402,7375,7375,ENG1,2014,w,Arsenal FC,England,left,193592,Kristoffer Olsson,19,Sweden,midfielder,FC Midtjylland,Denmark,1000000,0,False,False,False,False,1164528,DEN
 3401,3403,7376,7376,ENG1,2014,w,Arsenal FC,England,left,131248,Joel Campbell,22,Costa Rica,striker,Villarreal CF,Spain,1000000,7500000,False,True,False,False,1180255,SPA1
-3402,3404,7377,7377,ENG1,2014,w,Arsenal FC,England,left,15185,Lukas Podolski,29,Germany,midfielder,Fc Inter,Italy,600000,20000000,False,True,False,False,1167907,ITA1
+3402,3404,7377,7377,ENG1,2014,w,Arsenal FC,England,left,15185,Lukas Podolski,29,Germany,midfielder,FC Inter,Italy,600000,20000000,False,True,False,False,1167907,ITA1
 3403,3405,7378,7378,ENG1,2014,w,Arsenal FC,England,left,122696,Daniel Boateng,22,England,defender,FK Olimpik Sarajevo,Bosnia-Herzegovina,0,50000,True,False,False,False,1075114,BOS
 3407,3409,7382,7382,ENG1,2014,w,Arsenal FC,England,left,127194,Yaya Sanogo,21,France,striker,Crystal Palace,England,0,2000000,False,True,False,False,1173055,ENG1
 3408,3410,7383,7383,SPA1,2014,w,Valencia CF,Spain,left,127987,Carles Gil,22,Spain,midfielder,Aston Villa,England,4200000,6000000,False,False,False,False,1173251,ENG1
@@ -3138,7 +3138,7 @@
 3784,3786,7778,7778,ENG1,2015,s,Manchester City,England,left,182579,Karim Rekik,20,Netherlands,defender,Olympique Marseille,France,5000000,3500000,False,False,False,False,1273258,FRA1
 3785,3787,7779,7779,ENG1,2015,s,Manchester City,England,left,28396,Edin Dzeko,29,Bosnia-Herzegovina,striker,AS Roma,Italy,4000000,20000000,False,True,False,False,1317350,ITA1
 3786,3788,7780,7780,ENG1,2015,s,Manchester City,England,left,31552,Scott Sinclair,26,England,striker,Aston Villa,England,3500000,3000000,False,False,False,False,1246917,ENG1
-3787,3789,7781,7781,ENG1,2015,s,Manchester City,England,left,46104,Stevan Jovetic,25,Montenegro,striker,Fc Inter,Italy,2500000,15000000,False,True,False,False,1306161,ITA1
+3787,3789,7781,7781,ENG1,2015,s,Manchester City,England,left,46104,Stevan Jovetic,25,Montenegro,striker,FC Inter,Italy,2500000,15000000,False,True,False,False,1306161,ITA1
 3788,3790,7782,7782,ENG1,2015,s,Manchester City,England,left,88262,Dedryck Boyata,24,Belgium,defender,Celtic FC,Scotland,2000000,1000000,False,False,False,False,1253155,SCO
 3789,3791,7783,7783,ENG1,2015,s,Manchester City,England,left,195605,José Pozo,19,Spain,midfielder,UD Almería,Spain,500000,500000,False,False,False,False,1333560,SPA2
 3790,3792,7784,7784,ENG1,2015,s,Manchester City,England,left,277114,Jason Denayer,20,Belgium,defender,Galatasaray A.S.,Turkey,436000,3000000,False,True,False,False,1333311,TUR
@@ -3443,7 +3443,7 @@
 4138,4140,8155,8155,ENG2,2015,s,Barnsley FC,England,left,251664,Ivan Toney,20,England,striker,Newcastle United,England,0,500000,False,True,True,False,1459828,ENG1
 4139,4141,8156,8156,ITA1,2015,s,FC Inter,Italy,left,84344,Davide Santon,24,Italy,defender,Newcastle United,England,0,8000000,False,True,True,False,1186163,ENG1
 4140,4142,8157,8157,FRA1,2015,s,EA Guingamp,France,left,39909,Sylvain Marveaux,29,France,midfielder,Newcastle United,England,0,2000000,False,True,True,False,1091994,ENG1
-4141,4143,8158,8158,ENG1,2015,s,Newcastle United,England,left,84344,Davide Santon,24,Italy,defender,Fc Inter,Italy,3700000,8000000,False,False,False,False,1216515,ITA1
+4141,4143,8158,8158,ENG1,2015,s,Newcastle United,England,left,84344,Davide Santon,24,Italy,defender,FC Inter,Italy,3700000,8000000,False,False,False,False,1216515,ITA1
 4142,4144,8159,8159,ENG1,2015,s,Newcastle United,England,left,111036,Mehdi Abeid,23,Algeria,midfielder,Panathinaikos Athens,Greece,600000,2000000,False,False,False,False,1322850,GRE
 4143,4145,8160,8160,ENG1,2015,s,Newcastle United,England,left,113707,Rémy Cabella,25,France,midfielder,Olympique Marseille,France,600000,9000000,False,True,False,False,1323589,FRA1
 4144,4146,8161,8161,ENG1,2015,s,Newcastle United,England,left,204354,Adam Campbell,20,England,striker,Notts County,England,0,250000,True,False,False,False,1251751,ENG2
@@ -3474,7 +3474,7 @@
 4173,4175,8195,8195,ENG1,2015,s,Sunderland AFC,England,left,222014,Joel Dixon,21,England,goalkeeper,Barrow AFC,England,0,0,True,False,False,False,1255530,ENG2
 4175,4177,8197,8197,ENG1,2015,s,Sunderland AFC,England,left,218140,George Honeyman,21,England,midfielder,Gateshead FC,England,0,0,False,True,False,False,1361853,ENG2
 4178,4180,8200,8200,ENG1,2015,s,Sunderland AFC,England,left,5668,Anthony Réveillère,35,France,defender,Without Club,Without Club,0,500000,False,False,False,False,1258109,WIT
-4179,4181,8202,8202,ENG1,2015,s,Sunderland AFC,England,left,76077,Ricardo Álvarez,27,Argentina,midfielder,Fc Inter,Italy,0,11000000,False,True,True,False,1122822,ITA1
+4179,4181,8202,8202,ENG1,2015,s,Sunderland AFC,England,left,76077,Ricardo Álvarez,27,Argentina,midfielder,FC Inter,Italy,0,11000000,False,True,True,False,1122822,ITA1
 4180,4182,8203,8203,ENG1,2015,s,Sunderland AFC,England,left,94783,Santiago Vergini,26,Argentina,defender,Club Estudiantes de La Plata,Argentina,0,2500000,False,True,True,False,1003877,ARG
 4181,4183,8204,8204,FRA1,2015,s,FC Lorient,France,left,108354,Jordan Ayew,23,Ghana,striker,Aston Villa,England,12000000,6000000,False,False,False,False,1301989,ENG1
 4182,4184,8205,8205,FRA1,2015,s,OGC Nice,France,left,241229,Jordan Amavi,21,France,defender,Aston Villa,England,11000000,4000000,False,False,False,False,1290323,ENG1
@@ -3827,7 +3827,7 @@
 4605,4607,15375,15375,SPA2,2011,s,Recreativo Huelva,Spain,left,102423,Leandro Cabrera,20,Uruguay,defender,Atlético de Madrid,Spain,0,600000,False,True,True,False,466968,SPA1
 4606,4608,15376,15376,SPA2,2011,s,Deportivo de La Coruña,Spain,left,113045,Rubén Pérez,22,Spain,midfielder,Atlético de Madrid,Spain,0,2500000,False,True,True,False,456908,SPA1
 4607,4609,15379,15379,SPA1,2011,s,Atlético de Madrid,Spain,left,74600,Elias,26,Brazil,midfielder,Sporting CP,Portugal,8850000,7000000,False,False,False,False,629346,POR1
-4608,4610,15380,15380,SPA1,2011,s,Atlético de Madrid,Spain,left,3408,Diego Forlán,32,Uruguay,striker,Fc Inter,Italy,5000000,10000000,False,False,False,False,629803,ITA1
+4608,4610,15380,15380,SPA1,2011,s,Atlético de Madrid,Spain,left,3408,Diego Forlán,32,Uruguay,striker,FC Inter,Italy,5000000,10000000,False,False,False,False,629803,ITA1
 4609,4611,15381,15381,SPA1,2011,s,Atlético de Madrid,Spain,left,325,Tomas Ujfalusi,33,Czech Republic,defender,Galatasaray A.S.,Turkey,2000000,3000000,False,False,False,False,586956,TUR
 4610,4612,15382,15382,SPA1,2011,s,Atlético de Madrid,Spain,left,134497,Ibrahima Balde,22,Senegal,striker,CA Osasuna,Spain,1000000,1000000,False,False,False,False,562559,SPA1
 4611,4613,15383,15383,SPA1,2011,s,Atlético de Madrid,Spain,left,85324,Borja Bastón,18,Spain,striker,Real Murcia CF,Spain,0,0,False,True,False,False,630436,SPA2
@@ -4223,7 +4223,7 @@
 5067,5069,15923,15923,SPA2,2011,w,Gimnàstic de Tarragona,Spain,left,61344,Borja Viguera,24,Spain,striker,Real Sociedad,Spain,0,300000,False,True,True,False,521989,SPA1
 5068,5070,15924,15924,SPA1,2011,w,Real Sociedad,Spain,left,61344,Borja Viguera,24,Spain,striker,Albacete Balompié,Spain,0,300000,False,True,False,False,681307,SPA2
 5069,5071,15925,15925,SPA1,2011,w,Real Sociedad,Spain,left,35529,Jeffrey Sarpong,23,Netherlands,midfielder,NAC Breda,Netherlands,0,1000000,False,True,False,False,681447,NET1
-5070,5072,15926,15926,SPA1,2011,w,Real Sociedad,Spain,left,37124,McDonald Mariga,24,Kenya,midfielder,Fc Inter,Italy,0,7000000,False,True,True,False,624614,ITA1
+5070,5072,15926,15926,SPA1,2011,w,Real Sociedad,Spain,left,37124,McDonald Mariga,24,Kenya,midfielder,FC Inter,Italy,0,7000000,False,True,True,False,624614,ITA1
 5071,5073,15927,15927,POR1,2011,w,SC Braga,Portugal,left,64339,Pizzi,22,Portugal,midfielder,Atlético de Madrid,Spain,13500000,7500000,False,False,False,False,919076,SPA1
 5072,5074,15928,15928,POR1,2011,w,SC Braga,Portugal,left,42920,Fran Mérida,21,Spain,midfielder,Atlético de Madrid,Spain,0,3000000,False,True,True,False,627972,SPA1
 5073,5075,15929,15929,SPA1,2011,w,Atlético de Madrid,Spain,left,7717,José Antonio Reyes,28,Spain,striker,Sevilla FC,Spain,3500000,15000000,False,False,False,False,667470,SPA1
@@ -4457,7 +4457,7 @@
 5327,5329,16213,16213,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,181477,Thievy Bifouma,20,Congo,striker,UD Las Palmas,Spain,0,2500000,False,True,False,False,778249,SPA2
 5328,5330,16214,16214,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,85289,Jordi Amat,20,Spain,defender,Rayo Vallecano,Spain,0,2000000,False,True,False,False,752236,SPA1
 5330,5332,16216,16216,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,15808,Romaric,29,Cote d'Ivoire,midfielder,Sevilla FC,Spain,0,4000000,False,True,True,False,630422,SPA1
-5331,5333,16218,16218,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,80444,Philippe Coutinho,20,Brazil,striker,Fc Inter,Italy,0,7000000,False,True,True,False,679970,ITA1
+5331,5333,16218,16218,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,80444,Philippe Coutinho,20,Brazil,striker,FC Inter,Italy,0,7000000,False,True,True,False,679970,ITA1
 5332,5334,16219,16219,SPA1,2012,s,RCD Espanyol Barcelona,Spain,left,67090,Dídac Vilà,23,Spain,defender,AC Milan,Italy,0,3500000,False,True,True,False,581566,ITA1
 5333,5335,16221,16221,SPA1,2012,s,RCD Mallorca,Spain,left,28171,Chory Castro,27,Uruguay,striker,Real Sociedad,Spain,0,6000000,True,False,False,False,724006,SPA1
 5334,5336,16222,16222,SPA2,2012,s,Real Unión Club,Spain,left,61812,Yuri Berchiche,22,Spain,defender,Real Sociedad,Spain,0,0,True,False,False,False,737727,SPA1
@@ -4909,7 +4909,7 @@
 5863,5865,16846,16846,SPA1,2013,s,RCD Espanyol Barcelona,Spain,left,74557,Raúl Baena,24,Spain,midfielder,Rayo Vallecano,Spain,0,1500000,True,False,False,False,894697,SPA1
 5864,5866,16847,16847,SPA1,2013,s,RCD Espanyol Barcelona,Spain,left,28005,Joan Verdú,30,Spain,midfielder,Real Betis Balompié,Spain,0,7000000,True,False,False,False,892849,SPA1
 5867,5869,16850,16850,SPA1,2013,s,RCD Espanyol Barcelona,Spain,left,670,Martin Petrov,34,Bulgaria,striker,Without Club,Without Club,0,500000,False,False,False,False,887756,WIT
-5868,5870,16851,16851,SPA1,2013,s,RCD Espanyol Barcelona,Spain,left,124560,Samuele Longo,21,Italy,striker,Fc Inter,Italy,0,2000000,False,True,True,False,775742,ITA1
+5868,5870,16851,16851,SPA1,2013,s,RCD Espanyol Barcelona,Spain,left,124560,Samuele Longo,21,Italy,striker,FC Inter,Italy,0,2000000,False,True,True,False,775742,ITA1
 5869,5871,16852,16852,ITA1,2013,s,ACF Fiorentina,Italy,left,109256,Haris Seferovic,21,Switzerland,striker,Real Sociedad,Spain,3000000,2800000,False,False,False,False,906326,SPA1
 5870,5872,16853,16853,SPA2,2013,s,SD Eibar,Spain,left,101842,Mikel Abaroa,24,Spain,midfielder,Real Sociedad,Spain,0,0,True,False,False,False,922044,SPA1
 5871,5873,16854,16854,SPA2,2013,s,CD Leganés,Spain,left,63058,Óscar Vega,26,Spain,midfielder,Real Sociedad,Spain,0,0,False,False,False,False,933188,SPA1
@@ -5396,7 +5396,7 @@
 6428,6430,17542,17542,SPA1,2014,s,Rayo Vallecano,Spain,left,262939,Johan Mojica,21,Colombia,defender,Deportivo Cali,Colombia,0,500000,False,True,True,False,901445,COL
 6429,6431,17544,17544,SPA1,2014,s,Rayo Vallecano,Spain,left,95280,Christian Cueva,22,Peru,midfielder,Unión Española,Chile,0,800000,False,True,True,False,933505,CHI
 6430,6432,17547,17547,SPA1,2014,s,Rayo Vallecano,Spain,left,67548,Rubén Rochina,23,Spain,striker,Blackburn Rovers,England,0,1000000,False,True,True,False,1004143,ENG2
-6431,6433,17548,17548,SPA1,2014,s,Rayo Vallecano,Spain,left,124560,Samuele Longo,22,Italy,striker,Fc Inter,Italy,0,2000000,False,True,True,False,1011850,ITA1
+6431,6433,17548,17548,SPA1,2014,s,Rayo Vallecano,Spain,left,124560,Samuele Longo,22,Italy,striker,FC Inter,Italy,0,2000000,False,True,True,False,1011850,ITA1
 6432,6434,17549,17549,SPA1,2014,s,Rayo Vallecano,Spain,left,214770,Borja López,20,Spain,defender,AS Monaco,France,0,1250000,False,True,True,False,1012650,FRA1
 6433,6435,17550,17550,CHI,2014,s,CD O'Higgins,Chile,left,91763,Pablo Hernández,27,Chile,midfielder,Celta de Vigo,Spain,1600000,9000000,False,False,False,False,1075116,SPA1
 6434,6436,17551,17551,SER,2014,s,FK Vojvodina Novi Sad,Serbia,left,168959,Nemanja Radoja,21,Serbia,midfielder,Celta de Vigo,Spain,900000,700000,False,False,False,False,1109807,SPA1
@@ -5692,7 +5692,7 @@
 6770,6772,17957,17957,GRE,2015,s,Olympiacos Piraeus,Greece,left,15760,Ibrahim Afellay,29,Netherlands,midfielder,FC Barcelona,Spain,0,4000000,False,True,True,False,1108186,SPA1
 6771,6773,17958,17958,SPA1,2015,s,Sevilla FC,Spain,left,165007,Denis Suárez,21,Spain,midfielder,FC Barcelona,Spain,0,12000000,False,True,True,False,1070960,SPA1
 6772,6774,17961,17961,SPA1,2015,s,FC Barcelona,Spain,left,165007,Denis Suárez,21,Spain,midfielder,Villarreal CF,Spain,4000000,12000000,False,False,False,False,1331649,SPA1
-6773,6775,17962,17962,SPA1,2015,s,FC Barcelona,Spain,left,68645,Martín Montoya,24,Spain,defender,Fc Inter,Italy,1300000,10000000,False,True,False,False,1276522,ITA1
+6773,6775,17962,17962,SPA1,2015,s,FC Barcelona,Spain,left,68645,Martín Montoya,24,Spain,defender,FC Inter,Italy,1300000,10000000,False,True,False,False,1276522,ITA1
 6774,6776,17963,17963,SPA1,2015,s,FC Barcelona,Spain,left,7607,Xavi,35,Spain,midfielder,Al-Sadd SC,Qatar,0,5000000,True,False,False,False,1247572,QAT
 6775,6777,17966,17966,SPA1,2015,s,FC Barcelona,Spain,left,226074,Alen Halilovic,19,Croatia,midfielder,Sporting Gijón,Spain,0,5000000,False,True,False,False,1325336,SPA1
 6776,6778,17967,17967,ITA1,2015,s,FC Inter,Italy,left,51471,Mateo Kovacic,21,Croatia,midfielder,Real Madrid,Spain,38000000,22000000,False,False,False,False,1321792,SPA1
@@ -5727,7 +5727,7 @@
 6813,6815,18009,18009,SPA1,2015,s,Atlético de Madrid,Spain,left,34572,Mario Mandzukic,29,Croatia,striker,Juventus FC,Italy,19000000,26000000,False,False,False,False,1265837,ITA1
 6814,6816,18011,18011,SPA1,2015,s,Atlético de Madrid,Spain,left,34601,Raúl García,29,Spain,striker,Athletic Bilbao,Spain,10000000,12000000,False,False,False,False,1332682,SPA1
 6815,6817,18012,18012,SPA1,2015,s,Atlético de Madrid,Spain,left,37337,Mario Suárez,28,Spain,defender,ACF Fiorentina,Italy,5000000,10000000,False,False,False,False,1295262,ITA1
-6816,6818,18013,18013,SPA1,2015,s,Atlético de Madrid,Spain,left,33357,Miranda,30,Brazil,defender,Fc Inter,Italy,4000000,22000000,False,True,False,False,1274090,ITA1
+6816,6818,18013,18013,SPA1,2015,s,Atlético de Madrid,Spain,left,33357,Miranda,30,Brazil,defender,FC Inter,Italy,4000000,22000000,False,True,False,False,1274090,ITA1
 6817,6819,18014,18014,SPA1,2015,s,Atlético de Madrid,Spain,left,33448,Cristian Rodríguez,29,Uruguay,midfielder,Club Atlético Independiente,Argentina,0,5000000,True,False,False,False,1298800,ARG
 6818,6820,18015,18015,SPA1,2015,s,Atlético de Madrid,Spain,left,45599,Emiliano Insúa,26,Argentina,defender,VfB Stuttgart,Germany,0,4000000,True,False,False,False,1284029,GER1
 6819,6821,18016,18016,SPA1,2015,s,Atlético de Madrid,Spain,left,326363,André Moreira,19,Portugal,goalkeeper,CF União Madeira,Portugal,0,350000,False,True,False,False,1273820,POR1
@@ -6004,7 +6004,7 @@
 7136,7138,18394,18394,SPA2,2015,s,RCD Mallorca,Spain,left,94414,Héctor Yuste,27,Spain,defender,Granada CF,Spain,0,1000000,False,True,True,False,1183854,SPA1
 7137,7139,18395,18395,DEN,2015,s,Esbjerg fB,Denmark,left,27292,Daniel Larsson,28,Sweden,striker,Granada CF,Spain,0,1500000,False,True,True,False,1183966,SPA1
 7138,7140,18396,18396,POL,2015,s,Lechia Gdansk,Poland,left,118056,Mavroudis Bougaidis,22,Greece,defender,Granada CF,Spain,0,300000,False,True,True,False,1078884,SPA1
-7139,7141,18397,18397,SPA1,2015,s,Granada CF,Spain,left,131102,Jeison Murillo,23,Colombia,defender,Fc Inter,Italy,8000000,8000000,False,False,False,False,1186835,ITA1
+7139,7141,18397,18397,SPA1,2015,s,Granada CF,Spain,left,131102,Jeison Murillo,23,Colombia,defender,FC Inter,Italy,8000000,8000000,False,False,False,False,1186835,ITA1
 7140,7142,18398,18398,SPA1,2015,s,Granada CF,Spain,left,96540,Alfredo Ortuño,24,Spain,striker,UD Las Palmas,Spain,1000000,800000,False,False,False,False,1265843,SPA1
 7141,7143,18399,18399,SPA1,2015,s,Granada CF,Spain,left,185245,Jhon Córdoba,22,Colombia,striker,1.FSV Mainz 05,Germany,600000,2000000,False,True,False,False,1333159,GER1
 7142,7144,18400,18400,SPA1,2015,s,Granada CF,Spain,left,93047,Jona,26,Honduras,striker,Albacete Balompié,Spain,370000,500000,False,False,False,False,1817005,SPA2
@@ -6160,7 +6160,7 @@
 7304,7306,18591,18591,BEL,2015,w,Club Brugge KV,Belgium,left,175323,Óscar Duarte,26,Costa Rica,defender,RCD Espanyol Barcelona,Spain,1150000,4000000,False,False,False,False,1419287,SPA1
 7305,7307,18593,18593,SPA1,2015,w,Granada CF,Spain,left,181477,Thievy Bifouma,23,Congo,striker,RCD Espanyol Barcelona,Spain,0,2500000,False,True,True,False,1323476,SPA1
 7306,7308,18594,18594,SPA1,2015,w,RCD Espanyol Barcelona,Spain,left,181477,Thievy Bifouma,23,Congo,striker,Stade Reims,France,0,2500000,False,True,False,False,1420917,FRA1
-7308,7310,18596,18596,SPA1,2015,w,RCD Espanyol Barcelona,Spain,left,110925,Francesco Bardi,24,Italy,goalkeeper,Fc Inter,Italy,0,5000000,False,True,True,False,1420602,ITA1
+7308,7310,18596,18596,SPA1,2015,w,RCD Espanyol Barcelona,Spain,left,110925,Francesco Bardi,24,Italy,goalkeeper,FC Inter,Italy,0,5000000,False,True,True,False,1420602,ITA1
 7309,7311,18597,18597,TUR,2015,w,Besiktas JK,Turkey,left,124891,Aras Özbiliz,25,Armenia,striker,Rayo Vallecano,Spain,300000,2500000,False,True,False,False,1419077,SPA1
 7310,7312,18598,18598,SPA1,2015,w,Granada CF,Spain,left,58076,Piti,34,Spain,midfielder,Rayo Vallecano,Spain,0,1000000,True,False,False,False,1423307,SPA1
 7311,7313,18601,18601,ITA1,2015,w,Udinese Calcio,Italy,left,40428,Manuel Iturra,31,Chile,midfielder,Rayo Vallecano,Spain,0,4000000,False,True,False,False,1422467,SPA1
@@ -6343,7 +6343,7 @@
 7526,7528,27181,27181,URU,2011,s,CA Peñarol,Uruguay,left,37633,Guillermo Rodríguez,27,Uruguay,defender,AC Cesena,Italy,0,600000,False,False,False,False,633673,ITA1
 7527,7529,27183,27183,ITA1,2011,s,Juventus FC,Italy,left,55800,Jorge Martínez,28,Uruguay,striker,AC Cesena,Italy,0,7000000,False,True,False,False,628823,ITA1
 7531,7533,27187,27187,ITA1,2011,s,AC Cesena,Italy,left,84835,Emanuele Giaccherini,26,Italy,midfielder,Juventus FC,Italy,7250000,5000000,False,False,False,False,627365,ITA1
-7532,7534,27188,27188,ITA1,2011,s,AC Cesena,Italy,left,79522,Yuto Nagatomo,24,Japan,defender,Fc Inter,Italy,4500000,2800000,False,False,False,False,588540,ITA1
+7532,7534,27188,27188,ITA1,2011,s,AC Cesena,Italy,left,79522,Yuto Nagatomo,24,Japan,defender,FC Inter,Italy,4500000,2800000,False,False,False,False,588540,ITA1
 7533,7535,27189,27189,ITA1,2011,s,AC Cesena,Italy,left,60694,Nebil Caidi,22,Italy,defender,FC Pavia 1911,Italy,0,125000,True,False,False,False,625262,ITA3
 7534,7536,27190,27190,ITA1,2011,s,AC Cesena,Italy,left,122637,Ameth Fall,20,Senegal,striker,Calcio Lecco 1912,Italy,0,0,True,False,False,False,598500,ITA4
 7535,7537,27191,27191,ITA1,2011,s,AC Cesena,Italy,left,99249,Alessio Petti,20,Italy,defender,Foligno Calcio,Italy,0,150000,True,False,False,False,598137,ITA3
@@ -6378,7 +6378,7 @@
 7564,7566,27220,27220,ITA1,2011,s,AC Cesena,Italy,left,28935,Paolo Dellafiore,26,Italy,defender,Parma FC,Italy,0,1000000,False,True,True,False,520136,ITA1
 7565,7567,27221,27221,ITA1,2011,s,AC Cesena,Italy,left,16902,Alessandro Rosina,27,Italy,striker,Zenit St. Petersburg,Russia,0,3300000,False,True,True,False,533488,RUS
 7566,7568,27222,27222,ITA1,2011,s,AC Cesena,Italy,left,17127,Felipe,26,Brazil,defender,ACF Fiorentina,Italy,0,2500000,False,True,True,False,534378,ITA1
-7567,7569,27223,27223,ITA1,2011,s,AC Cesena,Italy,left,84344,Davide Santon,20,Italy,defender,Fc Inter,Italy,0,7500000,False,True,True,False,534551,ITA1
+7567,7569,27223,27223,ITA1,2011,s,AC Cesena,Italy,left,84344,Davide Santon,20,Italy,defender,FC Inter,Italy,0,7500000,False,True,True,False,534551,ITA1
 7568,7570,27224,27224,ITA1,2011,s,AC Cesena,Italy,left,28832,Fabio Caserta,32,Italy,midfielder,Atalanta BC,Italy,0,750000,False,True,True,False,436518,ITA1
 7569,7571,27225,27225,ITA1,2011,s,Juventus FC,Italy,left,49275,Albin Ekdal,22,Sweden,midfielder,Cagliari Calcio,Italy,2700000,3200000,False,False,False,False,625682,ITA1
 7570,7572,27226,27226,COL,2011,s,Atlético Nacional,Colombia,left,92141,Víctor Ibarbo,21,Colombia,striker,Cagliari Calcio,Italy,2000000,900000,False,False,False,False,641256,ITA1
@@ -6443,13 +6443,13 @@
 7665,7667,27325,27325,ITA3,2011,s,US Cremonese,Italy,left,33763,Massimo Coda,22,Italy,striker,Bologna FC 1909,Italy,150000,300000,False,False,False,False,590464,ITA1
 7666,7668,27326,27326,ITA1,2011,s,AS Roma,Italy,left,20741,Simone Loria,34,Italy,defender,Bologna FC 1909,Italy,0,200000,True,False,False,False,564918,ITA1
 7667,7669,27327,27327,DEN,2011,s,FC Copenhagen,Denmark,left,19083,Mikael Antonsson,30,Sweden,defender,Bologna FC 1909,Italy,0,1850000,True,False,False,False,564059,ITA1
-7671,7673,27332,27332,ITA1,2011,s,Bologna FC 1909,Italy,left,24316,Emiliano Viviano,25,Italy,goalkeeper,Fc Inter,Italy,4100000,12000000,False,False,False,False,590119,ITA1
+7671,7673,27332,27332,ITA1,2011,s,Bologna FC 1909,Italy,left,24316,Emiliano Viviano,25,Italy,goalkeeper,FC Inter,Italy,4100000,12000000,False,False,False,False,590119,ITA1
 7672,7674,27333,27333,ITA1,2011,s,Bologna FC 1909,Italy,left,56889,Francesco Della Rocca,23,Italy,midfielder,Palermo,Italy,3500000,2800000,False,False,False,False,630090,ITA1
 7673,7675,27334,27334,ITA1,2011,s,Bologna FC 1909,Italy,left,56863,Alessandro Elia,21,Italy,striker,Parma FC,Italy,1500000,50000,False,False,False,False,590003,ITA1
 7674,7676,27335,27335,ITA1,2011,s,Bologna FC 1909,Italy,left,112457,Alessandro Bassoli,21,Italy,defender,Chievo Verona,Italy,1500000,150000,False,False,False,False,591803,ITA1
 7675,7677,27336,27336,ITA1,2011,s,Bologna FC 1909,Italy,left,49275,Albin Ekdal,21,Sweden,midfielder,Juventus FC,Italy,1200000,3000000,False,False,False,False,590128,ITA1
 7676,7678,27337,27337,ITA1,2011,s,Bologna FC 1909,Italy,left,35849,Andrea Esposito,25,Italy,defender,Genoa CFC,Italy,0,1100000,False,True,True,False,450387,ITA1
-7677,7679,27338,27338,ITA1,2011,s,Bologna FC 1909,Italy,left,86079,Luca Siligardi,23,Italy,striker,Fc Inter,Italy,0,1000000,False,True,True,False,458389,ITA1
+7677,7679,27338,27338,ITA1,2011,s,Bologna FC 1909,Italy,left,86079,Luca Siligardi,23,Italy,striker,FC Inter,Italy,0,1000000,False,True,True,False,458389,ITA1
 7678,7680,27339,27339,ITA1,2011,s,Bologna FC 1909,Italy,left,17174,Antonio Buscè,35,Italy,midfielder,Empoli FC,Italy,0,400000,True,False,False,False,593944,ITA1
 7683,7685,27344,27344,ITA1,2011,s,Bologna FC 1909,Italy,left,20982,Massimo Mutarelli,33,Italy,midfielder,Without Club,Without Club,0,400000,False,False,False,False,593943,WIT
 7684,7686,27345,27345,ITA1,2011,s,Bologna FC 1909,Italy,left,9850,Vangelis Moras,29,Greece,defender,Without Club,Without Club,0,2100000,False,False,False,False,588446,WIT
@@ -6483,7 +6483,7 @@
 7713,7715,27376,27376,ITA1,2011,s,US Lecce,Italy,left,19695,Gustavo,29,Brazil,defender,Desportivo Brasil Ltda (SP),Brazil,0,700000,False,True,True,False,461461,BRA
 7714,7716,27377,27377,ITA1,2011,s,US Lecce,Italy,left,74448,Andrea Rispoli,22,Italy,defender,Parma FC,Italy,0,1000000,False,True,True,False,474127,ITA1
 7715,7717,27378,27378,ITA1,2011,s,US Lecce,Italy,left,47085,Nenad Tomović,23,Serbia,defender,Genoa CFC,Italy,0,2000000,False,True,True,False,517947,ITA1
-7716,7718,27379,27379,ITA1,2011,s,US Lecce,Italy,left,88684,Giulio Donati,21,Italy,defender,Fc Inter,Italy,0,850000,False,True,True,False,436882,ITA1
+7716,7718,27379,27379,ITA1,2011,s,US Lecce,Italy,left,88684,Giulio Donati,21,Italy,defender,FC Inter,Italy,0,850000,False,True,True,False,436882,ITA1
 7717,7719,27380,27380,ITA1,2011,s,Genoa CFC,Italy,left,131075,Francesco Acerbi,23,Italy,defender,Chievo Verona,Italy,2000000,3000000,False,False,False,False,593950,ITA1
 7718,7720,27381,27381,ITA2,2011,s,Brescia Calcio,Italy,left,37295,Perparim Hetemaj,24,Finland,midfielder,Chievo Verona,Italy,2000000,1200000,False,False,False,False,593360,ITA1
 7719,7721,27382,27382,CZE,2011,s,AC Sparta Prague,Czech Republic,left,35645,Kamil Vacek,24,Czech Republic,midfielder,Chievo Verona,Italy,2000000,1200000,False,False,False,False,627680,ITA1
@@ -6700,7 +6700,7 @@
 7992,7994,27721,27721,GER1,2011,s,Bayern Munich,Germany,left,10,Miroslav Klose,33,Germany,striker,SS Lazio,Italy,0,5000000,True,False,False,False,581749,ITA1
 7993,7995,27722,27722,ITA3,2011,s,Foligno Calcio,Italy,left,73943,Alessandro Tuia,22,Italy,defender,SS Lazio,Italy,0,100000,False,False,False,False,735279,ITA1
 7998,8000,27728,27728,ITA1,2011,s,SS Lazio,Italy,left,58088,Fernando Muslera,25,Uruguay,goalkeeper,Galatasaray A.S.,Turkey,6750000,12000000,False,False,False,False,606696,TUR
-7999,8001,27729,27729,ITA1,2011,s,SS Lazio,Italy,left,26456,Mauro Zárate,24,Argentina,striker,Fc Inter,Italy,2700000,14000000,False,True,False,False,629996,ITA1
+7999,8001,27729,27729,ITA1,2011,s,SS Lazio,Italy,left,26456,Mauro Zárate,24,Argentina,striker,FC Inter,Italy,2700000,14000000,False,True,False,False,629996,ITA1
 8000,8002,27730,27730,ITA1,2011,s,SS Lazio,Italy,left,30638,Sergio Floccari,29,Italy,striker,Parma FC,Italy,1500000,8000000,False,True,False,False,630091,ITA1
 8001,8003,27731,27731,ITA1,2011,s,SS Lazio,Italy,left,5867,Mark Bresciano,31,Australia,midfielder,Al-Nasr (Dubai),United Arab Emirates,300000,1300000,False,False,False,False,622744,UNI
 8002,8004,27732,27732,ITA1,2011,s,SS Lazio,Italy,left,73943,Alessandro Tuia,21,Italy,defender,Foligno Calcio,Italy,200000,100000,False,False,False,False,613547,ITA3
@@ -6820,15 +6820,15 @@
 8122,8124,27892,27892,ITA1,2011,s,Parma FC,Italy,left,56863,Alessandro Elia,21,Italy,striker,FC Esperia Viareggio,Italy,0,50000,False,True,False,False,613012,ITA3
 8123,8125,27893,27893,ITA1,2011,s,Parma FC,Italy,left,147876,Abdou Doumbia,21,France,striker,Calcio Como,Italy,0,50000,False,True,False,False,619665,ITA2
 8124,8126,27894,27894,ITA1,2011,s,Parma FC,Italy,left,52312,Sebastian Giovinco,24,Italy,striker,Juventus FC,Italy,0,8500000,False,True,True,False,462505,ITA1
-8125,8127,27895,27895,ITA1,2011,s,Parma FC,Italy,left,127769,Nwankwo Obiora,19,Nigeria,midfielder,Fc Inter,Italy,0,800000,False,True,True,False,535155,ITA1
+8125,8127,27895,27895,ITA1,2011,s,Parma FC,Italy,left,127769,Nwankwo Obiora,19,Nigeria,midfielder,FC Inter,Italy,0,800000,False,True,True,False,535155,ITA1
 8126,8128,27896,27896,ITA1,2011,s,Parma FC,Italy,left,6234,Amauri,31,Italy,striker,Juventus FC,Italy,0,3500000,False,True,True,False,534525,ITA1
 8127,8129,27897,27897,ITA1,2011,s,Parma FC,Italy,left,52063,Toni Calvo,24,Spain,striker,Aris Thessaloniki,Greece,0,1900000,False,True,True,False,516362,GRE
 8128,8130,27898,27898,ITA1,2011,s,Parma FC,Italy,left,25488,Antonio Candreva,24,Italy,midfielder,Udinese Calcio,Italy,0,6000000,False,True,True,False,474335,ITA1
 8129,8131,27899,27899,ITA1,2011,s,Parma FC,Italy,left,70203,Zé Eduardo,19,Brazil,midfielder,Associação Maga Esporte Clube (SC),Brazil,0,300000,False,True,True,False,468843,BRA
-8130,8132,27900,27900,ARG,2011,s,CA Vélez Sarsfield,Argentina,left,76077,Ricardo Álvarez,23,Argentina,midfielder,Fc Inter,Italy,12000000,3500000,False,False,False,False,597046,ITA1
-8131,8133,27902,27902,BRA,2011,s,Santos FC,Brazil,left,54149,Jonathan,25,Brazil,defender,Fc Inter,Italy,5000000,4500000,False,False,False,False,601727,ITA1
-8132,8134,27906,27906,NET1,2011,s,Feyenoord Rotterdam,Netherlands,left,91915,Luc Castaignos,18,Netherlands,striker,Fc Inter,Italy,1500000,4500000,False,False,False,False,534523,ITA1
-8133,8135,27907,27907,ITA1,2011,s,UC Sampdoria,Italy,left,44834,Andrea Poli,21,Italy,midfielder,Fc Inter,Italy,500000,5500000,False,True,False,False,628877,ITA1
+8130,8132,27900,27900,ARG,2011,s,CA Vélez Sarsfield,Argentina,left,76077,Ricardo Álvarez,23,Argentina,midfielder,FC Inter,Italy,12000000,3500000,False,False,False,False,597046,ITA1
+8131,8133,27902,27902,BRA,2011,s,Santos FC,Brazil,left,54149,Jonathan,25,Brazil,defender,FC Inter,Italy,5000000,4500000,False,False,False,False,601727,ITA1
+8132,8134,27906,27906,NET1,2011,s,Feyenoord Rotterdam,Netherlands,left,91915,Luc Castaignos,18,Netherlands,striker,FC Inter,Italy,1500000,4500000,False,False,False,False,534523,ITA1
+8133,8135,27907,27907,ITA1,2011,s,UC Sampdoria,Italy,left,44834,Andrea Poli,21,Italy,midfielder,FC Inter,Italy,500000,5500000,False,True,False,False,628877,ITA1
 8135,8137,27909,27909,ITA1,2011,s,FC Inter,Italy,left,4257,Samuel Eto'o,30,Cameroon,striker,Anzhi Makhachkala ( -2022),Russia,27000000,42000000,False,False,False,False,626574,RUS
 8136,8138,27913,27913,ITA1,2011,s,FC Inter,Italy,left,86079,Luca Siligardi,23,Italy,striker,AS Livorno,Italy,300000,1000000,False,False,False,False,627577,ITA1
 8137,8139,27914,27914,ITA1,2011,s,FC Inter,Italy,left,35852,Victor Obinna,24,Nigeria,striker,Lokomotiv Moscow,Russia,0,4500000,True,False,False,False,586450,RUS
@@ -6904,7 +6904,7 @@
 8229,8231,28031,28031,ITA1,2011,w,AC Cesena,Italy,left,37418,Éder,25,Italy,striker,UC Sampdoria,Italy,500000,4200000,False,True,False,False,676641,ITA1
 8230,8232,28032,28032,ITA1,2011,w,AC Cesena,Italy,left,106136,Giacomo Tulli,24,Italy,striker,AC Pisa 1909,Italy,0,200000,False,True,False,False,666511,ITA3
 8231,8233,28033,28033,ITA1,2011,w,AC Cesena,Italy,left,75613,Luca Ricci,22,Italy,defender,Spezia Calcio,Italy,0,250000,False,True,False,False,669793,ITA2
-8233,8235,28035,28035,ITA1,2011,w,AC Cesena,Italy,left,95438,Marko Livaja,18,Croatia,striker,Fc Inter,Italy,0,50000,False,False,False,False,810578,ITA1
+8233,8235,28035,28035,ITA1,2011,w,AC Cesena,Italy,left,95438,Marko Livaja,18,Croatia,striker,FC Inter,Italy,0,50000,False,False,False,False,810578,ITA1
 8234,8236,28036,28036,ITA1,2011,w,AC Cesena,Italy,left,119159,Kadir Caidi,21,Italy,defender,AC Bellaria Igea Marina,Italy,0,50000,False,True,False,False,670428,ITA4
 8235,8237,28037,28037,ITA1,2011,w,AC Cesena,Italy,left,182459,Giacomo Bassoli,21,Italy,defender,Valenzana Mado SSD,Italy,0,50000,False,True,False,False,671639,ITA4
 8236,8238,28038,28038,ITA1,2011,w,AC Cesena,Italy,left,41146,Aldo Simoncini,25,San Marino,goalkeeper,Valenzana Mado SSD,Italy,0,100000,False,True,False,False,669789,ITA4
@@ -7030,9 +7030,9 @@
 8388,8391,28226,28226,ITA1,2011,w,Parma FC,Italy,left,70203,Zé Eduardo,20,Brazil,midfielder,Empoli FC,Italy,0,300000,False,True,False,False,673719,ITA1
 8389,8392,28227,28227,ITA1,2011,w,Parma FC,Italy,left,3410,Hernán Crespo,36,Argentina,striker,Retired,Retired,0,1000000,False,False,False,True,682943,RET
 8390,8393,28228,28228,ITA1,2011,w,Parma FC,Italy,left,55001,Matteo Rubin,24,Italy,defender,Torino FC,Italy,0,1500000,False,True,True,False,616951,ITA1
-8391,8394,28229,28229,BRA,2011,w,Sport Club Internacional,Brazil,left,121985,Juan Jesus,20,Brazil,defender,Fc Inter,Italy,3800000,3000000,False,False,False,False,680124,ITA1
-8392,8395,28230,28230,POR1,2011,w,FC Porto,Portugal,left,39090,Fredy Guarín,25,Colombia,midfielder,Fc Inter,Italy,1500000,10000000,False,True,False,False,680701,ITA1
-8393,8396,28231,28231,ITA1,2011,w,UC Sampdoria,Italy,left,6793,Angelo Palombo,30,Italy,midfielder,Fc Inter,Italy,1000000,8000000,False,True,False,False,680890,ITA1
+8391,8394,28229,28229,BRA,2011,w,Sport Club Internacional,Brazil,left,121985,Juan Jesus,20,Brazil,defender,FC Inter,Italy,3800000,3000000,False,False,False,False,680124,ITA1
+8392,8395,28230,28230,POR1,2011,w,FC Porto,Portugal,left,39090,Fredy Guarín,25,Colombia,midfielder,FC Inter,Italy,1500000,10000000,False,True,False,False,680701,ITA1
+8393,8396,28231,28231,ITA1,2011,w,UC Sampdoria,Italy,left,6793,Angelo Palombo,30,Italy,midfielder,FC Inter,Italy,1000000,8000000,False,True,False,False,680890,ITA1
 8394,8397,28233,28233,ITA1,2011,w,FC Inter,Italy,left,7602,Thiago Motta,29,Italy,midfielder,Paris Saint-Germain,France,11500000,15000000,False,False,False,False,680982,FRA1
 8395,8398,28235,28235,ITA1,2011,w,FC Inter,Italy,left,45583,Paolo Tornaghi,23,Italy,goalkeeper,Chicago Fire,United States,0,50000,True,False,False,False,696236,UNI
 8397,8400,28238,28238,ITA1,2011,w,FC Inter,Italy,left,88680,Luca Caldirola,20,Italy,defender,Brescia Calcio,Italy,0,400000,False,True,False,False,666523,ITA2
@@ -7103,7 +7103,7 @@
 8473,8476,28325,28325,ITAJ,2012,s,Milan Primavera,Italy,left,73858,Adrià Carmona,20,Spain,striker,AC Milan,Italy,0,300000,False,False,False,False,774533,ITA1
 8474,8477,28326,28326,ITA1,2012,s,AC Milan,Italy,left,29241,Thiago Silva,27,Brazil,defender,Paris Saint-Germain,France,42000000,38000000,False,False,False,False,749660,FRA1
 8475,8478,28327,28327,ITA1,2012,s,AC Milan,Italy,left,3455,Zlatan Ibrahimovic,30,Sweden,striker,Paris Saint-Germain,France,21000000,37000000,False,False,False,False,751914,FRA1
-8476,8479,28328,28328,ITA1,2012,s,AC Milan,Italy,left,5962,Antonio Cassano,30,Italy,striker,Fc Inter,Italy,5500000,10000000,False,False,False,False,772800,ITA1
+8476,8479,28328,28328,ITA1,2012,s,AC Milan,Italy,left,5962,Antonio Cassano,30,Italy,striker,FC Inter,Italy,5500000,10000000,False,False,False,False,772800,ITA1
 8477,8480,28329,28329,ITA1,2012,s,AC Milan,Italy,left,52136,Davide Di Gennaro,24,Italy,midfielder,Spezia Calcio,Italy,500000,1700000,False,False,False,False,749678,ITA2
 8478,8481,28330,28330,ITA1,2012,s,AC Milan,Italy,left,28922,Taye Taiwo,27,Nigeria,defender,Dynamo Kyiv,Ukraine,500000,6500000,False,True,False,False,760195,UKR
 8479,8482,28331,28331,ITA1,2012,s,AC Milan,Italy,left,5281,Flavio Roma,38,Italy,goalkeeper,AS Monaco,France,0,100000,True,False,False,False,717938,FRA2
@@ -7129,7 +7129,7 @@
 8502,8505,28354,28354,ITA1,2012,s,AC Milan,Italy,left,56841,Michelangelo Albertazzi,21,Italy,defender,Hellas Verona,Italy,0,350000,False,True,False,False,760789,ITA1
 8503,8506,28355,28355,ITA1,2012,s,AC Milan,Italy,left,5821,Filippo Inzaghi,38,Italy,striker,Retired,Retired,0,800000,False,False,False,True,716279,RET
 8504,8507,28356,28356,ITA1,2012,s,AC Milan,Italy,left,5837,Massimo Oddo,36,Italy,defender,Retired,Retired,0,250000,False,False,False,True,726300,RET
-8506,8509,28358,28358,ITA1,2012,s,AC Milan,Italy,left,17129,Sulley Muntari,27,Ghana,midfielder,Fc Inter,Italy,0,5000000,False,True,True,False,680676,ITA1
+8506,8509,28358,28358,ITA1,2012,s,AC Milan,Italy,left,17129,Sulley Muntari,27,Ghana,midfielder,FC Inter,Italy,0,5000000,False,True,True,False,680676,ITA1
 8507,8510,28360,28360,ITA1,2012,s,AC Milan,Italy,left,86926,Alexander Merkel,20,Kazakhstan,midfielder,Genoa CFC,Italy,0,5000000,False,True,True,False,723231,ITA1
 8508,8511,28361,28361,ITA1,2012,s,AC Milan,Italy,left,26263,Maxi López,28,Argentina,striker,Calcio Catania,Italy,0,5500000,False,True,True,False,678585,ITA1
 8509,8512,28362,28362,ITA1,2012,s,FC Inter,Italy,left,73926,Davide Faraoni,20,Italy,defender,Udinese Calcio,Italy,8000000,4000000,False,False,False,False,745723,ITA1
@@ -7142,7 +7142,7 @@
 8516,8519,28371,28371,ITA1,2012,s,AS Roma,Italy,left,16975,Marco Cassetti,35,Italy,defender,Udinese Calcio,Italy,0,300000,True,False,False,False,725183,ITA1
 8517,8520,28372,28372,SPA2,2012,s,Cádiz CF,Spain,left,164402,Dioni,22,Spain,striker,Udinese Calcio,Italy,0,0,True,False,False,False,753578,ITA1
 8518,8521,28374,28374,ITA1,2012,s,UC Sampdoria,Italy,left,27807,Daniele Padelli,26,Italy,goalkeeper,Udinese Calcio,Italy,0,100000,False,False,False,False,775332,ITA1
-8520,8523,28377,28377,ITA1,2012,s,Udinese Calcio,Italy,left,28021,Samir Handanovic,27,Slovenia,goalkeeper,Fc Inter,Italy,15000000,15000000,False,False,False,False,745607,ITA1
+8520,8523,28377,28377,ITA1,2012,s,Udinese Calcio,Italy,left,28021,Samir Handanovic,27,Slovenia,goalkeeper,FC Inter,Italy,15000000,15000000,False,False,False,False,745607,ITA1
 8521,8524,28379,28379,ITA1,2012,s,Udinese Calcio,Italy,left,30873,Germán Denis,30,Argentina,striker,Atalanta BC,Italy,5000000,5500000,False,False,False,False,732175,ITA1
 8522,8525,28380,28380,ITA1,2012,s,Udinese Calcio,Italy,left,52027,Thierry Doubai,24,Cote d'Ivoire,midfielder,FC Sochaux-Montbéliard,France,3000000,1500000,False,False,False,False,734638,FRA1
 8523,8526,28381,28381,ITA1,2012,s,Udinese Calcio,Italy,left,91970,Juan Cuadrado,24,Colombia,defender,ACF Fiorentina,Italy,1000000,4000000,False,True,False,False,755505,ITA1
@@ -7200,7 +7200,7 @@
 8588,8591,28451,28451,ITA1,2012,s,Genoa CFC,Italy,left,16744,Giandomenico Mesto,30,Italy,defender,SSC Napoli,Italy,1500000,4000000,False,False,False,False,777918,ITA1
 8589,8592,28452,28452,ITA1,2012,s,Empoli FC,Italy,left,87052,Nicolao Dumitru,20,Italy,striker,SSC Napoli,Italy,0,1100000,True,False,False,False,745452,ITA1
 8590,8593,28453,28453,ITA1,2012,s,SSC Napoli,Italy,left,50570,Ezequiel Lavezzi,27,Argentina,striker,Paris Saint-Germain,France,30000000,30000000,False,False,False,False,739974,FRA1
-8591,8594,28454,28454,ITA1,2012,s,SSC Napoli,Italy,left,52266,Walter Gargano,28,Uruguay,midfielder,Fc Inter,Italy,1250000,9000000,False,True,False,False,773469,ITA1
+8591,8594,28454,28454,ITA1,2012,s,SSC Napoli,Italy,left,52266,Walter Gargano,28,Uruguay,midfielder,FC Inter,Italy,1250000,9000000,False,True,False,False,773469,ITA1
 8592,8595,28455,28455,ITA1,2012,s,SSC Napoli,Italy,left,56817,Fabiano Santacroce,25,Italy,defender,Parma FC,Italy,900000,800000,False,False,False,False,742750,ITA1
 8593,8596,28456,28456,ITA1,2012,s,SSC Napoli,Italy,left,6721,Mario Santana,30,Argentina,striker,Torino FC,Italy,200000,7000000,False,True,False,False,748480,ITA1
 8594,8597,28457,28457,ITA1,2012,s,SSC Napoli,Italy,left,66960,Ignacio Fideleff,23,Argentina,defender,Parma FC,Italy,200000,2000000,False,True,False,False,749265,ITA1
@@ -7215,14 +7215,14 @@
 8603,8606,28466,28466,ITA1,2012,s,SSC Napoli,Italy,left,80158,Luigi Vitale,24,Italy,defender,Ternana Calcio,Italy,0,800000,False,True,False,False,763452,ITA2
 8604,8607,28467,28467,ITA1,2012,s,SSC Napoli,Italy,left,120458,Davide Bariti,20,Italy,striker,AS Avellino 1912,Italy,0,275000,False,True,False,False,777957,ITA2
 8605,8608,28468,28468,ITA1,2012,s,SSC Napoli,Italy,left,165531,Jacopo Dezi,20,Italy,midfielder,SS Barletta Calcio,Italy,0,300000,False,True,False,False,752388,ITA3
-8606,8609,28469,28469,ITA1,2012,s,SSC Napoli,Italy,left,12563,Goran Pandev,28,North Macedonia,striker,Fc Inter,Italy,0,12500000,False,True,True,False,627649,ITA1
+8606,8609,28469,28469,ITA1,2012,s,SSC Napoli,Italy,left,12563,Goran Pandev,28,North Macedonia,striker,FC Inter,Italy,0,12500000,False,True,True,False,627649,ITA1
 8607,8610,28470,28470,ITA1,2012,s,SSC Napoli,Italy,left,21408,Cristiano Lucarelli,36,Italy,striker,Parma FC,Italy,0,200000,False,True,True,False,607809,ITA1
-8608,8611,28472,28472,POR1,2012,s,FC Porto,Portugal,left,39090,Fredy Guarín,26,Colombia,midfielder,Fc Inter,Italy,11000000,12000000,False,False,False,False,717756,ITA1
-8609,8612,28473,28473,ITA1,2012,s,Genoa CFC,Italy,left,39099,Rodrigo Palacio,30,Argentina,striker,Fc Inter,Italy,10500000,12000000,False,False,False,False,725225,ITA1
-8610,8613,28474,28474,POR1,2012,s,FC Porto,Portugal,left,54859,Álvaro Pereira,26,Uruguay,defender,Fc Inter,Italy,10000000,16000000,False,False,False,False,773543,ITA1
-8611,8614,28476,28476,ITA1,2012,s,Palermo,Italy,left,20003,Matías Silvestre,27,Argentina,defender,Fc Inter,Italy,3000000,9000000,False,True,False,False,743430,ITA1
-8612,8615,28477,28477,ITA1,2012,s,AS Livorno,Italy,left,110925,Francesco Bardi,20,Italy,goalkeeper,Fc Inter,Italy,1500000,2000000,False,False,False,False,734759,ITA1
-8613,8616,28479,28479,ITA1,2012,s,Bologna FC 1909,Italy,left,13749,Gaby Mudingayi,30,Belgium,midfielder,Fc Inter,Italy,750000,3500000,False,True,False,False,753449,ITA1
+8608,8611,28472,28472,POR1,2012,s,FC Porto,Portugal,left,39090,Fredy Guarín,26,Colombia,midfielder,FC Inter,Italy,11000000,12000000,False,False,False,False,717756,ITA1
+8609,8612,28473,28473,ITA1,2012,s,Genoa CFC,Italy,left,39099,Rodrigo Palacio,30,Argentina,striker,FC Inter,Italy,10500000,12000000,False,False,False,False,725225,ITA1
+8610,8613,28474,28474,POR1,2012,s,FC Porto,Portugal,left,54859,Álvaro Pereira,26,Uruguay,defender,FC Inter,Italy,10000000,16000000,False,False,False,False,773543,ITA1
+8611,8614,28476,28476,ITA1,2012,s,Palermo,Italy,left,20003,Matías Silvestre,27,Argentina,defender,FC Inter,Italy,3000000,9000000,False,True,False,False,743430,ITA1
+8612,8615,28477,28477,ITA1,2012,s,AS Livorno,Italy,left,110925,Francesco Bardi,20,Italy,goalkeeper,FC Inter,Italy,1500000,2000000,False,False,False,False,734759,ITA1
+8613,8616,28479,28479,ITA1,2012,s,Bologna FC 1909,Italy,left,13749,Gaby Mudingayi,30,Belgium,midfielder,FC Inter,Italy,750000,3500000,False,True,False,False,753449,ITA1
 8622,8625,28491,28491,ITA1,2012,s,FC Inter,Italy,left,91915,Luc Castaignos,19,Netherlands,striker,Twente Enschede FC,Netherlands,6000000,4500000,False,False,False,False,758576,NET1
 8623,8626,28495,28495,ITA1,2012,s,FC Inter,Italy,left,88698,Aiman Napoli,23,Italy,striker,AC Prato,Italy,0,250000,True,False,False,False,762793,ITA3
 8624,8627,28497,28497,ITA1,2012,s,FC Inter,Italy,left,3408,Diego Forlán,33,Uruguay,striker,Sport Club Internacional,Brazil,0,3500000,True,False,False,False,743525,BRA
@@ -7400,10 +7400,10 @@
 8809,8812,28693,28693,ITA1,2012,s,Parma FC,Italy,left,22131,Jaime Valdés,31,Chile,midfielder,Sporting CP,Portugal,0,1800000,False,True,True,False,597386,POR1
 8810,8813,28694,28694,ITA1,2012,s,Parma FC,Italy,left,71302,Gianluca Musacci,25,Italy,midfielder,Empoli FC,Italy,0,600000,False,True,True,False,628731,ITA1
 8811,8814,28695,28695,ITA1,2012,s,Parma FC,Italy,left,30638,Sergio Floccari,30,Italy,striker,SS Lazio,Italy,0,5000000,False,True,True,False,630092,ITA1
-8812,8815,28696,28696,ITA1,2012,s,Parma FC,Italy,left,54149,Jonathan,26,Brazil,defender,Fc Inter,Italy,0,4500000,False,True,True,False,673324,ITA1
+8812,8815,28696,28696,ITA1,2012,s,Parma FC,Italy,left,54149,Jonathan,26,Brazil,defender,FC Inter,Italy,0,4500000,False,True,True,False,673324,ITA1
 8813,8816,28697,28697,ITA1,2012,s,Parma FC,Italy,left,35249,Stefano Okaka,22,Italy,striker,AS Roma,Italy,0,2000000,False,True,True,False,675354,ITA1
 8814,8817,28698,28698,ITA1,2012,s,Parma FC,Italy,left,38647,Stefano Ferrario,27,Italy,defender,US Lecce,Italy,0,600000,False,True,True,False,676984,ITA1
-8815,8818,28699,28699,ITA1,2012,s,Parma FC,Italy,left,37124,McDonald Mariga,25,Kenya,midfielder,Fc Inter,Italy,0,4500000,False,True,True,False,680255,ITA1
+8815,8818,28699,28699,ITA1,2012,s,Parma FC,Italy,left,37124,McDonald Mariga,25,Kenya,midfielder,FC Inter,Italy,0,4500000,False,True,True,False,680255,ITA1
 8816,8819,28700,28700,ITA1,2012,s,Genoa CFC,Italy,left,35703,Robert Acquafresca,24,Italy,striker,Bologna FC 1909,Italy,3250000,3500000,False,False,False,False,742503,ITA1
 8817,8820,28701,28701,ITA2,2012,s,Brescia Calcio,Italy,left,19636,Panagiotis Kone,25,Greece,midfielder,Bologna FC 1909,Italy,2700000,1600000,False,False,False,False,778516,ITA1
 8818,8821,28702,28702,ITA1,2012,s,Genoa CFC,Italy,left,5878,Alberto Gilardino,30,Italy,striker,Bologna FC 1909,Italy,1300000,7000000,False,True,False,False,778066,ITA1
@@ -7805,9 +7805,9 @@
 9329,9332,29330,29330,ITA1,2012,w,Udinese Calcio,Italy,left,28833,Andrea Coda,27,Italy,defender,Parma FC,Italy,0,1000000,False,True,False,False,830070,ITA1
 9330,9333,29331,29331,ITA1,2012,w,Udinese Calcio,Italy,left,168477,Jefferson Oliveira,22,Brazil,defender,FBC Unione Venezia,Italy,0,175000,False,True,False,False,827156,ITA3
 9331,9334,29333,29333,POR1,2012,w,Sporting CP,Portugal,left,45889,Bruno Pereirinha,24,Portugal,striker,SS Lazio,Italy,0,2300000,True,False,False,False,831535,ITA1
-9333,9336,29335,29335,ITA1,2012,w,SS Lazio,Italy,left,6026,Tommaso Rocchi,35,Italy,striker,Fc Inter,Italy,300000,900000,False,False,False,False,816906,ITA1
+9333,9336,29335,29335,ITA1,2012,w,SS Lazio,Italy,left,6026,Tommaso Rocchi,35,Italy,striker,FC Inter,Italy,300000,900000,False,False,False,False,816906,ITA1
 9334,9337,29336,29336,ITA1,2012,w,SS Lazio,Italy,left,7499,Lionel Scaloni,34,Argentina,defender,Atalanta BC,Italy,250000,300000,False,False,False,False,830315,ITA1
-9335,9338,29337,29337,ITA1,2012,w,SS Lazio,Italy,left,39118,Juan Pablo Carrizo,28,Argentina,goalkeeper,Fc Inter,Italy,250000,2000000,False,True,False,False,832221,ITA1
+9335,9338,29337,29337,ITA1,2012,w,SS Lazio,Italy,left,39118,Juan Pablo Carrizo,28,Argentina,goalkeeper,FC Inter,Italy,250000,2000000,False,True,False,False,832221,ITA1
 9336,9339,29338,29338,ITA1,2012,w,SS Lazio,Italy,left,73920,Antonio Cinelli,23,Italy,midfielder,Vicenza Calcio,Italy,0,175000,True,False,False,False,817684,ITA2
 9337,9340,29339,29339,ITA1,2012,w,SS Lazio,Italy,left,127224,Luca Crescenzi,20,Italy,defender,FC Esperia Viareggio,Italy,0,300000,False,True,False,False,832106,ITA3
 9338,9341,29340,29340,ITA1,2012,w,SS Lazio,Italy,left,6832,Luciano Zauri,35,Italy,defender,Delfino Pescara 1936,Italy,0,100000,False,False,False,False,832220,ITA1
@@ -7825,9 +7825,9 @@
 9350,9353,29355,29355,ITA1,2012,w,SSC Napoli,Italy,left,92880,Andrea Mazzarani,23,Italy,midfielder,Modena FC,Italy,0,1000000,False,True,False,False,831602,ITA2
 9352,9355,29357,29357,ITA1,2012,w,SSC Napoli,Italy,left,66960,Ignacio Fideleff,23,Argentina,defender,Maccabi Tel Aviv,Israel,0,2000000,False,True,False,False,833391,ISR
 9353,9356,29358,29358,ITA1,2012,w,SSC Napoli,Italy,left,167899,Carlo Colella,20,Italy,midfielder,AS Casale Calcio,Italy,0,50000,False,True,False,False,833468,ITA4
-9354,9357,29359,29359,CRO,2012,w,GNK Dinamo Zagreb,Croatia,left,51471,Mateo Kovacic,18,Croatia,midfielder,Fc Inter,Italy,11000000,3000000,False,False,False,False,831960,ITA1
-9355,9358,29360,29360,ITA1,2012,w,Atalanta BC,Italy,left,119164,Ezequiel Schelotto,23,Italy,defender,Fc Inter,Italy,5300000,6500000,False,False,False,False,831819,ITA1
-9356,9359,29361,29361,GER1,2012,w,VfB Stuttgart,Germany,left,25441,Zdravko Kuzmanovic,25,Serbia,midfielder,Fc Inter,Italy,1200000,5500000,False,False,False,False,831732,ITA1
+9354,9357,29359,29359,CRO,2012,w,GNK Dinamo Zagreb,Croatia,left,51471,Mateo Kovacic,18,Croatia,midfielder,FC Inter,Italy,11000000,3000000,False,False,False,False,831960,ITA1
+9355,9358,29360,29360,ITA1,2012,w,Atalanta BC,Italy,left,119164,Ezequiel Schelotto,23,Italy,defender,FC Inter,Italy,5300000,6500000,False,False,False,False,831819,ITA1
+9356,9359,29361,29361,GER1,2012,w,VfB Stuttgart,Germany,left,25441,Zdravko Kuzmanovic,25,Serbia,midfielder,FC Inter,Italy,1200000,5500000,False,False,False,False,831732,ITA1
 9358,9361,29366,29366,ITA1,2012,w,FC Inter,Italy,left,4673,Wesley Sneijder,28,Netherlands,midfielder,Galatasaray A.S.,Turkey,7500000,19000000,False,False,False,False,825747,TUR
 9359,9362,29367,29367,ITA1,2012,w,FC Inter,Italy,left,95438,Marko Livaja,19,Croatia,striker,Atalanta BC,Italy,5050000,1800000,False,False,False,False,831818,ITA1
 9360,9363,29368,29368,ITA1,2012,w,FC Inter,Italy,left,110928,Lorenzo Crisetig,20,Italy,midfielder,FC Crotone,Italy,0,1600000,False,True,False,False,831285,ITA2
@@ -8061,8 +8061,7 @@
 9638,9641,29721,29721,ITA1,2013,s,SSC Napoli,Italy,left,25785,Erwin Hoffer,26,Austria,striker,Fortuna Düsseldorf,Germany,500000,1100000,False,False,False,False,935463,GER2
 9639,9642,29722,29722,ITA1,2013,s,SSC Napoli,Italy,left,167899,Carlo Colella,21,Italy,midfielder,Mariano Keller,Italy,0,25000,True,False,False,False,920540,ITA4
 9640,9643,29724,29724,ITA1,2013,s,SSC Napoli,Italy,left,70132,Cristian Chávez,26,Argentina,striker,PAS Giannina,Greece,0,800000,True,False,False,False,914214,GRE
-9641,9644,29725,29725,ITA1,2013,s,SSC Napoli,Italy,left,48019,Francesco Bruno,23,Italy,defender,Casertana FC,Italy,0,50000,True,False,False,False,925860,ITA3
-9642,9645,29726,29726,ITA1,2013,s,SSC Napoli,Italy,left,21782,Hugo Campagnaro,33,Argentina,defender,Fc Inter,Italy,0,4200000,True,False,False,False,864415,ITA1
+9642,9645,29726,29726,ITA1,2013,s,SSC Napoli,Italy,left,21782,Hugo Campagnaro,33,Argentina,defender,FC Inter,Italy,0,4200000,True,False,False,False,864415,ITA1
 9643,9646,29727,29727,ITA1,2013,s,SSC Napoli,Italy,left,21988,Leandro Rinaudo,30,Italy,defender,AS Livorno,Italy,0,300000,True,False,False,False,872691,ITA1
 9644,9647,29728,29728,ITA1,2013,s,SSC Napoli,Italy,left,52266,Walter Gargano,29,Uruguay,midfielder,Parma FC,Italy,0,7500000,False,True,False,False,942172,ITA1
 9645,9648,29729,29729,ITA1,2013,s,SSC Napoli,Italy,left,87052,Nicolao Dumitru,21,Italy,striker,AS Cittadella,Italy,0,1000000,False,True,False,False,907613,ITA2
@@ -8176,7 +8175,7 @@
 9759,9762,29847,29847,ITA1,2013,s,AS Livorno,Italy,left,102984,Antonio Junior Vacca,23,Italy,midfielder,Benevento Calcio,Italy,0,150000,False,True,True,False,832282,ITA3
 9760,9763,29848,29848,ITA1,2013,s,AS Livorno,Italy,left,28828,Gabriele Aldegani,37,Italy,goalkeeper,ASG Nocerina,Italy,0,50000,False,True,True,False,832063,ITA2
 9761,9764,29849,29849,ITA1,2013,s,AS Livorno,Italy,left,154578,Saulo Decarli,21,Switzerland,defender,FC Chiasso,Switzerland,0,700000,False,True,True,False,830336,SWI
-9762,9765,29850,29850,ITA1,2013,s,AS Livorno,Italy,left,184894,Alfred Duncan,20,Ghana,midfielder,Fc Inter,Italy,0,5000000,False,True,True,False,827685,ITA1
+9762,9765,29850,29850,ITA1,2013,s,AS Livorno,Italy,left,184894,Alfred Duncan,20,Ghana,midfielder,FC Inter,Italy,0,5000000,False,True,True,False,827685,ITA1
 9763,9766,29851,29851,ITA1,2013,s,AS Livorno,Italy,left,46728,Savvas Gentsoglou,22,Greece,midfielder,UC Sampdoria,Italy,0,900000,False,True,True,False,768138,ITA1
 9764,9767,29852,29852,ITA1,2013,s,AS Livorno,Italy,left,55000,Vincenzo Fiorillo,23,Italy,goalkeeper,UC Sampdoria,Italy,0,800000,False,True,True,False,763448,ITA1
 9765,9768,29854,29854,ITA1,2013,s,AC Milan,Italy,left,71019,Bartosz Salamon,22,Poland,defender,UC Sampdoria,Italy,3400000,3000000,False,False,False,False,906578,ITA1
@@ -8188,7 +8187,7 @@
 9771,9774,29860,29860,ITA1,2013,s,Empoli FC,Italy,left,72274,Vasco Regini,22,Italy,defender,UC Sampdoria,Italy,0,2500000,False,False,False,False,893640,ITA1
 9772,9775,29861,29861,ITA2,2013,s,Reggina Calcio,Italy,left,39828,Antonino Barillà,25,Italy,midfielder,UC Sampdoria,Italy,0,900000,False,True,False,False,943530,ITA1
 9773,9776,29862,29862,ITA1,2013,s,AC Milan,Italy,left,199258,Andrea Petagna,18,Italy,striker,UC Sampdoria,Italy,0,250000,False,True,False,False,942762,ITA1
-9774,9777,29863,29863,ITA1,2013,s,UC Sampdoria,Italy,left,68863,Mauro Icardi,20,Argentina,striker,Fc Inter,Italy,13000000,12000000,False,False,False,False,892454,ITA1
+9774,9777,29863,29863,ITA1,2013,s,UC Sampdoria,Italy,left,68863,Mauro Icardi,20,Argentina,striker,FC Inter,Italy,13000000,12000000,False,False,False,False,892454,ITA1
 9775,9778,29864,29864,ITA1,2013,s,UC Sampdoria,Italy,left,44834,Andrea Poli,23,Italy,midfielder,AC Milan,Italy,6000000,8000000,False,False,False,False,903412,ITA1
 9776,9779,29867,29867,ITA1,2013,s,UC Sampdoria,Italy,left,22598,Gianni Munari,30,Italy,midfielder,Parma FC,Italy,1000000,1000000,False,False,False,False,921722,ITA1
 9777,9780,29868,29868,ITA1,2013,s,UC Sampdoria,Italy,left,85605,Fabrizio Cacciatore,26,Italy,defender,Hellas Verona,Italy,500000,1000000,False,False,False,False,889329,ITA1
@@ -8232,7 +8231,7 @@
 9820,9823,29912,29912,ITA1,2013,s,Palermo,Italy,left,21935,Andrea Mantovani,29,Italy,defender,Bologna FC 1909,Italy,0,1500000,False,True,False,False,940122,ITA1
 9826,9829,29918,29918,ITA1,2013,s,Bologna FC 1909,Italy,left,163298,Andrea Ingegneri,21,Italy,defender,AC Cesena,Italy,1250000,200000,False,False,False,False,893340,ITA1
 9827,9830,29919,29919,ITA1,2013,s,Bologna FC 1909,Italy,left,110930,Francesco Finocchio,21,Italy,midfielder,Parma FC,Italy,1000000,200000,False,False,False,False,889333,ITA1
-9828,9831,29920,29920,ITA1,2013,s,Bologna FC 1909,Italy,left,13749,Gaby Mudingayi,31,Belgium,midfielder,Fc Inter,Italy,750000,2000000,False,False,False,False,889328,ITA1
+9828,9831,29920,29920,ITA1,2013,s,Bologna FC 1909,Italy,left,13749,Gaby Mudingayi,31,Belgium,midfielder,FC Inter,Italy,750000,2000000,False,False,False,False,889328,ITA1
 9829,9832,29921,29921,ITA1,2013,s,Bologna FC 1909,Italy,left,163281,Nicola Capellini,22,Italy,midfielder,AC Cesena,Italy,0,75000,True,False,False,False,884784,ITA1
 9830,9833,29922,29922,ITA1,2013,s,Bologna FC 1909,Italy,left,16897,Thomas Job,29,Cameroon,striker,Budapest Honvéd FC,Hungary,0,0,True,False,False,False,954844,HUN
 9834,9837,29926,29926,ITA1,2013,s,Bologna FC 1909,Italy,left,163291,Gianluca Draghetti,19,Italy,midfielder,San Marino,Italy,0,100000,False,True,False,False,906003,ITA3
@@ -8260,7 +8259,7 @@
 9879,9882,29974,29974,ITA1,2013,s,Chievo Verona,Italy,left,21891,Stefano Sorrentino,34,Italy,goalkeeper,Palermo,Italy,2000000,3000000,False,False,False,False,887812,ITA1
 9880,9883,29976,29976,ITA1,2013,s,Chievo Verona,Italy,left,167812,Nestor Djengoue,22,Cameroon,defender,FSV Frankfurt,Germany,100000,150000,False,False,False,False,922192,GER2
 9881,9884,29977,29977,ITA1,2013,s,Chievo Verona,Italy,left,28870,Antimo Iunco,29,Italy,striker,Trapani Calcio,Italy,100000,500000,False,False,False,False,934250,ITA2
-9883,9886,29979,29979,ITA1,2013,s,Chievo Verona,Italy,left,36356,Marco Andreolli,27,Italy,defender,Fc Inter,Italy,0,4200000,True,False,False,False,864414,ITA1
+9883,9886,29979,29979,ITA1,2013,s,Chievo Verona,Italy,left,36356,Marco Andreolli,27,Italy,defender,FC Inter,Italy,0,4200000,True,False,False,False,864414,ITA1
 9884,9887,29981,29981,ITA1,2013,s,Chievo Verona,Italy,left,19286,Nikolaos Spyropoulos,29,Greece,defender,PAOK Thessaloniki,Greece,0,2000000,True,False,False,False,897459,GRE
 9886,9889,29983,29983,ITA1,2013,s,Chievo Verona,Italy,left,167824,Davide Tonani,21,Italy,striker,ASDC Borgomanero,Italy,0,75000,True,False,False,False,953611,ITA4
 9887,9890,29984,29984,ITA1,2013,s,Chievo Verona,Italy,left,167827,Massimo Zamparo,21,Italy,defender,Paganese Calcio 1926,Italy,0,50000,True,False,False,False,907502,ITA3
@@ -8482,7 +8481,7 @@
 10168,10171,30322,30322,ITA1,2013,s,Hellas Verona,Italy,left,56841,Michelangelo Albertazzi,22,Italy,defender,AC Milan,Italy,0,300000,False,True,True,False,760790,ITA1
 10169,10172,30323,30323,ITA1,2013,s,Hellas Verona,Italy,left,85605,Fabrizio Cacciatore,26,Italy,defender,UC Sampdoria,Italy,0,1000000,False,True,True,False,777896,ITA1
 10170,10173,30324,30324,ITA1,2013,s,Hellas Verona,Italy,left,60074,Armin Bacinovic,23,Slovenia,midfielder,Palermo,Italy,0,1500000,False,True,True,False,745776,ITA1
-10171,10174,30325,30325,ITA1,2013,s,Hellas Verona,Italy,left,160986,Matteo Bianchetti,20,Italy,defender,Fc Inter,Italy,0,1000000,False,True,True,False,826798,ITA1
+10171,10174,30325,30325,ITA1,2013,s,Hellas Verona,Italy,left,160986,Matteo Bianchetti,20,Italy,defender,FC Inter,Italy,0,1000000,False,True,True,False,826798,ITA1
 10172,10175,30326,30326,ITA1,2013,s,Hellas Verona,Italy,left,17171,Alessandro Agostini,33,Italy,defender,Torino FC,Italy,0,1000000,False,True,True,False,819775,ITA1
 10173,10176,30327,30327,ITA1,2013,s,Hellas Verona,Italy,left,44720,Matti Lund Nielsen,25,Denmark,midfielder,Delfino Pescara 1936,Italy,0,900000,False,True,True,False,832142,ITA1
 10174,10177,30328,30328,CRO,2013,s,GNK Dinamo Zagreb,Croatia,left,76061,Sime Vrsaljko,21,Croatia,defender,Genoa CFC,Italy,4880000,5000000,False,False,False,False,906901,ITA1
@@ -8614,7 +8613,7 @@
 10315,10318,30501,30501,GER1,2013,s,TSG 1899 Hoffenheim,Germany,left,145581,Afriyie Acquah,21,Ghana,midfielder,Parma FC,Italy,0,2000000,False,True,False,False,918299,ITA1
 10316,10319,30503,30503,ITA1,2013,s,FC Inter,Italy,left,45581,Joel Obi,22,Nigeria,midfielder,Parma FC,Italy,0,5500000,False,True,False,False,943017,ITA1
 10319,10322,30506,30506,ITAJ,2013,s,Parma Primavera,Italy,left,202378,Alberto Ricter,20,Italy,striker,Parma FC,Italy,0,25000,False,False,False,False,2168595,ITA1
-10320,10323,30507,30507,ITA1,2013,s,Parma FC,Italy,left,111039,Ishak Belfodil,21,Algeria,striker,Fc Inter,Italy,5750000,10000000,False,False,False,False,901146,ITA1
+10320,10323,30507,30507,ITA1,2013,s,Parma FC,Italy,left,111039,Ishak Belfodil,21,Algeria,striker,FC Inter,Italy,5750000,10000000,False,False,False,False,901146,ITA1
 10321,10324,30509,30509,ITA1,2013,s,Parma FC,Italy,left,74667,Dorlan Pabón,25,Colombia,striker,CF Monterrey,Mexico,4830000,3500000,False,False,False,False,829219,MEX
 10322,10325,30510,30510,ITA1,2013,s,Parma FC,Italy,left,29594,Graziano Pellè,27,Italy,striker,Feyenoord Rotterdam,Netherlands,3000000,1000000,False,False,False,False,817804,NET1
 10323,10326,30514,30514,ITA1,2013,s,Parma FC,Italy,left,231584,Emiliano Storani,20,Italy,striker,Ascoli Calcio 1898,Italy,1600000,50000,False,False,False,False,919273,ITA2
@@ -8660,8 +8659,8 @@
 10363,10366,30554,30554,ITA1,2013,s,Parma FC,Italy,left,134627,Alessandro Cesarini,24,Italy,midfielder,Savona FBC,Italy,0,200000,False,True,False,False,1008993,ITA3
 10364,10367,30555,30555,ITA1,2013,s,Parma FC,Italy,left,130399,Luigi Palumbo,22,Italy,defender,AC Cesena,Italy,0,75000,False,False,False,False,890849,ITA1
 10365,10368,30556,30556,ITA1,2013,s,Parma FC,Italy,left,226425,Nicola Del Pivo,21,Italy,midfielder,AC Cesena,Italy,0,75000,False,False,False,False,890864,ITA1
-10366,10369,30557,30557,ITA1,2013,s,Parma FC,Italy,left,163673,Diego Mella,20,Italy,midfielder,Fc Inter,Italy,0,100000,False,False,False,False,891098,ITA1
-10367,10370,30558,30558,ITA1,2013,s,Parma FC,Italy,left,136102,Jacopo Galimberti,20,Italy,defender,Fc Inter,Italy,0,150000,False,False,False,False,891099,ITA1
+10366,10369,30557,30557,ITA1,2013,s,Parma FC,Italy,left,163673,Diego Mella,20,Italy,midfielder,FC Inter,Italy,0,100000,False,False,False,False,891098,ITA1
+10367,10370,30558,30558,ITA1,2013,s,Parma FC,Italy,left,136102,Jacopo Galimberti,20,Italy,defender,FC Inter,Italy,0,150000,False,False,False,False,891099,ITA1
 10368,10371,30559,30559,ITA1,2013,s,Parma FC,Italy,left,29605,Daniel Ciofani,27,Italy,striker,Frosinone Calcio,Italy,0,400000,False,False,False,False,897223,ITA1
 10369,10372,30560,30560,ITA1,2013,s,Parma FC,Italy,left,127769,Nwankwo Obiora,21,Nigeria,midfielder,CFR Cluj,Romania,0,800000,False,False,False,False,899284,ROM
 10370,10373,30561,30561,ITA1,2013,s,Parma FC,Italy,left,94297,Tomislav Saric,23,Croatia,midfielder,FC Crotone,Italy,0,1000000,False,False,False,False,901150,ITA2
@@ -8771,13 +8770,13 @@
 10485,10488,30676,30676,ITA1,2013,s,Parma FC,Italy,left,203361,Manuel Arteaga,19,Venezuela,striker,Zulia FC,Venezuela,0,300000,False,True,True,False,778511,VEN
 10486,10489,30677,30677,ITA1,2013,s,Parma FC,Italy,left,88712,Rodney Strasser,23,Sierra Leone,midfielder,AC Milan,Italy,0,1200000,False,True,True,False,827772,ITA1
 10487,10490,30678,30678,ITA1,2013,s,Parma FC,Italy,left,28833,Andrea Coda,28,Italy,defender,Udinese Calcio,Italy,0,1000000,False,True,True,False,830071,ITA1
-10488,10491,30679,30679,ITA1,2013,s,Parma FC,Italy,left,37124,McDonald Mariga,26,Kenya,midfielder,Fc Inter,Italy,0,3800000,False,True,True,False,831537,ITA1
+10488,10491,30679,30679,ITA1,2013,s,Parma FC,Italy,left,37124,McDonald Mariga,26,Kenya,midfielder,FC Inter,Italy,0,3800000,False,True,True,False,831537,ITA1
 10489,10492,30680,30680,ITA1,2013,s,Parma FC,Italy,left,174852,Emilio Mac Eachen,21,Uruguay,defender,CA Peñarol,Uruguay,0,300000,False,True,True,False,934071,URU
-10490,10493,30683,30683,ITA1,2013,s,Palermo,Italy,left,20003,Matías Silvestre,28,Argentina,defender,Fc Inter,Italy,6000000,6000000,False,False,False,False,896349,ITA1
-10491,10494,30685,30685,URU,2013,s,Defensor Sporting Club,Uruguay,left,230552,Diego Laxalt,20,Uruguay,defender,Fc Inter,Italy,2300000,2300000,False,False,False,False,835069,ITA1
-10492,10495,30688,30688,ITA1,2013,s,AC Cesena,Italy,left,88680,Luca Caldirola,22,Italy,defender,Fc Inter,Italy,750000,3000000,False,False,False,False,892480,ITA1
-10493,10496,30689,30689,POR1,2013,s,FC Porto,Portugal,left,27300,Rolando,27,Portugal,defender,Fc Inter,Italy,500000,10000000,False,True,False,False,928351,ITA1
-10494,10497,30690,30690,ITA2,2013,s,Calcio Como,Italy,left,88713,Luca Tremolada,21,Italy,midfielder,Fc Inter,Italy,50000,325000,False,False,False,False,899105,ITA1
+10490,10493,30683,30683,ITA1,2013,s,Palermo,Italy,left,20003,Matías Silvestre,28,Argentina,defender,FC Inter,Italy,6000000,6000000,False,False,False,False,896349,ITA1
+10491,10494,30685,30685,URU,2013,s,Defensor Sporting Club,Uruguay,left,230552,Diego Laxalt,20,Uruguay,defender,FC Inter,Italy,2300000,2300000,False,False,False,False,835069,ITA1
+10492,10495,30688,30688,ITA1,2013,s,AC Cesena,Italy,left,88680,Luca Caldirola,22,Italy,defender,FC Inter,Italy,750000,3000000,False,False,False,False,892480,ITA1
+10493,10496,30689,30689,POR1,2013,s,FC Porto,Portugal,left,27300,Rolando,27,Portugal,defender,FC Inter,Italy,500000,10000000,False,True,False,False,928351,ITA1
+10494,10497,30690,30690,ITA2,2013,s,Calcio Como,Italy,left,88713,Luca Tremolada,21,Italy,midfielder,FC Inter,Italy,50000,325000,False,False,False,False,899105,ITA1
 10497,10500,30697,30697,ITA1,2013,s,FC Inter,Italy,left,88684,Giulio Donati,23,Italy,defender,Bayer 04 Leverkusen,Germany,3000000,750000,False,False,False,False,891241,GER1
 10498,10501,30698,30698,ITA1,2013,s,FC Inter,Italy,left,88680,Luca Caldirola,22,Italy,defender,SV Werder Bremen,Germany,2250000,3000000,False,False,False,False,894341,GER1
 10499,10502,30703,30703,ITA1,2013,s,FC Inter,Italy,left,124555,Cristiano Biraghi,20,Italy,defender,AS Cittadella,Italy,150000,800000,False,False,False,False,892366,ITA2
@@ -8855,7 +8854,7 @@
 10602,10605,30837,30837,SWE,2013,w,Malmö FF,Sweden,left,49144,Erik Friberg,27,Sweden,midfielder,Bologna FC 1909,Italy,190000,1000000,False,False,False,False,1010878,ITA1
 10603,10606,30838,30838,BRA,2013,w,Sport Club Corinthians Paulista,Brazil,left,29377,Ibson,30,Brazil,midfielder,Bologna FC 1909,Italy,0,2000000,True,False,False,False,1012546,ITA1
 10604,10607,30839,30839,ITA1,2013,w,Bologna FC 1909,Italy,left,23197,Alessandro Diamanti,30,Italy,midfielder,Guangzhou Evergrande,China,7500000,8000000,False,False,False,False,1016510,CHI
-10615,10618,30850,30850,ITA1,2013,w,Bologna FC 1909,Italy,left,81396,Denis Alibec,23,Romania,striker,Fc Inter,Italy,0,500000,False,True,True,False,901258,ITA1
+10615,10618,30850,30850,ITA1,2013,w,Bologna FC 1909,Italy,left,81396,Denis Alibec,23,Romania,striker,FC Inter,Italy,0,500000,False,True,True,False,901258,ITA1
 10616,10619,30851,30851,ITA2,2013,w,AS Bari,Italy,left,233654,Francesco Fedato,21,Italy,striker,UC Sampdoria,Italy,900000,550000,False,False,False,False,1077661,ITA1
 10617,10620,30852,30852,ITA1,2013,w,Calcio Catania,Italy,left,26263,Maxi López,29,Argentina,striker,UC Sampdoria,Italy,0,3500000,False,True,False,False,1008580,ITA1
 10618,10621,30853,30853,ITA1,2013,w,Parma FC,Italy,left,35249,Stefano Okaka,24,Italy,striker,UC Sampdoria,Italy,0,1200000,False,False,False,False,1011864,ITA1
@@ -8880,7 +8879,7 @@
 10639,10642,30875,30875,ITA1,2013,w,FC Inter,Italy,left,111039,Ishak Belfodil,22,Algeria,striker,AS Livorno,Italy,1000000,11000000,False,True,False,False,1012324,ITA1
 10640,10643,30877,30877,ITA1,2013,w,Parma FC,Italy,left,17735,Djamel Mesbah,29,Algeria,defender,AS Livorno,Italy,0,600000,False,True,False,False,1009545,ITA1
 10641,10644,30878,30878,ITA1,2013,w,AS Livorno,Italy,left,56762,Pasquale Schiattarella,26,Italy,midfielder,Spezia Calcio,Italy,1200000,1600000,False,False,False,False,999301,ITA2
-10642,10645,30879,30879,ITA1,2013,w,AS Livorno,Italy,left,88542,Rubén Botta,23,Argentina,midfielder,Fc Inter,Italy,0,5000000,True,False,False,False,940176,ITA1
+10642,10645,30879,30879,ITA1,2013,w,AS Livorno,Italy,left,88542,Rubén Botta,23,Argentina,midfielder,FC Inter,Italy,0,5000000,True,False,False,False,940176,ITA1
 10643,10646,30880,30880,ITA1,2013,w,AS Livorno,Italy,left,82834,Antonio Meola,23,Italy,defender,FC Crotone,Italy,0,75000,False,True,False,False,1011270,ITA2
 10644,10647,30881,30881,ITA1,2013,w,AS Livorno,Italy,left,220978,Andrea Gasbarro,19,Italy,defender,US Città di Pontedera,Italy,0,75000,False,False,False,False,1025378,ITA3
 10645,10648,30882,30882,ITA1,2013,w,AS Livorno,Italy,left,154578,Saulo Decarli,21,Switzerland,defender,AS Avellino 1912,Italy,0,700000,False,True,False,False,996400,ITA2
@@ -8936,8 +8935,8 @@
 10704,10707,30959,30959,ITA1,2013,w,AS Roma,Italy,left,232577,Jonatan Lucca,19,Brazil,midfielder,Clube Atlético Paranaense B,Brazil,0,500000,False,True,False,False,1012035,BRA
 10705,10708,30960,30960,ITA1,2013,w,AS Roma,Italy,left,53288,Marquinho,27,Brazil,midfielder,Hellas Verona,Italy,0,4000000,False,True,False,False,1012146,ITA1
 10706,10709,30961,30961,ITA1,2013,w,AS Roma,Italy,left,195588,Francis Obeng,27,Ghana,midfielder,Santarcangelo Calcio,Italy,0,0,False,True,False,False,1156483,ITA3
-10707,10710,30962,30962,ITA1,2013,w,SS Lazio,Italy,left,52897,Hernanes,28,Brazil,midfielder,Fc Inter,Italy,18000000,22000000,False,False,False,False,1012308,ITA1
-10708,10711,30963,30963,ITA1,2013,w,Torino FC,Italy,left,55769,Danilo D'Ambrosio,25,Italy,defender,Fc Inter,Italy,3790000,5000000,False,False,False,False,1009742,ITA1
+10707,10710,30962,30962,ITA1,2013,w,SS Lazio,Italy,left,52897,Hernanes,28,Brazil,midfielder,FC Inter,Italy,18000000,22000000,False,False,False,False,1012308,ITA1
+10708,10711,30963,30963,ITA1,2013,w,Torino FC,Italy,left,55769,Danilo D'Ambrosio,25,Italy,defender,FC Inter,Italy,3790000,5000000,False,False,False,False,1009742,ITA1
 10709,10712,30966,30966,ITA1,2013,w,FC Inter,Italy,left,81396,Denis Alibec,23,Romania,striker,Astra Giurgiu,Romania,200000,500000,False,False,False,False,995420,ROM
 10710,10713,30967,30967,ITA1,2013,w,FC Inter,Italy,left,119164,Ezequiel Schelotto,24,Italy,defender,Parma FC,Italy,0,5000000,False,True,False,False,1004318,ITA1
 10711,10714,30968,30968,ITA1,2013,w,FC Inter,Italy,left,240292,Stefano Tonsi,19,Italy,midfielder,USD Novese,Italy,0,100000,False,False,False,False,1001987,ITA4
@@ -9028,7 +9027,7 @@
 10804,10807,31077,31077,ITA1,2013,w,Hellas Verona,Italy,left,143090,Dino Martinovic,23,Slovenia,striker,FC Lugano,Switzerland,0,100000,False,True,False,False,1009280,SWI
 10805,10808,31078,31078,ITA1,2013,w,Hellas Verona,Italy,left,127643,Kris Jogan,22,Slovenia,striker,SF Aversa Normanna,Italy,0,150000,False,True,False,False,1010178,ITA3
 10807,10810,31080,31080,ITA1,2013,w,Hellas Verona,Italy,left,101425,Amadou Samb,25,Senegal,striker,KF Teuta,Albania,0,125000,False,True,False,False,1017514,ALB
-10808,10811,31081,31081,ITA1,2013,w,Hellas Verona,Italy,left,124560,Samuele Longo,22,Italy,striker,Fc Inter,Italy,0,2000000,False,True,True,False,934921,ITA1
+10808,10811,31081,31081,ITA1,2013,w,Hellas Verona,Italy,left,124560,Samuele Longo,22,Italy,striker,FC Inter,Italy,0,2000000,False,True,True,False,934921,ITA1
 10809,10812,31082,31082,ITA1,2013,w,Hellas Verona,Italy,left,55001,Matteo Rubin,26,Italy,defender,AC Siena,Italy,0,900000,False,True,True,False,943421,ITA1
 10810,10813,31086,31086,ITA1,2013,w,SS Lazio,Italy,left,30638,Sergio Floccari,32,Italy,striker,US Sassuolo,Italy,2000000,2300000,False,False,False,False,1010891,ITA1
 10811,10814,31087,31087,ITA1,2013,w,SS Lazio,Italy,left,127224,Luca Crescenzi,21,Italy,defender,AC Pisa 1909,Italy,0,250000,False,True,False,False,1001151,ITA3
@@ -9059,9 +9058,8 @@
 10840,10843,31134,31134,ITA1,2013,w,US Sassuolo,Italy,left,41935,Lino Marzorati,27,Italy,defender,Modena FC,Italy,0,600000,False,False,False,False,1008914,ITA2
 10841,10844,31135,31135,ITA1,2013,w,US Sassuolo,Italy,left,140303,Raffaele D'Orsi,22,Italy,defender,FC Pavia 1911,Italy,0,100000,False,True,False,False,1013875,ITA3
 10842,10845,31136,31136,ITA1,2013,w,US Sassuolo,Italy,left,163630,Luca Benedetti,21,Italy,defender,SEF Torres 1903,Italy,0,125000,False,True,False,False,1013340,ITA3
-10843,10846,31138,31138,ITA1,2013,w,US Sassuolo,Italy,left,208693,Aladje,20,Portugal,striker,AC Delta Porto Tolle,Italy,0,400000,False,True,False,False,1000353,ITA4
 10844,10847,31139,31139,ITA1,2013,w,US Sassuolo,Italy,left,124911,Karim Laribi,22,Tunisia,midfielder,US Latina Calcio,Italy,0,500000,False,True,False,False,996042,ITA2
-10845,10848,31140,31140,ITA1,2013,w,US Sassuolo,Italy,left,119164,Ezequiel Schelotto,24,Italy,defender,Fc Inter,Italy,0,5000000,False,True,True,False,939820,ITA1
+10845,10848,31140,31140,ITA1,2013,w,US Sassuolo,Italy,left,119164,Ezequiel Schelotto,24,Italy,defender,FC Inter,Italy,0,5000000,False,True,True,False,939820,ITA1
 10846,10849,31141,31141,ITA1,2013,w,US Sassuolo,Italy,left,6442,Antonio Rosati,30,Italy,goalkeeper,SSC Napoli,Italy,0,800000,False,True,True,False,906091,ITA1
 10847,10850,31142,31142,UKR,2014,s,Metalist Kharkiv (- 2016),Ukraine,left,20005,Papu Gómez,26,Argentina,midfielder,Atalanta BC,Italy,4470000,8000000,False,False,False,False,1123240,ITA1
 10848,10851,31143,31143,ITA1,2014,s,Juventus FC,Italy,left,119213,Richmond Boakye,21,Ghana,striker,Atalanta BC,Italy,2700000,3000000,False,False,False,False,1091818,ITA1
@@ -9406,14 +9404,14 @@
 11267,11270,31596,31596,ITA1,2014,s,Hellas Verona,Italy,left,121756,Rômulo,27,Italy,defender,ACF Fiorentina,Italy,0,8000000,False,True,True,False,931522,ITA1
 11268,11271,31597,31597,ITA1,2014,s,Hellas Verona,Italy,left,19708,Boško Janković,30,Serbia,striker,Genoa CFC,Italy,0,2500000,False,True,True,False,915873,ITA1
 11269,11272,31598,31598,ITA1,2014,s,Hellas Verona,Italy,left,131209,Ezequiel Cirigliano,22,Argentina,midfielder,CA River Plate,Argentina,0,1600000,False,True,True,False,911703,ARG
-11270,11273,31599,31599,ENG2,2014,s,Cardiff City,England,left,60889,Gary Medel,27,Chile,defender,Fc Inter,Italy,8000000,11000000,False,False,False,False,1109165,ITA1
-11271,11274,31600,31600,ITA1,2014,s,Bologna FC 1909,Italy,left,199902,Andrea Bandini,20,Italy,defender,Fc Inter,Italy,1250000,150000,False,False,False,False,1073601,ITA1
-11272,11275,31601,31601,ITA1,2014,s,Bologna FC 1909,Italy,left,73092,Rene Krhin,24,Slovenia,midfielder,Fc Inter,Italy,1200000,3000000,False,False,False,False,1073802,ITA1
-11273,11276,31602,31602,ITA1,2014,s,AS Roma,Italy,left,109038,Dodô,22,Brazil,defender,Fc Inter,Italy,1200000,3500000,False,True,False,False,1082169,ITA1
-11274,11277,31603,31603,RUS,2014,s,Rubin Kazan,Russia,left,60573,Yann M'Vila,24,France,midfielder,Fc Inter,Italy,1000000,15000000,False,True,False,False,1086858,ITA1
-11275,11278,31604,31604,ITA2,2014,s,AS Cittadella,Italy,left,124555,Cristiano Biraghi,21,Italy,defender,Fc Inter,Italy,700000,1200000,False,False,False,False,1073620,ITA1
-11276,11279,31605,31605,ITA2,2014,s,Brescia Calcio,Italy,left,43095,Adama Fofana,24,Cote d'Ivoire,striker,Fc Inter,Italy,0,75000,True,False,False,False,1077326,ITA1
-11277,11280,31606,31606,ITA1,2014,s,Torino FC,Italy,left,21752,Tommaso Berni,31,Italy,goalkeeper,Fc Inter,Italy,0,400000,True,False,False,False,1077699,ITA1
+11270,11273,31599,31599,ENG2,2014,s,Cardiff City,England,left,60889,Gary Medel,27,Chile,defender,FC Inter,Italy,8000000,11000000,False,False,False,False,1109165,ITA1
+11271,11274,31600,31600,ITA1,2014,s,Bologna FC 1909,Italy,left,199902,Andrea Bandini,20,Italy,defender,FC Inter,Italy,1250000,150000,False,False,False,False,1073601,ITA1
+11272,11275,31601,31601,ITA1,2014,s,Bologna FC 1909,Italy,left,73092,Rene Krhin,24,Slovenia,midfielder,FC Inter,Italy,1200000,3000000,False,False,False,False,1073802,ITA1
+11273,11276,31602,31602,ITA1,2014,s,AS Roma,Italy,left,109038,Dodô,22,Brazil,defender,FC Inter,Italy,1200000,3500000,False,True,False,False,1082169,ITA1
+11274,11277,31603,31603,RUS,2014,s,Rubin Kazan,Russia,left,60573,Yann M'Vila,24,France,midfielder,FC Inter,Italy,1000000,15000000,False,True,False,False,1086858,ITA1
+11275,11278,31604,31604,ITA2,2014,s,AS Cittadella,Italy,left,124555,Cristiano Biraghi,21,Italy,defender,FC Inter,Italy,700000,1200000,False,False,False,False,1073620,ITA1
+11276,11279,31605,31605,ITA2,2014,s,Brescia Calcio,Italy,left,43095,Adama Fofana,24,Cote d'Ivoire,striker,FC Inter,Italy,0,75000,True,False,False,False,1077326,ITA1
+11277,11280,31606,31606,ITA1,2014,s,Torino FC,Italy,left,21752,Tommaso Berni,31,Italy,goalkeeper,FC Inter,Italy,0,400000,True,False,False,False,1077699,ITA1
 11284,11287,31615,31615,ITA1,2014,s,FC Inter,Italy,left,111039,Ishak Belfodil,22,Algeria,striker,Parma FC,Italy,5750000,11000000,False,False,False,False,1073603,ITA1
 11285,11288,31616,31616,ITA1,2014,s,FC Inter,Italy,left,201040,Marco Benassi,19,Italy,midfielder,Torino FC,Italy,4800000,1900000,False,False,False,False,1077235,ITA1
 11287,11290,31621,31621,ITA1,2014,s,FC Inter,Italy,left,184894,Alfred Duncan,21,Ghana,midfielder,UC Sampdoria,Italy,800000,4500000,False,True,False,False,1089570,ITA1
@@ -9487,7 +9485,6 @@
 11379,11382,31737,31737,ITA1,2014,s,SS Lazio,Italy,left,127222,Tommaso Ceccarelli,22,Italy,striker,L'Aquila Calcio,Italy,150000,300000,False,False,False,False,1123241,ITA3
 11380,11383,31738,31738,ITA1,2014,s,SS Lazio,Italy,left,199747,Andrea Sbraga,22,Italy,defender,Carrarese Calcio 1908,Italy,0,200000,True,False,False,False,1102816,ITA3
 11381,11384,31739,31739,ITA1,2014,s,SS Lazio,Italy,left,127220,Giuseppe Capua,22,Italy,midfielder,SF Aversa Normanna,Italy,0,100000,True,False,False,False,1109238,ITA3
-11382,11385,31740,31740,ITA1,2014,s,SS Lazio,Italy,left,165884,Gianmarco Falasca,21,Italy,midfielder,Terracina Calcio,Italy,0,125000,True,False,False,False,1135802,ITA4
 11383,11386,31742,31742,ITA1,2014,s,SS Lazio,Italy,left,168213,Salam Dene,21,Burkina Faso,striker,Biancoscudati Padova,Italy,0,50000,True,False,False,False,1016636,ITA4
 11384,11387,31743,31743,ITA1,2014,s,SS Lazio,Italy,left,73932,Alessio Luciani,24,Italy,defender,AS Gubbio 1910,Italy,0,125000,True,False,False,False,1098704,ITA2
 11385,11388,31744,31744,ITA1,2014,s,SS Lazio,Italy,left,127224,Luca Crescenzi,22,Italy,defender,Reggina Calcio,Italy,0,200000,False,True,False,False,1115373,ITA2
@@ -9543,7 +9540,7 @@
 11441,11444,31813,31813,ITA1,2014,s,AC Milan,Italy,left,52150,Mitja Novinic,23,Slovenia,midfielder,Without Club,Without Club,0,75000,False,False,False,False,1290814,WIT
 11442,11445,31814,31814,ITA1,2014,s,AC Milan,Italy,left,16810,Marco Amelia,32,Italy,goalkeeper,Without Club,Without Club,0,1200000,False,False,False,False,1077147,WIT
 11443,11446,31815,31815,ITA1,2014,s,AC Milan,Italy,left,131779,Luca Santonocito,23,Italy,midfielder,Without Club,Without Club,0,25000,False,False,False,False,1076380,WIT
-11444,11447,31818,31818,ITA1,2014,s,AC Milan,Italy,left,20003,Matías Silvestre,29,Argentina,defender,Fc Inter,Italy,0,5000000,False,True,True,False,922300,ITA1
+11444,11447,31818,31818,ITA1,2014,s,AC Milan,Italy,left,20003,Matías Silvestre,29,Argentina,defender,FC Inter,Italy,0,5000000,False,True,True,False,922300,ITA1
 11445,11448,31819,31819,BEL,2014,s,KRC Genk,Belgium,left,93128,Kalidou Koulibaly,23,Senegal,defender,SSC Napoli,Italy,7750000,6500000,False,False,False,False,1077086,ITA1
 11446,11449,31822,31822,ITA1,2014,s,Calcio Catania,Italy,left,35491,Mariano Andújar,30,Argentina,goalkeeper,SSC Napoli,Italy,2000000,3800000,False,False,False,False,1007671,ITA1
 11447,11450,31825,31825,ITA1,2014,s,SSC Napoli,Italy,left,21905,Valon Behrami,29,Switzerland,midfielder,Hamburger SV,Germany,6000000,12000000,False,False,False,False,1102135,GER1
@@ -9759,13 +9756,13 @@
 11687,11690,32094,32094,ITA1,2014,s,Parma FC,Italy,left,167710,Giuseppe Pasquariello,20,Italy,striker,Without Club,Without Club,0,50000,False,False,False,False,1152934,WIT
 11688,11691,32095,32095,ITA1,2014,s,Parma FC,Italy,left,111039,Ishak Belfodil,23,Algeria,striker,Without Club,Without Club,0,4000000,False,False,False,False,1241610,WIT
 11689,11692,32096,32096,ITA1,2014,s,Parma FC,Italy,left,4049,Tomas Danilevicius,35,Lithuania,striker,Retired,Retired,0,100000,False,False,False,True,1924293,RET
-11690,11693,32097,32097,ITA1,2014,s,Parma FC,Italy,left,5962,Antonio Cassano,31,Italy,striker,Fc Inter,Italy,0,5500000,False,True,True,False,901644,ITA1
+11690,11693,32097,32097,ITA1,2014,s,Parma FC,Italy,left,5962,Antonio Cassano,31,Italy,striker,FC Inter,Italy,0,5500000,False,True,True,False,901644,ITA1
 11691,11694,32098,32098,ITA1,2014,s,Parma FC,Italy,left,21859,Mattia Cassani,30,Italy,defender,ACF Fiorentina,Italy,0,2500000,False,True,True,False,927431,ITA1
 11692,11695,32099,32099,ITA1,2014,s,Parma FC,Italy,left,52266,Walter Gargano,29,Uruguay,midfielder,SSC Napoli,Italy,0,7500000,False,True,True,False,942173,ITA1
-11693,11696,32100,32100,ITA1,2014,s,Parma FC,Italy,left,45581,Joel Obi,23,Nigeria,midfielder,Fc Inter,Italy,0,5000000,False,True,True,False,943018,ITA1
+11693,11696,32100,32100,ITA1,2014,s,Parma FC,Italy,left,45581,Joel Obi,23,Nigeria,midfielder,FC Inter,Italy,0,5000000,False,True,True,False,943018,ITA1
 11694,11697,32101,32101,ITA1,2014,s,Parma FC,Italy,left,262972,Jherson Vergara,20,Colombia,defender,AC Milan,Italy,0,1000000,False,True,True,False,1002017,ITA1
 11695,11698,32102,32102,ITA1,2014,s,Parma FC,Italy,left,54916,Jonathan Rossini,25,Switzerland,defender,US Sassuolo,Italy,0,1000000,False,True,True,False,1004315,ITA1
-11696,11699,32103,32103,ITA1,2014,s,Parma FC,Italy,left,119164,Ezequiel Schelotto,25,Italy,defender,Fc Inter,Italy,0,5000000,False,True,True,False,1004319,ITA1
+11696,11699,32103,32103,ITA1,2014,s,Parma FC,Italy,left,119164,Ezequiel Schelotto,25,Italy,defender,FC Inter,Italy,0,5000000,False,True,True,False,1004319,ITA1
 11697,11700,32105,32105,GRE,2014,s,Olympiacos Piraeus,Greece,left,104752,Konstantinos Manolas,23,Greece,defender,AS Roma,Italy,15000000,6000000,False,False,False,False,1119008,ITA1
 11698,11701,32107,32107,ITA1,2014,s,US Sassuolo,Italy,left,234523,Antonio Sanabria,18,Paraguay,striker,AS Roma,Italy,6200000,4500000,False,False,False,False,1009409,ITA1
 11699,11702,32108,32108,TUR,2014,s,Fenerbahce SK,Turkey,left,170838,Salih Ucan,20,Turkey,midfielder,AS Roma,Italy,4750000,3500000,False,True,False,False,1081204,ITA1
@@ -9811,8 +9808,6 @@
 11742,11745,32172,32172,ITA1,2014,s,UC Sampdoria,Italy,left,46728,Savvas Gentsoglou,23,Greece,midfielder,GS Ergotelis,Greece,0,800000,True,False,False,False,1120995,GRE
 11743,11746,32173,32173,ITA1,2014,s,UC Sampdoria,Italy,left,199585,Gianluca Cafferata,20,Italy,defender,FC Vado,Italy,0,100000,True,False,False,False,1128103,ITA4
 11744,11747,32174,32174,ITA1,2014,s,UC Sampdoria,Italy,left,162946,Gregorio Luperini,20,Italy,midfielder,US Città di Pontedera,Italy,0,50000,True,False,False,False,1077652,ITA3
-11745,11748,32175,32175,ITA1,2014,s,UC Sampdoria,Italy,left,167888,Alessandro Lorusso,23,Italy,defender,Terracina Calcio,Italy,0,200000,True,False,False,False,1128104,ITA4
-11746,11749,32176,32176,ITA1,2014,s,UC Sampdoria,Italy,left,120652,Stefano D'Agostino,22,Italy,midfielder,Terracina Calcio,Italy,0,75000,True,False,False,False,1078155,ITA4
 11747,11750,32178,32178,ITA1,2014,s,UC Sampdoria,Italy,left,162955,Luca Piana,20,Italy,defender,US Pistoiese 1921,Italy,0,125000,False,True,False,False,1082636,ITA3
 11749,11752,32180,32180,ITA1,2014,s,UC Sampdoria,Italy,left,175788,Andrea Magrassi,21,Italy,striker,AS Martina Franca,Italy,0,100000,False,True,False,False,1123644,ITA3
 11750,11753,32181,32181,ITA1,2014,s,UC Sampdoria,Italy,left,34453,Birkir Bjarnason,26,Iceland,midfielder,Delfino Pescara 1936,Italy,20000,1000000,False,False,False,False,1072241,ITA1
@@ -9963,7 +9958,7 @@
 11916,11919,32401,32401,ITA1,2014,w,Empoli FC,Italy,left,240114,Roberto Silvestri,19,Italy,midfielder,US Gavorrano,Italy,0,75000,False,True,False,False,1366562,ITA4
 11917,11920,32402,32402,ITA1,2014,w,Empoli FC,Italy,left,163668,Lúan Menegaz,21,Brazil,defender,Without Club,Without Club,0,0,False,False,False,False,1145357,WIT
 11918,11921,32403,32403,ITA1,2014,w,Empoli FC,Italy,left,44294,Romano Perticone,28,Italy,defender,Novara Calcio 1908,Italy,0,450000,False,True,True,False,1179299,ITA1
-11919,11922,32404,32404,ITA1,2014,w,Empoli FC,Italy,left,230552,Diego Laxalt,21,Uruguay,defender,Fc Inter,Italy,0,3000000,False,True,True,False,1110400,ITA1
+11919,11922,32404,32404,ITA1,2014,w,Empoli FC,Italy,left,230552,Diego Laxalt,21,Uruguay,defender,FC Inter,Italy,0,3000000,False,True,True,False,1110400,ITA1
 11920,11923,32405,32405,ITA1,2014,w,Empoli FC,Italy,left,160986,Matteo Bianchetti,21,Italy,defender,Hellas Verona,Italy,0,1400000,False,True,True,False,1109216,ITA1
 11922,11925,32407,32407,DEN,2014,w,FC Nordsjaelland,Denmark,left,77259,Anders Christiansen,24,Denmark,midfielder,Chievo Verona,Italy,750000,900000,False,False,False,False,1174583,ITA1
 11923,11926,32408,32408,ITA3,2014,w,SSD Monza 1912,Italy,left,173860,Myles Anderson,25,England,defender,Chievo Verona,Italy,0,50000,True,False,False,False,1186407,ITA1
@@ -10017,8 +10012,8 @@
 11988,11991,32482,32482,ITA1,2014,w,Hellas Verona,Italy,left,160986,Matteo Bianchetti,21,Italy,defender,Spezia Calcio,Italy,0,1400000,False,True,False,False,1183483,ITA2
 11989,11992,32483,32483,ITA1,2014,w,Hellas Verona,Italy,left,63965,Michael Rabusic,25,Czech Republic,striker,FC Crotone,Italy,0,700000,False,True,False,False,1186454,ITA2
 11990,11993,32484,32484,ITA1,2014,w,Hellas Verona,Italy,left,226010,Riccardo Ravasi,20,Italy,striker,Pordenone Calcio,Italy,0,75000,False,True,False,False,1183488,ITA3
-11991,11994,32486,32486,CRO,2014,w,GNK Dinamo Zagreb,Croatia,left,156617,Marcelo Brozovic,22,Croatia,midfielder,Fc Inter,Italy,3000000,5500000,False,True,False,False,1181719,ITA1
-11992,11995,32488,32488,BRA,2014,w,Club de Regatas Vasco da Gama U17,Brazil,left,355475,Ítalo,19,Brazil,defender,Fc Inter,Italy,0,0,True,False,False,False,1186224,ITA1
+11991,11994,32486,32486,CRO,2014,w,GNK Dinamo Zagreb,Croatia,left,156617,Marcelo Brozovic,22,Croatia,midfielder,FC Inter,Italy,3000000,5500000,False,True,False,False,1181719,ITA1
+11992,11995,32488,32488,BRA,2014,w,Club de Regatas Vasco da Gama U17,Brazil,left,355475,Ítalo,19,Brazil,defender,FC Inter,Italy,0,0,True,False,False,False,1186224,ITA1
 11998,12001,32495,32495,ITA1,2014,w,FC Inter,Italy,left,241527,Federico Bonazzoli,17,Italy,striker,UC Sampdoria,Italy,4500000,2500000,False,False,False,False,1185980,ITA1
 11999,12002,32496,32496,ITA1,2014,w,FC Inter,Italy,left,54859,Álvaro Pereira,29,Uruguay,defender,Club Estudiantes de La Plata,Argentina,1000000,6000000,False,True,False,False,1179290,ARG
 12000,12003,32497,32497,ITA1,2014,w,FC Inter,Italy,left,207715,Ibrahima Mbaye,20,Senegal,defender,Bologna FC 1909,Italy,500000,6500000,False,True,False,False,1179752,ITA1
@@ -10085,7 +10080,6 @@
 12076,12079,32593,32593,ITA1,2014,w,Parma FC,Italy,left,43895,Gianluca Turchetta,23,Italy,striker,SS Barletta Calcio,Italy,0,150000,False,True,False,False,1177917,ITA3
 12077,12080,32594,32594,ITA1,2014,w,Parma FC,Italy,left,107873,Manuel Giandonato,23,Italy,midfielder,US Catanzaro,Italy,0,250000,False,True,False,False,1177581,ITA3
 12078,12081,32595,32595,ITA1,2014,w,Parma FC,Italy,left,163215,Daniele Bernasconi,22,Italy,striker,SSD Monza 1912,Italy,0,175000,False,True,False,False,1187048,ITA3
-12079,12082,32596,32596,ITA1,2014,w,Parma FC,Italy,left,102625,Giuseppe Caccavallo,27,Italy,striker,Casertana FC,Italy,0,300000,False,True,False,False,1173385,ITA3
 12080,12083,32597,32597,ITA1,2014,w,Parma FC,Italy,left,61606,Matteo Legittimo,25,Italy,defender,US Grosseto FC,Italy,0,275000,False,True,False,False,1167944,ITA2
 12081,12084,32598,32598,ITA1,2014,w,Parma FC,Italy,left,60727,Andrea Rossini,24,Italy,goalkeeper,Savona FBC,Italy,0,200000,False,True,False,False,1170300,ITA3
 12082,12085,32599,32599,ITA1,2014,w,Parma FC,Italy,left,286857,Vittorio Attili,19,Italy,midfielder,AS Gualdo Casacastalda,Italy,0,25000,False,True,False,False,1195626,ITA4
@@ -10157,7 +10151,6 @@
 12155,12158,32693,32693,ITA1,2014,w,Torino FC,Italy,left,22203,Antonio Nocerino,29,Italy,midfielder,AC Milan,Italy,0,4500000,False,True,True,False,1077921,ITA1
 12156,12159,32696,32696,ITA1,2014,w,Udinese Calcio,Italy,left,43082,Nicola Belmonte,27,Italy,defender,Calcio Catania,Italy,0,100000,True,False,False,False,1170858,ITA1
 12157,12160,32697,32697,ITA1,2014,w,Udinese Calcio,Italy,left,89450,Alexandre Coeff,22,France,defender,Mouscron-Péruwelz,Belgium,0,800000,False,True,False,False,1182064,BEL
-12158,12161,32698,32698,ITA1,2014,w,Udinese Calcio,Italy,left,204073,Tom Syku,19,Albania,defender,Imolese Calcio 1919,Italy,0,75000,False,True,False,False,1253629,ITA4
 12159,12162,32699,32699,ITA1,2014,w,Udinese Calcio,Italy,left,44227,Ivan Kelava,26,Croatia,goalkeeper,Spartak Trnava,Slovakia,0,1000000,False,True,False,False,1187493,SLO
 12160,12163,32701,32701,ITA1,2014,w,Udinese Calcio,Italy,left,240400,Agostino Camigliano,20,Italy,defender,AS Cittadella,Italy,0,500000,False,True,False,False,1177929,ITA2
 12161,12164,32703,32703,ITA1,2014,w,Udinese Calcio,Italy,left,209864,Pape Dia,21,Senegal,striker,San Marino,Italy,0,75000,False,True,False,False,1172565,ITA3
@@ -10264,7 +10257,7 @@
 12273,12276,32825,32825,ITA1,2015,s,AS Roma,Italy,left,57480,Mapou Yanga-Mbiwa,26,France,defender,Olympique Lyon,France,9400000,6500000,False,False,False,False,1319709,FRA1
 12274,12277,32826,32826,ITA1,2015,s,AS Roma,Italy,left,88683,Mattia Destro,24,Italy,striker,Bologna FC 1909,Italy,8500000,16500000,False,False,False,False,1324573,ITA1
 12275,12278,32827,32827,ITA1,2015,s,AS Roma,Italy,left,165900,Federico Viviani,23,Italy,midfielder,Hellas Verona,Italy,4000000,2800000,False,False,False,False,1273215,ITA1
-12276,12279,32830,32830,ITA1,2015,s,AS Roma,Italy,left,69374,Adem Ljajic,23,Serbia,midfielder,Fc Inter,Italy,1750000,13500000,False,True,False,False,1333437,ITA1
+12276,12279,32830,32830,ITA1,2015,s,AS Roma,Italy,left,69374,Adem Ljajic,23,Serbia,midfielder,FC Inter,Italy,1750000,13500000,False,True,False,False,1333437,ITA1
 12277,12280,32831,32831,ITA1,2015,s,AS Roma,Italy,left,145416,Junior Tallo,22,Cote d'Ivoire,striker,LOSC Lille,France,1000000,2000000,False,False,False,False,1287607,FRA1
 12278,12281,32832,32832,ITA1,2015,s,AS Roma,Italy,left,75287,Seydou Doumbia,27,Cote d'Ivoire,striker,CSKA Moscow,Russia,1000000,25000000,False,True,False,False,1315353,RUS
 12279,12282,32833,32833,ITA1,2015,s,AS Roma,Italy,left,53288,Marquinho,29,Brazil,midfielder,Udinese Calcio,Italy,500000,2000000,False,False,False,False,1321820,ITA1
@@ -10278,7 +10271,6 @@
 12287,12290,32841,32841,ITA1,2015,s,AS Roma,Italy,left,165885,Paolo Frascatore,23,Italy,defender,AC Reggiana 1919,Italy,0,275000,False,True,False,False,1308174,ITA3
 12288,12291,32842,32842,ITA1,2015,s,AS Roma,Italy,left,198084,Marco Frediani,21,Italy,striker,Ascoli Picchio,Italy,0,325000,False,True,False,False,1283907,ITA2
 12289,12292,32843,32843,ITA1,2015,s,AS Roma,Italy,left,159902,Amato Ciciretti,21,Italy,striker,Benevento Calcio,Italy,0,200000,False,False,False,False,1308176,ITA3
-12290,12293,32844,32844,ITA1,2015,s,AS Roma,Italy,left,239568,Simone Battaglia,20,Italy,midfielder,SS Monopoli 1966,Italy,0,150000,False,True,False,False,1323791,ITA3
 12291,12294,32845,32845,ITA1,2015,s,AS Roma,Italy,left,166237,Leandro Paredes,21,Argentina,midfielder,Empoli FC,Italy,0,3700000,False,True,False,False,1333076,ITA1
 12292,12295,32846,32846,ITA1,2015,s,AS Roma,Italy,left,80894,Lukasz Skorupski,24,Poland,goalkeeper,Empoli FC,Italy,0,1500000,False,True,False,False,1273197,ITA1
 12293,12296,32847,32847,ITA1,2015,s,AS Roma,Italy,left,198088,Mattia Rosato,21,Italy,defender,ASD Lupa Castelli Romani,Italy,0,75000,False,True,False,False,1319954,ITA3
@@ -10499,20 +10491,20 @@
 12526,12529,33102,33102,ITA1,2015,s,UC Sampdoria,Italy,left,240964,Mattia Placido,20,Italy,midfielder,US Pistoiese 1921,Italy,0,100000,False,True,False,False,1280316,ITA3
 12527,12530,33103,33103,ITA1,2015,s,UC Sampdoria,Italy,left,84846,Gianluca Sansone,28,Italy,striker,Bari,Italy,0,1800000,False,True,False,False,1287515,ITA2
 12528,12531,33104,33104,ITA1,2015,s,UC Sampdoria,Italy,left,167889,Alessandro Martinelli,22,Switzerland,midfielder,Brescia Calcio,Italy,0,150000,False,True,False,False,1282247,ITA2
-12529,12532,33105,33105,ITA1,2015,s,UC Sampdoria,Italy,left,184894,Alfred Duncan,22,Ghana,midfielder,Fc Inter,Italy,0,4500000,False,True,True,False,1089571,ITA1
-12530,12533,33106,33106,ITA1,2015,s,UC Sampdoria,Italy,left,20003,Matías Silvestre,30,Argentina,defender,Fc Inter,Italy,0,3700000,False,True,True,False,1120993,ITA1
+12529,12532,33105,33105,ITA1,2015,s,UC Sampdoria,Italy,left,184894,Alfred Duncan,22,Ghana,midfielder,FC Inter,Italy,0,4500000,False,True,True,False,1089571,ITA1
+12530,12533,33106,33106,ITA1,2015,s,UC Sampdoria,Italy,left,20003,Matías Silvestre,30,Argentina,defender,FC Inter,Italy,0,3700000,False,True,True,False,1120993,ITA1
 12531,12534,33107,33107,ITA1,2015,s,UC Sampdoria,Italy,left,188338,Luka Djordjevic,20,Montenegro,striker,Zenit St. Petersburg,Russia,0,1200000,False,True,True,False,1123560,RUS
 12532,12535,33108,33108,ITA1,2015,s,UC Sampdoria,Italy,left,44832,Alberto Frison,27,Italy,goalkeeper,Calcio Catania,Italy,0,1200000,False,True,True,False,1178752,ITA1
 12533,12536,33109,33109,ITA1,2015,s,UC Sampdoria,Italy,left,119228,Luis Muriel,24,Colombia,striker,Udinese Calcio,Italy,0,10000000,False,True,True,False,1178755,ITA1
 12534,12537,33110,33110,ITA1,2015,s,UC Sampdoria,Italy,left,28833,Andrea Coda,30,Italy,defender,Udinese Calcio,Italy,0,300000,False,True,True,False,1178757,ITA1
 12535,12538,33111,33111,ITA1,2015,s,UC Sampdoria,Italy,left,75127,Ezequiel Muñoz,24,Argentina,defender,Palermo,Italy,0,4500000,False,True,True,False,1186356,ITA1
 12536,12539,33112,33112,ITA1,2015,s,UC Sampdoria,Italy,left,145581,Afriyie Acquah,23,Ghana,midfielder,TSG 1899 Hoffenheim,Germany,0,3000000,False,True,True,False,1186610,GER1
-12537,12540,33113,33113,FRA1,2015,s,AS Monaco,France,left,127189,Geoffrey Kondogbia,22,Central African Republic,midfielder,Fc Inter,Italy,36000000,16000000,False,False,False,False,1265395,ITA1
-12538,12541,33114,33114,GER1,2015,s,VfL Wolfsburg,Germany,left,42460,Ivan Perisic,26,Croatia,midfielder,Fc Inter,Italy,19000000,13000000,False,False,False,False,1332529,ITA1
-12539,12542,33115,33115,GER1,2015,s,Bayern Munich,Germany,left,86792,Xherdan Shaqiri,23,Switzerland,striker,Fc Inter,Italy,15000000,20000000,False,False,False,False,1170979,ITA1
-12540,12543,33117,33117,TUR,2015,s,Galatasaray A.S.,Turkey,left,35537,Felipe Melo,32,Brazil,midfielder,Fc Inter,Italy,4200000,7000000,False,False,False,False,1333461,ITA1
-12541,12544,33120,33120,ITAJ,2015,s,Genoa Primavera,Italy,left,240822,Vincenzo Tommasone,20,Italy,striker,Fc Inter,Italy,3700000,25000,False,False,False,False,1268693,ITA1
-12542,12545,33124,33124,TUR,2015,s,Galatasaray A.S.,Turkey,left,255755,Alex Telles,22,Brazil,defender,Fc Inter,Italy,1300000,6500000,False,True,False,False,1333469,ITA1
+12537,12540,33113,33113,FRA1,2015,s,AS Monaco,France,left,127189,Geoffrey Kondogbia,22,Central African Republic,midfielder,FC Inter,Italy,36000000,16000000,False,False,False,False,1265395,ITA1
+12538,12541,33114,33114,GER1,2015,s,VfL Wolfsburg,Germany,left,42460,Ivan Perisic,26,Croatia,midfielder,FC Inter,Italy,19000000,13000000,False,False,False,False,1332529,ITA1
+12539,12542,33115,33115,GER1,2015,s,Bayern Munich,Germany,left,86792,Xherdan Shaqiri,23,Switzerland,striker,FC Inter,Italy,15000000,20000000,False,False,False,False,1170979,ITA1
+12540,12543,33117,33117,TUR,2015,s,Galatasaray A.S.,Turkey,left,35537,Felipe Melo,32,Brazil,midfielder,FC Inter,Italy,4200000,7000000,False,False,False,False,1333461,ITA1
+12541,12544,33120,33120,ITAJ,2015,s,Genoa Primavera,Italy,left,240822,Vincenzo Tommasone,20,Italy,striker,FC Inter,Italy,3700000,25000,False,False,False,False,1268693,ITA1
+12542,12545,33124,33124,TUR,2015,s,Galatasaray A.S.,Turkey,left,255755,Alex Telles,22,Brazil,defender,FC Inter,Italy,1300000,6500000,False,True,False,False,1333469,ITA1
 12549,12552,33136,33136,ITA1,2015,s,FC Inter,Italy,left,207715,Ibrahima Mbaye,20,Senegal,defender,Bologna FC 1909,Italy,3500000,6500000,False,False,False,False,1257716,ITA1
 12550,12553,33137,33137,ITA1,2015,s,FC Inter,Italy,left,88542,Rubén Botta,25,Argentina,midfielder,CF Pachuca,Mexico,2700000,4000000,False,False,False,False,1276970,MEX
 12551,12554,33139,33139,ITA1,2015,s,FC Inter,Italy,left,45581,Joel Obi,24,Nigeria,midfielder,Torino FC,Italy,2200000,2000000,False,False,False,False,1275430,ITA1
@@ -10671,7 +10663,6 @@
 12752,12755,33381,33381,ITAJ,2015,s,Hellas Verona Primavera,Italy,left,297731,Enrico Bearzotti,18,Italy,defender,Hellas Verona,Italy,0,75000,False,False,False,False,1911931,ITA1
 12754,12757,33383,33383,ITA1,2015,s,Hellas Verona,Italy,left,216872,Francesco Zampano,21,Italy,defender,Delfino Pescara 1936,Italy,850000,1000000,False,False,False,False,1298040,ITA1
 12755,12758,33384,33384,ITA1,2015,s,Hellas Verona,Italy,left,21829,Francesco Benussi,33,Italy,goalkeeper,Carpi FC 1909,Italy,0,100000,True,False,False,False,1276136,ITA1
-12756,12759,33385,33385,ITA1,2015,s,Hellas Verona,Italy,left,22823,Gennaro Esposito,30,Italy,midfielder,ASD Comprensorio Casalnuovese,Italy,0,200000,True,False,False,False,1270738,ITA4
 12757,12760,33386,33386,ITA1,2015,s,Hellas Verona,Italy,left,7611,Javier Saviola,33,Argentina,striker,CA River Plate,Argentina,0,1000000,True,False,False,False,1265494,ARG
 12758,12761,33387,33387,ITA1,2015,s,Hellas Verona,Italy,left,200133,Fabio Alba,20,Italy,midfielder,Virtusvecomp Verona SSD,Italy,0,75000,True,False,False,False,1257660,ITA4
 12759,12762,33388,33388,ITA1,2015,s,Hellas Verona,Italy,left,166608,Pasquale De Vita,21,Italy,midfielder,Trapani Calcio,Italy,0,75000,True,False,False,False,1323122,ITA2
@@ -10736,11 +10727,11 @@
 12855,12858,33490,33490,ITA1,2015,s,Chievo Verona,Italy,left,16117,Nicola Pozzi,29,Italy,striker,Parma Calcio 1913,Italy,0,1000000,False,True,True,False,1186371,ITA4
 12856,12859,33491,33491,ITA1,2015,s,Chievo Verona,Italy,left,128931,Giannis Fetfatzidis,24,Greece,striker,Genoa CFC,Italy,0,4000000,False,True,True,False,1184043,ITA1
 12857,12860,33492,33492,ITA1,2015,s,Chievo Verona,Italy,left,99327,Isaac Cofie,23,Ghana,midfielder,Genoa CFC,Italy,0,2000000,False,True,True,False,1120424,ITA1
-12858,12861,33493,33493,ITA1,2015,s,Chievo Verona,Italy,left,119164,Ezequiel Schelotto,26,Italy,defender,Fc Inter,Italy,0,4000000,False,True,True,False,1119201,ITA1
-12859,12862,33494,33494,ITA1,2015,s,Chievo Verona,Italy,left,88542,Rubén Botta,25,Argentina,midfielder,Fc Inter,Italy,0,4000000,False,True,True,False,1119097,ITA1
+12858,12861,33493,33493,ITA1,2015,s,Chievo Verona,Italy,left,119164,Ezequiel Schelotto,26,Italy,defender,FC Inter,Italy,0,4000000,False,True,True,False,1119201,ITA1
+12859,12862,33494,33494,ITA1,2015,s,Chievo Verona,Italy,left,88542,Rubén Botta,25,Argentina,midfielder,FC Inter,Italy,0,4000000,False,True,True,False,1119097,ITA1
 12860,12863,33495,33495,ITA1,2015,s,Chievo Verona,Italy,left,26105,Valter Birsa,28,Slovenia,midfielder,AC Milan,Italy,0,2000000,False,True,True,False,1083089,ITA1
-12861,12864,33496,33496,ITA1,2015,s,Chievo Verona,Italy,left,124555,Cristiano Biraghi,22,Italy,defender,Fc Inter,Italy,0,2000000,False,True,True,False,1080091,ITA1
-12862,12865,33497,33497,ITA1,2015,s,Chievo Verona,Italy,left,110925,Francesco Bardi,23,Italy,goalkeeper,Fc Inter,Italy,0,7000000,False,True,True,False,1079661,ITA1
+12861,12864,33496,33496,ITA1,2015,s,Chievo Verona,Italy,left,124555,Cristiano Biraghi,22,Italy,defender,FC Inter,Italy,0,2000000,False,True,True,False,1080091,ITA1
+12862,12865,33497,33497,ITA1,2015,s,Chievo Verona,Italy,left,110925,Francesco Bardi,23,Italy,goalkeeper,FC Inter,Italy,0,7000000,False,True,True,False,1079661,ITA1
 12863,12866,33498,33498,ITA1,2015,s,Chievo Verona,Italy,left,44059,Ervin Zukanovic,28,Bosnia-Herzegovina,defender,KAA Gent,Belgium,0,4000000,False,True,True,False,1073578,BEL
 12864,12867,33503,33503,RUS,2015,s,Rubin Kazan,Russia,left,95438,Marko Livaja,22,Croatia,striker,Empoli FC,Italy,300000,3000000,False,True,False,False,1332846,ITA1
 12865,12868,33504,33504,ITA4,2015,s,Parma Calcio 1913,Italy,left,34336,Andrea Costa,29,Italy,defender,Empoli FC,Italy,0,750000,True,False,False,False,1293873,ITA1
@@ -10776,7 +10767,6 @@
 12900,12903,33550,33550,ITAJ,2015,s,Udinese Primavera,Italy,left,319160,Jakub Jankto,19,Czech Republic,midfielder,Udinese Calcio,Italy,0,100000,False,False,False,False,1700185,ITA1
 12902,12905,33557,33557,ITA1,2015,s,Udinese Calcio,Italy,left,148666,Naldo,26,Brazil,defender,Sporting CP,Portugal,3000000,700000,False,False,False,False,1289324,POR1
 12903,12906,33558,33558,ITA1,2015,s,Udinese Calcio,Italy,left,220793,Douglas Santos,21,Brazil,defender,Clube Atlético Mineiro,Brazil,3000000,3250000,False,False,False,False,1294330,BRA
-12904,12907,33560,33560,ITA1,2015,s,Udinese Calcio,Italy,left,204073,Tom Syku,19,Albania,defender,Imolese Calcio 1919,Italy,0,75000,True,False,False,False,1296230,ITA4
 12905,12908,33561,33561,ITA1,2015,s,Udinese Calcio,Italy,left,240397,Marco Bertoia,20,Italy,midfielder,ASD Sanvitese,Italy,0,75000,True,False,False,False,1312203,ITA4
 12906,12909,33564,33564,ITA1,2015,s,Udinese Calcio,Italy,left,15981,Álex Geijo,33,Spain,striker,Brescia Calcio,Italy,0,300000,True,False,False,False,1333488,ITA2
 12907,12910,33565,33565,ITA1,2015,s,Udinese Calcio,Italy,left,83368,Abdoul Wahid Sissoko,25,Mali,midfielder,RCD Mallorca,Spain,0,1500000,True,False,False,False,1333585,SPA2
@@ -10852,9 +10842,9 @@
 13026,13029,33707,33707,ITA1,2015,s,Bologna FC 1909,Italy,left,56853,Federico Casarini,25,Italy,midfielder,Without Club,Without Club,0,900000,False,False,False,False,1273526,WIT
 13027,13030,33708,33708,ITA1,2015,s,Bologna FC 1909,Italy,left,20378,Diego Pérez,35,Uruguay,midfielder,Retired,Retired,0,100000,False,False,False,True,1270732,RET
 13029,13032,33710,33710,ITA1,2015,s,Bologna FC 1909,Italy,left,56790,Nenad Krsticic,24,Serbia,midfielder,UC Sampdoria,Italy,0,2800000,False,True,True,False,1185260,ITA1
-13030,13033,33711,33711,ITA1,2015,s,Bologna FC 1909,Italy,left,207715,Ibrahima Mbaye,20,Senegal,defender,Fc Inter,Italy,0,6500000,False,True,True,False,1179753,ITA1
+13030,13033,33711,33711,ITA1,2015,s,Bologna FC 1909,Italy,left,207715,Ibrahima Mbaye,20,Senegal,defender,FC Inter,Italy,0,6500000,False,True,True,False,1179753,ITA1
 13031,13034,33712,33712,ITA1,2015,s,Bologna FC 1909,Italy,left,84846,Gianluca Sansone,28,Italy,striker,UC Sampdoria,Italy,0,1800000,False,True,True,False,1169747,ITA1
-13032,13035,33713,33713,ITA1,2015,s,Bologna FC 1909,Italy,left,140757,Daniel Bessa,22,Italy,midfielder,Fc Inter,Italy,0,500000,False,True,True,False,1122807,ITA1
+13032,13035,33713,33713,ITA1,2015,s,Bologna FC 1909,Italy,left,140757,Daniel Bessa,22,Italy,midfielder,FC Inter,Italy,0,500000,False,True,True,False,1122807,ITA1
 13033,13036,33714,33714,ITA1,2015,s,Bologna FC 1909,Italy,left,163489,Riccardo Improta,21,Italy,striker,Genoa CFC,Italy,0,1100000,False,True,True,False,1122649,ITA1
 13034,13037,33715,33715,ITA1,2015,s,Bologna FC 1909,Italy,left,74956,Marcel Büchel,24,Liechtenstein,midfielder,Juventus FC,Italy,0,600000,False,True,True,False,1118848,ITA1
 13035,13038,33716,33716,ITA1,2015,s,Bologna FC 1909,Italy,left,124911,Karim Laribi,24,Tunisia,midfielder,US Sassuolo,Italy,0,1400000,False,True,True,False,1092765,ITA1
@@ -10934,7 +10924,6 @@
 13115,13118,33817,33817,ITA1,2015,w,AS Roma,Italy,left,226025,Luca Mazzitelli,20,Italy,midfielder,US Sassuolo,Italy,3500000,1000000,False,False,False,False,1426207,ITA1
 13116,13119,33818,33818,ITA1,2015,w,AS Roma,Italy,left,240365,Michele Somma,20,Italy,defender,Brescia Calcio,Italy,1800000,400000,False,False,False,False,1425813,ITA2
 13117,13120,33821,33821,ITA1,2015,w,AS Roma,Italy,left,3182,Ashley Cole,35,England,defender,Los Angeles Galaxy,United States,0,500000,True,False,False,False,1420014,UNI
-13118,13121,33822,33822,ITA1,2015,w,AS Roma,Italy,left,176023,Alexis Ferrante,20,Italy,striker,Imolese Calcio 1919,Italy,0,225000,True,False,False,False,1373648,ITA4
 13119,13122,33823,33823,ITA1,2015,w,AS Roma,Italy,left,198084,Marco Frediani,21,Italy,striker,US Ancona,Italy,0,325000,False,True,False,False,1421386,ITA3
 13120,13123,33824,33824,ITA1,2015,w,AS Roma,Italy,left,165894,Giammario Piscitella,22,Italy,striker,Bassano Virtus 55 ST,Italy,0,400000,False,True,False,False,1398008,ITA3
 13121,13124,33825,33825,ITA1,2015,w,AS Roma,Italy,left,245078,Nemanja Radonjic,19,Serbia,midfielder,FK Cukaricki,Serbia,0,50000,False,True,False,False,1386643,SER
@@ -10943,7 +10932,6 @@
 13124,13127,33828,33828,ITA1,2015,w,AS Roma,Italy,left,186393,Tomas Vestenicky,19,Slovakia,striker,Cracovia,Poland,0,200000,False,True,False,False,1439606,POL
 13125,13128,33829,33829,ITA1,2015,w,AS Roma,Italy,left,176180,Nicola Falasco,22,Italy,defender,AC Cesena,Italy,0,100000,False,True,False,False,1425267,ITA1
 13126,13129,33830,33830,ITA1,2015,w,AS Roma,Italy,left,286296,Franck Cedric,20,Cameroon,striker,Robur Siena,Italy,0,100000,False,True,False,False,1420026,ITA3
-13127,13130,33831,33831,ITA1,2015,w,AS Roma,Italy,left,238950,Francesco Di Mariano,19,Italy,striker,SS Monopoli 1966,Italy,0,225000,False,True,False,False,1414468,ITA3
 13128,13131,33832,33832,ITA1,2015,w,AS Roma,Italy,left,240897,Arturo Calabresi,19,Italy,defender,Brescia Calcio,Italy,0,300000,False,True,False,False,1408672,ITA2
 13129,13132,33833,33833,ITA1,2015,w,AS Roma,Italy,left,130369,Stefano Pettinari,23,Italy,striker,Calcio Como,Italy,0,1300000,False,True,False,False,1405459,ITA2
 13130,13133,33834,33834,ITA1,2015,w,AS Roma,Italy,left,256361,Daniele Verde,19,Italy,striker,Delfino Pescara 1936,Italy,0,1000000,False,True,False,False,1400282,ITA1
@@ -11006,7 +10994,7 @@
 13189,13192,33906,33906,ITA1,2015,w,Frosinone Calcio,Italy,left,41749,Modibo Diakité,28,France,defender,UC Sampdoria,Italy,0,1000000,True,False,False,False,1425273,ITA1
 13190,13193,33907,33907,ITA1,2015,w,Torino FC,Italy,left,22328,Fabio Quagliarella,33,Italy,striker,UC Sampdoria,Italy,0,3000000,False,True,False,False,1424652,ITA1
 13193,13196,33910,33910,ITA1,2015,w,Hellas Verona,Italy,left,96806,Jacopo Sala,24,Italy,midfielder,UC Sampdoria,Italy,2600000,2500000,False,True,False,False,1423015,ITA1
-13194,13197,33911,33911,ITA1,2015,w,UC Sampdoria,Italy,left,37418,Éder,29,Italy,striker,Fc Inter,Italy,2000000,5000000,False,True,False,False,1421858,ITA1
+13194,13197,33911,33911,ITA1,2015,w,UC Sampdoria,Italy,left,37418,Éder,29,Italy,striker,FC Inter,Italy,2000000,5000000,False,True,False,False,1421858,ITA1
 13195,13198,33914,33914,ITA1,2015,w,UC Sampdoria,Italy,left,242550,Edoardo Oneto,19,Italy,striker,Real Oviedo Vetusta,Spain,0,125000,True,False,False,False,1407221,SPA2
 13196,13199,33915,33915,ITA1,2015,w,UC Sampdoria,Italy,left,175788,Andrea Magrassi,22,Italy,striker,AC Mestre,Italy,0,125000,True,False,False,False,1410717,ITA4
 13197,13200,33916,33916,ITA1,2015,w,UC Sampdoria,Italy,left,257118,Michele Rocca,19,Italy,midfielder,SS Virtus Lanciano,Italy,0,250000,False,True,False,False,1424494,ITA2
@@ -11019,10 +11007,8 @@
 13213,13216,33935,33935,ITA1,2015,w,FC Inter,Italy,left,120772,Edmund Hottor,22,Ghana,midfielder,Atlético CP,Portugal,0,50000,False,True,False,False,1424787,POR2
 13215,13218,33937,33937,ITA1,2015,w,FC Inter,Italy,left,19726,Nemanja Vidic‎,34,Serbia,defender,Retired,Retired,0,500000,False,False,False,True,1411325,RET
 13216,13219,33940,33940,ITA1,2015,w,Torino FC,Italy,left,113612,Sergiu Suciu,25,Romania,midfielder,US Cremonese,Italy,0,250000,False,True,False,False,1399540,ITA3
-13217,13220,33941,33941,ITA1,2015,w,Torino FC,Italy,left,256008,Facundo Lescano,19,Argentina,striker,SS Monopoli 1966,Italy,0,300000,False,True,False,False,1406057,ITA3
 13218,13221,33942,33942,ITA1,2015,w,Torino FC,Italy,left,214635,Claudio Morra,21,Italy,striker,Savona FBC,Italy,0,125000,False,True,False,False,1421892,ITA3
 13219,13222,33944,33944,ITA1,2015,w,Torino FC,Italy,left,169249,Juan Sánchez Miño,26,Argentina,midfielder,Cruzeiro Esporte Clube,Brazil,0,2500000,False,True,False,False,1403346,BRA
-13220,13223,33945,33945,ITA1,2015,w,Torino FC,Italy,left,247377,Kevin Bonifazi,19,Italy,defender,Casertana FC,Italy,0,150000,False,True,False,False,1406984,ITA3
 13221,13224,33946,33946,ITA1,2015,w,Torino FC,Italy,left,354381,Maurice Gomis,18,Guinea-Bissau,goalkeeper,AC Mestre,Italy,0,50000,False,True,False,False,1407147,ITA4
 13222,13225,33947,33947,ITA1,2015,w,Torino FC,Italy,left,198976,Abou Diop,22,Senegal,striker,SS Juve Stabia,Italy,0,375000,False,True,False,False,1418187,ITA2
 13223,13226,33948,33948,ITA1,2015,w,Torino FC,Italy,left,125783,Sanjin Prcic,22,Bosnia-Herzegovina,midfielder,AC Perugia Calcio,Italy,0,1400000,False,True,False,False,1424045,ITA2
@@ -11097,7 +11083,6 @@
 13328,13331,34078,34078,ITA1,2015,w,US Lecce,Italy,left,70689,Filippo Falco,23,Italy,striker,Bologna FC 1909,Italy,1200000,900000,False,False,False,False,1322806,ITA1
 13330,13333,34082,34082,ITA1,2015,w,Bologna FC 1909,Italy,left,197490,Riccardo Benatti,21,Italy,striker,Castelvetro Calcio,Italy,0,50000,True,False,False,False,1387585,ITA4
 13331,13334,34083,34083,ITA1,2015,w,Bologna FC 1909,Italy,left,38602,Nico Pulzetti,31,Italy,midfielder,Spezia Calcio,Italy,0,600000,True,False,False,False,1399963,ITA2
-13332,13335,34084,34084,ITA1,2015,w,Bologna FC 1909,Italy,left,240388,Nicolò Scalini,20,Italy,midfielder,Imolese Calcio 1919,Italy,0,75000,True,False,False,False,1420663,ITA4
 13340,13343,34092,34092,ITA1,2015,w,Bologna FC 1909,Italy,left,70689,Filippo Falco,23,Italy,striker,US Lecce,Italy,0,900000,False,True,True,False,1322384,ITA1
 13341,13344,34093,34093,ITA2,2015,w,Bari,Italy,left,167491,Stefano Sabelli,23,Italy,defender,Carpi FC 1909,Italy,300000,1500000,False,True,False,False,1414025,ITA1
 13342,13345,34097,34097,ITA2,2015,w,Bari,Italy,left,61358,Filippo Porcari,31,Italy,midfielder,Carpi FC 1909,Italy,0,800000,False,True,False,False,1425686,ITA1
@@ -11175,12 +11160,12 @@
 13875,13878,46382,46382,ITA2,2011,s,Delfino Pescara 1936,Italy,left,96853,Adrian Stoian,20,Romania,striker,AS Roma,Italy,0,175000,False,True,True,False,451343,ITA1
 13876,13879,46383,46383,ITA2,2011,s,Delfino Pescara 1936,Italy,left,78615,Lorenzo Del Prete,25,Italy,defender,AC Siena,Italy,0,250000,False,True,True,False,452313,ITA1
 13897,13900,46415,46415,ITA2,2011,s,Hellas Verona,Italy,left,34335,Anderson,28,Brazil,defender,Retired,Retired,0,4750000,False,False,False,True,609092,RET
-13901,13904,46419,46419,ITA2,2011,s,Hellas Verona,Italy,left,88698,Aiman Napoli,21,Italy,striker,Fc Inter,Italy,0,600000,False,True,True,False,534918,ITA1
+13901,13904,46419,46419,ITA2,2011,s,Hellas Verona,Italy,left,88698,Aiman Napoli,21,Italy,striker,FC Inter,Italy,0,600000,False,True,True,False,534918,ITA1
 13903,13906,46422,46422,ITA2,2011,s,Hellas Verona,Italy,left,44376,Christian Tiboni,23,Italy,striker,Atalanta BC,Italy,0,250000,False,True,True,False,535319,ITA1
 13910,13913,46437,46437,ITA1,2011,s,Carpi FC 1909,Italy,left,84838,Ahmed Guilouzi,21,Tunisia,midfielder,Modena FC,Italy,0,50000,False,True,True,False,462349,ITA2
 13915,13918,46448,46448,ITA2,2011,s,Modena FC,Italy,left,120235,Riccardo Pasi,20,Italy,midfielder,Parma FC,Italy,0,100000,False,True,True,False,456294,ITA1
 13916,13919,46449,46449,ITA2,2011,s,Modena FC,Italy,left,92880,Andrea Mazzarani,21,Italy,midfielder,Udinese Calcio,Italy,0,950000,False,True,True,False,462656,ITA1
-13917,13920,46450,46450,ITA2,2011,s,Modena FC,Italy,left,34334,Enrico Alfonso,23,Italy,goalkeeper,Fc Inter,Italy,0,1000000,False,True,True,False,318319,ITA1
+13917,13920,46450,46450,ITA2,2011,s,Modena FC,Italy,left,34334,Enrico Alfonso,23,Italy,goalkeeper,FC Inter,Italy,0,1000000,False,True,True,False,318319,ITA1
 13918,13921,46451,46451,ITA2,2011,s,Modena FC,Italy,left,61863,Edgar Cani,21,Albania,striker,Palermo,Italy,0,600000,False,True,True,False,455008,ITA1
 13919,13922,46452,46452,ITA2,2011,s,Modena FC,Italy,left,54920,Mirko Velardi,23,Italy,midfielder,Palermo,Italy,0,300000,False,True,True,False,451351,ITA1
 13920,13923,46453,46453,ITA2,2011,s,Modena FC,Italy,left,62379,Cristian Pasquato,21,Italy,midfielder,Juventus FC,Italy,0,800000,False,True,True,False,463992,ITA1
@@ -11237,7 +11222,7 @@
 14192,14196,46856,46856,ITA2,2011,w,ASG Nocerina,Italy,left,167900,Daniele Donnarumma,19,Italy,defender,SSC Napoli,Italy,0,100000,False,True,True,False,601567,ITA1
 14200,14204,46866,46866,ITA3,2011,w,FC Südtirol-Alto Adige,Italy,left,82835,Marco Martin,24,Italy,defender,Delfino Pescara 1936,Italy,0,150000,False,True,False,False,662222,ITA2
 14213,14217,46880,46880,ITA2,2011,w,Delfino Pescara 1936,Italy,left,75411,Carlo Pinsoglio,21,Italy,goalkeeper,Juventus FC,Italy,0,350000,False,True,True,False,450874,ITA1
-14220,14224,46888,46888,ITA2,2011,w,Hellas Verona,Italy,left,110933,Felice Natalino,19,Italy,defender,Fc Inter,Italy,0,500000,False,True,True,False,622748,ITA1
+14220,14224,46888,46888,ITA2,2011,w,Hellas Verona,Italy,left,110933,Felice Natalino,19,Italy,defender,FC Inter,Italy,0,500000,False,True,True,False,622748,ITA1
 14223,14227,46895,46895,ITA2,2011,w,Modena FC,Italy,left,24292,Marco Bernacci,27,Italy,striker,Bologna FC 1909,Italy,0,0,False,True,True,False,598907,ITA1
 14237,14241,46917,46917,ITA2,2011,w,AS Bari,Italy,left,7103,Marcos De Paula,28,Brazil,striker,Chievo Verona,Italy,0,350000,False,True,True,False,627991,ITA1
 14238,14242,46918,46918,ITA2,2011,w,AS Bari,Italy,left,110934,Simone Sini,19,Italy,defender,AS Roma,Italy,0,250000,False,True,True,False,616720,ITA1
@@ -11250,7 +11235,7 @@
 14289,14293,46998,46998,ITA2,2012,s,Calcio Padova,Italy,left,29208,Davide Succi,30,Italy,striker,Palermo,Italy,0,1000000,False,True,True,False,468819,ITA1
 14290,14294,46999,46999,ITA2,2012,s,Calcio Padova,Italy,left,110923,Mattia Perin,19,Italy,goalkeeper,Genoa CFC,Italy,0,2500000,False,True,True,False,597904,ITA1
 14291,14295,47000,47000,ITA2,2012,s,Calcio Padova,Italy,left,28857,Raffaele Schiavi,26,Italy,defender,Parma FC,Italy,0,800000,False,True,True,False,604210,ITA1
-14292,14296,47001,47001,ITA2,2012,s,Calcio Padova,Italy,left,88684,Giulio Donati,22,Italy,defender,Fc Inter,Italy,0,850000,False,True,True,False,604143,ITA1
+14292,14296,47001,47001,ITA2,2012,s,Calcio Padova,Italy,left,88684,Giulio Donati,22,Italy,defender,FC Inter,Italy,0,850000,False,True,True,False,604143,ITA1
 14304,14308,47018,47018,ITAJ,2012,s,Milan Primavera,Italy,left,199252,Alessio Innocenti,19,Argentina,midfielder,FC Pro Vercelli 1892,Italy,0,250000,False,True,False,False,752344,ITA2
 14316,14320,47034,47034,ITA2,2012,s,FC Pro Vercelli 1892,Italy,left,85883,Simone Malatesta,30,Italy,striker,Parma FC,Italy,0,350000,False,True,True,False,518262,ITA1
 14318,14322,47036,47036,ITA2,2012,s,FC Pro Vercelli 1892,Italy,left,160188,Marcão,20,Brazil,goalkeeper,ACF Fiorentina,Italy,0,50000,False,True,True,False,621334,ITA1
@@ -11265,7 +11250,7 @@
 14393,14397,47139,47139,ITA2,2012,s,US Sassuolo,Italy,left,99327,Isaac Cofie,20,Ghana,midfielder,Genoa CFC,Italy,0,2500000,False,True,True,False,593991,ITA1
 14394,14398,47140,47140,ITA2,2012,s,US Sassuolo,Italy,left,119213,Richmond Boakye,19,Ghana,striker,Genoa CFC,Italy,0,5000000,False,True,True,False,593989,ITA1
 14418,14422,47173,47173,ITA2,2012,s,SS Juve Stabia,Italy,left,84766,Francesco Di Tacchio,22,Italy,midfielder,ACF Fiorentina,Italy,0,300000,False,True,True,False,600555,ITA1
-14419,14423,47174,47174,ITA2,2012,s,SS Juve Stabia,Italy,left,124555,Cristiano Biraghi,19,Italy,defender,Fc Inter,Italy,0,300000,False,True,True,False,598508,ITA1
+14419,14423,47174,47174,ITA2,2012,s,SS Juve Stabia,Italy,left,124555,Cristiano Biraghi,19,Italy,defender,FC Inter,Italy,0,300000,False,True,True,False,598508,ITA1
 14420,14424,47176,47176,ITA2,2012,s,SS Juve Stabia,Italy,left,129625,Alessio De Bode,21,Italy,defender,Genoa CFC,Italy,0,100000,False,True,True,False,603248,ITA1
 14422,14426,47179,47179,ITA2,2012,s,SS Juve Stabia,Italy,left,85208,Matteo Scozzarella,24,Italy,midfielder,Atalanta BC,Italy,0,400000,False,True,True,False,607723,ITA1
 14424,14428,47181,47181,ITA2,2012,s,SS Juve Stabia,Italy,left,130380,Daniel Cappelletti,20,Italy,defender,Palermo,Italy,0,175000,False,True,True,False,666522,ITA1
@@ -11293,18 +11278,18 @@
 14528,14532,47320,47320,ITA2,2012,s,US Grosseto FC,Italy,left,43112,Sergio Viotti,22,Italy,goalkeeper,Chievo Verona,Italy,0,300000,False,True,True,False,680620,ITA1
 14530,14534,47322,47322,ITA2,2012,s,US Grosseto FC,Italy,left,133951,Francesco Bossa,22,Italy,defender,Udinese Calcio,Italy,0,75000,False,True,True,False,598493,ITA1
 14542,14546,47337,47337,ITA2,2012,s,AS Cittadella,Italy,left,134883,Daniele Baselli,20,Italy,midfielder,Atalanta BC,Italy,0,150000,False,True,True,False,604250,ITA1
-14543,14547,47338,47338,ITA2,2012,s,AS Cittadella,Italy,left,124555,Cristiano Biraghi,20,Italy,defender,Fc Inter,Italy,0,800000,False,True,True,False,749151,ITA1
+14543,14547,47338,47338,ITA2,2012,s,AS Cittadella,Italy,left,124555,Cristiano Biraghi,20,Italy,defender,FC Inter,Italy,0,800000,False,True,True,False,749151,ITA1
 14544,14548,47340,47340,ITA4,2012,s,Roma Primavera,Italy,left,130365,Alessandro Florenzi,21,Italy,defender,FC Crotone,Italy,250000,1500000,False,False,False,False,732958,ITA2
 14563,14567,47364,47364,ITA2,2012,s,FC Crotone,Italy,left,130365,Alessandro Florenzi,21,Italy,defender,Roma Primavera,Italy,0,1500000,False,True,True,False,610843,ITA4
 14564,14568,47365,47365,ITA2,2012,s,FC Crotone,Italy,left,67556,Milan Djuric,22,Bosnia-Herzegovina,striker,Parma FC,Italy,0,750000,False,True,True,False,532891,ITA1
 14565,14569,47366,47366,ITA2,2012,s,FC Crotone,Italy,left,130369,Stefano Pettinari,20,Italy,striker,AS Roma,Italy,0,500000,False,True,True,False,594833,ITA1
 14566,14570,47367,47367,ITA2,2012,s,FC Crotone,Italy,left,56860,Davide Colomba,23,Italy,midfielder,Parma FC,Italy,0,75000,False,True,True,False,603256,ITA1
 14567,14571,47368,47368,ITA2,2012,s,FC Crotone,Italy,left,50198,Oussama Essabr,23,Morocco,striker,Juventus FC,Italy,0,75000,False,True,True,False,680515,ITA1
-14571,14575,47372,47372,ITA2,2012,s,FC Crotone,Italy,left,110933,Felice Natalino,20,Italy,defender,Fc Inter,Italy,0,350000,False,True,True,False,680495,ITA1
+14571,14575,47372,47372,ITA2,2012,s,FC Crotone,Italy,left,110933,Felice Natalino,20,Italy,defender,FC Inter,Italy,0,350000,False,True,True,False,680495,ITA1
 14579,14583,47394,47394,ITA4,2012,s,Calcio Lecco 1912,Italy,left,83393,Solomon Enow,25,Cameroon,defender,Spezia Calcio,Italy,0,75000,False,True,True,False,680923,ITA2
 14599,14603,47420,47420,ITA2,2012,s,Spezia Calcio,Italy,left,22235,Filippo Carobbio,32,Italy,midfielder,AC Siena,Italy,0,0,False,True,True,False,599841,ITA1
 14603,14607,47424,47424,ITA2,2012,s,Spezia Calcio,Italy,left,160561,Fabio Lucioni,24,Italy,defender,AC Siena,Italy,0,275000,False,True,True,False,609064,ITA1
-14641,14645,47473,47473,ITA2,2012,s,Brescia Calcio,Italy,left,88680,Luca Caldirola,21,Italy,defender,Fc Inter,Italy,0,2500000,False,True,True,False,666524,ITA1
+14641,14645,47473,47473,ITA2,2012,s,Brescia Calcio,Italy,left,88680,Luca Caldirola,21,Italy,defender,FC Inter,Italy,0,2500000,False,True,True,False,666524,ITA1
 14642,14646,47474,47474,ITA2,2012,s,Brescia Calcio,Italy,left,44514,Federico Piovaccari,27,Italy,striker,UC Sampdoria,Italy,0,800000,False,True,True,False,680786,ITA1
 14645,14649,47477,47477,ITA1,2012,s,AC Cesena,Italy,left,106136,Giacomo Tulli,24,Italy,striker,Vicenza Calcio,Italy,650000,200000,False,False,False,False,2238411,ITA2
 14662,14666,47508,47508,ITA4,2012,s,AC Montichiari,Italy,left,88695,Jean Mbida,22,Cameroon,midfielder,Vicenza Calcio,Italy,0,50000,False,True,True,False,754513,ITA2
@@ -11370,7 +11355,7 @@
 15035,15039,48014,48014,ITA2,2012,s,Hellas Verona,Italy,left,130375,Andrea Doninelli,21,Italy,midfielder,Genoa CFC,Italy,0,100000,False,True,True,False,606649,ITA1
 15036,15040,48015,48015,ITA2,2012,s,Hellas Verona,Italy,left,44876,Matthias Lepiller,24,France,striker,ACF Fiorentina,Italy,0,700000,False,True,True,False,629869,ITA1
 15039,15043,48019,48019,ITA1,2012,w,AC Cesena,Italy,left,88680,Luca Caldirola,21,Italy,defender,Brescia Calcio,Italy,0,2500000,False,True,False,False,821602,ITA2
-15056,15060,48039,48039,ITA2,2012,w,Spezia Calcio,Italy,left,110928,Lorenzo Crisetig,20,Italy,midfielder,Fc Inter,Italy,0,1600000,False,True,True,False,743497,ITA1
+15056,15060,48039,48039,ITA2,2012,w,Spezia Calcio,Italy,left,110928,Lorenzo Crisetig,20,Italy,midfielder,FC Inter,Italy,0,1600000,False,True,True,False,743497,ITA1
 15061,15065,48050,48050,ITA2,2012,w,AS Cittadella,Italy,left,84751,Luca Martinelli,24,Italy,defender,SS Juve Stabia,Italy,0,250000,False,False,False,False,833290,ITA2
 15074,15078,48070,48070,ITA2,2012,w,US Grosseto FC,Italy,left,61539,Davide Lanzafame,25,Italy,striker,Calcio Catania,Italy,0,1000000,False,True,True,False,783299,ITA1
 15075,15079,48071,48071,ITA2,2012,w,US Grosseto FC,Italy,left,22188,Massimo Bonanni,30,Italy,midfielder,Genoa CFC,Italy,0,400000,False,True,True,False,778593,ITA1
@@ -11395,7 +11380,7 @@
 15157,15161,48191,48191,ITA2,2012,w,AS Bari,Italy,left,45576,Attila Filkor,24,Hungary,midfielder,AC Milan,Italy,0,300000,False,True,True,False,775729,ITA1
 15164,15168,48200,48200,ITA2,2012,w,Ascoli Calcio 1898,Italy,left,113620,Yonese Hanine,22,Italy,striker,FC Aprilia,Italy,0,125000,False,True,False,False,824064,ITA4
 15165,15169,48201,48201,ITA2,2012,w,Ascoli Calcio 1898,Italy,left,21185,Andrea Giallombardo,32,Italy,defender,US Latina Calcio,Italy,0,75000,False,True,False,False,826488,ITA2
-15171,15175,48210,48210,ITA2,2012,w,Empoli FC,Italy,left,136124,Simone Pecorini,20,Italy,defender,Fc Inter,Italy,0,200000,False,True,True,False,746947,ITA1
+15171,15175,48210,48210,ITA2,2012,w,Empoli FC,Italy,left,136124,Simone Pecorini,20,Italy,defender,FC Inter,Italy,0,200000,False,True,True,False,746947,ITA1
 15172,15176,48211,48211,ITA2,2012,w,Empoli FC,Italy,left,118689,Leonardo Spinazzola,19,Italy,defender,Juventus FC,Italy,0,300000,False,True,True,False,746949,ITA1
 15173,15177,48212,48212,ITA2,2012,w,Empoli FC,Italy,left,130347,Filippo Boniperti,21,Italy,striker,Juventus FC,Italy,0,175000,False,True,True,False,746952,ITA1
 15178,15182,48220,48220,ITA2,2012,w,Ternana Calcio,Italy,left,87052,Nicolao Dumitru,21,Italy,striker,SSC Napoli,Italy,0,1000000,False,True,True,False,755509,ITA1
@@ -11429,7 +11414,7 @@
 15298,15302,48391,48391,ITA1,2013,s,Delfino Pescara 1936,Italy,left,58345,Jonathas,24,Brazil,striker,US Latina Calcio,Italy,0,1600000,False,True,False,False,940115,ITA2
 15314,15318,48413,48413,ITA2,2013,s,US Latina Calcio,Italy,left,21185,Andrea Giallombardo,32,Italy,defender,Ascoli Calcio 1898,Italy,0,75000,False,True,True,False,826489,ITA2
 15316,15320,48415,48415,ITA2,2013,s,US Latina Calcio,Italy,left,45568,Giacomo Bindi,26,Italy,goalkeeper,Genoa CFC,Italy,0,400000,False,True,True,False,754949,ITA1
-15360,15364,48467,48467,ITA2,2013,s,Novara Calcio 1908,Italy,left,110925,Francesco Bardi,21,Italy,goalkeeper,Fc Inter,Italy,0,6000000,False,True,True,False,749680,ITA1
+15360,15364,48467,48467,ITA2,2013,s,Novara Calcio 1908,Italy,left,110925,Francesco Bardi,21,Italy,goalkeeper,FC Inter,Italy,0,6000000,False,True,True,False,749680,ITA1
 15362,15366,48469,48469,ITA2,2013,s,Novara Calcio 1908,Italy,left,72687,Agon Mehmeti,23,Albania,striker,Palermo,Italy,0,900000,False,True,True,False,777725,ITA1
 15364,15368,48471,48471,ITA2,2013,s,Novara Calcio 1908,Italy,left,172338,Masahudu Alhassan,20,Ghana,defender,Udinese Calcio,Italy,0,600000,False,True,True,False,817835,ITA1
 15365,15369,48472,48472,ITA2,2013,s,Novara Calcio 1908,Italy,left,96758,Alessandro Crescenzi,21,Italy,defender,AS Roma,Italy,0,1800000,False,True,True,False,829203,ITA1
@@ -11454,7 +11439,7 @@
 15507,15511,48661,48661,ITA3,2013,s,Santarcangelo Calcio,Italy,left,195588,Francis Obeng,27,Ghana,midfielder,Carpi FC 1909,Italy,0,0,False,True,True,False,777848,ITA2
 15518,15522,48672,48672,ITA2,2013,s,Carpi FC 1909,Italy,left,195588,Francis Obeng,27,Ghana,midfielder,Santarcangelo Calcio,Italy,0,0,False,False,False,False,906869,ITA3
 15531,15535,48686,48686,ITA2,2013,s,Carpi FC 1909,Italy,left,56693,Raffaele Bianco,25,Italy,midfielder,Juventus FC,Italy,0,425000,False,True,True,False,772600,ITA1
-15559,15563,48725,48725,ITA2,2013,s,AS Cittadella,Italy,left,136124,Simone Pecorini,20,Italy,defender,Fc Inter,Italy,0,200000,False,True,True,False,832131,ITA1
+15559,15563,48725,48725,ITA2,2013,s,AS Cittadella,Italy,left,136124,Simone Pecorini,20,Italy,defender,FC Inter,Italy,0,200000,False,True,True,False,832131,ITA1
 15560,15564,48726,48726,ITA2,2013,s,AS Cittadella,Italy,left,87052,Nicolao Dumitru,21,Italy,striker,SSC Napoli,Italy,0,1000000,False,True,True,False,831923,ITA1
 15568,15572,48749,48749,ITA2,2013,s,AS Gubbio 1910,Italy,left,102625,Giuseppe Caccavallo,26,Italy,striker,FC Crotone,Italy,0,300000,False,True,True,False,778105,ITA2
 15571,15575,48752,48752,ITA2,2013,s,Ascoli Calcio 1898,Italy,left,16869,Massimo Loviso,29,Italy,midfielder,FC Crotone,Italy,0,400000,False,True,True,False,778537,ITA2
@@ -11467,7 +11452,7 @@
 15607,15611,48809,48809,ITA3,2013,s,AC Prato,Italy,left,134627,Alessandro Cesarini,24,Italy,midfielder,Spezia Calcio,Italy,0,200000,False,True,True,False,908462,ITA2
 15619,15623,48825,48825,ITA2,2013,s,Spezia Calcio,Italy,left,104290,Alessandro Iacobucci,22,Italy,goalkeeper,Parma FC,Italy,0,600000,False,True,True,False,737904,ITA1
 15620,15624,48826,48826,ITA2,2013,s,Spezia Calcio,Italy,left,87884,Mário Rui,22,Portugal,defender,Parma FC,Italy,0,800000,False,True,True,False,737908,ITA1
-15621,15625,48827,48827,ITA2,2013,s,Spezia Calcio,Italy,left,99923,Simone Benedetti,21,Italy,defender,Fc Inter,Italy,0,800000,False,True,True,False,741283,ITA1
+15621,15625,48827,48827,ITA2,2013,s,Spezia Calcio,Italy,left,99923,Simone Benedetti,21,Italy,defender,FC Inter,Italy,0,800000,False,True,True,False,741283,ITA1
 15622,15626,48828,48828,ITA2,2013,s,Spezia Calcio,Italy,left,163086,Cristiano Piccini,20,Italy,defender,ACF Fiorentina,Italy,0,750000,False,True,True,False,741898,ITA1
 15623,15627,48829,48829,ITA2,2013,s,Spezia Calcio,Italy,left,63254,Nicola Pasini,22,Italy,defender,Genoa CFC,Italy,0,200000,False,True,True,False,749273,ITA1
 15624,15628,48830,48830,ITA2,2013,s,Spezia Calcio,Italy,left,35249,Stefano Okaka,23,Italy,striker,Parma FC,Italy,0,2000000,False,True,True,False,771528,ITA1
@@ -11577,7 +11562,7 @@
 16163,16167,49585,49585,ITA2,2013,w,SS Juve Stabia,Italy,left,198976,Abou Diop,20,Senegal,striker,Torino FC,Italy,0,400000,False,True,True,False,921214,ITA1
 16172,16176,49597,49597,ITA2,2013,w,SS Virtus Lanciano,Italy,left,136091,Simone Calvano,20,Italy,midfielder,Hellas Verona,Italy,0,250000,False,True,True,False,913138,ITA1
 16176,16180,49603,49603,ITA2,2013,w,Varese 1910,Italy,left,139173,Achraf Lazaar,22,Morocco,defender,Palermo,Italy,300000,500000,False,True,False,False,1012326,ITA1
-16183,16187,49610,49610,ITA2,2013,w,Varese 1910,Italy,left,76895,Simone Pasa,20,Italy,midfielder,Fc Inter,Italy,0,900000,False,True,True,False,909764,ITA1
+16183,16187,49610,49610,ITA2,2013,w,Varese 1910,Italy,left,76895,Simone Pasa,20,Italy,midfielder,FC Inter,Italy,0,900000,False,True,True,False,909764,ITA1
 16193,16197,49622,49622,ITA2,2013,w,Trapani Calcio,Italy,left,110930,Francesco Finocchio,21,Italy,midfielder,Parma FC,Italy,0,200000,False,True,True,False,908367,ITA1
 16204,16208,49637,49637,ITA2,2013,w,Carpi FC 1909,Italy,left,61863,Edgar Cani,24,Albania,striker,Calcio Catania,Italy,0,500000,False,True,True,False,916221,ITA1
 16205,16209,49638,49638,ITA2,2013,w,Carpi FC 1909,Italy,left,107392,Timothy Nocchi,23,Italy,goalkeeper,Juventus FC,Italy,0,400000,False,True,True,False,912438,ITA1
@@ -11629,7 +11614,7 @@
 16467,16473,50013,50013,ITA2,2014,s,Bologna FC 1909,Italy,left,21354,Marek Cech,31,Slovakia,defender,Without Club,Without Club,0,400000,False,False,False,False,1091798,WIT
 16468,16474,50014,50014,ITA2,2014,s,Bologna FC 1909,Italy,left,16870,Cesare Natali,35,Italy,defender,Without Club,Without Club,0,200000,False,False,False,False,1080637,WIT
 16472,16478,50018,50018,ITA2,2014,s,Bologna FC 1909,Italy,left,21935,Andrea Mantovani,30,Italy,defender,Palermo,Italy,0,900000,False,True,True,False,940123,ITA1
-16473,16479,50019,50019,ITA2,2014,s,Bologna FC 1909,Italy,left,230552,Diego Laxalt,21,Uruguay,defender,Fc Inter,Italy,0,3000000,False,True,True,False,935848,ITA1
+16473,16479,50019,50019,ITA2,2014,s,Bologna FC 1909,Italy,left,230552,Diego Laxalt,21,Uruguay,defender,FC Inter,Italy,0,3000000,False,True,True,False,935848,ITA1
 16508,16514,50065,50065,ITA2,2014,s,Brescia Calcio,Italy,left,45644,Juan Antonio,26,Argentina,striker,UC Sampdoria,Italy,0,800000,False,True,True,False,943391,ITA1
 16509,16515,50066,50066,ITA2,2014,s,Brescia Calcio,Italy,left,126597,Paolo Grossi,29,Italy,midfielder,Hellas Verona,Italy,0,450000,False,True,True,False,943305,ITA1
 16525,16531,50085,50085,ITA4,2014,s,US Gavorrano,Italy,left,278586,Francesco Forte,22,Italy,goalkeeper,Carpi FC 1909,Italy,0,250000,False,False,False,False,1074154,ITA2
@@ -11650,11 +11635,11 @@
 16607,16613,50189,50189,ITA2,2014,s,Calcio Catania,Italy,left,199243,Kingsley Boateng,20,Italy,striker,AC Milan,Italy,0,500000,False,True,True,False,934026,ITA1
 16628,16634,50217,50217,ITA2,2014,s,AS Cittadella,Italy,left,163597,Filippo Scaglia,22,Italy,defender,Torino FC,Italy,0,300000,False,True,True,False,1008416,ITA1
 16633,16639,50222,50222,ITA2,2014,s,AS Cittadella,Italy,left,165894,Giammario Piscitella,21,Italy,striker,AS Roma,Italy,0,800000,False,True,True,False,1010924,ITA1
-16635,16641,50224,50224,ITA2,2014,s,AS Cittadella,Italy,left,70580,Raffaele Di Gennaro,20,Italy,goalkeeper,Fc Inter,Italy,0,1500000,False,True,True,False,899555,ITA1
+16635,16641,50224,50224,ITA2,2014,s,AS Cittadella,Italy,left,70580,Raffaele Di Gennaro,20,Italy,goalkeeper,FC Inter,Italy,0,1500000,False,True,True,False,899555,ITA1
 16648,16654,50257,50257,ROM,2014,s,Otelul Galati,Romania,left,163187,Giuseppe Prestia,20,Italy,defender,FC Crotone,Italy,0,500000,False,True,True,False,1012895,ITA2
 16658,16664,50271,50271,ITA2,2014,s,FC Crotone,Italy,left,85881,Fabio Lebran,27,Italy,defender,Calcio Como,Italy,0,100000,False,True,False,False,1084741,ITA2
 16660,16666,50273,50273,ITA2,2014,s,FC Crotone,Italy,left,153637,Mikael Ishak,21,Sweden,striker,Parma FC,Italy,0,700000,False,True,True,False,935301,ITA1
-16661,16667,50274,50274,ITA2,2014,s,FC Crotone,Italy,left,110928,Lorenzo Crisetig,21,Italy,midfielder,Fc Inter,Italy,0,2000000,False,True,True,False,831286,ITA1
+16661,16667,50274,50274,ITA2,2014,s,FC Crotone,Italy,left,110928,Lorenzo Crisetig,21,Italy,midfielder,FC Inter,Italy,0,2000000,False,True,True,False,831286,ITA1
 16662,16668,50275,50275,ITA2,2014,s,FC Crotone,Italy,left,199733,Danilo Cataldi,19,Italy,midfielder,SS Lazio,Italy,0,300000,False,True,True,False,926125,ITA1
 16663,16669,50276,50276,ITA2,2014,s,FC Crotone,Italy,left,90118,Soufiane Bidaoui,24,Morocco,striker,Parma FC,Italy,0,800000,False,True,True,False,917260,ITA1
 16664,16670,50277,50277,ITA2,2014,s,FC Crotone,Italy,left,165531,Jacopo Dezi,22,Italy,midfielder,SSC Napoli,Italy,0,1000000,False,True,True,False,913134,ITA1
@@ -11679,12 +11664,12 @@
 16740,16746,50378,50378,ITA2,2014,s,AS Livorno,Italy,left,29424,Paulinho,28,Brazil,striker,Al-Arabi SC,Qatar,8000000,15000000,False,False,False,False,1091104,QAT
 16749,16755,50390,50390,ITA2,2014,s,AS Livorno,Italy,left,130503,Riccardo Regno,21,Italy,defender,SS Barletta Calcio,Italy,0,100000,False,True,False,False,1091707,ITA3
 16755,16761,50396,50396,ITA2,2014,s,AS Livorno,Italy,left,163086,Cristiano Piccini,21,Italy,defender,ACF Fiorentina,Italy,0,900000,False,True,True,False,904931,ITA1
-16756,16762,50397,50397,ITA2,2014,s,AS Livorno,Italy,left,201040,Marco Benassi,19,Italy,midfielder,Fc Inter,Italy,0,1900000,False,True,True,False,904929,ITA1
+16756,16762,50397,50397,ITA2,2014,s,AS Livorno,Italy,left,201040,Marco Benassi,19,Italy,midfielder,FC Inter,Italy,0,1900000,False,True,True,False,904929,ITA1
 16758,16764,50399,50399,ITA2,2014,s,AS Livorno,Italy,left,17735,Djamel Mesbah,29,Algeria,defender,Parma FC,Italy,0,600000,False,True,True,False,1009546,ITA1
-16759,16765,50400,50400,ITA2,2014,s,AS Livorno,Italy,left,111039,Ishak Belfodil,22,Algeria,striker,Fc Inter,Italy,0,11000000,False,True,True,False,1012325,ITA1
-16760,16766,50401,50401,ITA2,2014,s,AS Livorno,Italy,left,110925,Francesco Bardi,22,Italy,goalkeeper,Fc Inter,Italy,0,9000000,False,True,True,False,904927,ITA1
+16759,16765,50400,50400,ITA2,2014,s,AS Livorno,Italy,left,111039,Ishak Belfodil,22,Algeria,striker,FC Inter,Italy,0,11000000,False,True,True,False,1012325,ITA1
+16760,16766,50401,50401,ITA2,2014,s,AS Livorno,Italy,left,110925,Francesco Bardi,22,Italy,goalkeeper,FC Inter,Italy,0,9000000,False,True,True,False,904927,ITA1
 16761,16767,50402,50402,ITA2,2014,s,AS Livorno,Italy,left,28833,Andrea Coda,29,Italy,defender,Udinese Calcio,Italy,0,300000,False,True,True,False,941263,ITA1
-16763,16769,50404,50404,ITA2,2014,s,AS Livorno,Italy,left,184894,Alfred Duncan,21,Ghana,midfielder,Fc Inter,Italy,0,4500000,False,True,True,False,934773,ITA1
+16763,16769,50404,50404,ITA2,2014,s,AS Livorno,Italy,left,184894,Alfred Duncan,21,Ghana,midfielder,FC Inter,Italy,0,4500000,False,True,True,False,934773,ITA1
 16768,16774,50411,50411,ITA4,2014,s,Correggese Calcio 1948,Italy,left,88764,Davide Luppi,23,Italy,striker,Modena FC,Italy,0,100000,True,False,False,False,1077512,ITA2
 16770,16776,50413,50413,ITAJ,2014,s,Juventus Primavera,Italy,left,190513,Vykintas Slivka,19,Lithuania,midfielder,Modena FC,Italy,0,75000,False,True,False,False,1122869,ITA2
 16771,16777,50414,50414,ITAJ,2014,s,Hellas Verona Primavera,Italy,left,199713,Alessandro Gatto,20,Italy,striker,Modena FC,Italy,0,50000,False,True,False,False,1089567,ITA2
@@ -11725,7 +11710,7 @@
 16982,16989,50701,50701,ITA2,2014,s,Ternana Calcio,Italy,left,124909,Davide Gavazzi,28,Italy,midfielder,UC Sampdoria,Italy,0,900000,False,True,True,False,1004193,ITA1
 16986,16993,50706,50706,ITA2,2014,s,Ternana Calcio,Italy,left,140559,Raffaele Maiello,22,Italy,midfielder,SSC Napoli,Italy,0,1000000,False,True,True,False,913582,ITA1
 17057,17064,50799,50799,ITA2,2014,s,Varese 1910,Italy,left,176140,Rodrigo Ely,20,Brazil,defender,AC Milan,Italy,0,900000,False,True,True,False,910701,ITA1
-17058,17065,50800,50800,ITA2,2014,s,Varese 1910,Italy,left,126114,Lukas Spendlhofer,21,Austria,defender,Fc Inter,Italy,0,250000,False,True,True,False,904840,ITA1
+17058,17065,50800,50800,ITA2,2014,s,Varese 1910,Italy,left,126114,Lukas Spendlhofer,21,Austria,defender,FC Inter,Italy,0,250000,False,True,True,False,904840,ITA1
 17060,17067,50802,50802,ITA2,2014,s,Varese 1910,Italy,left,75613,Luca Ricci,25,Italy,defender,AC Cesena,Italy,0,175000,False,True,True,False,943976,ITA1
 17061,17068,50803,50803,ITA2,2014,s,Varese 1910,Italy,left,130354,Nnamdi Oduamadi,23,Nigeria,striker,AC Milan,Italy,0,600000,False,True,True,False,1012317,ITA1
 17068,17075,50822,50822,ITAJ,2014,s,Juventus Primavera,Italy,left,239584,Matteo Gerbaudo,19,Italy,midfielder,Vicenza Calcio,Italy,0,75000,False,True,False,False,1103044,ITA2
@@ -11825,8 +11810,8 @@
 17576,17583,51535,51535,ITA2,2015,s,Cagliari Calcio,Italy,left,213911,Antonio Loi,18,Italy,midfielder,AC Reggiana 1919,Italy,0,100000,False,True,False,False,1316920,ITA3
 17577,17584,51536,51536,ITA2,2015,s,Cagliari Calcio,Italy,left,200190,Alessandro Capello,19,Italy,striker,AC Prato,Italy,0,800000,False,True,False,False,1332808,ITA3
 17583,17590,51542,51542,ITA2,2015,s,Cagliari Calcio,Italy,left,288506,Caio Rangel,19,Brazil,striker,FC Arouca,Portugal,0,2200000,False,True,False,False,1321212,POR1
-17586,17593,51547,51547,ITA2,2015,s,Cagliari Calcio,Italy,left,124560,Samuele Longo,23,Italy,striker,Fc Inter,Italy,0,1500000,False,True,True,False,1081428,ITA1
-17587,17594,51548,51548,ITA2,2015,s,Cagliari Calcio,Italy,left,110928,Lorenzo Crisetig,22,Italy,midfielder,Fc Inter,Italy,0,4000000,False,True,True,False,1084398,ITA1
+17586,17593,51547,51547,ITA2,2015,s,Cagliari Calcio,Italy,left,124560,Samuele Longo,23,Italy,striker,FC Inter,Italy,0,1500000,False,True,True,False,1081428,ITA1
+17587,17594,51548,51548,ITA2,2015,s,Cagliari Calcio,Italy,left,110928,Lorenzo Crisetig,22,Italy,midfielder,FC Inter,Italy,0,4000000,False,True,True,False,1084398,ITA1
 17588,17595,51549,51549,ITA2,2015,s,Cagliari Calcio,Italy,left,83877,Diego Farias,25,Brazil,striker,Chievo Verona,Italy,0,1800000,False,True,True,False,1104910,ITA1
 17589,17596,51550,51550,ITA2,2015,s,Cagliari Calcio,Italy,left,100497,Alejandro González,27,Uruguay,defender,Hellas Verona,Italy,0,900000,False,True,True,False,1170670,ITA1
 17590,17597,51551,51551,ITA2,2015,s,Cagliari Calcio,Italy,left,37278,Zeljko Brkic,28,Serbia,goalkeeper,Udinese Calcio,Italy,0,2500000,False,True,True,False,1170902,ITA1
@@ -11835,7 +11820,6 @@
 17610,17617,51582,51582,ITA3,2015,s,Forlì FC,Italy,left,154174,Marco Djuric,22,Italy,midfielder,AC Cesena,Italy,0,50000,False,True,True,False,997232,ITA2
 17622,17629,51594,51594,ITA3,2015,s,L'Aquila Calcio,Italy,left,154174,Marco Djuric,22,Italy,midfielder,AC Cesena,Italy,0,50000,False,True,True,False,1173394,ITA2
 17623,17630,51595,51595,ITA1,2015,s,Calcio Catania,Italy,left,61751,Antonio Mazzotta,25,Italy,defender,AC Cesena,Italy,0,1500000,False,True,True,False,1178193,ITA2
-17634,17641,51611,51611,ITA2,2015,s,AC Cesena,Italy,left,154174,Marco Djuric,22,Italy,midfielder,SS Monopoli 1966,Italy,0,50000,False,True,False,False,1348516,ITA3
 17649,17656,51627,51627,ITA2,2015,s,AC Cesena,Italy,left,13749,Gaby Mudingayi,33,Belgium,midfielder,Without Club,Without Club,0,700000,False,False,False,False,1248020,WIT
 17650,17657,51628,51628,ITA2,2015,s,AC Cesena,Italy,left,221815,Constantin Nica,22,Romania,defender,Atalanta BC,Italy,0,600000,False,True,True,False,1084400,ITA1
 17651,17658,51629,51629,ITA2,2015,s,AC Cesena,Italy,left,136111,Nicola Leali,22,Italy,goalkeeper,Juventus FC,Italy,0,5000000,False,True,True,False,1081423,ITA1
@@ -11914,7 +11898,7 @@
 18024,18031,52113,52113,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,197474,Luca Milesi,22,Italy,defender,Atalanta BC,Italy,0,125000,False,True,True,False,1084409,ITA1
 18025,18032,52114,52114,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,186380,Jakub Hromada,19,Slovakia,midfielder,UC Sampdoria,Italy,0,100000,False,True,True,False,1186469,ITA1
 18026,18033,52115,52115,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,146660,Ronaldo,25,Brazil,midfielder,Empoli FC,Italy,0,300000,False,True,True,False,1087252,ITA1
-18027,18034,52116,52116,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,240190,Niccolò Belloni,20,Italy,striker,Fc Inter,Italy,0,300000,False,True,True,False,1091797,ITA1
+18027,18034,52116,52116,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,240190,Niccolò Belloni,20,Italy,striker,FC Inter,Italy,0,300000,False,True,True,False,1091797,ITA1
 18028,18035,52117,52117,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,136113,Matteo Liviero,22,Italy,defender,Juventus FC,Italy,0,200000,False,True,True,False,1098483,ITA1
 18030,18037,52120,52120,ITA2,2015,s,FC Pro Vercelli 1892,Italy,left,43112,Sergio Viotti,25,Italy,goalkeeper,Chievo Verona,Italy,0,250000,False,True,True,False,1170236,ITA1
 18032,18039,52122,52122,ITA1,2015,s,Calcio Catania,Italy,left,28857,Raffaele Schiavi,29,Italy,defender,US Salernitana 1919,Italy,200000,500000,False,False,False,False,1312645,ITA2
@@ -11975,7 +11959,7 @@
 18319,18326,52509,52509,ITA2,2015,w,US Avellino 1912,Italy,left,202979,Gennaro Tutino,19,Italy,striker,SSC Napoli,Italy,0,400000,False,True,True,False,1287629,ITA1
 18329,18336,52524,52524,ITA2,2015,w,Brescia Calcio,Italy,left,240365,Michele Somma,20,Italy,defender,AS Roma,Italy,0,400000,False,True,True,False,1283895,ITA1
 18330,18337,52525,52525,ITA2,2015,w,Brescia Calcio,Italy,left,226025,Luca Mazzitelli,20,Italy,midfielder,AS Roma,Italy,0,1000000,False,True,True,False,1426903,ITA1
-18337,18344,52541,52541,ITA2,2015,w,Bari,Italy,left,285920,Gaston Camara,19,Guinea,striker,Fc Inter,Italy,0,400000,False,True,True,False,1308198,ITA1
+18337,18344,52541,52541,ITA2,2015,w,Bari,Italy,left,285920,Gaston Camara,19,Guinea,striker,FC Inter,Italy,0,400000,False,True,True,False,1308198,ITA1
 18338,18345,52542,52542,ITA2,2015,w,Vicenza Calcio,Italy,left,73920,Antonio Cinelli,26,Italy,midfielder,Cagliari Calcio,Italy,100000,600000,False,False,False,False,1411986,ITA2
 18340,18347,52546,52546,ITA3,2015,w,AS Melfi,Italy,left,213179,Alessandro Masia,20,Italy,midfielder,Cagliari Calcio,Italy,0,50000,False,True,True,False,1294732,ITA2
 18345,18352,52551,52551,ITA2,2015,w,Cagliari Calcio,Italy,left,213179,Alessandro Masia,20,Italy,midfielder,AC Tuttocuoio,Italy,0,50000,False,True,False,False,1400462,ITA3
@@ -12021,7 +12005,7 @@
 18533,18540,52819,52819,ITA2,2015,w,SS Virtus Lanciano,Italy,left,228604,Luca Crecco,20,Italy,midfielder,SS Lazio,Italy,0,700000,False,True,True,False,1316013,ITA1
 18545,18552,63741,63741,ITAJ,2011,s,Novara Primavera,Italy,left,167792,Nicolò Bianchi,19,Italy,midfielder,US Foggia,Italy,0,75000,False,True,False,False,632233,ITA3
 18561,18568,63760,63760,ITA3,2011,s,US Foggia,Italy,left,83877,Diego Farias,21,Brazil,striker,Chievo Verona,Italy,0,250000,False,True,True,False,520084,ITA1
-18562,18569,63761,63761,ITA3,2011,s,US Foggia,Italy,left,88705,Michele Rigione,20,Italy,defender,Fc Inter,Italy,0,250000,False,True,True,False,454321,ITA1
+18562,18569,63761,63761,ITA3,2011,s,US Foggia,Italy,left,88705,Michele Rigione,20,Italy,defender,FC Inter,Italy,0,250000,False,True,True,False,454321,ITA1
 18563,18570,63763,63763,ITA3,2011,s,US Foggia,Italy,left,124911,Karim Laribi,20,Tunisia,midfielder,Palermo,Italy,0,375000,False,True,True,False,456331,ITA1
 18564,18571,63765,63765,ITA3,2011,s,US Foggia,Italy,left,57295,Moussa Koné,21,Cote d'Ivoire,midfielder,Atalanta BC,Italy,0,350000,False,True,True,False,458387,ITA1
 18565,18572,63766,63766,ITA3,2011,s,US Foggia,Italy,left,87786,Mihail Ivanov,21,Bulgaria,goalkeeper,AC Siena,Italy,0,150000,False,True,True,False,468821,ITA1
@@ -12037,7 +12021,7 @@
 18652,18659,63886,63886,ITA3,2011,s,AC Reggiana 1919,Italy,left,137428,Matteo Chinellato,19,Italy,striker,Genoa CFC,Italy,0,75000,False,True,True,False,453895,ITA1
 18653,18660,63887,63887,ITA3,2011,s,AC Reggiana 1919,Italy,left,57659,Marco Romizi,21,Italy,midfielder,ACF Fiorentina,Italy,0,350000,False,True,True,False,436792,ITA1
 18669,18676,63915,63915,ITA3,2011,s,FC Pavia 1911,Italy,left,56742,Mirko Guadalupi,24,Italy,midfielder,AC Siena,Italy,0,125000,False,True,True,False,449972,ITA1
-18670,18677,63917,63917,ITA3,2011,s,FC Pavia 1911,Italy,left,88679,Samuele Beretta,20,Italy,midfielder,Fc Inter,Italy,0,75000,False,True,True,False,450385,ITA1
+18670,18677,63917,63917,ITA3,2011,s,FC Pavia 1911,Italy,left,88679,Samuele Beretta,20,Italy,midfielder,FC Inter,Italy,0,75000,False,True,True,False,450385,ITA1
 18672,18679,63919,63919,ITA3,2011,s,FC Pavia 1911,Italy,left,119366,Leonardo Blanchard,23,Italy,defender,AC Siena,Italy,0,200000,False,True,True,False,455032,ITA1
 18673,18680,63920,63920,ITA3,2011,s,FC Pavia 1911,Italy,left,109111,Marco Tattini,20,Italy,striker,AC Cesena,Italy,0,225000,False,True,True,False,460272,ITA1
 18675,18682,63922,63922,ITA3,2011,s,FC Pavia 1911,Italy,left,60694,Nebil Caidi,22,Italy,defender,AC Cesena,Italy,0,125000,False,True,True,False,464861,ITA1
@@ -12052,7 +12036,7 @@
 18762,18769,64038,64038,ITA3,2011,s,FC Esperia Viareggio,Italy,left,130393,Abel Gigli,20,Somalia,defender,Parma FC,Italy,0,50000,False,True,True,False,475236,ITA1
 18763,18770,64039,64039,ITA3,2011,s,FC Esperia Viareggio,Italy,left,36753,Tommaso Silvestri,19,Italy,defender,Juventus FC,Italy,0,50000,False,True,True,False,300167,ITA1
 18766,18773,64042,64042,ITA3,2011,s,FC Esperia Viareggio,Italy,left,75411,Carlo Pinsoglio,21,Italy,goalkeeper,Juventus FC,Italy,0,350000,False,True,True,False,614035,ITA1
-18767,18774,64043,64043,ITA3,2011,s,FC Esperia Viareggio,Italy,left,72491,Riccardo Bocalon,22,Italy,striker,Fc Inter,Italy,0,300000,False,True,True,False,528903,ITA1
+18767,18774,64043,64043,ITA3,2011,s,FC Esperia Viareggio,Italy,left,72491,Riccardo Bocalon,22,Italy,striker,FC Inter,Italy,0,300000,False,True,True,False,528903,ITA1
 18768,18775,64044,64044,ITA3,2011,s,FC Esperia Viareggio,Italy,left,75406,Andrea De Paola,20,Italy,defender,Juventus FC,Italy,0,100000,False,True,True,False,535307,ITA1
 18790,18797,64078,64078,ITA3,2011,s,AC Lumezzane,Italy,left,101873,Amedeo Calliari,23,Italy,midfielder,Chievo Verona,Italy,0,300000,False,True,True,False,467352,ITA1
 18791,18798,64079,64079,ITA3,2011,s,AC Lumezzane,Italy,left,73933,Francesco Mancini,21,Italy,striker,SS Lazio,Italy,0,50000,False,True,True,False,451373,ITA1
@@ -12060,13 +12044,13 @@
 18812,18819,64109,64109,ITA3,2011,s,Carpi FC 1909,Italy,left,163327,Alessandro Vinci,18,Italy,defender,Bologna FC 1909,Italy,0,50000,False,True,True,False,518786,ITA1
 18844,18851,64146,64146,ITA3,2011,s,Taranto FC 1927,Italy,left,84547,Domenico Girardi,26,Italy,striker,Chievo Verona,Italy,0,350000,False,True,True,False,526956,ITA1
 18862,18869,64173,64173,ITA3,2011,s,AC Monza Brianza,Italy,left,192833,Luigi Sorrentino,20,Italy,goalkeeper,Giulianova Calcio,Italy,0,0,False,True,False,False,628802,ITA4
-18869,18876,64182,64182,ITA3,2011,s,AC Monza Brianza,Italy,left,75299,Antonio Esposito,20,Italy,midfielder,Fc Inter,Italy,0,150000,False,True,True,False,534877,ITA1
+18869,18876,64182,64182,ITA3,2011,s,AC Monza Brianza,Italy,left,75299,Antonio Esposito,20,Italy,midfielder,FC Inter,Italy,0,150000,False,True,True,False,534877,ITA1
 18870,18877,64186,64186,ITA3,2011,s,AC Monza Brianza,Italy,left,127228,Manuel Ricci,21,Italy,midfielder,Lazio U19,Italy,0,300000,False,True,True,False,456428,ITA4
 18871,18878,64187,64187,ITA3,2011,s,AC Monza Brianza,Italy,left,73943,Alessandro Tuia,21,Italy,defender,SS Lazio,Italy,0,100000,False,True,True,False,310453,ITA1
 18894,18901,64219,64219,ITA3,2011,s,SPAL 1907,Italy,left,107889,Alessandro Vecchi,20,Italy,defender,Parma FC,Italy,0,50000,False,True,True,False,460552,ITA1
 18924,18931,64259,64259,ITA3,2011,s,AS Avellino 1912,Italy,left,48019,Francesco Bruno,21,Italy,defender,SSC Napoli,Italy,0,50000,False,True,True,False,536312,ITA1
 18942,18949,64284,64284,ITA3,2011,s,Ternana Calcio,Italy,left,21821,Luis Jiménez,27,Chile,midfielder,Al-Ahli Dubai Club,United Arab Emirates,0,5000000,True,False,False,False,592029,UNI
-18992,18999,64349,64349,ITA3,2011,s,Calcio Como,Italy,left,45583,Paolo Tornaghi,23,Italy,goalkeeper,Fc Inter,Italy,0,50000,False,True,True,False,460611,ITA1
+18992,18999,64349,64349,ITA3,2011,s,Calcio Como,Italy,left,45583,Paolo Tornaghi,23,Italy,goalkeeper,FC Inter,Italy,0,50000,False,True,True,False,460611,ITA1
 18994,19001,64351,64351,ITA3,2011,s,Calcio Como,Italy,left,138394,Rosario Licata,22,Italy,defender,Udinese Calcio,Italy,0,75000,False,True,True,False,467429,ITA1
 18996,19003,64353,64353,ITA3,2011,s,Calcio Como,Italy,left,133951,Francesco Bossa,21,Italy,defender,Udinese Calcio,Italy,0,100000,False,True,True,False,472910,ITA1
 18997,19004,64355,64355,ITA3,2011,s,Calcio Como,Italy,left,83405,Mattia Morandi,22,Italy,midfielder,Novara Calcio 1908,Italy,0,100000,False,True,True,False,473457,ITA1
@@ -12124,17 +12108,17 @@
 19430,19437,64986,64986,ITA3,2012,s,US Lecce,Italy,left,107873,Manuel Giandonato,20,Italy,midfielder,Juventus FC,Italy,0,500000,False,True,True,False,629953,ITA1
 19431,19438,64987,64987,ITA3,2012,s,US Lecce,Italy,left,109256,Haris Seferovic,20,Switzerland,striker,ACF Fiorentina,Italy,0,1000000,False,True,True,False,677639,ITA1
 19434,19441,64990,64990,ITA3,2012,s,US Lecce,Italy,left,68862,Luca Di Matteo,24,Italy,defender,Palermo,Italy,0,300000,False,True,True,False,680667,ITA1
-19493,19500,65056,65056,ITA3,2012,s,AC Cuneo 1905,Italy,left,88679,Samuele Beretta,21,Italy,midfielder,Fc Inter,Italy,0,50000,False,True,True,False,629539,ITA1
+19493,19500,65056,65056,ITA3,2012,s,AC Cuneo 1905,Italy,left,88679,Samuele Beretta,21,Italy,midfielder,FC Inter,Italy,0,50000,False,True,True,False,629539,ITA1
 19521,19528,65093,65093,ITA3,2012,s,AC Lumezzane,Italy,left,193994,Yves Baraye,20,Senegal,striker,Udinese Calcio,Italy,0,475000,False,True,True,False,617790,ITA1
 19522,19529,65095,65095,ITA3,2012,s,AC Lumezzane,Italy,left,167812,Nestor Djengoue,21,Cameroon,defender,Chievo Verona,Italy,0,75000,False,True,True,False,680908,ITA1
 19524,19531,65097,65097,ITA3,2012,s,AC Lumezzane,Italy,left,133876,Lucas Finazzi,21,Brazil,midfielder,Chievo Verona,Italy,0,150000,False,True,True,False,472893,ITA1
 19525,19532,65098,65098,ITA3,2012,s,AC Lumezzane,Italy,left,73932,Alessio Luciani,22,Italy,defender,SS Lazio,Italy,0,225000,False,True,True,False,735199,ITA1
-19554,19561,65143,65143,ITA3,2012,s,Carpi FC 1909,Italy,left,72491,Riccardo Bocalon,23,Italy,striker,Fc Inter,Italy,0,200000,False,True,True,False,681420,ITA1
+19554,19561,65143,65143,ITA3,2012,s,Carpi FC 1909,Italy,left,72491,Riccardo Bocalon,23,Italy,striker,FC Inter,Italy,0,200000,False,True,True,False,681420,ITA1
 19555,19562,65144,65144,ITA3,2012,s,Carpi FC 1909,Italy,left,130347,Filippo Boniperti,20,Italy,striker,Juventus FC,Italy,0,175000,False,True,True,False,667575,ITA1
 19556,19563,65145,65145,ITA3,2012,s,Carpi FC 1909,Italy,left,167900,Daniele Donnarumma,20,Italy,defender,SSC Napoli,Italy,0,75000,False,True,True,False,673074,ITA1
 19592,19599,65189,65189,ITA3,2012,s,Treviso FBC 1993,Italy,left,119374,Mattia Gallon,20,Italy,striker,Cagliari Calcio,Italy,0,100000,False,True,True,False,608751,ITA1
-19632,19639,65244,65244,ITA3,2012,s,US Cremonese,Italy,left,88705,Michele Rigione,21,Italy,defender,Fc Inter,Italy,0,225000,False,True,True,False,603654,ITA1
-19633,19640,65245,65245,ITA3,2012,s,US Cremonese,Italy,left,34334,Enrico Alfonso,24,Italy,goalkeeper,Fc Inter,Italy,0,800000,False,True,True,False,608320,ITA1
+19632,19639,65244,65244,ITA3,2012,s,US Cremonese,Italy,left,88705,Michele Rigione,21,Italy,defender,FC Inter,Italy,0,225000,False,True,True,False,603654,ITA1
+19633,19640,65245,65245,ITA3,2012,s,US Cremonese,Italy,left,34334,Enrico Alfonso,24,Italy,goalkeeper,FC Inter,Italy,0,800000,False,True,True,False,608320,ITA1
 19634,19641,65247,65247,ITA3,2012,s,US Cremonese,Italy,left,85537,Francesco Dettori,29,Italy,midfielder,Chievo Verona,Italy,0,200000,False,True,True,False,615738,ITA1
 19635,19642,65248,65248,ITA3,2012,s,US Cremonese,Italy,left,101425,Amadou Samb,24,Senegal,striker,Chievo Verona,Italy,0,175000,False,True,True,False,620835,ITA1
 19658,19665,65288,65288,ITA3,2012,s,Calcio Como,Italy,left,147876,Abdou Doumbia,22,France,striker,Parma FC,Italy,0,50000,False,True,True,False,619666,ITA1
@@ -12143,11 +12127,11 @@
 19687,19694,65333,65333,ITA3,2012,w,Calcio Portogruaro-Summaga,Italy,left,167876,Moreno Beretta,19,Italy,striker,UC Sampdoria,Italy,0,150000,False,True,True,False,764128,ITA1
 19689,19696,65339,65339,ITA3,2012,w,Benevento Calcio,Italy,left,130368,Mattia Montini,20,Italy,striker,Feralpisalò,Italy,0,150000,False,True,False,False,826801,ITA3
 19691,19698,65341,65341,ITA3,2012,w,Feralpisalò,Italy,left,213329,Michele Bentoglio,19,Italy,midfielder,Parma FC,Italy,0,75000,False,True,True,False,744085,ITA1
-19706,19713,65364,65364,ITA3,2012,w,FC Südtirol-Alto Adige,Italy,left,72491,Riccardo Bocalon,23,Italy,striker,Fc Inter,Italy,0,200000,False,True,True,False,747699,ITA1
+19706,19713,65364,65364,ITA3,2012,w,FC Südtirol-Alto Adige,Italy,left,72491,Riccardo Bocalon,23,Italy,striker,FC Inter,Italy,0,200000,False,True,True,False,747699,ITA1
 19743,19750,65414,65414,ITA3,2012,w,Carpi FC 1909,Italy,left,129625,Alessio De Bode,21,Italy,defender,Genoa CFC,Italy,0,100000,False,True,True,False,756136,ITA1
 19773,19780,65462,65462,ITA3,2012,w,Calcio Como,Italy,left,226425,Nicola Del Pivo,20,Italy,midfielder,Parma FC,Italy,0,0,False,True,True,False,770411,ITA1
 19789,19796,65493,65493,ITA3,2013,s,FBC Unione Venezia,Italy,left,168477,Jefferson Oliveira,23,Brazil,defender,Udinese Calcio,Italy,0,125000,False,True,True,False,827157,ITA1
-19793,19800,65498,65498,ITA3,2013,s,FBC Unione Venezia,Italy,left,72491,Riccardo Bocalon,25,Italy,striker,Fc Inter,Italy,0,450000,False,True,True,False,1073621,ITA1
+19793,19800,65498,65498,ITA3,2013,s,FBC Unione Venezia,Italy,left,72491,Riccardo Bocalon,25,Italy,striker,FC Inter,Italy,0,450000,False,True,True,False,1073621,ITA1
 19799,19806,65509,65509,ITAJ,2013,s,Sampdoria Primavera,Italy,left,162955,Luca Piana,19,Italy,defender,Calcio Como,Italy,0,150000,False,True,False,False,907426,ITA3
 19802,19809,65513,65513,ITA3,2013,s,AC Prato,Italy,left,199207,Iacopo Ricciarelli,18,Italy,goalkeeper,Calcio Como,Italy,0,75000,False,False,False,False,918784,ITA3
 19809,19816,65522,65522,ITA4,2013,s,SS Milazzo,Italy,left,197478,Daniele Grandi,20,Italy,striker,Calcio Como,Italy,0,50000,False,True,True,False,827774,ITA3
@@ -12161,7 +12145,7 @@
 19879,19886,65637,65637,ITA3,2013,s,Vicenza Calcio,Italy,left,57291,Matteo Gentili,23,Italy,defender,Atalanta BC,Italy,0,75000,False,True,True,False,776106,ITA1
 19880,19887,65639,65639,ITA3,2013,s,Vicenza Calcio,Italy,left,61757,Nicola Rigoni,22,Italy,midfielder,Chievo Verona,Italy,0,400000,False,True,True,False,781071,ITA1
 19882,19889,65644,65644,ITA3,2013,s,Vicenza Calcio,Italy,left,171410,Prince Gouano,19,France,defender,Juventus FC,Italy,0,200000,False,True,True,False,830077,ITA1
-19884,19891,65646,65646,ITA3,2013,s,Vicenza Calcio,Italy,left,140757,Daniel Bessa,20,Italy,midfielder,Fc Inter,Italy,0,700000,False,True,True,False,832299,ITA1
+19884,19891,65646,65646,ITA3,2013,s,Vicenza Calcio,Italy,left,140757,Daniel Bessa,20,Italy,midfielder,FC Inter,Italy,0,700000,False,True,True,False,832299,ITA1
 19911,19918,65682,65682,ITA3,2013,s,AC Lumezzane,Italy,left,136099,Paolo Dametto,20,Italy,defender,Cagliari Calcio,Italy,0,350000,False,True,True,False,740772,ITA1
 19912,19919,65683,65683,ITA3,2013,s,AC Lumezzane,Italy,left,159337,Roberto Inglese,21,Italy,striker,Chievo Verona,Italy,0,300000,False,True,True,False,510772,ITA1
 19913,19920,65684,65684,ITA3,2013,s,AC Lumezzane,Italy,left,167827,Massimo Zamparo,21,Italy,defender,Chievo Verona,Italy,0,50000,False,True,True,False,742676,ITA1
@@ -12179,7 +12163,7 @@
 19995,20002,65776,65776,ITA3,2013,s,Carrarese Calcio 1908,Italy,left,169497,Juan Cruz,20,Spain,defender,Bologna FC 1909,Italy,0,50000,False,True,True,False,757600,ITA1
 19996,20003,65777,65777,ITA3,2013,s,Carrarese Calcio 1908,Italy,left,159902,Amato Ciciretti,19,Italy,striker,AS Roma,Italy,0,150000,False,True,True,False,754606,ITA1
 20014,20021,65807,65807,ITA3,2013,s,UC AlbinoLeffe,Italy,left,136091,Simone Calvano,20,Italy,midfielder,Hellas Verona,Italy,0,250000,False,True,True,False,1073623,ITA1
-20035,20042,65840,65840,ITA3,2013,s,FC Südtirol-Alto Adige,Italy,left,163053,Mame Thiam,20,Senegal,striker,Fc Inter,Italy,0,375000,False,True,True,False,747389,ITA1
+20035,20042,65840,65840,ITA3,2013,s,FC Südtirol-Alto Adige,Italy,left,163053,Mame Thiam,20,Senegal,striker,FC Inter,Italy,0,375000,False,True,True,False,747389,ITA1
 20036,20043,65842,65842,ITA3,2013,s,FC Südtirol-Alto Adige,Italy,left,120235,Riccardo Pasi,22,Italy,midfielder,Bologna FC 1909,Italy,0,75000,False,True,True,False,757591,ITA1
 20037,20044,65845,65845,ITA3,2013,s,FC Südtirol-Alto Adige,Italy,left,102563,Emanuele Testardi,22,Italy,striker,UC Sampdoria,Italy,0,200000,False,True,True,False,827838,ITA1
 20055,20062,65873,65873,ITA3,2013,s,SPAL 2013,Italy,left,199245,Carlo Calvetti,20,Italy,midfielder,FC Pavia 1911,Italy,0,50000,False,True,True,False,1075961,ITA3
@@ -12219,7 +12203,7 @@
 20320,20327,66260,66260,ITA3,2013,w,FC Südtirol-Alto Adige,Italy,left,122760,Andrea Molinelli,20,Italy,midfielder,AS Gubbio 1910,Italy,0,100000,False,True,False,False,1014235,ITA2
 20322,20329,66262,66262,ITA3,2013,w,FC Südtirol-Alto Adige,Italy,left,199953,Caleb Ekuban,19,Ghana,striker,Chievo Verona,Italy,0,125000,False,True,True,False,906850,ITA1
 20323,20330,66263,66263,ITA3,2013,w,FC Südtirol-Alto Adige,Italy,left,199252,Alessio Innocenti,20,Argentina,midfielder,AC Milan,Italy,0,250000,False,True,True,False,917937,ITA1
-20339,20346,66286,66286,ITA3,2013,w,Aurora Pro Patria,Italy,left,240292,Stefano Tonsi,19,Italy,midfielder,Fc Inter,Italy,0,100000,False,True,True,False,913421,ITA1
+20339,20346,66286,66286,ITA3,2013,w,Aurora Pro Patria,Italy,left,240292,Stefano Tonsi,19,Italy,midfielder,FC Inter,Italy,0,100000,False,True,True,False,913421,ITA1
 20354,20361,66307,66307,ITA3,2013,w,AC Lumezzane,Italy,left,160334,Simone Ganz,20,Italy,striker,AC Milan,Italy,0,600000,False,True,True,False,920348,ITA1
 20375,20382,66340,66340,ITA3,2013,w,Calcio Como,Italy,left,162955,Luca Piana,19,Italy,defender,UC Sampdoria,Italy,0,150000,False,True,True,False,907427,ITA1
 20376,20383,66341,66341,ITA3,2013,w,Calcio Como,Italy,left,240961,Rubén Palomeque,19,Spain,defender,Bologna FC 1909,Italy,0,50000,False,True,True,False,924048,ITA1
@@ -12255,7 +12239,7 @@
 20633,20640,66675,66675,ITA3,2014,s,AC Lumezzane,Italy,left,7103,Marcos De Paula,30,Brazil,striker,Chievo Verona,Italy,0,200000,False,True,True,False,1008350,ITA1
 20666,20673,66717,66717,ITA3,2014,s,AC Mantova,Italy,left,6233,Luciano,37,Brazil,midfielder,Retired,Retired,0,200000,False,False,False,True,962224,RET
 20668,20675,66720,66720,ITA3,2014,s,AC Mantova,Italy,left,107889,Alessandro Vecchi,23,Italy,defender,Parma FC,Italy,0,50000,False,True,True,False,771165,ITA1
-20698,20705,66761,66761,ITA3,2014,s,SSD Monza 1912,Italy,left,136102,Jacopo Galimberti,21,Italy,defender,Fc Inter,Italy,0,125000,False,True,True,False,917353,ITA1
+20698,20705,66761,66761,ITA3,2014,s,SSD Monza 1912,Italy,left,136102,Jacopo Galimberti,21,Italy,defender,FC Inter,Italy,0,125000,False,True,True,False,917353,ITA1
 20700,20707,66763,66763,ITA3,2014,s,SSD Monza 1912,Italy,left,131779,Luca Santonocito,23,Italy,midfielder,AC Milan,Italy,0,25000,False,True,True,False,921211,ITA1
 20701,20708,66764,66764,ITA3,2014,s,SSD Monza 1912,Italy,left,45529,Said Ahmed Said,21,Italy,striker,Genoa CFC,Italy,0,250000,False,True,True,False,993610,ITA1
 20703,20710,66766,66766,ITA2,2014,s,US Salernitana 1919,Italy,left,268223,Gustavo,22,Brazil,striker,Novara Calcio 1908,Italy,0,150000,True,False,False,False,1088260,ITA3
@@ -12274,7 +12258,7 @@
 20781,20788,66874,66874,ITA3,2014,s,FC Pavia 1911,Italy,left,209864,Pape Dia,21,Senegal,striker,Udinese Calcio,Italy,0,75000,False,True,True,False,1012646,ITA1
 20782,20789,66877,66877,ITA3,2014,s,FC Pavia 1911,Italy,left,140303,Raffaele D'Orsi,22,Italy,defender,US Sassuolo,Italy,0,100000,False,True,True,False,1013876,ITA1
 20851,20858,66960,66960,ITA3,2014,s,Aurora Pro Patria,Italy,left,240675,Simone Perilli,20,Italy,goalkeeper,US Sassuolo,Italy,0,50000,False,True,True,False,1102712,ITA1
-20852,20859,66961,66961,ITA3,2014,s,Aurora Pro Patria,Italy,left,163673,Diego Mella,21,Italy,midfielder,Fc Inter,Italy,0,125000,False,True,True,False,918470,ITA1
+20852,20859,66961,66961,ITA3,2014,s,Aurora Pro Patria,Italy,left,163673,Diego Mella,21,Italy,midfielder,FC Inter,Italy,0,125000,False,True,True,False,918470,ITA1
 20853,20860,66962,66962,ITA3,2014,s,Aurora Pro Patria,Italy,left,202973,Nicolò Tonon,20,Italy,midfielder,Atalanta BC,Italy,0,50000,False,True,True,False,913411,ITA1
 20881,20888,67001,67001,ITA3,2014,s,Real Vicenza VS,Italy,left,175788,Andrea Magrassi,21,Italy,striker,UC Sampdoria,Italy,0,100000,False,True,True,False,940629,ITA1
 20902,20909,67026,67026,ITA3,2014,s,AC Renate,Italy,left,130388,Antonio Santurro,22,Dominican Republic,goalkeeper,Parma FC,Italy,0,150000,False,True,True,False,741477,ITA1
@@ -12329,7 +12313,7 @@
 21359,21366,67656,67656,ITA3,2015,s,US Cremonese,Italy,left,240961,Rubén Palomeque,20,Spain,defender,Bologna FC 1909,Italy,0,75000,False,True,True,False,1088984,ITA1
 21360,21367,67657,67657,ITA3,2015,s,US Cremonese,Italy,left,112457,Alessandro Bassoli,25,Italy,defender,Chievo Verona,Italy,0,175000,False,True,True,False,1094312,ITA1
 21361,21368,67658,67658,ITA3,2015,s,US Cremonese,Italy,left,240257,Michele Moroni,20,Italy,midfielder,Parma Calcio 1913,Italy,0,125000,False,True,True,False,1120426,ITA4
-21363,21370,67660,67660,ITA3,2015,s,US Cremonese,Italy,left,133876,Lucas Finazzi,24,Brazil,midfielder,FC Grosseto,Italy,0,250000,False,True,True,False,1171598,ITA4
+21363,21370,67660,67660,ITA3,2015,s,US Cremonese,Italy,left,133876,Lucas Finazzi,24,Brazil,midfielder,US Grosseto FC,Italy,0,250000,False,True,True,False,1171598,ITA4
 21365,21372,67662,67662,ITA3,2015,s,US Cremonese,Italy,left,140109,Radoslav Kirilov,23,Bulgaria,striker,Chievo Verona,Italy,0,375000,False,True,True,False,1084177,ITA1
 21383,21390,67683,67683,ITA3,2015,s,Feralpisalò,Italy,left,198973,Davide Cinaglia,20,Italy,defender,Torino FC,Italy,0,175000,False,True,True,False,923218,ITA1
 21385,21392,67685,67685,ITA3,2015,s,Feralpisalò,Italy,left,197482,Antonio Palma,21,Italy,midfielder,Atalanta BC,Italy,0,300000,False,True,True,False,1179295,ITA1
@@ -12358,7 +12342,7 @@
 21576,21583,67918,67918,ITA3,2015,s,Pordenone Calcio,Italy,left,240964,Mattia Placido,20,Italy,midfielder,UC Sampdoria,Italy,0,100000,False,True,True,False,1092470,ITA1
 21577,21584,67919,67919,ITA3,2015,s,Pordenone Calcio,Italy,left,197490,Riccardo Benatti,21,Italy,striker,Bologna FC 1909,Italy,0,50000,False,True,True,False,1087814,ITA1
 21600,21607,67952,67952,ITA3,2015,s,AC Renate,Italy,left,240157,Gianmarco Vannucchi,19,Italy,goalkeeper,Juventus FC,Italy,0,50000,False,True,True,False,1082166,ITA1
-21601,21608,67953,67953,ITA3,2015,s,AC Renate,Italy,left,266950,Andrea Mira,20,Italy,midfielder,Fc Inter,Italy,0,50000,False,True,True,False,1084070,ITA1
+21601,21608,67953,67953,ITA3,2015,s,AC Renate,Italy,left,266950,Andrea Mira,20,Italy,midfielder,FC Inter,Italy,0,50000,False,True,True,False,1084070,ITA1
 21620,21627,67985,67985,ITA3,2015,s,FC Südtirol-Alto Adige,Italy,left,92888,Emanuele Allegra,21,Italy,defender,SSC Napoli,Italy,0,75000,False,True,True,False,1173545,ITA1
 21621,21628,67986,67986,ITA3,2015,s,FC Südtirol-Alto Adige,Italy,left,148824,Soma Novothny,21,Hungary,striker,SSC Napoli,Italy,0,200000,False,True,True,False,1167893,ITA1
 21622,21629,67987,67987,ITA3,2015,s,FC Südtirol-Alto Adige,Italy,left,262170,Andrea Ientile,19,Italy,defender,Torino FC,Italy,0,75000,False,True,True,False,1109226,ITA1
@@ -12366,23 +12350,23 @@
 21624,21631,67991,67991,ITA3,2015,s,FC Südtirol-Alto Adige,Italy,left,96790,Sebastian Mladen,23,Romania,defender,AS Roma,Italy,0,250000,False,True,True,False,1097809,ITA1
 21625,21632,67993,67993,ITA3,2015,s,FC Südtirol-Alto Adige,Italy,left,137428,Matteo Chinellato,23,Italy,striker,AC Milan,Italy,0,50000,False,True,True,False,1088475,ITA1
 21656,21663,68031,68031,ITA3,2015,s,Pro Piacenza 1919,Italy,left,287681,Gianluca Barba,20,Italy,midfielder,Atalanta BC,Italy,0,175000,False,True,True,False,1170909,ITA1
-21658,21665,68033,68033,ITA3,2015,s,Pro Piacenza 1919,Italy,left,163673,Diego Mella,22,Italy,midfielder,Fc Inter,Italy,0,75000,False,True,True,False,1096940,ITA1
+21658,21665,68033,68033,ITA3,2015,s,Pro Piacenza 1919,Italy,left,163673,Diego Mella,22,Italy,midfielder,FC Inter,Italy,0,75000,False,True,True,False,1096940,ITA1
 21659,21666,68034,68034,ITA3,2015,s,Pro Piacenza 1919,Italy,left,198980,Stefano Ignico,21,Italy,defender,Torino FC,Italy,0,50000,False,True,True,False,1096904,ITA1
 21660,21667,68035,68035,ITA3,2015,s,Pro Piacenza 1919,Italy,left,290739,Ansoumana Sané,19,Senegal,defender,Chievo Verona,Italy,0,200000,False,True,True,False,1096902,ITA1
 21661,21668,68036,68036,ITA3,2015,s,Pro Piacenza 1919,Italy,left,199263,David Speziale,21,Italy,midfielder,Hellas Verona,Italy,0,150000,False,True,True,False,1096897,ITA1
 21662,21669,68037,68037,ITA3,2015,s,Pro Piacenza 1919,Italy,left,240294,Gino Ballarini,20,Argentina,defender,Hellas Verona,Italy,0,50000,False,True,True,False,1095732,ITA1
 21688,21695,68077,68077,ITA3,2015,s,AC Reggiana 1919,Italy,left,316316,Rassoul Gueye,19,Senegal,defender,Juventus FC,Italy,0,50000,False,True,True,False,1119838,ITA1
-21721,21728,68123,68123,ITA3,2015,s,Aurora Pro Patria,Italy,left,199583,Giovanni Zaro,21,Italy,defender,Fc Inter,Italy,0,100000,False,True,True,False,1121619,ITA1
+21721,21728,68123,68123,ITA3,2015,s,Aurora Pro Patria,Italy,left,199583,Giovanni Zaro,21,Italy,defender,FC Inter,Italy,0,100000,False,True,True,False,1121619,ITA1
 21745,21752,68156,68156,ITA3,2015,w,AC Cuneo 1905,Italy,left,249508,Ousseynou Thiao,19,Senegal,midfielder,Torino FC,Italy,0,125000,False,True,True,False,1304602,ITA1
 21754,21761,68170,68170,ITA3,2015,w,US Cremonese,Italy,left,197752,Ludovico Gargiulo,20,Italy,midfielder,Empoli FC,Italy,0,250000,False,True,True,False,1283900,ITA1
-21755,21762,68171,68171,ITA3,2015,w,US Cremonese,Italy,left,164534,Francesco Forte,22,Italy,striker,Fc Inter,Italy,0,250000,False,True,True,False,1288410,ITA1
-21756,21763,68172,68172,ITA3,2015,w,US Cremonese,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,Fc Inter,Italy,0,75000,False,True,True,False,1288415,ITA1
+21755,21762,68171,68171,ITA3,2015,w,US Cremonese,Italy,left,164534,Francesco Forte,22,Italy,striker,FC Inter,Italy,0,250000,False,True,True,False,1288410,ITA1
+21756,21763,68172,68172,ITA3,2015,w,US Cremonese,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,FC Inter,Italy,0,75000,False,True,True,False,1288415,ITA1
 21757,21764,68173,68173,ITA3,2015,w,US Cremonese,Italy,left,245134,N'Diaye Djiby,22,Senegal,midfielder,Chievo Verona,Italy,0,75000,False,True,True,False,1323115,ITA1
 21764,21771,68181,68181,ITA3,2015,w,Feralpisalò,Italy,left,168452,Gabriele Zerbo,21,Italy,striker,Palermo,Italy,0,75000,False,True,True,False,1421923,ITA1
 21784,21791,68204,68204,ITA3,2015,w,AC Mantova,Italy,left,96347,Valerio Anastasi,25,Italy,striker,US Pistoiese 1921,Italy,0,150000,False,True,False,False,1420436,ITA3
 21812,21819,68256,68256,ITA3,2015,w,Pordenone Calcio,Italy,left,216172,Axel Gulin,20,Italy,striker,ACF Fiorentina,Italy,0,100000,False,True,True,False,1317463,ITA1
-21816,21823,68265,68265,ITA3,2015,w,AC Renate,Italy,left,166548,Evans Kondogbia,26,Central African Republic,striker,Fc Inter,Italy,0,100000,False,True,True,False,1295267,ITA1
-21820,21827,68277,68277,ITA3,2015,w,Pro Piacenza 1919,Italy,left,220778,Geremy Lombardi,19,Dominican Republic,striker,Fc Inter,Italy,0,100000,False,True,True,False,1333412,ITA1
+21816,21823,68265,68265,ITA3,2015,w,AC Renate,Italy,left,166548,Evans Kondogbia,26,Central African Republic,striker,FC Inter,Italy,0,100000,False,True,True,False,1295267,ITA1
+21820,21827,68277,68277,ITA3,2015,w,Pro Piacenza 1919,Italy,left,220778,Geremy Lombardi,19,Dominican Republic,striker,FC Inter,Italy,0,100000,False,True,True,False,1333412,ITA1
 21827,21834,68287,68287,ITA3,2015,w,AC Reggiana 1919,Italy,left,248405,Matteo Messetti,20,Italy,striker,Chievo Verona,Italy,0,100000,False,True,True,False,1171831,ITA1
 21851,21858,77835,77835,ITA3,2011,s,FC Südtirol-Alto Adige,Italy,left,85006,Pietro Baccolo,21,Italy,midfielder,Parma FC,Italy,0,75000,False,True,True,False,461337,ITA1
 21866,21873,77851,77851,ITA3,2011,s,FC Südtirol-Alto Adige,Italy,left,83875,Andrea Burato,20,Italy,midfielder,Chievo Verona,Italy,0,75000,False,True,True,False,449101,ITA1
@@ -12418,7 +12402,7 @@
 22162,22169,78300,78300,ITA3,2011,s,US Triestina,Italy,left,30662,Riccardo Taddei,30,Italy,striker,AS Casale Calcio,Italy,0,600000,False,False,False,False,598934,ITA4
 22167,22174,78306,78306,ITA3,2011,s,US Triestina,Italy,left,85537,Francesco Dettori,28,Italy,midfielder,Chievo Verona,Italy,0,175000,False,True,True,False,534149,ITA1
 22168,22175,78307,78307,ITA3,2011,s,US Triestina,Italy,left,45576,Attila Filkor,22,Hungary,midfielder,AC Milan,Italy,0,500000,False,True,True,False,467416,ITA1
-22170,22177,78309,78309,ITA3,2011,s,US Triestina,Italy,left,88690,Alberto Gerbo,21,Italy,midfielder,Fc Inter,Italy,0,200000,False,True,True,False,460183,ITA1
+22170,22177,78309,78309,ITA3,2011,s,US Triestina,Italy,left,88690,Alberto Gerbo,21,Italy,midfielder,FC Inter,Italy,0,200000,False,True,True,False,460183,ITA1
 22171,22178,78310,78310,ITA3,2011,s,US Triestina,Italy,left,7097,Marco Malagò,32,Italy,defender,Chievo Verona,Italy,0,175000,False,True,True,False,473674,ITA1
 22172,22179,78311,78311,ITA3,2011,s,US Triestina,Italy,left,61049,Francesco Lunardini,26,Italy,midfielder,Parma FC,Italy,0,400000,False,True,True,False,467951,ITA1
 22186,22193,78335,78335,ITA3,2011,s,Carrarese Calcio 1908,Italy,left,83374,Sacha Cori,22,Italy,striker,AC Cesena,Italy,0,0,False,True,True,False,641080,ITA1
@@ -12439,7 +12423,7 @@
 22352,22359,78662,78662,ITA3,2011,w,Carrarese Calcio 1908,Italy,left,134352,Elia Ballardini,19,Italy,midfielder,AC Cesena,Italy,0,50000,False,True,True,False,617866,ITA1
 22367,22374,78692,78692,ITA3,2011,w,Spezia Calcio,Italy,left,43224,Salvatore Mastronunzio,32,Italy,striker,AC Siena,Italy,0,500000,False,True,True,False,625948,ITA1
 22384,22391,78716,78716,ITA3,2011,w,US Cremonese,Italy,left,110930,Francesco Finocchio,19,Italy,midfielder,Parma FC,Italy,0,100000,False,True,True,False,603716,ITA1
-22385,22392,78717,78717,ITA3,2011,w,US Cremonese,Italy,left,72491,Riccardo Bocalon,22,Italy,striker,Fc Inter,Italy,0,300000,False,True,True,False,604191,ITA1
+22385,22392,78717,78717,ITA3,2011,w,US Cremonese,Italy,left,72491,Riccardo Bocalon,22,Italy,striker,FC Inter,Italy,0,300000,False,True,True,False,604191,ITA1
 22407,22414,78749,78749,ITA3,2012,s,AC Perugia Calcio,Italy,left,165880,Simone Di Dio,20,Italy,defender,Juventus FC,Italy,0,50000,False,True,True,False,677443,ITA1
 22458,22465,78823,78823,ITA3,2012,s,Sorrento Calcio,Italy,left,83370,Stefano Scappini,24,Italy,striker,UC Sampdoria,Italy,0,350000,False,True,True,False,616716,ITA1
 22460,22467,78830,78830,ITA4,2012,s,Frosinone Primavera,Italy,left,164084,Matteo Salvi,19,Italy,midfielder,Frosinone Calcio,Italy,0,50000,False,False,False,False,769984,ITA3
@@ -12457,14 +12441,14 @@
 22533,22540,78941,78941,ITA3,2012,s,AS Gubbio 1910,Italy,left,61049,Francesco Lunardini,27,Italy,midfielder,Parma FC,Italy,0,250000,False,True,True,False,629972,ITA1
 22534,22541,78942,78942,ITA3,2012,s,AS Gubbio 1910,Italy,left,29605,Daniel Ciofani,26,Italy,striker,Parma FC,Italy,0,400000,False,True,True,False,611567,ITA1
 22536,22543,78944,78944,ITA3,2012,s,AS Gubbio 1910,Italy,left,149525,Antonio Caracciolo,22,Italy,defender,Genoa CFC,Italy,0,300000,False,True,True,False,604476,ITA1
-22537,22544,78945,78945,ITA3,2012,s,AS Gubbio 1910,Italy,left,99923,Simone Benedetti,20,Italy,defender,Fc Inter,Italy,0,800000,False,True,True,False,604088,ITA1
+22537,22544,78945,78945,ITA3,2012,s,AS Gubbio 1910,Italy,left,99923,Simone Benedetti,20,Italy,defender,FC Inter,Italy,0,800000,False,True,True,False,604088,ITA1
 22538,22545,78946,78946,ITA3,2012,s,AS Gubbio 1910,Italy,left,163542,Alberto Almici,19,Italy,defender,Atalanta Primavera,Italy,0,350000,False,True,True,False,594966,ITAJ
 22539,22546,78947,78947,ITA3,2012,s,AS Gubbio 1910,Italy,left,74956,Marcel Büchel,21,Liechtenstein,midfielder,AC Siena,Italy,0,200000,False,True,True,False,594964,ITA1
 22541,22548,78949,78949,ITA3,2012,s,AS Gubbio 1910,Italy,left,108741,Giordano Maccarrone,22,Italy,defender,Calcio Catania,Italy,0,50000,False,True,True,False,472900,ITA1
 22542,22549,78950,78950,ITA3,2012,s,AS Gubbio 1910,Italy,left,56683,Silvano Raggio Garibaldi,23,Italy,midfielder,Genoa CFC,Italy,0,300000,False,True,True,False,472860,ITA1
 22553,22560,78971,78971,ITA3,2012,s,FC Esperia Viareggio,Italy,left,164088,Luca Berardocco,21,Italy,midfielder,AC Pisa 1909,Italy,0,300000,False,True,True,False,680764,ITA3
 22565,22572,78988,78988,ITA3,2012,s,AC Pisa 1909,Italy,left,22805,Gaël Genevier,30,France,midfielder,AC Siena,Italy,0,400000,False,True,True,False,677823,ITA1
-22567,22574,78991,78991,ITA3,2012,s,AC Pisa 1909,Italy,left,88713,Luca Tremolada,20,Italy,midfielder,Fc Inter,Italy,0,275000,False,True,True,False,615736,ITA1
+22567,22574,78991,78991,ITA3,2012,s,AC Pisa 1909,Italy,left,88713,Luca Tremolada,20,Italy,midfielder,FC Inter,Italy,0,275000,False,True,True,False,615736,ITA1
 22578,22585,79012,79012,ITA3,2012,s,Benevento Calcio,Italy,left,165885,Paolo Frascatore,20,Italy,defender,AS Roma,Italy,0,250000,False,True,True,False,602639,ITA1
 22595,22602,79034,79034,ITA3,2012,s,Benevento Calcio,Italy,left,130368,Mattia Montini,20,Italy,striker,AS Roma,Italy,0,150000,False,True,True,False,603285,ITA1
 22599,22606,79039,79039,ITAJ,2012,s,Juventus Primavera,Italy,left,165878,Niccolò Corticchia,19,Italy,midfielder,Carrarese Calcio 1908,Italy,0,50000,False,True,False,False,752338,ITA3
@@ -12487,10 +12471,10 @@
 22749,22756,79260,79260,ITA2,2012,s,US Latina Calcio,Italy,left,158548,Marcello Falzerano,21,Italy,midfielder,AS Avellino 1912,Italy,0,150000,False,True,True,False,676734,ITA3
 22765,22772,79277,79277,ITA3,2012,s,AS Avellino 1912,Italy,left,100176,Gianmarco Zigoni,21,Italy,striker,AC Milan,Italy,0,350000,False,True,True,False,629763,ITA1
 22766,22773,79278,79278,ITA3,2012,s,AS Avellino 1912,Italy,left,173859,Davide Zappacosta,20,Italy,defender,Atalanta BC,Italy,0,225000,False,True,True,False,629660,ITA1
-22767,22774,79279,79279,ITA3,2012,s,AS Avellino 1912,Italy,left,163053,Mame Thiam,19,Senegal,striker,Fc Inter,Italy,0,250000,False,True,True,False,629483,ITA1
+22767,22774,79279,79279,ITA3,2012,s,AS Avellino 1912,Italy,left,163053,Mame Thiam,19,Senegal,striker,FC Inter,Italy,0,250000,False,True,True,False,629483,ITA1
 22768,22775,79280,79280,ITA3,2012,s,AS Avellino 1912,Italy,left,127228,Manuel Ricci,22,Italy,midfielder,SS Lazio,Italy,0,200000,False,True,True,False,680838,ITA1
 22769,22776,79281,79281,ITA3,2012,s,AS Avellino 1912,Italy,left,127220,Giuseppe Capua,20,Italy,midfielder,SS Lazio,Italy,0,75000,False,True,True,False,680844,ITA1
-22800,22807,79321,79321,ITA3,2012,s,AC Prato,Italy,left,88698,Aiman Napoli,22,Italy,striker,Fc Inter,Italy,0,500000,False,True,True,False,680670,ITA1
+22800,22807,79321,79321,ITA3,2012,s,AC Prato,Italy,left,88698,Aiman Napoli,22,Italy,striker,FC Inter,Italy,0,500000,False,True,True,False,680670,ITA1
 22804,22811,79326,79326,ITA3,2012,s,AC Prato,Italy,left,25323,Andrea Pisanu,30,Italy,midfielder,Bologna FC 1909,Italy,0,400000,False,True,True,False,630167,ITA1
 22808,22815,79341,79341,ITA4,2012,s,US Pergolettese 1932,Italy,left,125710,Emiliano Tortolano,22,Italy,striker,US Latina Calcio,Italy,0,200000,False,True,True,False,666518,ITA3
 22811,22818,79344,79344,ITA3,2012,s,US Latina Calcio,Italy,left,140430,Vincenzo Giannusa,31,Italy,midfielder,Alma Juventus Fano 1906,Italy,0,50000,True,False,False,False,755530,ITA4
@@ -12520,8 +12504,8 @@
 23055,23062,79728,79728,ITA3,2013,s,SS Barletta Calcio,Italy,left,50521,Jürgen Prutsch,23,Austria,midfielder,AS Livorno,Italy,0,75000,False,True,True,False,832260,ITA1
 23073,23080,79767,79767,ITA3,2013,s,US Grosseto FC,Italy,left,86640,Vedran Celjak,21,Croatia,defender,UC Sampdoria,Italy,0,200000,False,True,True,False,748482,ITA1
 23074,23081,79768,79768,ITA3,2013,s,US Grosseto FC,Italy,left,165873,Federico Barba,19,Italy,defender,AS Roma,Italy,0,500000,False,True,True,False,751512,ITA1
-23075,23082,79769,79769,ITA3,2013,s,US Grosseto FC,Italy,left,88684,Giulio Donati,23,Italy,defender,Fc Inter,Italy,0,750000,False,True,True,False,777784,ITA1
-23076,23083,79770,79770,ITA3,2013,s,US Grosseto FC,Italy,left,88705,Michele Rigione,22,Italy,defender,Fc Inter,Italy,0,150000,False,True,True,False,777786,ITA1
+23075,23082,79769,79769,ITA3,2013,s,US Grosseto FC,Italy,left,88684,Giulio Donati,23,Italy,defender,FC Inter,Italy,0,750000,False,True,True,False,777784,ITA1
+23076,23083,79770,79770,ITA3,2013,s,US Grosseto FC,Italy,left,88705,Michele Rigione,22,Italy,defender,FC Inter,Italy,0,150000,False,True,True,False,777786,ITA1
 23077,23084,79771,79771,ITA3,2013,s,US Grosseto FC,Italy,left,44514,Federico Piovaccari,28,Italy,striker,UC Sampdoria,Italy,0,600000,False,True,True,False,826491,ITA1
 23078,23085,79772,79772,ITA3,2013,s,US Grosseto FC,Italy,left,52590,Rolf Feltscher,22,Venezuela,defender,Parma FC,Italy,0,250000,False,True,True,False,827853,ITA1
 23080,23087,79775,79775,ITA3,2013,s,US Grosseto FC,Italy,left,74253,Henry Giménez,27,Uruguay,striker,Bologna FC 1909,Italy,0,400000,False,True,True,False,832170,ITA1
@@ -12549,7 +12533,7 @@
 23236,23243,80031,80031,ITA3,2013,s,FC Esperia Viareggio,Italy,left,127224,Luca Crescenzi,21,Italy,defender,SS Lazio,Italy,0,250000,False,True,True,False,832107,ITA1
 23237,23244,80035,80035,ITA3,2013,s,FC Esperia Viareggio,Italy,left,167485,Mattia Sandrini,19,Italy,striker,Vicenza Primavera,Italy,0,75000,False,True,True,False,765860,ITAJ
 23258,23265,80065,80065,ITA3,2013,s,US Catanzaro,Italy,left,168444,Matteo Pisseri,21,Italy,goalkeeper,Parma FC,Italy,0,275000,False,True,True,False,739788,ITA1
-23282,23289,80097,80097,ITA3,2013,s,AC Prato,Italy,left,136130,Andrea Romanò,19,Italy,midfielder,Fc Inter,Italy,0,500000,False,True,True,False,822179,ITA1
+23282,23289,80097,80097,ITA3,2013,s,AC Prato,Italy,left,136130,Andrea Romanò,19,Italy,midfielder,FC Inter,Italy,0,500000,False,True,True,False,822179,ITA1
 23284,23291,80102,80102,ITA3,2013,s,AC Prato,Italy,left,163283,Riccardo Casini,21,Italy,midfielder,Parma FC,Italy,0,200000,False,True,True,False,748494,ITA1
 23298,23305,80134,80134,ITA2,2013,s,Ascoli Calcio 1898,Italy,left,61606,Matteo Legittimo,24,Italy,defender,US Lecce,Italy,0,100000,False,True,True,False,831684,ITA3
 23299,23306,80135,80135,ITAJ,2013,s,Hellas Verona Primavera,Italy,left,199263,David Speziale,19,Italy,midfielder,US Lecce,Italy,0,50000,False,True,True,False,832057,ITA3
@@ -12687,11 +12671,11 @@
 24133,24142,81482,81482,ITA3,2014,w,US Pistoiese 1921,Italy,left,54055,Edoardo Pazzagli,25,Italy,goalkeeper,AC Milan,Italy,0,100000,False,True,True,False,1174385,ITA1
 24139,24148,81496,81496,ITA3,2014,w,US Città di Pontedera,Italy,left,162956,Matteo Ricci,20,Italy,goalkeeper,Empoli FC,Italy,0,300000,False,True,True,False,911711,ITA1
 24140,24149,81497,81497,ITA3,2014,w,US Città di Pontedera,Italy,left,92888,Emanuele Allegra,20,Italy,defender,SSC Napoli,Italy,0,125000,False,True,True,False,1083873,ITA1
-24144,24153,81508,81508,ITA3,2014,w,AC Prato,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,Fc Inter,Italy,0,75000,False,True,True,False,1083513,ITA1
+24144,24153,81508,81508,ITA3,2014,w,AC Prato,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,FC Inter,Italy,0,75000,False,True,True,False,1083513,ITA1
 24152,24161,81521,81521,ITA3,2014,w,Pro Piacenza 1919,Italy,left,226010,Riccardo Ravasi,20,Italy,striker,Hellas Verona,Italy,0,75000,False,True,True,False,1096900,ITA1
 24176,24185,81571,81571,ITA3,2014,w,Santarcangelo Calcio,Italy,left,214514,Andrea Scicchitano,22,Italy,midfielder,Parma FC,Italy,0,75000,False,True,True,False,1185774,ITA1
 24187,24196,81598,81598,ITA3,2014,w,Savona FBC,Italy,left,280418,Gianluca Nucera,20,Switzerland,midfielder,Without Club,Without Club,0,75000,False,False,False,False,1186299,WIT
-24189,24198,81600,81600,ITA3,2014,w,Savona FBC,Italy,left,162939,Matteo Colombi,20,Italy,striker,Fc Inter,Italy,0,75000,False,True,True,False,1101706,ITA1
+24189,24198,81600,81600,ITA3,2014,w,Savona FBC,Italy,left,162939,Matteo Colombi,20,Italy,striker,FC Inter,Italy,0,75000,False,True,True,False,1101706,ITA1
 24191,24200,81612,81612,ITA3,2014,w,SPAL 2013,Italy,left,199792,Johad Ferretti,20,Italy,defender,AC Milan,Italy,0,75000,False,True,True,False,1077974,ITA1
 24192,24201,81613,81613,ITA3,2014,w,SPAL 2013,Italy,left,61606,Matteo Legittimo,25,Italy,defender,Parma FC,Italy,0,275000,False,True,True,False,1109986,ITA1
 24210,24219,81643,81643,ITA4,2015,s,Roma Primavera,Italy,left,238950,Francesco Di Mariano,19,Italy,striker,US Ancona,Italy,0,225000,False,True,False,False,1333664,ITA3
@@ -12727,12 +12711,12 @@
 24489,24499,82043,82043,ITA3,2015,s,US Città di Pontedera,Italy,left,108541,Filippo Scardina,23,Italy,striker,AS Roma,Italy,0,100000,False,True,True,False,1105311,ITA1
 24490,24500,82045,82045,ITA3,2015,s,US Città di Pontedera,Italy,left,197307,Saverio Madrigali,20,Italy,defender,ACF Fiorentina,Italy,0,250000,False,True,True,False,1091685,ITA1
 24491,24501,82046,82046,ITA3,2015,s,US Città di Pontedera,Italy,left,197476,Alex Redolfi,21,Italy,defender,Atalanta BC,Italy,0,200000,False,True,True,False,1082644,ITA1
-24505,24515,82070,82070,ITA3,2015,s,AC Prato,Italy,left,43095,Adama Fofana,25,Cote d'Ivoire,striker,Fc Inter,Italy,0,50000,False,True,True,False,1488172,ITA1
-24508,24518,82076,82076,ITA3,2015,s,AC Prato,Italy,left,72491,Riccardo Bocalon,26,Italy,striker,Fc Inter,Italy,0,450000,False,True,True,False,1117754,ITA1
-24510,24520,82078,82078,ITA3,2015,s,AC Prato,Italy,left,76763,Lorenzo Tassi,20,Italy,midfielder,Fc Inter,Italy,0,500000,False,True,True,False,1090521,ITA1
-24511,24521,82079,82079,ITA3,2015,s,AC Prato,Italy,left,160482,Ivica Ivusic,20,Croatia,goalkeeper,Fc Inter,Italy,0,75000,False,True,True,False,1086694,ITA1
-24512,24522,82080,82080,ITA3,2015,s,AC Prato,Italy,left,76895,Simone Pasa,21,Italy,midfielder,Fc Inter,Italy,0,250000,False,True,True,False,1083353,ITA1
-24513,24523,82081,82081,ITA3,2015,s,AC Prato,Italy,left,199902,Andrea Bandini,21,Italy,defender,Fc Inter,Italy,0,250000,False,True,True,False,1082921,ITA1
+24505,24515,82070,82070,ITA3,2015,s,AC Prato,Italy,left,43095,Adama Fofana,25,Cote d'Ivoire,striker,FC Inter,Italy,0,50000,False,True,True,False,1488172,ITA1
+24508,24518,82076,82076,ITA3,2015,s,AC Prato,Italy,left,72491,Riccardo Bocalon,26,Italy,striker,FC Inter,Italy,0,450000,False,True,True,False,1117754,ITA1
+24510,24520,82078,82078,ITA3,2015,s,AC Prato,Italy,left,76763,Lorenzo Tassi,20,Italy,midfielder,FC Inter,Italy,0,500000,False,True,True,False,1090521,ITA1
+24511,24521,82079,82079,ITA3,2015,s,AC Prato,Italy,left,160482,Ivica Ivusic,20,Croatia,goalkeeper,FC Inter,Italy,0,75000,False,True,True,False,1086694,ITA1
+24512,24522,82080,82080,ITA3,2015,s,AC Prato,Italy,left,76895,Simone Pasa,21,Italy,midfielder,FC Inter,Italy,0,250000,False,True,True,False,1083353,ITA1
+24513,24523,82081,82081,ITA3,2015,s,AC Prato,Italy,left,199902,Andrea Bandini,21,Italy,defender,FC Inter,Italy,0,250000,False,True,True,False,1082921,ITA1
 24514,24524,82082,82082,ITA3,2015,s,AC Prato,Italy,left,41938,Cesare Rickler,28,Italy,defender,Bologna FC 1909,Italy,0,25000,False,True,True,False,1079708,ITA1
 24543,24553,82118,82118,ITA3,2015,s,Rimini FC,Italy,left,167904,Giuseppe Fornito,20,Italy,midfielder,ACR Messina,Italy,0,150000,False,True,False,False,1337618,ITA3
 24577,24587,82166,82166,ITA3,2015,s,Santarcangelo Calcio,Italy,left,276777,Giacomo Ridolfi,21,Italy,midfielder,Carpi FC 1909,Italy,0,25000,False,True,True,False,1104199,ITA1
@@ -12742,9 +12726,9 @@
 24635,24645,82254,82254,ITA3,2015,s,SPAL 2013,Italy,left,200117,Valerio Nava,21,Italy,defender,Atalanta BC,Italy,0,175000,False,True,True,False,1170051,ITA1
 24637,24647,82257,82257,ITA3,2015,s,SPAL 2013,Italy,left,163325,Luca Veratti,22,Italy,striker,Bologna FC 1909,Italy,0,50000,False,True,True,False,1087812,ITA1
 24639,24649,82259,82259,ITA3,2015,s,SPAL 2013,Italy,left,200481,Simone Aldrovandi,21,Italy,defender,Chievo Verona,Italy,0,100000,False,True,True,False,1077972,ITA1
-24664,24674,82296,82296,ITA3,2015,s,Savona FBC,Italy,left,136102,Jacopo Galimberti,22,Italy,defender,Fc Inter,Italy,0,100000,False,True,True,False,1101704,ITA1
+24664,24674,82296,82296,ITA3,2015,s,Savona FBC,Italy,left,136102,Jacopo Galimberti,22,Italy,defender,FC Inter,Italy,0,100000,False,True,True,False,1101704,ITA1
 24665,24675,82297,82297,ITA3,2015,s,Savona FBC,Italy,left,83370,Stefano Scappini,27,Italy,striker,UC Sampdoria,Italy,0,175000,False,True,True,False,1116406,ITA1
-24670,24680,82304,82304,ITA3,2015,s,Savona FBC,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,Fc Inter,Italy,0,75000,False,True,True,False,1186735,ITA1
+24670,24680,82304,82304,ITA3,2015,s,Savona FBC,Italy,left,200192,Fabio Eguelfi,20,Italy,defender,FC Inter,Italy,0,75000,False,True,True,False,1186735,ITA1
 24671,24681,82305,82305,ITA3,2015,s,Savona FBC,Italy,left,202973,Nicolò Tonon,21,Italy,midfielder,Atalanta BC,Italy,0,75000,False,True,True,False,1186846,ITA1
 24704,24714,82341,82341,ITA3,2015,s,Lupa Roma FC,Italy,left,126634,Francesco Rossi,24,Italy,goalkeeper,Atalanta BC,Italy,0,175000,False,True,True,False,1099665,ITA1
 24706,24716,82343,82343,ITA3,2015,s,Lupa Roma FC,Italy,left,166717,Daniele Frabotta,21,Italy,defender,Frosinone Calcio,Italy,0,175000,False,True,True,False,1091139,ITA1
@@ -12767,7 +12751,7 @@
 24808,24819,82516,82516,ITA3,2015,w,US Pistoiese 1921,Italy,left,240964,Mattia Placido,20,Italy,midfielder,UC Sampdoria,Italy,0,100000,False,True,True,False,1280317,ITA1
 24821,24832,82536,82536,ITA3,2015,w,AC Prato,Italy,left,208693,Aladje,22,Portugal,striker,US Sassuolo,Italy,0,275000,False,True,True,False,1314164,ITA1
 24836,24847,82559,82559,ITA3,2015,w,Santarcangelo Calcio,Italy,left,199921,Davide Petermann,21,Italy,midfielder,Palermo,Italy,0,100000,False,True,True,False,1288891,ITA1
-24850,24861,82593,82593,ITA3,2015,w,Savona FBC,Italy,left,259005,Andrea Pinton,19,Italy,defender,Fc Inter,Italy,0,50000,False,True,True,False,1291931,ITA1
+24850,24861,82593,82593,ITA3,2015,w,Savona FBC,Italy,left,259005,Andrea Pinton,19,Italy,defender,FC Inter,Italy,0,50000,False,True,True,False,1291931,ITA1
 24865,24876,82615,82615,ITA3,2015,w,Lupa Roma FC,Italy,left,6744,Michele Mangiapelo,29,Italy,goalkeeper,Without Club,Without Club,0,150000,False,False,False,False,1429483,WIT
 24875,24886,82637,82637,ITA3,2015,w,SS Teramo Calcio,Italy,left,136091,Simone Calvano,22,Italy,midfielder,Hellas Verona,Italy,0,250000,False,True,True,False,1308020,ITA1
 24876,24887,90975,90975,GER1,2011,s,FC Schalke 04,Germany,left,17259,Manuel Neuer,25,Germany,goalkeeper,Bayern Munich,Germany,30000000,28000000,False,False,False,False,578657,GER1
@@ -17977,7 +17961,7 @@
 31481,31495,112780,112780,POR1,2013,w,SC Olhanense,Portugal,left,405720,Diego Gonçalves,19,Brazil,striker,Atlético CP,Portugal,0,0,False,False,False,False,2591078,POR2
 31482,31496,112781,112781,POR1,2013,w,SC Olhanense,Portugal,left,441691,Naftal,19,Mozambique,midfielder,Liga Muçulmana de Maputo,Mozambique,0,0,False,False,False,False,3198404,MOZ
 31483,31497,112782,112782,POR1,2013,w,SC Olhanense,Portugal,left,246429,Mor Pouye,19,Senegal,midfielder,Louletano DC,Portugal,0,100000,False,True,False,False,1018866,POR2
-31484,31498,112783,112783,POR1,2013,w,SC Olhanense,Portugal,left,140757,Daniel Bessa,21,Italy,midfielder,Fc Inter,Italy,0,700000,False,True,True,False,909642,ITA1
+31484,31498,112783,112783,POR1,2013,w,SC Olhanense,Portugal,left,140757,Daniel Bessa,21,Italy,midfielder,FC Inter,Italy,0,700000,False,True,True,False,909642,ITA1
 31485,31499,112786,112786,GEO,2013,w,Dinamo Tbilisi,Georgia,left,35554,Ustaritz,30,Spain,defender,FC Arouca,Portugal,0,700000,True,False,False,False,1011863,POR1
 31486,31500,112787,112787,POR2,2013,w,Sporting CP B,Portugal,left,236541,Salim Cissé,21,Guinea,striker,FC Arouca,Portugal,0,2000000,False,True,False,False,1004535,POR1
 31488,31502,112789,112789,POR1,2013,w,FC Arouca,Portugal,left,75339,Stevan Kovacevic,26,Serbia,midfielder,FK Indjija,Serbia,0,300000,True,False,False,False,1020246,SER
@@ -19262,7 +19246,7 @@
 33132,33146,122653,122653,NET1,2011,s,Vitesse Arnhem,Netherlands,left,4504,Rogier Molhoek,29,Netherlands,midfielder,VVV-Venlo,Netherlands,0,800000,True,False,False,False,593844,NET1
 33133,33147,122654,122654,NET1,2011,s,Vitesse Arnhem,Netherlands,left,8139,Haruna Babangida,28,Nigeria,striker,Without Club,Without Club,0,1000000,False,False,False,False,572472,WIT
 33134,33148,122659,122659,NET1,2011,s,Vitesse Arnhem,Netherlands,left,143863,Martí Riverola,20,Spain,midfielder,FC Barcelona B,Spain,0,600000,False,True,True,False,519851,SPA2
-33135,33149,122660,122660,NET1,2011,s,Vitesse Arnhem,Netherlands,left,88680,Luca Caldirola,20,Italy,defender,Fc Inter,Italy,0,400000,False,True,True,False,438843,ITA1
+33135,33149,122660,122660,NET1,2011,s,Vitesse Arnhem,Netherlands,left,88680,Luca Caldirola,20,Italy,defender,FC Inter,Italy,0,400000,False,True,True,False,438843,ITA1
 33136,33150,122662,122662,GRE,2011,s,Olympiakos Volou,Greece,left,18517,Zoltán Szélesi,29,Hungary,defender,NEC Nijmegen,Netherlands,0,1000000,True,False,False,False,647258,NET1
 33137,33151,122663,122663,HUN,2011,s,MTK Budapest,Hungary,left,109197,Márton Eppel,19,Hungary,striker,NEC Nijmegen,Netherlands,0,100000,True,False,False,False,626866,NET1
 33138,33152,122664,122664,NET2,2011,s,KVV Quick '20,Netherlands,left,4583,Cees Paauwe,33,Netherlands,goalkeeper,NEC Nijmegen,Netherlands,0,300000,True,False,False,False,629068,NET1
@@ -19721,7 +19705,7 @@
 33781,33795,123487,123487,NET1,2012,s,VVV-Venlo,Netherlands,left,88648,Quin Kruijsen,21,Netherlands,midfielder,Fortuna Sittard,Netherlands,0,200000,False,True,False,False,777924,NET2
 33782,33796,123488,123488,NET1,2012,s,VVV-Venlo,Netherlands,left,135171,Alex Nkume,23,Nigeria,defender,Retired,Retired,0,200000,False,False,False,True,720383,RET
 33783,33797,123489,123489,NET1,2012,s,VVV-Venlo,Netherlands,left,30532,Michael Timisela,26,Netherlands,defender,Without Club,Without Club,0,400000,False,False,False,False,720382,WIT
-33784,33798,123490,123490,NET1,2012,s,VVV-Venlo,Netherlands,left,84323,Andrea Mei,23,Italy,defender,Fc Inter,Italy,0,350000,False,True,True,False,617391,ITA1
+33784,33798,123490,123490,NET1,2012,s,VVV-Venlo,Netherlands,left,84323,Andrea Mei,23,Italy,defender,FC Inter,Italy,0,350000,False,True,True,False,617391,ITA1
 33785,33799,123492,123492,NET2,2012,s,PSV Eindhoven U21,Netherlands,left,83946,Youness Mokhtar,20,Morocco,striker,PEC Zwolle,Netherlands,75000,250000,False,False,False,False,771472,NET1
 33786,33800,123493,123493,NET2,2012,s,FC Emmen,Netherlands,left,195524,Mike Koenders,20,Germany,defender,PEC Zwolle,Netherlands,0,75000,True,False,False,False,741049,NET1
 33787,33801,123494,123494,NET2,2012,s,Fortuna Sittard,Netherlands,left,21552,Danny Wintjens,28,Netherlands,goalkeeper,PEC Zwolle,Netherlands,0,250000,True,False,False,False,746634,NET1
@@ -20950,10 +20934,9 @@
 38359,38376,153174,3162,ITAJ,2014,s,Torino Primavera,Italy,left,202976,Alberto Rosa Gastaldo,19,Italy,midfielder,Fiorentina Primavera,Italy,0,75000,False,True,True,False,937637,ITAJ
 38505,38522,153369,3357,SLO,2014,s,ND Gorica,Slovenia,left,224677,Johnny Vidales,22,Peru,striker,Parma Primavera,Italy,0,0,False,True,True,False,1113241,ITAJ
 38534,38551,153409,3397,ITAJ,2014,s,Parma Primavera,Italy,left,263065,Marijan Coric,19,Croatia,goalkeeper,NK Istra 1961 U19,Croatia,0,50000,False,True,True,False,944286,CRO
-38623,38640,153518,3506,ITAJ,2014,s,Spezia Primavera,Italy,left,287339,Salvatore Russo,18,Italy,midfielder,Fc Inter Primavera,Italy,0,50000,False,True,True,False,968727,ITAJ
+38623,38640,153518,3506,ITAJ,2014,s,Spezia Primavera,Italy,left,287339,Salvatore Russo,18,Italy,midfielder,FC Inter Primavera,Italy,0,50000,False,True,True,False,968727,ITAJ
 38624,38641,153519,3507,ITAJ,2014,s,Spezia Primavera,Italy,left,168167,Anthony Rivituso,19,Belgium,defender,Chievo Verona,Italy,0,50000,False,True,True,False,1009627,ITA1
-38673,38690,153589,3577,ITAJ,2014,s,Torino Primavera,Italy,left,162939,Matteo Colombi,20,Italy,striker,Fc Inter,Italy,0,75000,False,True,True,False,1009747,ITA1
-38700,38717,153618,3606,ITAJ,2014,s,Trapani Primavera,Italy,left,257154,Giuseppe Prestia,19,Italy,striker,Riviera Marmi,Italy,0,350000,True,False,False,False,1118307,ITA4
+38673,38690,153589,3577,ITAJ,2014,s,Torino Primavera,Italy,left,162939,Matteo Colombi,20,Italy,striker,FC Inter,Italy,0,75000,False,True,True,False,1009747,ITA1
 38759,38776,153685,3673,ITAJ,2014,s,Varese Primavera,Italy,left,197753,Stefano Romano,19,Italy,striker,Atalanta Primavera,Italy,0,100000,False,True,True,False,920909,ITAJ
 38946,38963,153915,3903,ITAJ,2015,s,Carpi Primavera,Italy,left,287354,Francesco Tahiraj,18,Albania,striker,Torino FC,Italy,0,75000,False,True,True,False,1179297,ITA1
 39006,39023,153994,3982,ITA4,2015,s,ACD Asti Calcio,Italy,left,286859,Anderson Abrazhda,19,Albania,midfielder,Genoa Primavera,Italy,0,50000,False,True,True,False,1125676,ITAJ
@@ -20963,23 +20946,23 @@
 39320,39337,154356,4344,ITAJ,2015,s,Sassuolo Primavera,Italy,left,285929,Lorenzo Benucci,18,Italy,defender,Juventus FC,Italy,0,50000,False,True,True,False,934911,ITA1
 39342,39359,154381,4369,ITAJ,2015,s,Spezia Primavera,Italy,left,337705,Abdullahi Nura,18,Nigeria,defender,Roma Primavera,Italy,250000,500000,False,True,False,False,1324845,ITA4
 39391,39408,154440,4428,ITA4,2015,s,Borgosesia Calcio,Italy,left,241061,Luca Cargnino,20,Italy,defender,Torino Primavera,Italy,0,50000,False,True,True,False,1132493,ITAJ
-39423,39440,154486,4474,ITAJ,2015,s,Torino Primavera,Italy,left,259005,Andrea Pinton,19,Italy,defender,Fc Inter Primavera,Italy,0,50000,False,True,True,False,1186706,ITAJ
+39423,39440,154486,4474,ITAJ,2015,s,Torino Primavera,Italy,left,259005,Andrea Pinton,19,Italy,defender,FC Inter Primavera,Italy,0,50000,False,True,True,False,1186706,ITAJ
 39650,39667,156662,6650,ITAJ,2011,s,FC Inter Primavera,Italy,left,131394,Federico Mannini,19,Italy,defender,AC Siena,Italy,0,150000,False,True,True,False,518242,ITA1
 39652,39669,156665,6653,POR2,2011,s,FC Porto U19,Portugal,left,151205,Ricardo Ferreira,18,Canada,defender,Milan Primavera,Italy,0,50000,True,False,False,False,597456,ITAJ
 39892,39909,156982,6970,ITAJ,2011,s,Hellas Verona Primavera,Italy,left,169049,Emerson,20,Brazil,midfielder,Jabaquara Atlético Clube (SP),Brazil,0,500000,True,False,False,False,701047,BRA
 40075,40092,157212,7200,ITA3,2012,s,Foggia Calcio,Italy,left,163582,Salvatore Molina,20,Italy,midfielder,Atalanta Primavera,Italy,0,150000,False,True,True,False,640708,ITAJ
 40453,40470,157699,7687,ITAJ,2012,w,Varese Primavera,Italy,left,170712,Nabila Samba,20,Senegal,defender,GC Biaschesi,Switzerland,0,100000,True,False,False,False,849665,SWI
-40522,40540,157793,7781,ITAJ,2013,s,Atalanta Primavera,Italy,left,240292,Stefano Tonsi,19,Italy,midfielder,Fc Inter Primavera,Italy,0,100000,False,True,True,False,776941,ITAJ
+40522,40540,157793,7781,ITAJ,2013,s,Atalanta Primavera,Italy,left,240292,Stefano Tonsi,19,Italy,midfielder,FC Inter Primavera,Italy,0,100000,False,True,True,False,776941,ITAJ
 40618,40637,157911,7899,ITAJ,2013,s,Pescara Primavera,Italy,left,214576,Giovanbattista Catalano,19,Italy,striker,Vigor Lamezia Calcio,Italy,0,100000,False,True,True,False,832992,ITA3
 40690,40709,158013,8001,ITA4,2013,s,FBC Casale,Italy,left,119376,Marco Ruzittu,22,Italy,goalkeeper,Cagliari Primavera,Italy,0,100000,False,True,True,False,796153,ITAJ
 40691,40710,158014,8002,ITAJ,2013,s,Cagliari Primavera,Italy,left,119376,Marco Ruzittu,22,Italy,goalkeeper,Arzachena Costa Smeralda,Italy,0,100000,True,False,False,False,972743,ITA4
 41057,41076,158497,8485,ITAJ,2014,s,Brescia Primavera,Italy,left,240152,Antonio Romano,18,Italy,midfielder,Cesena Primavera,Italy,2400000,25000,False,False,False,False,1077320,ITAJ
 41424,41446,158988,8976,SPA2,2014,s,Recreativo Granada,Spain,left,295331,Isaac Success,18,Nigeria,striker,Udinese Primavera,Italy,0,0,False,True,True,False,1049529,ITAJ
 41579,41601,159197,9185,ITAJ,2015,s,Atalanta Primavera,Italy,left,294808,Franck Kessié,18,Cote d'Ivoire,midfielder,Stella Club d'Adjamé,Cote d'Ivoire,0,300000,False,True,True,False,1183612,COT
-41749,41771,159404,9392,ITA4,2015,s,AltoVicentino,Italy,left,267916,Valeriano Nchama,20,Equatorial Guinea,midfielder,Fc Inter Primavera,Italy,0,25000,False,True,True,False,1107984,ITAJ
-41752,41774,159407,9395,ITA4,2015,s,Parma Juniores,Italy,left,220778,Geremy Lombardi,19,Dominican Republic,striker,Fc Inter Primavera,Italy,0,100000,False,True,True,False,936496,ITAJ
-41756,41778,159414,9402,ITA4,2015,s,Calcio Lecco 1912,Italy,left,290417,Nicolò Di Stefano,20,Italy,defender,Fc Inter Primavera,Italy,0,25000,False,True,True,False,1131575,ITAJ
-41760,41782,159419,9407,ITA4,2015,s,AC Ponte San Pietro-Isola,Italy,left,283559,Alessandro Feleppa,19,Italy,goalkeeper,Fc Inter Primavera,Italy,0,50000,False,True,True,False,1123593,ITAJ
+41749,41771,159404,9392,ITA4,2015,s,AltoVicentino,Italy,left,267916,Valeriano Nchama,20,Equatorial Guinea,midfielder,FC Inter Primavera,Italy,0,25000,False,True,True,False,1107984,ITAJ
+41752,41774,159407,9395,ITA4,2015,s,Parma Juniores,Italy,left,220778,Geremy Lombardi,19,Dominican Republic,striker,FC Inter Primavera,Italy,0,100000,False,True,True,False,936496,ITAJ
+41756,41778,159414,9402,ITA4,2015,s,Calcio Lecco 1912,Italy,left,290417,Nicolò Di Stefano,20,Italy,defender,FC Inter Primavera,Italy,0,25000,False,True,True,False,1131575,ITAJ
+41760,41782,159419,9407,ITA4,2015,s,AC Ponte San Pietro-Isola,Italy,left,283559,Alessandro Feleppa,19,Italy,goalkeeper,FC Inter Primavera,Italy,0,50000,False,True,True,False,1123593,ITAJ
 41795,41817,159473,9461,ITA4,2015,s,USD Olginatese,Italy,left,190861,Alberto Formigoni,20,Italy,striker,Hellas Verona Primavera,Italy,0,25000,False,True,True,False,1109328,ITAJ
 41831,41853,159519,9507,ITA4,2015,s,Varese Juniores,Italy,left,238955,Cristian Galliani,19,Italy,defender,Milan Primavera,Italy,0,25000,False,True,True,False,943343,ITAJ
 41865,41887,159562,9550,ITAJ,2015,s,Salernitana Primavera,Italy,left,331905,Andrea Dragonetti,19,Italy,striker,Parma Calcio 1913,Italy,0,0,False,True,True,False,1101034,ITA4
