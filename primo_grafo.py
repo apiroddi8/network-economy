@@ -11,17 +11,17 @@
 # ARCHI = valore trasferimento esclusa soglia minima
 
 # MEGLIO UTILIZZARE IL MARKET VALUE CHE E' PIù OGGETTIVO, MENTRE IL TRANSFER_VALUE E' PIù SOGGETTO A VARIAZIONI NEL CORSO DEL TEMPO
+import itertools
+
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 import numpy as np
-import scipy as sp
-from matplotlib.cm import ScalarMappable
-from collections import Counter
+import networkx.algorithms.community as nx_comm
 
-df = pd.read_csv("dataset_finale11-15pronto.csv")
+df = pd.read_csv("Dataset/dataset_finale11-15pronto.csv")
 df = df.dropna()
-df_serie = pd.read_csv("STEP4.csv")
+df_serie = pd.read_csv("Dataset/STEP4.csv")
 
 #print(df_serie.groupby(['league_team1']).sum())
 
@@ -46,9 +46,9 @@ G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiG
 print("Number of nodes:", G.number_of_nodes())
 print("Number of edges:", G.number_of_edges())
 
-print("G.nodes =", G.nodes)
-print("\n\nG.edges =", G.edges)
-print("\n\n\nG.degree =", G.degree)
+# print("G.nodes =", G.nodes)
+# print("\n\nG.edges =", G.edges)
+# print("\n\n\nG.degree =", G.degree)
 
 #BETWEENESS
 bw_centrality = nx.betweenness_centrality(G, normalized=False)
@@ -106,49 +106,59 @@ for i in G.nodes:
 #print(len(color_map))
 # print("In-degree: ", G.in_degree)
 #
-pos = nx.kamada_kawai_layout(G)  # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
-# #                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
-# nx.draw_networkx( G,
-#         node_color=color_map,
-#         node_size=size_map,
-#         pos=pos,
-#         with_labels=True,
-#         )
-nx.draw_networkx_nodes(G,pos,
-                       nodelist=G.nodes,
-                       node_size=size_map,
-                       node_color=color_map,
-                       alpha=0.7)
-nx.draw_networkx_edges(G,
-                       pos=pos,
-                       edgelist = dict_edges_occurences.keys(),
-                       width=list(dict_edges_occurences.values()),
-                       edge_color='lightgray',
-                       alpha=0.6)
-nx.draw_networkx_labels(G, pos=pos,
-                        labels=dict(zip(G.nodes,G.nodes)),
-                        font_color='black')
+# pos = nx.kamada_kawai_layout(G)  # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
+# # #                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
+# # nx.draw_networkx( G,
+# #         node_color=color_map,
+# #         node_size=size_map,
+# #         pos=pos,
+# #         with_labels=True,
+# #         )
+# nx.draw_networkx_nodes(G,pos,
+#                        nodelist=G.nodes,
+#                        node_size=size_map,
+#                        node_color=color_map,
+#                        alpha=0.7)
+# nx.draw_networkx_edges(G,
+#                        pos=pos,
+#                        edgelist = dict_edges_occurences.keys(),
+#                        width=list(dict_edges_occurences.values()),
+#                        edge_color='lightgray',
+#                        alpha=0.6)
+# nx.draw_networkx_labels(G, pos=pos,
+#                         labels=dict(zip(G.nodes,G.nodes)),
+#                         font_color='black')
+#
+# plt.show()
 
-plt.show()
+
 
 
 #PUNTO B
 #devo riuscire a colorare i nodi in base al cluster di appartenenza. I clusters vengono definiti in base alle squadre che tra di loro effettuano la maggior parte dei trasferimenti
-# lcc = nx.clustering(G)
+# GUIDA MOLTO CARINA https://networkx.guide/algorithms/community-detection/girvan-newman/
+
+#communities based on Girvan-Newman edge betwenness centrality algorithm --> calcola la edge betwenness e poi toglie l'edge con la betwennesss centrality più alta, ricalcola la edge betwenness
+#                                                                            per i restanti edge e toglie quello con la betwenness più alto e va avanti così finche non rimangono più edges.
+#### SPOILER: NON FUNZIONA NEL NOSTRO GRAFO
+
+
+#Provo con l'algoritmo di LOUVRAN -->
+# communities = nx_comm.louvain_communities(G)
+# print(communities)
 #
-# cmap = plt.get_cmap('autumn')
-# norm = plt.Normalize(0, max(lcc.values()))
-# node_colors = [cmap(norm(lcc[node])) for node in G.nodes]
+# unique_coms = np.unique(list(communities.values()))
+# cmap = {
+#     0 : 'maroon',
+#     1 : 'teal',
+#     2 : 'black',
+#     3 : 'orange',
+#     4 : 'green',
+#     5 : 'yellow'
+# }
 #
-# fig, ax = plt.subplots( figsize=(25, 20))
-# nx.draw_spring(G, node_color=node_colors, with_labels=True, ax=ax, edge_color="gainsboro")
-# fig.colorbar(ScalarMappable(cmap=cmap, norm=norm), label='Clustering', shrink=0.95, ax=ax)
+# node_cmap = [cmap[v] for _,v in communities.items()]
 #
-#
-# fig, ax = plt.subplots( figsize=(15, 10))
-# ax.hist(lcc.values(), bins=10)
-# ax.set_xlabel('Clustering')
-# ax.set_ylabel('Frequency')
-#
-# plt.tight_layout()
+# pos = nx.spring_layout(G)
+# nx.draw(G, pos, node_size = 75, alpha = 0.8, node_color=node_cmap)
 # plt.show()
