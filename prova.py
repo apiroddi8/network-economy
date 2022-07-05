@@ -22,5 +22,7 @@ merged_Frame.drop('team', inplace=True, axis=1)
 merged_Frame.drop('point', inplace=True, axis=1)
 merged_Frame.to_csv("merged_low_league.csv")
 
+df_nostro['age_cat'] = pd.cut(df['age'], bins=[0,23,54,56, 999], labels=['Young', 'Adult', 'Elder','other'])
+
 
 
