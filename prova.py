@@ -13,6 +13,7 @@ import pandas as pd
 # nuovo_data.to_csv("squadre_ordinate.csv")
 # print(df_filter2)
 
+#join di due dataframe per la creazione delle fasce
 df = pd.read_csv("dataset_finale11-15pronto.csv")
 df1 = pd.read_csv("squadre_per_fascia//low_league.csv")
 merged_Frame = pd.merge(df, df1, how='inner', left_on='team1', right_on='team')
