@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 import numpy as np
-import networkx.algorithms.community as nx_comm
+from networkx.algorithms.community import girvan_newman
 
 df = pd.read_csv("Dataset/dataset_finale11-15pronto.csv")
 df = df.dropna()
@@ -141,6 +141,15 @@ for i in G.nodes:
 #communities based on Girvan-Newman edge betwenness centrality algorithm --> calcola la edge betwenness e poi toglie l'edge con la betwennesss centrality più alta, ricalcola la edge betwenness
 #                                                                            per i restanti edge e toglie quello con la betwenness più alto e va avanti così finche non rimangono più edges.
 #### SPOILER: NON FUNZIONA NEL NOSTRO GRAFO
+# k = 4
+# comp = girvan_newman(G)
+# for communities in itertools.islice(comp, k):
+#     print(tuple(sorted(c) for c in communities))
+
+#ALTERNATIVA
+comp = girvan_newman(G)
+print(tuple(sorted(c) for c in next(comp)))
+print(len(tuple(sorted(c) for c in next(comp))))
 
 
 #Provo con l'algoritmo di LOUVRAN -->
