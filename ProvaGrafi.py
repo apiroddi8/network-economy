@@ -143,4 +143,4 @@ print(distances)
 
 
 
-
+#group by per giocatore

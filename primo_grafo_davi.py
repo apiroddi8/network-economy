@@ -65,70 +65,6 @@ for edge in edgelist:
     dict_edges_occurences[(edge[0], edge[1])] += 1
 
 
-#     if edge not in dict_edges_occurences.keys():
-#         dict_edges_occurences[edge] = occurence
-#     occurence += G.number_of_edges(edge[1], edge[0])
-#     if edge[::-1] in dict_edges_occurences.keys():
-#         dict_edges_occurences[edge] = occurence
-#
-#print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse=True))
-
-#Visualize the graph
-# fig, ax = plt.subplots(figsize=(45, 35))
-# fig.suptitle("football player transfer from 2009 to 2021")
-# #Simple 1-line code: nx.draw_networkx(G)
-# color_map = []
-# size_map= []
-# in_degrees = G.in_degree
-# for i in G.nodes:
-#     for node in in_degrees:
-#         if node[0] == i:
-#             in_degree = node[1]
-#     size_map.append(in_degree * 40)
-#     for row in df_serie.itertuples():
-#         if row.team1 == i:
-#             if row.league_team1 == 'ITA1':
-#                 color_map.append('blue')
-#             elif row.league_team1 == 'ITA2':
-#                 color_map.append('yellow')
-#             elif row.league_team1 == 'ITA3':
-#                 color_map.append('green')
-#             elif row.league_team1 == 'ITA4':
-#                 color_map.append('red')
-#             else:
-#                 color_map.append('purple')
-
-
-#print(len(color_map))
-# print("In-degree: ", G.in_degree)
-#
-# pos = nx.kamada_kawai_layout(G)  # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
-# # #                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
-# # nx.draw_networkx( G,
-# #         node_color=color_map,
-# #         node_size=size_map,
-# #         pos=pos,
-# #         with_labels=True,
-# #         )
-# nx.draw_networkx_nodes(G,pos,
-#                        nodelist=G.nodes,
-#                        node_size=size_map,
-#                        node_color=color_map,
-#                        alpha=0.7)
-# nx.draw_networkx_edges(G,
-#                        pos=pos,
-#                        edgelist = dict_edges_occurences.keys(),
-#                        width=list(dict_edges_occurences.values()),
-#                        edge_color='lightgray',
-#                        alpha=0.6)
-# nx.draw_networkx_labels(G, pos=pos,
-#                         labels=dict(zip(G.nodes,G.nodes)),
-#                         font_color='black')
-#
-# plt.show()
-
-
-
 
 #PUNTO B
 #devo riuscire a colorare i nodi in base al cluster di appartenenza. I clusters vengono definiti in base alle squadre che tra di loro effettuano la maggior parte dei trasferimenti
@@ -193,19 +129,24 @@ external = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] == 0]
 internal = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] > 0]
 internal_color = ['gray' for e in internal]
 pos = nx.kamada_kawai_layout(G)
-# Draw external edges
+#Node size
+size_map = []
+in_degrees = G.in_degree
+print('\n\n IN degree:',in_degrees)
+for i in G.nodes:
+    for node in in_degrees:
+        if node[0] == i:
+            in_degree = node[1]
+    size_map.append(in_degree * 40)
+#Draw external edges
 nx.draw_networkx(
     G, pos=pos, node_size=0,
     edgelist=external, edge_color="#333333", with_labels=False)
 # Draw nodes and internal edges
 nx.draw_networkx(
-    G, pos=pos, node_color=node_color,
+    G, pos=pos, node_size=size_map, node_color=node_color,
     edgelist=internal, edge_color=internal_color)
-# nx.draw_networkx_nodes(G,pos,
-#                        nodelist=G.nodes,
-#                        node_size=size_map,
-#                        node_color=color_map,
-#                        alpha=0.7)
+
 
 plt.show()
 
@@ -262,21 +203,22 @@ external = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] == 0]
 internal = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] > 0]
 internal_color = ['black' for e in internal]
 
-karate_pos = nx.kamada_kawai_layout(G)
+pos = nx.kamada_kawai_layout(G)
 plt.rcParams.update({'figure.figsize': (15, 10)})
 plt.suptitle("Communities with Modularity")
 # Draw external edges
 nx.draw_networkx(
     G,
-    pos=karate_pos,
+    pos=pos,
     node_size=0,
     edgelist=external,
     edge_color="silver")
 # Draw nodes and internal edges
 nx.draw_networkx(
     G,
-    pos=karate_pos,
+    pos=pos,
     node_color=node_color,
+    node_size=size_map,
     edgelist=internal,
     edge_color=internal_color)
 
