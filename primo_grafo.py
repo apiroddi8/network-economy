@@ -130,7 +130,7 @@ nx.draw_networkx_labels(G, pos=pos,
 
 plt.show()
 
-nx.write_gml(G, 'graph_1A.gml')
+nx.write_gml(G, '../../Desktop/graph_1A.gml')
 
 
 
