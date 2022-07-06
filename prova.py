@@ -14,15 +14,21 @@ import pandas as pd
 # print(df_filter2)
 
 #join di due dataframe per la creazione delle fasce
-df = pd.read_csv("dataset_finale11-15pronto.csv")
-df1 = pd.read_csv("squadre_per_fascia//low_league.csv")
-merged_Frame = pd.merge(df, df1, how='inner', left_on='team1', right_on='team')
-merged_Frame.drop('league', inplace=True, axis=1)
-merged_Frame.drop('team', inplace=True, axis=1)
-merged_Frame.drop('point', inplace=True, axis=1)
-merged_Frame.to_csv("merged_low_league.csv")
-
-df_nostro['age_cat'] = pd.cut(df['age'], bins=[0,23,54,56, 999], labels=['Young', 'Adult', 'Elder','other'])
+# df = pd.read_csv("dataset//dataset_finale11-15pronto.csv")
+# df1 = pd.read_csv("squadre_per_fascia//top_leagues.csv")
+# merged_Frame = pd.merge(df, df1, how='inner', left_on='team2', right_on='team')
+# merged_Frame.drop('league', inplace=True, axis=1)
+# merged_Frame.drop('team', inplace=True, axis=1)
+# merged_Frame.drop('point', inplace=True, axis=1)
+# merged_Frame.to_csv("merged_top_league.csv")
 
 
+#creazione fasce di età
+# df.loc[df['player_age']<=18, 'age'] = 'età 15-18'
+# df.loc[df['player_age'].between(19,24), 'age'] = 'età 19-25'
+# df.loc[df['player_age'].between(25,28), 'age'] = 'età 25-28'
+# df.loc[df['player_age'].between(29,33), 'age'] = 'età 29-33'
+# df.loc[df['player_age'].between(34,36), 'age'] = 'vecchio'
+#
+# print(df.age)
 
