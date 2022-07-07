@@ -15,12 +15,12 @@ import pandas as pd
 
 #join di due dataframe per la creazione delle fasce
 # df = pd.read_csv("dataset//dataset_finale11-15pronto.csv")
-# df1 = pd.read_csv("squadre_per_fascia//top_leagues.csv")
+# df1 = pd.read_csv("squadre_per_fascia//squadre_ita_eterne.csv")
 # merged_Frame = pd.merge(df, df1, how='inner', left_on='team2', right_on='team')
 # merged_Frame.drop('league', inplace=True, axis=1)
 # merged_Frame.drop('team', inplace=True, axis=1)
 # merged_Frame.drop('point', inplace=True, axis=1)
-# merged_Frame.to_csv("merged_top_league.csv")
+# merged_Frame.to_csv("merged_squadre_ita.csv")
 
 
 #creazione fasce di età
@@ -31,4 +31,43 @@ import pandas as pd
 # df.loc[df['player_age'].between(34,36), 'age'] = 'vecchio'
 #
 # print(df.age)
+
+import pandas as pd
+df=pd.read_csv('Dataset/dataset_completo10-15.csv')
+new_df=df.groupby('player_name').first().reset_index()
+new_df2=new_df[new_df['league_team1']=='ITA4']
+player_list=new_df2['player_name'].tolist()
+dataframe=df[df['player_name'].isin(player_list)]
+new_dataframe=dataframe[dataframe['league_team2']=='ITA1']
+player_list2=list(set(new_dataframe['player_name'].tolist()))
+
+data=dataframe[dataframe['player_name'].isin(player_list2)]
+esclusi=[]
+print(data)
+print(len(data.index))
+righe=list(range(0,len((data.index))))
+print(righe)
+data['indice']=righe
+print(data)
+for player in player_list2:
+    for row in data.itertuples():
+        if row.player_name==player:
+            for row2 in data.itertuples():
+                if ((row2.season == row.season or row2.season==row.season+1) and row2.league_team2!='ITA1' and row2.player_name==player and row2.indice!=row.indice):
+                    esclusi.append(player)
+
+data2=data[~data['player_name'].isin(esclusi)]
+
+for index,row in data2.iterrows():
+    if row.league_team2=='ITA1':
+        for index2,row2 in data2.iterrows():
+            if (row2.player_name==row.player_name and row2.indice>row.indice):
+                data2.drop(index2, inplace=True)
+
+
+#df_filter = df.groupby(['team1','team2'])['player_name'].unique().apply(dict).reset_index()
+
+new_dict = (data2.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['team1'],x['team2'])))).to_dict())
+print(new_dict)
+
 
