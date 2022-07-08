@@ -106,7 +106,7 @@ data3.loc[(data2['league_team2']!='ITA1')& (data2['league_team2']!='ITA2')&
 #print('dopo modifica bandiera\n',data2)
 
 
-dict_of_edges = (data3.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['league_team1'],x['league_team2'])))).to_dict())
+dict_of_edges = (data3.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['team1'],x['team2'])))).to_dict())
 print('AAAAAA', dict_of_edges.items())
 
 
@@ -129,70 +129,70 @@ for edge in edgelist:
 
 print(dict_edges_occurences)
 
-color_map = []
-for k,v in dict_edges_occurences.items():
-        if k == ('ITA4', 'ITA1'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA2'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA3'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA4'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITAJ'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'OTH'):
-            color_map.append('blue')
-        elif k == ('ITA3', 'ITA1'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA2'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA3'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA4'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITAJ'):
-            color_map.append('red')
-        elif k == ('ITA3', 'OTH'):
-            color_map.append('red')
-        elif k == ('ITA2', 'ITA1'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA2'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA3'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA4'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITAJ'):
-            color_map.append('green')
-        elif k == ('ITA2', 'OTH'):
-            color_map.append('green')
-        elif k == ('ITA1', 'ITA1'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA2'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA3'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA4'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITAJ'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'OTH'):
-            color_map.append('purple')
-        elif k == ('ITAJ', 'ITA1'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA2'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA3'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA4'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITAJ'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'OTH'):
-            color_map.append('orange')
-        else:
-            color_map.append('black')
+# color_map = []
+# for k,v in dict_edges_occurences.items():
+#         if k == ('ITA4', 'ITA1'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA2'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA3'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA4'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITAJ'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'OTH'):
+#             color_map.append('blue')
+#         elif k == ('ITA3', 'ITA1'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA2'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA3'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA4'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITAJ'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'OTH'):
+#             color_map.append('red')
+#         elif k == ('ITA2', 'ITA1'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA2'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA3'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA4'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITAJ'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'OTH'):
+#             color_map.append('green')
+#         elif k == ('ITA1', 'ITA1'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA2'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA3'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA4'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITAJ'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'OTH'):
+#             color_map.append('purple')
+#         elif k == ('ITAJ', 'ITA1'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA2'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA3'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA4'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITAJ'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'OTH'):
+#             color_map.append('orange')
+#         else:
+#             color_map.append('black')
 
 
 size_map = []
@@ -219,7 +219,7 @@ nx.draw_networkx_edges(G,
                        pos=pos,
                        edgelist = dict_edges_occurences.keys(),
                        width=list(i / 10 for i in dict_edges_occurences.values()),
-                       edge_color=color_map,
+                       edge_color='green',
                        alpha=0.6,
                        arrows= True,
                        arrowsize=15)
@@ -228,28 +228,8 @@ nx.draw_networkx_labels(G, pos=pos, font_size=7)
 
 plt.axis('off')
 plt.show()
-#
-# # print("In-degree: ", G.in_degree)
-# #
-# # ###PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
-# # # distances = {key:len(value) for (key,value) in dict_of_nodes.items()}
-# # # print(distances)
-#
-#
-# #
-#
-# #
-#
-#for k,v in dict_edges_occurences.items():
-    # print(v)
-    # if v < 10:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="lightblue")
-    # elif v < 60:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="blue")
-    # else:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="black")
-#
 
+
+
+#calcolare betweennes soltanto dei percorsi minimali tra i nodi ITA4 ed Ita1
+#quindi aggiungi label al nodo della league_team
