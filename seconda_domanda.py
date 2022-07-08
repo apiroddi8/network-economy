@@ -1,4 +1,10 @@
+import random
 import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 df=pd.read_csv('Dataset/dataset_completo10-15.csv')
 new_df=df.groupby('player_name').first().reset_index()
 print(new_df)
@@ -29,7 +35,9 @@ for player in player_list2:
                     for row3 in data.itertuples():
                         if (row3.indice!=row2.indice and row3.indice!=row.indice and row3.league_team2=='ITA1' and row3.player_name==player):
                             #esclusi.append(player)
+                            print('ENTRA')
                             salvati.append(player)
+                            print(player)
                     if player not in salvati:
                         esclusi.append(player)
 
@@ -37,10 +45,14 @@ print(esclusi)
 data2=data[~data['player_name'].isin(esclusi)]
 
 
+###### QUIIIII
+
 bandiere=[]
+
+segnale=['ok']
 for raw in data2.itertuples():
     check=True
-    if raw.league_team2=='ITA1':
+    if raw.league_team2=='ITA1' and raw.player_name!=segnale[-1]:
         for raw2 in data2.itertuples():
             if (raw2.indice > raw.indice and (raw2.season==raw.season or raw2.season==raw.season+1) and raw2.league_team2!='ITA1' and raw2.player_name==raw.player_name):
                 bandiere.append('red')
@@ -48,6 +60,7 @@ for raw in data2.itertuples():
                 break
         if check:
             bandiere.append('green')
+            segnale.append(raw.player_name)
 
     else:
         bandiere.append('red')
@@ -56,6 +69,7 @@ print(len(bandiere))
 data2['bandiere']=bandiere
 
 print(data2)
+data2.to_csv('prova1.csv')
 
 data2 = data2.astype({'indice': int },errors='raise')
 
@@ -64,26 +78,90 @@ indice = {}
 for player in player_list3:
     for row in data2.itertuples():
             if row.bandiere == 'green' and row.player_name == player:
-                indice[player] = row.indice
+                if row.player_name not in indice.keys():
+                    indice[player] = row.indice
 
 
 print(indice)
-print(data2)
+#print(data2)
 for index, row in data2.iterrows():
     for player, ind in indice.items():
         if row.indice < ind and row.player_name == player:
             data2.at[index,'bandiere'] = 'green'
 
-data2 = data2[(data2['bandiere'] == 'green')]
-
-print('dopo modifica bandiera\n',data2)
-
-new_dict = (data2.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['team1'],x['team2'])))).to_dict())
-print(new_dict)
-print(len(new_dict))
-print(new_dict.keys())
+data2.to_csv('prova3.csv')
+data3 = data2[data2['bandiere'] == 'green']
+data3.to_csv('prova4.csv')
+#
+# data_finito = data2.loc[data2['bandiere'] == 'green']
+# data_finito.to_csv('prova2.csv')
 
 
+#print('dopo modifica bandiera\n',data2)
+
+dict_of_edges = (data3.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['league_team1'],x['league_team2'])))).to_dict())
+print('AAAAAA', dict_of_edges.items())
+
+
+G = nx.MultiDiGraph()
+
+for k,v in dict_of_edges.items():
+    G.add_edges_from((edge for edge in v), player_ID = k)
+
+print("Edges with attributes: ",G.edges.data())
+print('Edges:', G.edges)
+edgelist = G.edges
+dict_edges_occurences = {}
+
+for edge in edgelist:
+    if (edge[0], edge[1]) not in dict_edges_occurences:
+        dict_edges_occurences[(edge[0], edge[1])] = 1
+    dict_edges_occurences[(edge[0], edge[1])] += 1
+
+print(dict_edges_occurences)
+
+color_map = []
+# for i in G.nodes:
+#     for row in df_serie.itertuples():
+#         if row.team1 == i:
+#             if row.league_team1 == 'ITA1':
+#                 color_map.append('blue')
+#             elif row.league_team1 == 'ITA2':
+#                 color_map.append('yellow')
+#             elif row.league_team1 == 'ITA3':
+#                 color_map.append('green')
+#             elif row.league_team1 == 'ITA4':
+#                 color_map.append('red')
+#             else:
+#                 color_map.append('purple')
+#
+
+# for u,v,d in G.edges(data=True):
+#     d['weight'] = random.random()
+#
+# edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
+#
+# pos = nx.spring_layout(G)
+#
+# nx.draw_networkx_nodes(G, pos=pos, node_color = 'r', node_size = 100, alpha = 1 )
+#
+# nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
+#                          edge_color=weights, width=list(i / 2 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
+# nx.draw_networkx_labels(G, pos=pos)
+#
+# plt.axis('off')
+# plt.show()
+
+# print("In-degree: ", G.in_degree)
+#
+# ###PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
+# # distances = {key:len(value) for (key,value) in dict_of_nodes.items()}
+# # print(distances)
+
+
+#
+
+#
 
 
 
