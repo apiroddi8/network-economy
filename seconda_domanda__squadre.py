@@ -6,6 +6,8 @@ import numpy as np
 
 
 df=pd.read_csv('Dataset/dataset_completo10-15.csv')
+df_serie = pd.read_csv('Dataset/STEP4.csv')
+
 new_df=df.groupby('player_name').first().reset_index()
 print(new_df)
 new_df2=new_df[new_df['league_team1']=='ITA4']
@@ -67,7 +69,6 @@ print(len(bandiere))
 data2['bandiere']=bandiere
 
 print(data2)
-data2.to_csv('prova1.csv')
 
 data2 = data2.astype({'indice': int },errors='raise')
 
@@ -87,7 +88,6 @@ for index, row in data2.iterrows():
         if row.indice < ind and row.player_name == player:
             data2.at[index,'bandiere'] = 'green'
 
-data2.to_csv('prova3.csv')
 data3 = data2[data2['bandiere'] == 'green']
 
 data3.loc[(data2['league_team1']!='ITA1')& (data2['league_team1']!='ITA2')&
@@ -97,28 +97,53 @@ data3.loc[(data2['league_team1']!='ITA1')& (data2['league_team1']!='ITA2')&
 data3.loc[(data2['league_team2']!='ITA1')& (data2['league_team2']!='ITA2')&
           (data2['league_team2']!='ITA3')& (data2['league_team2']!='ITA4')&
           (data2['league_team2']!='ITAJ'),'league_team2']='OTH'
-#data3.to_csv('prova4.csv')
-#
-# data_finito = data2.loc[data2['bandiere'] == 'green']
-# data_finito.to_csv('prova2.csv')
 
 
 #print('dopo modifica bandiera\n',data2)
+data3.loc[(data2['league_team1']!='ITA1')& (data2['league_team1']!='ITA2')&
+          (data2['league_team1']!='ITA3')& (data2['league_team1']!='ITA4')&
+          (data2['league_team1']!='ITAJ'),'team1']='Estera'
+
+data3.loc[(data2['league_team2']!='ITA1')& (data2['league_team2']!='ITA2')&
+          (data2['league_team2']!='ITA3')& (data2['league_team2']!='ITA4')&
+          (data2['league_team2']!='ITAJ'),'team2']='Estera'
 
 
 dict_of_edges = (data3.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['team1'],x['team2'])))).to_dict())
 print('AAAAAA', dict_of_edges.items())
 
 
-#
-
 G = nx.MultiDiGraph()
 
 for k,v in dict_of_edges.items():
     G.add_edges_from((edge for edge in v), player_ID = k)
+
+print("Edges with attributes: ",G.edges.data())
+
+team_list = df_serie.team1.to_list()
+
+for node in G.nodes:
+    if node in team_list:
+        G.nodes[node]['league_team'] = prova = df_serie.loc[(df_serie['team1'] == node), 'league_team1'].to_list()[0]
+    else:
+        G.nodes[node]['league_team'] = 'other'
+
+in_degrees = G.in_degree
+out_degrees = G.out_degree
+# # Identify nodes for removal
+nodes2remove_indegrees = [node[0] for node in in_degrees if node[1] < 2 ]
+nodes2remove_outdegrees = [node[0] for node in out_degrees if node[1] <= 1 ]
+nodes2remove1 = set(nodes2remove_indegrees)
+nodes2remove2 = set(nodes2remove_outdegrees)
+nodes2remove3 = list(nodes2remove1.intersection(nodes2remove2))
+
+# # Remove target-nodes
+for node in nodes2remove3:
+    G.remove_node(node)
 #
-# print("Edges with attributes: ",G.edges.data())
-# print('Edges:', G.edges)
+# for k,v in G.nodes(data=True):
+#     print(k,v['league_team'])
+
 edgelist = G.edges
 dict_edges_occurences = {}
 
@@ -129,91 +154,31 @@ for edge in edgelist:
 
 print(dict_edges_occurences)
 
-# color_map = []
-# for k,v in dict_edges_occurences.items():
-#         if k == ('ITA4', 'ITA1'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA2'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA3'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA4'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITAJ'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'OTH'):
-#             color_map.append('blue')
-#         elif k == ('ITA3', 'ITA1'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA2'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA3'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA4'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITAJ'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'OTH'):
-#             color_map.append('red')
-#         elif k == ('ITA2', 'ITA1'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA2'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA3'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA4'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITAJ'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'OTH'):
-#             color_map.append('green')
-#         elif k == ('ITA1', 'ITA1'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA2'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA3'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA4'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITAJ'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'OTH'):
-#             color_map.append('purple')
-#         elif k == ('ITAJ', 'ITA1'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA2'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA3'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA4'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITAJ'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'OTH'):
-#             color_map.append('orange')
-#         else:
-#             color_map.append('black')
+print(G.nodes(data=True))
+serieD = [nodo for nodo, at in G.nodes(data=True) if at['league_team'] == 'ITA4']
+serieA = [nodo for nodo, at in G.nodes(data=True) if at['league_team'] == 'ITA1']
+
+bw_centrality = nx.betweenness_centrality_subset(G, sources= serieD, targets= serieA, normalized=False)
+
+print("\n\nBetweenness Centrality: ", bw_centrality)
 
 
 size_map = []
-in_degrees = G.in_degree
 for i in G.nodes:
-    for node in in_degrees:
-        if node[0] == i:
-            in_degree = node[1]
-    size_map.append(in_degree * 40)
+    for node, bw in bw_centrality.items():
+        if node == i:
+            size_map.append((bw + 1 ) * 50)
+
 
 for u,v,d in G.edges(data=True):
     d['weight'] = random.random()
 
 edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
-
-pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
+#
+## pos = nx.kamada_kawai_layout(G)
+pos = nx.spring_layout(G, k=0.9*1/np.sqrt(len(G.nodes())), iterations=20)
 
 nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
-
-# nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-#                      edge_color=weights, width=list(i / 20 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
 
 nx.draw_networkx_edges(G,
                        pos=pos,
@@ -230,6 +195,8 @@ plt.axis('off')
 plt.show()
 
 
+# # nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
+# #                      edge_color=weights, width=list(i / 20 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
 
 #calcolare betweennes soltanto dei percorsi minimali tra i nodi ITA4 ed Ita1
 #quindi aggiungi label al nodo della league_team

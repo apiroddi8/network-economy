@@ -67,7 +67,6 @@ print(len(bandiere))
 data2['bandiere']=bandiere
 
 print(data2)
-data2.to_csv('prova1.csv')
 
 data2 = data2.astype({'indice': int },errors='raise')
 
@@ -87,7 +86,7 @@ for index, row in data2.iterrows():
         if row.indice < ind and row.player_name == player:
             data2.at[index,'bandiere'] = 'green'
 
-data2.to_csv('prova3.csv')
+
 data3 = data2[data2['bandiere'] == 'green']
 
 data3.loc[(data2['league_team1']!='ITA1')& (data2['league_team1']!='ITA2')&
@@ -97,10 +96,8 @@ data3.loc[(data2['league_team1']!='ITA1')& (data2['league_team1']!='ITA2')&
 data3.loc[(data2['league_team2']!='ITA1')& (data2['league_team2']!='ITA2')&
           (data2['league_team2']!='ITA3')& (data2['league_team2']!='ITA4')&
           (data2['league_team2']!='ITAJ'),'league_team2']='OTH'
-#data3.to_csv('prova4.csv')
-#
-# data_finito = data2.loc[data2['bandiere'] == 'green']
-# data_finito.to_csv('prova2.csv')
+
+
 
 
 #print('dopo modifica bandiera\n',data2)
@@ -125,131 +122,132 @@ dict_edges_occurences = {}
 for edge in edgelist:
     if (edge[0], edge[1]) not in dict_edges_occurences:
         dict_edges_occurences[(edge[0], edge[1])] = 1
-    dict_edges_occurences[(edge[0], edge[1])] += 1
+    else:
+        dict_edges_occurences[(edge[0], edge[1])] += 1
 
 print(dict_edges_occurences)
 
-color_map = []
-for k,v in dict_edges_occurences.items():
-        if k == ('ITA4', 'ITA1'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA2'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA3'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITA4'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'ITAJ'):
-            color_map.append('blue')
-        elif k == ('ITA4', 'OTH'):
-            color_map.append('blue')
-        elif k == ('ITA3', 'ITA1'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA2'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA3'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITA4'):
-            color_map.append('red')
-        elif k == ('ITA3', 'ITAJ'):
-            color_map.append('red')
-        elif k == ('ITA3', 'OTH'):
-            color_map.append('red')
-        elif k == ('ITA2', 'ITA1'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA2'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA3'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITA4'):
-            color_map.append('green')
-        elif k == ('ITA2', 'ITAJ'):
-            color_map.append('green')
-        elif k == ('ITA2', 'OTH'):
-            color_map.append('green')
-        elif k == ('ITA1', 'ITA1'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA2'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA3'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITA4'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'ITAJ'):
-            color_map.append('purple')
-        elif k == ('ITA1', 'OTH'):
-            color_map.append('purple')
-        elif k == ('ITAJ', 'ITA1'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA2'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA3'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITA4'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'ITAJ'):
-            color_map.append('orange')
-        elif k == ('ITAJ', 'OTH'):
-            color_map.append('orange')
-        else:
-            color_map.append('black')
+# color_map = []
+# for k,v in dict_edges_occurences.items():
+#         if k == ('ITA4', 'ITA1'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA2'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA3'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITA4'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'ITAJ'):
+#             color_map.append('blue')
+#         elif k == ('ITA4', 'OTH'):
+#             color_map.append('blue')
+#         elif k == ('ITA3', 'ITA1'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA2'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA3'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITA4'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'ITAJ'):
+#             color_map.append('red')
+#         elif k == ('ITA3', 'OTH'):
+#             color_map.append('red')
+#         elif k == ('ITA2', 'ITA1'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA2'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA3'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITA4'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'ITAJ'):
+#             color_map.append('green')
+#         elif k == ('ITA2', 'OTH'):
+#             color_map.append('green')
+#         elif k == ('ITA1', 'ITA1'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA2'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA3'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITA4'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'ITAJ'):
+#             color_map.append('purple')
+#         elif k == ('ITA1', 'OTH'):
+#             color_map.append('purple')
+#         elif k == ('ITAJ', 'ITA1'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA2'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA3'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITA4'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'ITAJ'):
+#             color_map.append('orange')
+#         elif k == ('ITAJ', 'OTH'):
+#             color_map.append('orange')
+#         else:
+#             color_map.append('black')
 
 
-size_map = []
-in_degrees = G.in_degree
-for i in G.nodes:
-    for node in in_degrees:
-        if node[0] == i:
-            in_degree = node[1]
-    size_map.append(in_degree * 40)
-
-for u,v,d in G.edges(data=True):
-    d['weight'] = random.random()
-
-edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
-
-pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
-
-nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
-
-# nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-#                      edge_color=weights, width=list(i / 20 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
-
-nx.draw_networkx_edges(G,
-                       pos=pos,
-                       edgelist = dict_edges_occurences.keys(),
-                       width=list(i / 10 for i in dict_edges_occurences.values()),
-                       edge_color=color_map,
-                       alpha=0.6,
-                       arrows= True,
-                       arrowsize=15)
-
-nx.draw_networkx_labels(G, pos=pos, font_size=7)
-
-plt.axis('off')
-plt.show()
+# size_map = []
+# in_degrees = G.in_degree
+# for i in G.nodes:
+#     for node in in_degrees:
+#         if node[0] == i:
+#             in_degree = node[1]
+#     size_map.append(in_degree * 40)
+#
+# for u,v,d in G.edges(data=True):
+#     d['weight'] = random.random()
+#
+# edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
+#
+# pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
+#
+# nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
+#
+# # nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
+# #                      edge_color=weights, width=list(i / 20 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
+#
+# nx.draw_networkx_edges(G,
+#                        pos=pos,
+#                        edgelist = dict_edges_occurences.keys(),
+#                        width=list(i / 10 for i in dict_edges_occurences.values()),
+#                        edge_color=color_map,
+#                        alpha=0.6,
+#                        arrows= True,
+#                        arrowsize=15)
+#
+# nx.draw_networkx_labels(G, pos=pos, font_size=7)
+#
+# plt.axis('off')
+# plt.show()
 #
 # # print("In-degree: ", G.in_degree)
 # #
-# # ###PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
-# # # distances = {key:len(value) for (key,value) in dict_of_nodes.items()}
-# # # print(distances)
+##PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
+distances = {key:len(value) for (key,value) in dict_of_edges.items()}
+print(distances)
+tot_trasferimenti = 0
+tot_players = len(distances.keys())
+for i in distances.values():
+    tot_trasferimenti += i
+
+mean_path_players = tot_trasferimenti / tot_players
+print('Numero di trasferimenti medio per giocatore METODO 1: ', mean_path_players)
+
 #
-#
-# #
-#
-# #
-#
-#for k,v in dict_edges_occurences.items():
-    # print(v)
-    # if v < 10:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="lightblue")
-    # elif v < 60:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="blue")
-    # else:
-    #     nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-    #                            width=list(i / 30 for i in dict_edges_occurences.values()), edge_color="black")
-#
+# ALTRO METODO PER CALCOLARE LA DISTANZA
+tot_trasferimenti2 = 0
+for i in dict_edges_occurences.values():
+    tot_trasferimenti2 += i
+
+mean_path_players2 = tot_trasferimenti2 / tot_players
+print('Numero di trasferimenti medio per giocatore METODO 2: ',mean_path_players2)
+
+
 
