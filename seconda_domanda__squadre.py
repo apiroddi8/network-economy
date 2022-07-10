@@ -150,7 +150,8 @@ dict_edges_occurences = {}
 for edge in edgelist:
     if (edge[0], edge[1]) not in dict_edges_occurences:
         dict_edges_occurences[(edge[0], edge[1])] = 1
-    dict_edges_occurences[(edge[0], edge[1])] += 1
+    else:
+        dict_edges_occurences[(edge[0], edge[1])] += 1
 
 print(dict_edges_occurences)
 
