@@ -28,10 +28,10 @@
 26,Sacilese Calcio,ITA4,6
 27,Rocca Priora,ITA4,6
 28,Parma Calcio 1913,ITA4,6
-29,Parma Juniores,ITA4,6
+29,Parma Juniores,ITAJ,6
 30,Rimini FC,ITA3,6
-31,Pavia Juniores,ITA4,6
-32,Perugia Primavera,ITA4,6
+31,Pavia Juniores,ITAJ,6
+32,Perugia Primavera,ITAJ,6
 33,Pescara Primavera,ITAJ,6
 34,Piacenza FC,ITA3,6
 35,Pierantonio Sport,ITA4,6
@@ -42,7 +42,7 @@
 40,SS Akragas Città dei Templi,ITA3,6
 41,SSD US Ancona,ITA4,6
 42,SSD Spoleto Calcio,ITA4,6
-43,Foligno Juniores,ITA4,6
+43,Foligno Juniores,ITAJ,6
 44,Fondi Calcio,ITA4,6
 45,SSD Riccione Calcio 1929,ITA4,6
 46,Frosinone Primavera,ITA4,6
@@ -50,8 +50,8 @@
 48,Gubbio Berretti,ITA4,6
 49,SS Maceratese,ITA3,6
 50,La Storta,ITA4,6
-51,Latina Juniores,ITA4,6
-52,Lazio U19,ITA4,6
+51,Latina Juniores,ITAJ,6
+52,Lazio U19,ITAJ,6
 53,Lupa Piacenza,ITA4,6
 54,SEF Torres 1903,ITA3,6
 55,US Campobasso 1919,ITA4,6
@@ -72,9 +72,9 @@
 70,AC Bra,ITA4,6
 71,Vicenza Primavera,ITAJ,6
 72,AC Isola Liri,ITA4,6
-73,Venezia FC,ITA4,6
+73,Venezia FC,ITA3,6
 74,ASD Liberty Monopoli,ITA4,6
-75,Varese Juniores,ITA4,6
+75,Varese Juniores,ITAJ,6
 76,Varese Calcio,ITA4,6
 77,Valenzana Mado SSD,ITA4,6
 78,AC Ponte San Pietro-Isola,ITA4,6
@@ -156,7 +156,7 @@
 154,AS Bari,ITA2,18
 155,AS Andria BAT,ITA3,18
 156,AC Siena,ITA1,18
-157,Napoli Primavera,ITA4,18
+157,Napoli Primavera,ITAJ,18
 158,AC Monza Brianza,ITA3,18
 159,Empoli Primavera,ITAJ,24
 160,Taranto FC 1927,ITA3,24
@@ -193,7 +193,7 @@
 191,Udinese Primavera,ITAJ,30
 192,AC Prato,ITA3,30
 193,Varese 1910,ITA2,30
-194,Roma Primavera,ITA4,30
+194,Roma Primavera,ITAJ,30
 195,Sorrento Calcio,ITA3,30
 196,Parma FC,ITA1,30
 197,SS Barletta Calcio,ITA3,30
