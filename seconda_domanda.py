@@ -5,15 +5,14 @@ import pandas as pd
 import networkx.algorithms.community as nxcom
 
 
-df = pd.read_csv("Dataset/dataset_pronto07-21.csv")
+df = pd.read_csv("Dataset/dataset_pulitoCUT07-21.csv")
 df = df.dropna()
-df_serie = pd.read_csv("Dataset/STEP4.csv")
 
 
 df = df.astype({'market_value': float },errors='raise')
 
 df_filtered = df[(df['league_team1'] == 'ITA1') & (df['league_team2'] == 'ITA1')]
-df_filtered = df_filtered[df_filtered['market_value'] >= 10000000.0]
+df_filtered = df_filtered[df_filtered['market_value'] >= 8000000.0]
 
 #CREATE GRAPH
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -23,16 +22,6 @@ G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiG
 # print("G.nodes =", G.nodes)
 print("\n\nG.edges =", G.edges)
 # print("\n\n\nG.degree =", G.degree)
-
-# CHECK NODES MISSING IN STEP4.csv
-# missing_teams = []
-# teams = df_serie.team1.tolist()
-# for node in G.nodes:
-#      if node not in teams:
-#          missing_teams.append(node)
-#
-# for node in missing_teams:
-#     G.remove_node(node)
 
 #COUNTING NUMBER OF EDGES BETWEEN ANY TWO NODES
 edgelist = G.edges
@@ -47,7 +36,7 @@ for edge in edgelist:
 ##COMMUNITY DETECTION WITH MODULARITY
 communities = sorted(nxcom.greedy_modularity_communities(G), key=len, reverse=True)
 #Count the communities
-print(f"The karate club has {len(communities)} communities.")
+print(f"The Serie A has {len(communities)} communities.")
 
 
 edges = [(v, w) for v, w, z in G.edges]
@@ -102,7 +91,7 @@ internal = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] > 0]
 internal_color = ['black' for e in internal]
 
 pos = nx.kamada_kawai_layout(G)
-plt.rcParams.update({'figure.figsize': (15, 10)})
+fig, ax = plt.subplots(figsize=(45, 35))
 plt.suptitle("Communities with Modularity")
 # Draw external edges
 nx.draw_networkx(
@@ -120,4 +109,5 @@ nx.draw_networkx(
     edgelist=internal,
     edge_color=internal_color)
 
+plt.axis('off')
 plt.show()

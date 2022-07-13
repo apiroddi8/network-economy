@@ -84,6 +84,7 @@ nx.draw_networkx_labels(G, pos=pos,
                         font_color='black',
                         font_size=6)
 
+plt.axis('off')
 plt.show()
 
 

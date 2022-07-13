@@ -7,7 +7,7 @@ from matplotlib.lines import Line2D
 
 
 
-dataframe = pd.read_csv("merged_squadre_ita.csv")
+dataframe = pd.read_csv("Dataset/merged_squadre_ita.csv")
 
 df = dataframe[dataframe['country_team2'] == 'Italy']
 

@@ -6,9 +6,9 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("dataset_pulitoCUT07-21.csv")
+df = pd.read_csv("Dataset/dataset_pulitoCUT07-21.csv")
 df = df.dropna()
-df_serie = pd.read_csv("dataset_supportoCUT.csv")
+df_serie = pd.read_csv("Dataset/dataset_supportoCUT.csv")
 
 
 print(df['market_value'])
@@ -17,7 +17,7 @@ first_quartile_market_value = df['market_value'].quantile(q=0.25)
 print(first_quartile_market_value)
 
 df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-#df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]
+df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]
 print(df_filtered)
 
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -103,9 +103,10 @@ nx.draw_networkx_edges(G,
 nx.draw_networkx_labels(G, pos=pos,
                         labels=dict(zip(G.nodes,G.nodes)),
                         font_color='black',
-                        font_size=4)
+                        font_size=5)
 
 ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
+plt.axis('off')
 plt.show()
 
 

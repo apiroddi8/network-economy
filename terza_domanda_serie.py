@@ -3,6 +3,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.lines import Line2D
 
 
 df=pd.read_csv('Dataset/dataset_completo10-15.csv')
@@ -127,109 +128,124 @@ for edge in edgelist:
 
 print(dict_edges_occurences)
 
-# color_map = []
-# for k,v in dict_edges_occurences.items():
-#         if k == ('ITA4', 'ITA1'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA2'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA3'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITA4'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'ITAJ'):
-#             color_map.append('blue')
-#         elif k == ('ITA4', 'OTH'):
-#             color_map.append('blue')
-#         elif k == ('ITA3', 'ITA1'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA2'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA3'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITA4'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'ITAJ'):
-#             color_map.append('red')
-#         elif k == ('ITA3', 'OTH'):
-#             color_map.append('red')
-#         elif k == ('ITA2', 'ITA1'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA2'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA3'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITA4'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'ITAJ'):
-#             color_map.append('green')
-#         elif k == ('ITA2', 'OTH'):
-#             color_map.append('green')
-#         elif k == ('ITA1', 'ITA1'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA2'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA3'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITA4'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'ITAJ'):
-#             color_map.append('purple')
-#         elif k == ('ITA1', 'OTH'):
-#             color_map.append('purple')
-#         elif k == ('ITAJ', 'ITA1'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA2'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA3'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITA4'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'ITAJ'):
-#             color_map.append('orange')
-#         elif k == ('ITAJ', 'OTH'):
-#             color_map.append('orange')
-#         else:
-#             color_map.append('black')
+color_map = []
+for k,v in dict_edges_occurences.items():
+        if k == ('ITA4', 'ITA1'):
+            color_map.append('blue')
+        elif k == ('ITA4', 'ITA2'):
+            color_map.append('blue')
+        elif k == ('ITA4', 'ITA3'):
+            color_map.append('blue')
+        elif k == ('ITA4', 'ITA4'):
+            color_map.append('blue')
+        elif k == ('ITA4', 'ITAJ'):
+            color_map.append('blue')
+        elif k == ('ITA4', 'OTH'):
+            color_map.append('blue')
+        elif k == ('ITA3', 'ITA1'):
+            color_map.append('fuchsia')
+        elif k == ('ITA3', 'ITA2'):
+            color_map.append('fuchsia')
+        elif k == ('ITA3', 'ITA3'):
+            color_map.append('fuchsia')
+        elif k == ('ITA3', 'ITA4'):
+            color_map.append('fuchsia')
+        elif k == ('ITA3', 'ITAJ'):
+            color_map.append('fuchsia')
+        elif k == ('ITA3', 'OTH'):
+            color_map.append('fuchsia')
+        elif k == ('ITA2', 'ITA1'):
+            color_map.append('green')
+        elif k == ('ITA2', 'ITA2'):
+            color_map.append('green')
+        elif k == ('ITA2', 'ITA3'):
+            color_map.append('green')
+        elif k == ('ITA2', 'ITA4'):
+            color_map.append('green')
+        elif k == ('ITA2', 'ITAJ'):
+            color_map.append('green')
+        elif k == ('ITA2', 'OTH'):
+            color_map.append('green')
+        elif k == ('ITA1', 'ITA1'):
+            color_map.append('cyan')
+        elif k == ('ITA1', 'ITA2'):
+            color_map.append('cyan')
+        elif k == ('ITA1', 'ITA3'):
+            color_map.append('cyan')
+        elif k == ('ITA1', 'ITA4'):
+            color_map.append('cyan')
+        elif k == ('ITA1', 'ITAJ'):
+            color_map.append('cyan')
+        elif k == ('ITA1', 'OTH'):
+            color_map.append('cyan')
+        elif k == ('ITAJ', 'ITA1'):
+            color_map.append('orange')
+        elif k == ('ITAJ', 'ITA2'):
+            color_map.append('orange')
+        elif k == ('ITAJ', 'ITA3'):
+            color_map.append('orange')
+        elif k == ('ITAJ', 'ITA4'):
+            color_map.append('orange')
+        elif k == ('ITAJ', 'ITAJ'):
+            color_map.append('orange')
+        elif k == ('ITAJ', 'OTH'):
+            color_map.append('orange')
+        else:
+            color_map.append('black')
 
 
-# size_map = []
-# in_degrees = G.in_degree
-# for i in G.nodes:
-#     for node in in_degrees:
-#         if node[0] == i:
-#             in_degree = node[1]
-#     size_map.append(in_degree * 40)
-#
-# for u,v,d in G.edges(data=True):
-#     d['weight'] = random.random()
-#
-# edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
-#
-# pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
-#
-# nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
-#
-# # nx.draw_networkx_edges(G, pos=pos, edgelist=edges,
-# #                      edge_color=weights, width=list(i / 20 for i in dict_edges_occurences.values()), edge_cmap=plt.cm.Blues)
-#
-# nx.draw_networkx_edges(G,
-#                        pos=pos,
-#                        edgelist = dict_edges_occurences.keys(),
-#                        width=list(i / 10 for i in dict_edges_occurences.values()),
-#                        edge_color=color_map,
-#                        alpha=0.6,
-#                        arrows= True,
-#                        arrowsize=15)
-#
-# nx.draw_networkx_labels(G, pos=pos, font_size=7)
-#
-# plt.axis('off')
-# plt.show()
-#
-# # print("In-degree: ", G.in_degree)
-# #
-##PROPOSTA CALCOLO PERCORSO CON FORMULA FATTA DA NOI#######
+size_map = []
+in_degrees = G.in_degree
+for i in G.nodes:
+    for node in in_degrees:
+        if node[0] == i:
+            in_degree = node[1]
+    size_map.append(in_degree * 40)
+
+for u,v,d in G.edges(data=True):
+    d['weight'] = random.random()
+
+edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
+
+labeldict = {}
+labeldict["ITA1"] = "Serie A"
+labeldict["ITA2"] = "Serie B"
+labeldict["ITA3"] = "Serie C"
+labeldict["ITA4"] = "Serie D"
+labeldict["ITAJ"] = "Primavera"
+labeldict["OTH"] = "Estere"
+
+#Visualize the graph
+fig, ax = plt.subplots(figsize=(45, 35))
+fig.suptitle("Path player transfers from Serie D to Serie A")
+pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
+
+nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
+
+nx.draw_networkx_edges(G,
+                       pos=pos,
+                       edgelist = dict_edges_occurences.keys(),
+                       width=list(i / 8 for i in dict_edges_occurences.values()),
+                       edge_color=color_map,
+                       alpha=0.6,
+                       arrows= True,
+                       arrowsize=15)
+
+nx.draw_networkx_labels(G, pos=pos, font_size=7, labels=labeldict)
+
+legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='cyan', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie B',markerfacecolor='green', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie C',markerfacecolor='fuchsia', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie D',markerfacecolor='blue', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Primavera',markerfacecolor='orange', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Estere',markerfacecolor='black', markersize=13)]
+
+ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
+plt.axis('off')
+plt.show()
+
+
+##Compute trasfers numbers: method 1#######
 distances = {key:len(value) for (key,value) in dict_of_edges.items()}
 print(distances)
 tot_trasferimenti = 0
@@ -240,8 +256,7 @@ for i in distances.values():
 mean_path_players = tot_trasferimenti / tot_players
 print('Numero di trasferimenti medio per giocatore METODO 1: ', mean_path_players)
 
-#
-# ALTRO METODO PER CALCOLARE LA DISTANZA
+###Compute trasfers numbers: method 2#######
 tot_trasferimenti2 = 0
 for i in dict_edges_occurences.values():
     tot_trasferimenti2 += i

@@ -90,7 +90,6 @@ data3.loc[(data2['league_team2']!='ITA1')& (data2['league_team2']!='ITA2')&
 
 
 dict_of_edges = (data3.groupby('player_name').apply(lambda x: list(map(tuple, zip(x['team1'],x['team2'])))).to_dict())
-#print('AAAAAA', dict_of_edges.items())
 
 #CREATE GRAPH
 G = nx.MultiDiGraph()
@@ -156,7 +155,6 @@ for i in G.nodes:
         color_map.append('lightblue')
     else:
         color_map.append('blue')
-
 
 
 for u,v,d in G.edges(data=True):
