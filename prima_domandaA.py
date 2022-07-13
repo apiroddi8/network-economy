@@ -1,14 +1,14 @@
-
-from matplotlib.lines import Line2D
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 import networkx as nx
 import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("Dataset/dataset_pulitoCUT07-21.csv")
+
+df = pd.read_csv("Dataset//dataset_pulitoCUT07-21.csv")
 df = df.dropna()
-df_serie = pd.read_csv("Dataset/dataset_supportoCUT.csv")
+df_serie = pd.read_csv("Dataset//dataset_supportoCUT.csv")
 
 
 print(df['market_value'])
@@ -17,16 +17,16 @@ first_quartile_market_value = df['market_value'].quantile(q=0.25)
 print(first_quartile_market_value)
 
 df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]
+#df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
 print(df_filtered)
-
+#
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
 print("Number of nodes:", G.number_of_nodes())
 print("Number of edges:", G.number_of_edges())
 
 print("G.nodes =", G.nodes)
 #print("\n\nG.edges =", G.edges)
-#print("\n\n\nG.degree =", G.degree)
+# print("\n\n\nG.degree =", G.degree)
 
 # CHECK NODES MISSING IN STEP4.csv
 missing_teams = []
@@ -43,7 +43,7 @@ bw_centrality = nx.betweenness_centrality(G, normalized=False)
 #print("\n\nBetweenness Centrality: ", sorted(bw_centrality.items(), key=lambda x: x[1], reverse=True))
 bw_value = [value for value in bw_centrality.values()]
 quantiles = np.quantile(bw_value, [0.25, 0.5, 0.75])
-
+#
 
 #COUNTING NUMBER OF EDGES BETWEEN ANY TWO NODES
 edgelist = G.edges
@@ -59,19 +59,24 @@ print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse
 
 #Visualize the graph
 fig, ax = plt.subplots(figsize=(45, 35))
-fig.suptitle("football player transfer from 2007 to 2021 with principal italian leagues")
+fig.suptitle("football player transfer from 2009 to 2021")
+#Simple 1-line code: nx.draw_networkx(G)
 color_map = []
 size_map = []
 in_degrees = G.in_degree
+degrees = G.degree
 for i in G.nodes:
-    for node in in_degrees:
+    for node in degrees:
+    #for node in in_degrees:
         if node[0] == i:
-            in_degree = node[1]
-    size_map.append(in_degree * 20)
+            #in_degree = node[1]
+            degree = node[1]
+    #size_map.append(in_degree * 20)
+    size_map.append(degree * 15 )
     for row in df_serie.itertuples():
         if row.team1 == i:
             if row.league_team1 == 'ITA1':
-                color_map.append('blue')
+                color_map.append('cyan')
             elif row.league_team1 == 'ITA2':
                 color_map.append('yellow')
             elif row.league_team1 == 'ITA3':
@@ -82,13 +87,15 @@ for i in G.nodes:
                 color_map.append('purple')
 
 
-legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='blue', markersize=13),
+legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='cyan', markersize=13),
                     Line2D([0], [0], marker='o', color='w', label='Serie B',markerfacecolor='yellow', markersize=13),
                     Line2D([0], [0], marker='o', color='w', label='Serie C',markerfacecolor='green', markersize=13),
                     Line2D([0], [0], marker='o', color='w', label='Serie D',markerfacecolor='red', markersize=13),
                     Line2D([0], [0], marker='o', color='w', label='Primavera',markerfacecolor='purple', markersize=13)]
 
-pos = nx.kamada_kawai_layout(G)
+pos = nx.kamada_kawai_layout(G)  # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
+#                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
+
 nx.draw_networkx_nodes(G,pos,
                        nodelist=G.nodes,
                        node_size=size_map,
@@ -103,23 +110,28 @@ nx.draw_networkx_edges(G,
 nx.draw_networkx_labels(G, pos=pos,
                         labels=dict(zip(G.nodes,G.nodes)),
                         font_color='black',
-                        font_size=5)
-
+                        font_size=5)  # 7 per lo zoom
 ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
-plt.axis('off')
 plt.show()
 
-
 #TOP 10 IN-DEGREE NODES
-in_degrees_dict = {}
-for t in in_degrees:
-    in_degrees_dict[t[0]] = t[1]
+degrees_dict = {}
+for t in degrees:
+    degrees_dict[t[0]] = t[1]
 
-in_degrees_list = sorted(in_degrees_dict.items(), key=lambda x: x[1], reverse=True)
+degrees_list = sorted(degrees_dict.items(), key=lambda x: x[1], reverse=True)
 
-top10_indegre_nodes = in_degrees_list[:10]
+top10_degree_nodes = degrees_list[:10]
 
-print(top10_indegre_nodes)
+print(top10_degree_nodes)
+
+import matplotlib.pyplot as plt
+
+data =  top10_degree_nodes
+
+plt.bar(*zip(*data))
+plt.show()
+
 
 
 
