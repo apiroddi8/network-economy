@@ -1,0 +1,9 @@
+matplotlib
+networkx
+plotly
+pandas
+bs4
+requests
+scipy
+seaborn
+numpy

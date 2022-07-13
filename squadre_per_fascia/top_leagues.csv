@@ -1,0 +1,43 @@
+league,team,point
+GB1,Manchester United,1.223
+GB1,Manchester City,1.219
+GB1,Chelsea FC,1.208
+GB1,Liverpool FC,1.178
+GB1,Arsenal FC,1.128
+GB1,Tottenham Hotspur,1.059
+FR1,Paris Saint-Germain,1.199
+FR1,Olympique Lyon,1.091
+FR1,Olympique Marseille,1.032
+FR1,LOSC Lille,986
+FR1,FC Girondins Bordeaux,877
+FR1,Stade Rennais FC,873
+NL1,Ajax Amsterdam,554
+NL1,PSV Eindhoven,505
+NL1,AZ Alkmaar,418
+NL1,Feyenoord Rotterdam,403
+NL1,Twente Enschede FC,347
+NL1,SC Heerenveen,327
+L1,FC Bayern Munich,1.240
+L1,Borussia Dortmund,1.014
+L1,Bayer 04 Leverkusen,912
+L1,VfL Wolfsburg,786
+L1,FC Schalke 04,764
+L1,Borussia Mönchengladbach,721
+ES1,Barcelona,1.392
+ES1,Real Madrid,1.375
+ES1,Atlético de Madrid,1.144
+ES1,Sevilla FC,1.023
+ES1,Valencia CF,941
+ES1,Villarreal CF,895
+PO1,FC Porto,1.231
+PO1,SL Benfica,1.187
+PO1,Sporting CP,1.067
+PO1,SC Braga,910
+PO1,Vitória Guimarães SC,688
+PO1,CS Marítimo,647
+IT1,Juventus FC,1.218
+IT1,FC Inter,1.178
+IT1,AS Roma,1.141
+IT1,AC Milan,1.102
+IT1,SSC Napoli,1.061
+IT1,SS Lazio,983
