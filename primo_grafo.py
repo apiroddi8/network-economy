@@ -19,9 +19,9 @@ import numpy as np
 from networkx.algorithms.community import girvan_newman
 import networkx.algorithms.community as nxcom
 
-df = pd.read_csv("Dataset/dataset_pronto07-21.csv")
+df = pd.read_csv("dataset_pulitoCUT07-21.csv")
 df = df.dropna()
-df_serie = pd.read_csv("Dataset/STEP4.csv")
+df_serie = pd.read_csv("dataset_supportoCUT.csv")
 
 #print(df_serie.groupby(['league_team1']).sum())
 
@@ -39,7 +39,7 @@ first_quartile_market_value = df['market_value'].quantile(q=0.25)
 print(first_quartile_market_value)
 
 df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
+#df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
 print(df_filtered)
 #
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
