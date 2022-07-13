@@ -1,0 +1,385 @@
+,team1,league_team1,season
+0,LR Vicenza Virtus,ITA3,6
+1,SSC Giugliano,ITA4,6
+2,SS Villacidrese,ITA4,6
+3,SS Racing Club Roma,ITA3,6
+4,SS Monza 1912,ITA3,6
+5,Eretum Monterotondo,ITA4,6
+6,Esporte Clube Primavera (SP),ITAJ,6
+7,FBC Casale,ITA4,6
+8,FC Aprilia,ITA4,6
+9,FC Bassano 1903,ITA4,6
+10,Città di Gela,ITA4,6
+11,FC Calvi Noale,ITA4,6
+12,FC Empoli,ITA1,6
+13,FC Messina,ITA4,6
+14,FC Messina Peloro,ITA2,6
+15,FC Monteponi Iglesias,ITA4,6
+16,FC Paris Saint-Germain Youth,ITAJ,6
+17,SF Aversa Normanna,ITA3,6
+18,FC Ponsacco 1920,ITA4,6
+19,SEF Torres 1903,ITA3,6
+20,FC Rieti,ITA4,6
+21,Cittadella Primavera,ITAJ,6
+22,SSD Città di Brindisi,ITA4,6
+23,Biancoscudati Padova,ITA4,6
+24,Siena Juniores,ITAJ,6
+25,Borgosesia Calcio,ITA4,6
+26,Savona Youth,ITAJ,6
+27,Sapri Calcio 1928,ITA4,6
+28,Sant'Omero Palmense,ITA4,6
+29,Novara FC,ITA4,6
+30,Sanremese Calcio,ITA4,6
+31,Calcio Del Duca Ribelle,ITA4,6
+32,Calcio Foggia 1920,ITA3,6
+33,SSD Fidelis Andria,ITA4,6
+34,Cavese Berretti,ITAJ,6
+35,SSD Monza 1912,ITA4,6
+36,SSD Riccione Calcio 1929,ITA4,6
+37,SC Caronnese,ITA4,6
+38,Catania Berretti,ITAJ,6
+39,Casatese,ITA4,6
+40,Casarano Calcio,ITA4,6
+41,SSD US Ancona,ITA4,6
+42,Sacilese Calcio,ITA4,6
+43,SSD Spoleto Calcio,ITA4,6
+44,Spezia Calcio 1906,ITA2,6
+45,Virtusvecomp Verona,ITA3,6
+46,La Storta,ITA4,6
+47,Latina Calcio 1932,ITA4,6
+48,Pavia Juniores,ITAJ,6
+49,Lazio U19,ITAJ,6
+50,Parma Juniores,ITAJ,6
+51,Legnano AC,ITA4,6
+52,Lucchese 1905,ITA4,6
+53,Lupa Piacenza,ITA4,6
+54,Luparense FC,ITA4,6
+55,Palermo Juniores,ITAJ,6
+56,Palermo FC,ITA3,6
+57,Monterosi FC,ITA4,6
+58,Montespaccato Savoia,ITA4,6
+59,Paganese Berretti,ITAJ,6
+60,Padova Berretti,ITAJ,6
+61,Olbia Calcio,ITA4,6
+62,Nuorese Calcio,ITA4,6
+63,MC Fermana FC,ITA3,6
+64,Pierantonio Sport,ITA4,6
+65,Pisa Sporting Club,ITA2,6
+66,Isola Capo Rizzuto,ITA4,6
+67,Rocca Priora,ITA4,6
+68,Reggio Audace FC,ITA3,6
+69,Foligno Juniores,ITAJ,6
+70,Fondi Calcio,ITA4,6
+71,Francavilla Calcio 1927,ITA4,6
+72,Real Vicenza VS,ITA3,6
+73,Frosinone Primavera,ITAJ,6
+74,GSD Ambrosiana,ITA4,6
+75,GSD RapalloBogliasco,ITA4,6
+76,Inter Under 17,ITAJ,6
+77,Porto Torres,ITA4,6
+78,Portogruaro Calcio ASD,ITA4,6
+79,ISM Academy,ITA4,6
+80,Potenza Sport Club,ITA3,6
+81,Pro Belvedere Vercelli,ITA4,6
+82,Roccella,ITA4,6
+83,Gubbio Berretti,ITAJ,6
+84,Giulianova Calcio,ITA3,6
+85,Pro Vercelli Primavera,ITAJ,6
+86,RC Cesena,ITA4,6
+87,Gelbison,ITA4,6
+88,Gsd Castelfidardo Calcio,ITA4,6
+89,Bastia Calcio 1924,ITA4,6
+90,Ternana Unicusano Calcio,ITA2,6
+91,AC Sambonifacese,ITA4,6
+92,AC Savoia 1908,ITA3,6
+93,AC Trento,ITA3,6
+94,US Tor di Quinto,ITA4,6
+95,AC Vigasio,ITA4,6
+96,ACD Asti Calcio,ITA4,6
+97,ACD Campodarsego,ITA4,6
+98,ACD Grifoponte Torgiano,ITA4,6
+99,ACD Sangiustese,ITA4,6
+100,ACD Treviso,ITA4,6
+101,ACN Siena 1904,ITA3,6
+102,USD Noto Calcio,ITA4,6
+103,AD Valdinievole Montecatini,ITA4,6
+104,US Pianese,ITA4,6
+105,AS Casale Calcio,ITA4,6
+106,AS Castel Rigone,ITA4,6
+107,US Massese 1919,ITA3,6
+108,US Livorno 1915,ITA4,6
+109,US Campobasso 1919,ITA4,6
+110,AC Pro Sesto,ITA3,6
+111,USD Olginatese,ITA4,6
+112,Virtus Entella Primavera,ITAJ,6
+113,AC Bra,ITA4,6
+114,AC Campodarsego,ITA4,6
+115,Vicenza Primavera,ITAJ,6
+116,Viareggio 2014,ITA4,6
+117,AC Este 1920,ITA4,6
+118,AC Gozzano,ITA4,6
+119,AC Isola Liri,ITA4,6
+120,Varese Juniores,ITAJ,6
+121,Varese Calcio,ITA4,6
+122,AC Mantova 1911,ITA2,6
+123,AC Martina 1947,ITA3,6
+124,USD Real Forte Querceta,ITA4,6
+125,AC Ponte San Pietro-Isola,ITA4,6
+126,AC Pisa Berretti,ITAJ,6
+127,USD Sestri Levante 1919,ITA4,6
+128,Union Clodiense Chioggia,ITA4,6
+129,Unione Sanremo,ITA4,6
+130,VF Colligiana,ITA4,6
+131,Valenzana Calcio,ITA4,6
+132,AC Monopoli,ITA4,6
+133,Valenzana Mado SSD,ITA4,6
+134,AS Pizzighettone,ITA4,6
+135,ASDC Gozzano,ITA4,6
+136,AZ Picerno,ITA3,6
+137,Abano Calcio,ITA4,6
+138,Albissola 2010,ITA3,6
+139,AS Pescina Valle del Giovenco,ITA4,6
+140,Alghero 1945,ITA4,6
+141,AltoVicentino,ITA4,6
+142,Arrone Calcio,ITA4,6
+143,ASD Villabiagio,ITA4,6
+144,Tritium Calcio 1908,ITA3,6
+145,Ascoli Picchio Primavera,ITAJ,6
+146,Asd Puteolana 1902,ITA4,6
+147,Atletico Arezzo,ITA4,6
+148,Atletico Roma,ITA4,6
+149,Audace Cerignola,ITA4,6
+150,Avellino Calcio SSD,ITA4,6
+151,ASD Vastese Calcio 1902,ITA4,6
+152,Alfonsine FC 1921,ITA4,6
+153,Novara Primavera,ITAJ,6
+154,AS Sambenedettese,ITA4,6
+155,ASD Gioventù Martina,ITA4,6
+156,ASD Lupa Castelli Romani,ITA3,6
+157,ASD OltrepòVoghera,ITA4,6
+158,ASD Due Torri,ITA4,6
+159,ASD Liberty Monopoli,ITA4,6
+160,ASD Boca Pietri Carpi,ITA4,6
+161,ASD Lanusei Calcio,ITA4,6
+162,ASD Adrense 1909,ITA4,6
+163,ASD Perugia Calcio,ITA4,6
+164,ASD Romagna Centro,ITA4,6
+165,ASD Team Altamura,ITA4,6
+166,Sangiovannese 1927,ITA4,12
+167,US Grosseto 1912,ITA3,12
+168,US Gavorrano,ITA4,12
+169,Treviso FBC 1993,ITA2,12
+170,US Avellino,ITA2,12
+171,Trapani Primavera,ITAJ,12
+172,SPAL 2013,ITA3,12
+173,Sicula Leonzio,ITA3,12
+174,Vigor Lamezia Calcio,ITA4,12
+175,SPAL,ITA2,12
+176,San Donato - Tavarnelle,ITA4,12
+177,Reggina 1914,ITA2,12
+178,SSD Chieti Calcio,ITA4,12
+179,US Savoia 1908,ITA4,12
+180,US Ancona,ITA3,12
+181,SS Turris Calcio,ITA3,12
+182,US Sambenedettese,ITA3,12
+183,SSD Ischia Calcio,ITA3,12
+184,US Poggibonsi,ITA4,12
+185,US Vibonese,ITA3,12
+186,Pro Sesto 1913,ITA3,12
+187,Pro Patria Gallaratese GB,ITA3,12
+188,US Viterbese 1908,ITA3,12
+189,US Pergolettese 1932,ITA3,12
+190,SS Maceratese,ITA3,12
+191,Polisportiva Nuova Campobasso Calcio,ITA4,12
+192,Perugia Primavera,ITAJ,12
+193,Unione Sportiva Siracusa,ITA3,12
+194,Salernitana Calcio 1919,ITA2,12
+195,Salernitana Primavera,ITAJ,12
+196,SC Ligorna 1922,ITA4,12
+197,AC Ancona,ITA2,12
+198,Carpi Primavera,ITAJ,12
+199,AC Monza,ITA2,12
+200,Igea 1946,ITA4,12
+201,Bari Primavera,ITAJ,12
+202,Gallipoli Calcio,ITA3,12
+203,AC Montichiari,ITA4,12
+204,AS Avellino 1912,ITA3,12
+205,Arzachena Costa Smeralda,ITA4,12
+206,Forlì FC,ITA3,12
+207,FC Legnago Salus,ITA3,12
+208,AS Martina Franca,ITA3,12
+209,Arzanese Calcio,ITA4,12
+210,Nocerina Calcio,ITA4,12
+211,Celano FC Olimpia,ITA4,12
+212,AC Carpenedolo,ITA4,12
+213,Chievo Primavera,ITAJ,12
+214,Como 1907,ITA3,12
+215,Mantova 1911,ITA3,12
+216,Correggese Calcio 1948,ITA4,12
+217,Lecce Primavera,ITAJ,12
+218,Brescia Primavera,ITAJ,12
+219,Latina Juniores,ITAJ,12
+220,Cosenza Calcio 1914,ITA3,12
+221,LR Vicenza,ITA2,12
+222,AS Melfi,ITA3,18
+223,Siracusa Calcio,ITA3,18
+224,US Avellino 1912,ITA2,18
+225,SPAL 1907,ITA3,18
+226,Cesena FC,ITA3,18
+227,Savona FBC,ITA3,18
+228,San Marino,ITA3,18
+229,SS Akragas Città dei Templi,ITA3,18
+230,SS Arezzo,ITA3,18
+231,ASG Nocerina,ITA3,18
+232,US Foggia,ITA3,18
+233,Cagliari Primavera,ITAJ,18
+234,Pescara Primavera,ITAJ,18
+235,L'Aquila Calcio,ITA3,18
+236,AC Mantova,ITA3,18
+237,Urbs Reggina 1914,ITA3,18
+238,AC Tuttocuoio,ITA3,18
+239,AC Cuneo 1905,ITA3,18
+240,Perugia Calcio,ITA3,18
+241,Modena FC 2018,ITA3,18
+242,Ravenna Calcio,ITA3,18
+243,AC Arezzo,ITA3,18
+244,Fidelis Andria,ITA3,18
+245,Calcio Portogruaro-Summaga,ITA3,18
+246,Rimini FC,ITA3,18
+247,Rende Calcio 1968,ITA3,18
+248,US Pergocrema 1932,ITA3,18
+249,AS Bisceglie 1913,ITA3,18
+250,Foggia Calcio,ITA3,18
+251,Lupa Roma FC,ITA3,18
+252,AC Bellaria Igea Marina,ITA4,24
+253,Calcio Lecco 1912,ITA3,24
+254,Santarcangelo Calcio,ITA4,24
+255,Sorrento Calcio,ITA3,24
+256,Varese Primavera,ITAJ,24
+257,Bassano Virtus 55 ST,ITA3,24
+258,Trapani Calcio,ITA2,24
+259,ACR Messina,ITA3,24
+260,Bari,ITA2,24
+261,AS Andria BAT,ITA3,24
+262,US Arezzo,ITA3,24
+263,AS Viterbese Castrense,ITA3,24
+264,US Latina Calcio,ITA2,24
+265,AS Giana Erminio,ITA3,24
+266,Vis Pesaro dal 1898,ITA3,24
+267,SPAL Primavera,ITAJ,24
+268,Fermana FC,ITA3,24
+269,Ravenna FC,ITA3,24
+270,SS Milazzo,ITA4,24
+271,Potenza Calcio,ITA3,24
+272,Imolese Calcio 1919,ITA3,24
+273,SS Virtus Lanciano,ITA2,24
+274,Cosenza Calcio,ITA2,24
+275,FC Esperia Viareggio,ITA3,24
+276,Juventus U23,ITA3,24
+277,Piacenza FC,ITA2,24
+278,Pordenone Calcio,ITA3,30
+279,Reggina Calcio,ITA2,30
+280,Foligno Calcio,ITA3,30
+281,Robur Siena,ITA3,30
+282,US Lecce,ITA2,30
+283,SS Barletta Calcio,ITA3,30
+284,Varese 1910,ITA2,30
+285,FC Pro Vercelli 1892,ITA2,30
+286,Carpi FC 1909,ITA2,30
+287,Empoli Primavera,ITAJ,30
+288,Virtus Francavilla Calcio,ITA3,30
+289,Casertana FC,ITA3,30
+290,AS Bari,ITA2,30
+291,AC Monza Brianza,ITA3,30
+292,Bologna Primavera,ITAJ,30
+293,SS Sambenedettese,ITA3,30
+294,AC Siena,ITA1,30
+295,FC Südtirol,ITA3,30
+296,Venezia,ITA3,30
+297,Alma Juventus Fano 1906,ITA3,30
+298,SS Matera Calcio,ITA3,30
+299,Pro Piacenza 1919,ITA3,30
+300,Olbia Calcio 1905,ITA3,36
+301,Parma Primavera,ITAJ,36
+302,US Triestina,ITA3,36
+303,Virtus Entella,ITA2,36
+304,Piacenza Calcio 1919,ITA3,36
+305,FC Pavia 1911,ITA3,36
+306,FC Inter Primavera,ITAJ,36
+307,Napoli Primavera,ITAJ,36
+308,US Grosseto FC,ITA2,36
+309,Salernitana,ITA2,36
+310,Novara Calcio 1908,ITA2,36
+311,Calcio Padova,ITA2,36
+312,Taranto FC 1927,ITA3,36
+313,UC AlbinoLeffe,ITA3,36
+314,Cavese 1919,ITA3,36
+315,Ascoli Calcio 1898,ITA2,36
+316,Sassuolo Primavera,ITAJ,36
+317,Spezia Primavera,ITAJ,36
+318,SS Teramo Calcio,ITA3,36
+319,SS Monopoli 1966,ITA3,36
+320,Hellas Verona,ITA1,42
+321,Calcio Catania,ITA1,42
+322,AC Perugia Calcio,ITA2,42
+323,Calcio Como,ITA3,42
+324,AC Cesena,ITA2,42
+325,AC Prato,ITA3,42
+326,Torino Primavera,ITAJ,42
+327,Benevento Calcio,ITA3,42
+328,Ascoli,ITA2,42
+329,Aurora Pro Patria,ITA3,42
+330,US Alessandria Calcio 1912,ITA3,42
+331,AS Lucchese Libertas,ITA3,42
+332,FC Südtirol-Alto Adige,ITA3,42
+333,Atalanta Primavera,ITAJ,48
+334,AC Renate,ITA3,48
+335,Spezia Calcio,ITA2,48
+336,AS Livorno,ITA2,48
+337,Ternana Calcio,ITA3,48
+338,AC Lumezzane,ITA3,48
+339,AC Pisa 1909,ITA3,48
+340,Udinese Primavera,ITAJ,54
+341,Hellas Verona Primavera,ITAJ,54
+342,US Cremonese,ITA3,54
+343,US Città di Pontedera,ITA3,54
+344,US Catanzaro,ITA3,54
+345,Vicenza Calcio,ITA2,54
+346,SS Juve Stabia,ITA3,54
+347,Palermo,ITA1,54
+348,Delfino Pescara 1936,ITA2,54
+349,Modena FC,ITA2,54
+350,Empoli FC,ITA2,54
+351,AS Gubbio 1910,ITA3,54
+352,US Sassuolo,ITA1,54
+353,Fiorentina Primavera,ITAJ,60
+354,Parma,ITA1,60
+355,Frosinone Calcio,ITA2,60
+356,US Pistoiese 1921,ITA3,60
+357,FC Crotone,ITA2,60
+358,AC Reggiana 1919,ITA3,60
+359,Feralpisalò,ITA3,60
+360,Genoa Primavera,ITAJ,66
+361,Paganese Calcio 1926,ITA3,66
+362,Milan Primavera,ITAJ,66
+363,Carrarese Calcio 1908,ITA3,66
+364,Chievo Verona,ITA1,66
+365,Sampdoria Primavera,ITAJ,72
+366,Torino FC,ITA1,72
+367,AS Cittadella,ITA2,78
+368,Juventus Primavera,ITAJ,78
+369,Brescia Calcio,ITA2,78
+370,Bologna FC 1909,ITA1,78
+371,Roma Primavera,ITAJ,78
+372,Cagliari Calcio,ITA1,84
+373,UC Sampdoria,ITA1,84
+374,Atalanta BC,ITA1,84
+375,AS Roma,ITA1,90
+376,SS Lazio,ITA1,90
+377,Juventus FC,ITA1,90
+378,SSC Napoli,ITA1,90
+379,Udinese Calcio,ITA1,90
+380,ACF Fiorentina,ITA1,90
+381,Genoa CFC,ITA1,90
+382,AC Milan,ITA1,90
+383,FC Inter,ITA1,90

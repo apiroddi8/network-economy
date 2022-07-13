@@ -21,7 +21,7 @@ from networkx.algorithms.community import girvan_newman
 import networkx.algorithms.community as nxcom
 
 
-df = pd.read_csv("Dataset/dataset_finale11-15pronto.csv")
+df = pd.read_csv("Dataset/dataset_pronto07-21.csv")
 df = df.dropna()
 df_serie = pd.read_csv("Dataset/STEP4.csv")
 
@@ -43,7 +43,7 @@ first_quartile_market_value = df['market_value'].quantile(q=0.75)
 #df_filtered = df[(df['country_team1'] == 'England') & (df['country_team2'] == 'England')]
 df_filtered = df[(df['league_team1'] == 'ITA1') & (df['league_team2'] == 'ITA1')]
 #df_filtered=df
-df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value]
+df_filtered = df_filtered[df_filtered['market_value'] >= 8000000.0]
 #print(df_filtered)
 #
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -54,6 +54,15 @@ G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiG
 print("\n\nG.edges =", G.edges)
 # print("\n\n\nG.degree =", G.degree)
 
+# CHECK NODES MISSING IN STEP4.csv
+# missing_teams = []
+# teams = df_serie.team1.tolist()
+# for node in G.nodes:
+#      if node not in teams:
+#          missing_teams.append(node)
+#
+# for node in missing_teams:
+#     G.remove_node(node)
 
 #COUNTING NUMBER OF EDGES BETWEEN ANY TWO NODES
 edgelist = G.edges

@@ -11,8 +11,7 @@
 # ARCHI = valore trasferimento esclusa soglia minima
 
 # MEGLIO UTILIZZARE IL MARKET VALUE CHE E' PIù OGGETTIVO, MENTRE IL TRANSFER_VALUE E' PIù SOGGETTO A VARIAZIONI NEL CORSO DEL TEMPO
-import itertools
-
+from matplotlib.lines import Line2D
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
@@ -20,9 +19,9 @@ import numpy as np
 from networkx.algorithms.community import girvan_newman
 import networkx.algorithms.community as nxcom
 
-df = pd.read_csv("Dataset/dataset_finale11-15pronto.csv")
+df = pd.read_csv("dataset_pulitoCUT07-21.csv")
 df = df.dropna()
-df_serie = pd.read_csv("Dataset/STEP4.csv")
+df_serie = pd.read_csv("dataset_supportoCUT.csv")
 
 #print(df_serie.groupby(['league_team1']).sum())
 
@@ -40,24 +39,34 @@ first_quartile_market_value = df['market_value'].quantile(q=0.25)
 print(first_quartile_market_value)
 
 df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]    #8000000.0 per fare grafo con poche sqiadre e milan juve centrali
+#df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
 print(df_filtered)
 #
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
 print("Number of nodes:", G.number_of_nodes())
 print("Number of edges:", G.number_of_edges())
 
-# print("G.nodes =", G.nodes)
-print("\n\nG.edges =", G.edges)
+print("G.nodes =", G.nodes)
+#print("\n\nG.edges =", G.edges)
 # print("\n\n\nG.degree =", G.degree)
 
+# CHECK NODES MISSING IN STEP4.csv
+missing_teams = []
+teams = df_serie.team1.tolist()
+for node in G.nodes:
+     if node not in teams:
+         missing_teams.append(node)
+
+for node in missing_teams:
+    G.remove_node(node)
+
 #BETWEENESS
-# bw_centrality = nx.betweenness_centrality(G, normalized=False)
-# #print("\n\nBetweenness Centrality: ", sorted(bw_centrality.items(), key=lambda x: x[1], reverse=True))
-# bw_value = [value for value in bw_centrality.values()]
-# quantiles = np.quantile(bw_value, [0.25, 0.5, 0.75])
-# #
+bw_centrality = nx.betweenness_centrality(G, normalized=False)
+#print("\n\nBetweenness Centrality: ", sorted(bw_centrality.items(), key=lambda x: x[1], reverse=True))
+bw_value = [value for value in bw_centrality.values()]
+quantiles = np.quantile(bw_value, [0.25, 0.5, 0.75])
 #
+
 #COUNTING NUMBER OF EDGES BETWEEN ANY TWO NODES
 edgelist = G.edges
 dict_edges_occurences = {}
@@ -67,16 +76,10 @@ for edge in edgelist:
         dict_edges_occurences[(edge[0], edge[1])] = 1
     dict_edges_occurences[(edge[0], edge[1])] += 1
 
+print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse=True))
 
-#     if edge not in dict_edges_occurences.keys():
-#         dict_edges_occurences[edge] = occurence
-#     occurence += G.number_of_edges(edge[1], edge[0])
-#     if edge[::-1] in dict_edges_occurences.keys():
-#         dict_edges_occurences[edge] = occurence
-#
-# print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse=True))
-#
-# #Visualize the graph
+
+#Visualize the graph
 fig, ax = plt.subplots(figsize=(45, 35))
 fig.suptitle("football player transfer from 2009 to 2021")
 #Simple 1-line code: nx.draw_networkx(G)
@@ -87,7 +90,7 @@ for i in G.nodes:
     for node in in_degrees:
         if node[0] == i:
             in_degree = node[1]
-    size_map.append(in_degree * 40)
+    size_map.append(in_degree * 20)
     for row in df_serie.itertuples():
         if row.team1 == i:
             if row.league_team1 == 'ITA1':
@@ -102,17 +105,15 @@ for i in G.nodes:
                 color_map.append('purple')
 
 
-#print(len(color_map))
-# print("In-degree: ", G.in_degree)
+legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='blue', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie B',markerfacecolor='yellow', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie C',markerfacecolor='green', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Serie D',markerfacecolor='red', markersize=13),
+                    Line2D([0], [0], marker='o', color='w', label='Primavera',markerfacecolor='purple', markersize=13)]
 
 pos = nx.kamada_kawai_layout(G)  # questa cosa l'ho presa dal report di Andrea Carta, dicono che i nodi che sono in posizione centrale sono quei nodi che sono maggiormente connessi con tutti gli altri
 # #                                         #nodi; mentre quelli nella periferia presentano il mimor numero di connessioni, e la loro distanza media (considerando il sentiero minimale) è alta.
-# nx.draw_networkx( G,
-#         node_color=color_map,
-#         node_size=size_map,
-#         pos=pos,
-#         with_labels=True,
-#         )
+
 nx.draw_networkx_nodes(G,pos,
                        nodelist=G.nodes,
                        node_size=size_map,
@@ -126,11 +127,12 @@ nx.draw_networkx_edges(G,
                        alpha=0.6)
 nx.draw_networkx_labels(G, pos=pos,
                         labels=dict(zip(G.nodes,G.nodes)),
-                        font_color='black')
-
+                        font_color='black',
+                        font_size=4)  # 7 per lo zoom
+ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
 plt.show()
 
-nx.write_gml(G, '../../Desktop/graph_1A.gml')
+#nx.write_gml(G, '../../Desktop/graph_1A.gml')
 
 
 
