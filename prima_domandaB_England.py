@@ -12,8 +12,8 @@ df_serie = pd.read_csv("Dataset/dataset_supportoCUT.csv")
 print(df['market_value'])
 df = df.astype({'market_value': float },errors='raise')
 
-df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-df_filtered = df_filtered[df_filtered['market_value'] >= 15000000.0 ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
+df_filtered = df[(df['country_team1'] == 'England') & (df['country_team2'] == 'England')]
+df_filtered = df_filtered[df_filtered['market_value'] >= 30000000.0 ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
 print(df_filtered)
 
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -47,7 +47,7 @@ for i in G.nodes:
     for node in in_degrees:
         if node[0] == i:
             in_degree = node[1]
-    size_map.append(in_degree * 20)
+    size_map.append(in_degree * 30)
 
 
 pos = nx.kamada_kawai_layout(G)

@@ -60,19 +60,14 @@ print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse
 
 #Visualize the graph
 fig, ax = plt.subplots(figsize=(45, 35))
-fig.suptitle("football player transfer from 2009 to 2021")
-#Simple 1-line code: nx.draw_networkx(G)
+fig.suptitle("football player transfer from 2007 to 2021")
 color_map = []
 size_map = []
-in_degrees = G.in_degree
 degrees = G.degree
 for i in G.nodes:
     for node in degrees:
-    #for node in in_degrees:
         if node[0] == i:
-            #in_degree = node[1]
             degree = node[1]
-    #size_map.append(in_degree * 20)
     size_map.append(degree * 15 )
     for row in df_serie.itertuples():
         if row.team1 == i:
