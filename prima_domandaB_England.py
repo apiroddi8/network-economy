@@ -12,8 +12,8 @@ df_serie = pd.read_csv("Dataset/dataset_supportoCUT.csv")
 print(df['market_value'])
 df = df.astype({'market_value': float },errors='raise')
 
-df_filtered = df[(df['country_team1'] == 'England') & (df['country_team2'] == 'England')]
-df_filtered = df_filtered[df_filtered['market_value'] >= 30000000.0 ]    #8000000.0 per fare grafo con poche squadre e milan juve centrali
+df_filtered = df[(df['country_team1'] == 'Germany') & (df['country_team2'] == 'Germany')] #da settare con England, Spain, Germany
+df_filtered = df_filtered[df_filtered['market_value'] >= 20000000.0 ] #da settare a 20mln, 25mln, 30mln
 print(df_filtered)
 
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)

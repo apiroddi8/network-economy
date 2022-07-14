@@ -18,7 +18,7 @@ first_quartile_market_value = df['market_value'].quantile(q=0.25)
 print(first_quartile_market_value)
 
 df_filtered = df[(df['country_team1'] == 'Italy') & (df['country_team2'] == 'Italy')]
-df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ]
+#df_filtered = df_filtered[df_filtered['market_value'] >= first_quartile_market_value ] #da commentare per grafo senza filtro market value
 print(df_filtered)
 
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -29,7 +29,7 @@ print("G.nodes =", G.nodes)
 #print("\n\nG.edges =", G.edges)
 #print("\n\n\nG.degree =", G.degree)
 
-# CHECK NODES MISSING IN STEP4.csv
+# CHECK NODES MISSING IN dataset_supportoCUT.csv
 missing_teams = []
 teams = df_serie.team1.tolist()
 for node in G.nodes:
@@ -39,11 +39,7 @@ for node in G.nodes:
 for node in missing_teams:
     G.remove_node(node)
 
-#BETWEENESS
-bw_centrality = nx.betweenness_centrality(G, normalized=False)
-#print("\n\nBetweenness Centrality: ", sorted(bw_centrality.items(), key=lambda x: x[1], reverse=True))
-bw_value = [value for value in bw_centrality.values()]
-quantiles = np.quantile(bw_value, [0.25, 0.5, 0.75])
+
 
 
 #COUNTING NUMBER OF EDGES BETWEEN ANY TWO NODES
@@ -60,7 +56,7 @@ print("AAAA",  sorted(dict_edges_occurences.items(), key=lambda x: x[1], reverse
 
 #Visualize the graph
 fig, ax = plt.subplots(figsize=(45, 35))
-fig.suptitle("football player transfer from 2007 to 2021")
+fig.suptitle("Football transfers between italian clubs from 2007 to 2021")
 color_map = []
 size_map = []
 degrees = G.degree
@@ -68,7 +64,7 @@ for i in G.nodes:
     for node in degrees:
         if node[0] == i:
             degree = node[1]
-    size_map.append(degree * 15 )
+    size_map.append(degree * 7 )
     for row in df_serie.itertuples():
         if row.team1 == i:
             if row.league_team1 == 'ITA1':
@@ -104,7 +100,7 @@ nx.draw_networkx_edges(G,
 nx.draw_networkx_labels(G, pos=pos,
                         labels=dict(zip(G.nodes,G.nodes)),
                         font_color='black',
-                        font_size=5)
+                        font_size=6)
 
 ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
 plt.axis('off')
