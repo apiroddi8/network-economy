@@ -12,7 +12,8 @@ df = df.dropna()
 df = df.astype({'market_value': float },errors='raise')
 
 df_filtered = df[(df['league_team1'] == 'ITA1') & (df['league_team2'] == 'ITA1')]
-df_filtered = df_filtered[df_filtered['market_value'] >= 8000000.0]
+df_filtered=  df_filtered[(df_filtered['season']>2009)&(df_filtered['season']<2021)]
+df_filtered = df_filtered[df_filtered['market_value'] >= 10000000]
 
 #CREATE GRAPH
 G=nx.from_pandas_edgelist(df_filtered, "team1", "team2",create_using=nx.MultiDiGraph)
@@ -59,10 +60,11 @@ def set_edge_community(G):
             # External edge, mark as 0
             G.edges[v, w, e]['community'] = 0
 
+
 def get_color(i, r_off=1, g_off=1, b_off=1):
     '''Assign a color to a vertex.'''
     r0, g0, b0 = 0, 0, 0
-    n = 16
+    n = 13
     low, high = 0.1, 0.9
     span = high - low
     r = low + span * (((i + r_off) * 3) % n) / (n - 1)
@@ -79,7 +81,7 @@ for i in G.nodes:
     for node in in_degrees:
         if node[0] == i:
             in_degree = node[1]
-    size_map.append(in_degree * 40)
+    size_map.append(in_degree * 60+ 60)
 
 # Set node and edge communities
 set_node_community(G, communities)
@@ -89,6 +91,7 @@ node_color = [get_color(G.nodes[v]['community']) for v in G.nodes]
 external = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] == 0]
 internal = [(v, w) for v, w, e in G.edges if G.edges[v, w, e]['community'] > 0]
 internal_color = ['black' for e in internal]
+
 
 pos = nx.kamada_kawai_layout(G)
 fig, ax = plt.subplots(figsize=(45, 35))
