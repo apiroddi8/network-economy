@@ -12,7 +12,7 @@ df = df.dropna()
 df = df.astype({'market_value': float },errors='raise')
 
 df_filtered = df[(df['league_team1'] == 'ITA1') & (df['league_team2'] == 'ITA1')]
-df_filtered=  df_filtered[(df_filtered['season']>2009)&(df_filtered['season']<2021)]
+df_filtered= df_filtered[(df_filtered['season']>2009)&(df_filtered['season']<2021)]
 df_filtered = df_filtered[df_filtered['market_value'] >= 10000000]
 
 #CREATE GRAPH
