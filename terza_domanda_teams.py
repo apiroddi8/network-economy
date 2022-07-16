@@ -10,7 +10,7 @@ df=pd.read_csv('Dataset/dataset_pulito07-21.csv')
 df_serie = pd.read_csv('Dataset/dataset_supportoCUT.csv')
 
 new_df=df.groupby('player_name').first().reset_index()
-new_df2=new_df[new_df['league_team1']=='ITAJ']
+new_df2=new_df[new_df['league_team1']=='ITA4']
 player_list=new_df2['player_name'].tolist()
 dataframe=df[df['player_name'].isin(player_list)]
 new_dataframe=dataframe[dataframe['league_team2']=='ITA1']
@@ -138,58 +138,65 @@ serieC = [nodo for nodo, at in G.nodes(data=True) if at['league_team'] == 'ITA3'
 Primavera = [nodo for nodo, at in G.nodes(data=True) if at['league_team'] == 'ITAJ']
 serieA = [nodo for nodo, at in G.nodes(data=True) if at['league_team'] == 'ITA1']
 estera = [nodo for nodo, at in G.nodes(data=True)if at ['league_team']=='other']
-bw_centrality = nx.betweenness_centrality_subset(G, sources= Primavera, targets= serieA, normalized=False)
+bw_centrality = nx.betweenness_centrality_subset(G, sources= serieD, targets= serieA, normalized=False)
 
 print("\n\nBetweenness Centrality: ", bw_centrality)
 
 
-size_map = []
-for i in G.nodes:
-    for node, bw in bw_centrality.items():
-        if node == i:
-            size_map.append((bw + 1 ) * 9)
+# size_map = []
+# for i in G.nodes:
+#     for node, bw in bw_centrality.items():
+#         if node == i:
+#             size_map.append((bw + 1 ) * 9)
+#
+# color_map = []
+# for i in G.nodes:
+#     if i in serieA:
+#         color_map.append('aquamarine')
+#     elif i in serieD:
+#         color_map.append('lightblue')
+#     elif i in estera:
+#         color_map.append('red')
+#     else:
+#         color_map.append('blue')
+#
+#
+# for u,v,d in G.edges(data=True):
+#     d['weight'] = random.random()
+#
+# edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
+#
+#
+# fig, ax = plt.subplots(figsize=(45, 35))
+# pos = nx.spring_layout(G, k=3*1/np.sqrt(len(G.nodes())), iterations=10)
+#
+# nx.draw_networkx_nodes(G, pos=pos, node_color = color_map, node_size =size_map, alpha = 1 )
+#
+# nx.draw_networkx_edges(G,
+#                        pos=pos,
+#                        edgelist = dict_edges_occurences.keys(),
+#                        width=list(i / 10 for i in dict_edges_occurences.values()),
+#                        edge_color='grey',
+#                        alpha=0.6,
+#                        arrows= True,
+#                        arrowsize=1)
+#
+# nx.draw_networkx_labels(G, pos=pos, font_size=6)
+#
+# legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='aquamarine', markersize=13),
+#                     Line2D([0], [0], marker='o', color='w', label='Serie D',markerfacecolor='lightblue', markersize=13),
+#                     Line2D([0], [0], marker='o', color='w', label='SerieB-SerieC-Primavera',markerfacecolor='blue', markersize=13),
+#                     Line2D([0], [0], marker='o', color='w', label='Estere',markerfacecolor='red', markersize=13)]
+#
+# ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
+# fig.suptitle("Team Path player from SerieD to Serie A")
+# plt.axis('off')
+# plt.show()
 
-color_map = []
-for i in G.nodes:
-    if i in serieA:
-        color_map.append('aquamarine')
-    elif i in serieD:
-        color_map.append('lightblue')
-    elif i in estera:
-        color_map.append('red')
-    else:
-        color_map.append('blue')
 
+#### TOP 7 BETWEENNESS CENTRALITY TEAMS ####
+betwenneess_list = sorted(bw_centrality.items(), key=lambda x: x[1], reverse=True)
 
-for u,v,d in G.edges(data=True):
-    d['weight'] = random.random()
+top7_bw_centrality = betwenneess_list[:7]
 
-edges,weights = zip(*nx.get_edge_attributes(G,'weight').items())
-
-
-fig, ax = plt.subplots(figsize=(45, 35))
-pos = nx.spring_layout(G, k=3*1/np.sqrt(len(G.nodes())), iterations=10)
-#pos=nx.kamada_kawai_layout(G)
-
-nx.draw_networkx_nodes(G, pos=pos, node_color = color_map, node_size =size_map, alpha = 1 )
-
-nx.draw_networkx_edges(G,
-                       pos=pos,
-                       edgelist = dict_edges_occurences.keys(),
-                       width=list(i / 10 for i in dict_edges_occurences.values()),
-                       edge_color='grey',
-                       alpha=0.6,
-                       arrows= True,
-                       arrowsize=1)
-
-nx.draw_networkx_labels(G, pos=pos, font_size=6)
-
-legend_elements1 = [Line2D([0], [0], marker='o', color='w', label='Serie A',markerfacecolor='aquamarine', markersize=13),
-                    Line2D([0], [0], marker='o', color='w', label='Serie D',markerfacecolor='lightblue', markersize=13),
-                    Line2D([0], [0], marker='o', color='w', label='SerieB-SerieC-Primavera',markerfacecolor='blue', markersize=13),
-                    Line2D([0], [0], marker='o', color='w', label='Estere',markerfacecolor='red', markersize=13)]
-
-ax.legend(handles=legend_elements1, loc='lower left', prop={'size': 8})
-fig.suptitle("Team Path player from Primavera to Serie A")
-plt.axis('off')
-plt.show()
+print(top7_bw_centrality)
