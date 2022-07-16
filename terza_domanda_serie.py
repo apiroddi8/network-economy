@@ -6,10 +6,10 @@ import numpy as np
 from matplotlib.lines import Line2D
 
 
-df=pd.read_csv('Dataset/dataset_completo10-15.csv')
+df=pd.read_csv('Dataset/dataset_pulito07-21.csv')
 new_df=df.groupby('player_name').first().reset_index()
 print(new_df)
-new_df2=new_df[new_df['league_team1']=='ITA4']
+new_df2=new_df[new_df['league_team1']=='ITA3']
 print(new_df2)
 player_list=new_df2['player_name'].tolist()
 dataframe=df[df['player_name'].isin(player_list)]
@@ -200,7 +200,7 @@ for i in G.nodes:
     for node in in_degrees:
         if node[0] == i:
             in_degree = node[1]
-    size_map.append(in_degree * 40)
+    size_map.append(in_degree * 7)
 
 for u,v,d in G.edges(data=True):
     d['weight'] = random.random()
@@ -217,7 +217,7 @@ labeldict["OTH"] = "Estere"
 
 #Visualize the graph
 fig, ax = plt.subplots(figsize=(45, 35))
-fig.suptitle("Path player transfers from Serie D to Serie A")
+fig.suptitle("Path player transfers from Primavera to Serie A")
 pos = nx.spring_layout(G, k=0.3*1/np.sqrt(len(G.nodes())), iterations=20)
 
 nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map, alpha = 1 )
@@ -225,7 +225,7 @@ nx.draw_networkx_nodes(G, pos=pos, node_color = 'lightblue', node_size =size_map
 nx.draw_networkx_edges(G,
                        pos=pos,
                        edgelist = dict_edges_occurences.keys(),
-                       width=list(i / 8 for i in dict_edges_occurences.values()),
+                       width=list(i / 25 for i in dict_edges_occurences.values()),
                        edge_color=color_map,
                        alpha=0.6,
                        arrows= True,
