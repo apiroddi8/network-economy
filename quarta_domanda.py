@@ -7,7 +7,7 @@ from matplotlib.lines import Line2D
 
 
 
-dataframe = pd.read_csv("Dataset/merged_squadre_ita.csv")
+dataframe = pd.read_csv("Dataset//merged_squadre_ita.csv")
 
 df = dataframe[dataframe['country_team2'] == 'Italy']
 
@@ -30,34 +30,52 @@ df_filtered.loc[(df_filtered['market_value'] <= 24000000.0) & (df_filtered['mark
 df_filtered.loc[df_filtered['market_value'] > 24000000.0, 'market_value_cat'] = 'top_value'
 df_filtered = df_filtered.dropna()
 
-league_counts = df['league_team1'].value_counts().to_dict()
-print("\n\nLeagues count: ", sorted(league_counts.items(), key=lambda x: x[1], reverse=True))
-print(len([key for key in league_counts.keys()]))
-print(len([value for value in league_counts.values() if value > 7]))
-#get first 20th league except italia
-first_20th = [key for key, value in league_counts.items() if value > 7]
-print(first_20th)
+top_EU_leagues=['ENG1','SPA1','GER1','POR1','FRA1']
+top_SA_leagues=['ARG','BRA','URU']
+EU_leagues=['NET1','BEL','CRO','GRE','RUS','ENG2','SWI','ROM','SPA2','SWE','FRA2','SER','DEN','TUR','UKR','CZE','SLO','POL','UNI','HUN']
+SA_leagues=['CHI','COL','PAR','VEN','BOL','PER']
 
-df_filtered.loc[(~df_filtered['league_team1'].isin(first_20th)), 'league_team1'] = 'OTHER'
+df_filtered.loc[df_filtered['league_team1'].isin(top_EU_leagues),'league_team1']='TOP EU'
+df_filtered.loc[df_filtered['league_team1'].isin(top_SA_leagues),'league_team1']='TOP SA'
+df_filtered.loc[df_filtered['league_team1'].isin(EU_leagues),'league_team1']='LOW EU'
+df_filtered.loc[df_filtered['league_team1'].isin(SA_leagues),'league_team1']='LOW SA'
+df_filtered.loc[(df_filtered['league_team1']!='TOP EU')&(df_filtered['league_team1']!='TOP SA')&(df_filtered['league_team1']!='LOW EU')&(df_filtered['league_team1']!='LOW SA'),'league_team1']='OTH'
 
-nation_counts = df['player_nation'].value_counts().to_dict()
-print("\n\nLeagues count: ", sorted(nation_counts.items(), key=lambda x: x[1], reverse=True))
-print(len([key for key in nation_counts.keys()]))
-print(len([value for value in nation_counts.values() if value >= 15]))
-# get first 25th nation
-first_25th = [key for key, value in nation_counts.items() if value >= 15]
-print(first_25th)
+######################################################################################################################
 
-df_filtered.loc[(~df_filtered['player_nation'].isin(first_25th)), 'player_nation'] = 'Other_nation'
+# league_counts = df['league_team1'].value_counts().to_dict()
+# print("\n\nLeagues count: ", sorted(league_counts.items(), key=lambda x: x[1], reverse=True))
+# print(len([key for key in league_counts.keys()]))
+# print(len([value for value in league_counts.values() if value > 7]))
+# #get first 20th league except italia
+# first_20th = [key for key, value in league_counts.items() if value > 7]
+# print(first_20th)
+#
+# df_filtered.loc[(~df_filtered['league_team1'].isin(first_20th)), 'league_team1'] = 'OTHER'
+#
+# nation_counts = df['player_nation'].value_counts().to_dict()
+# print("\n\nLeagues count: ", sorted(nation_counts.items(), key=lambda x: x[1], reverse=True))
+# print(len([key for key in nation_counts.keys()]))
+# print(len([value for value in nation_counts.values() if value >= 15]))
+# # get first 25th nation
+# first_25th = [key for key, value in nation_counts.items() if value >= 15]
+# print(first_25th)
+#
+# df_filtered.loc[(~df_filtered['player_nation'].isin(first_25th)), 'player_nation'] = 'Other_nation'
+
+####################################################################################################################
+
+
 
 
 G = nx.from_pandas_edgelist(df_filtered, "team2", "age", edge_attr= 'age',create_using=nx.MultiGraph)
 G2 = nx.from_pandas_edgelist(df_filtered, "team2", "league_team1", edge_attr= 'league_team1',create_using=nx.MultiGraph)
-G3 = nx.from_pandas_edgelist(df_filtered, "team2", "player_nation", edge_attr= 'player_nation',create_using=nx.MultiGraph)
+#G3 = nx.from_pandas_edgelist(df_filtered, "team2", "player_nation", edge_attr= 'player_nation',create_using=nx.MultiGraph)
 G4 = nx.from_pandas_edgelist(df_filtered, "team2", "market_value_cat", edge_attr= 'market_value_cat' ,create_using=nx.MultiGraph)
 G_G2 = nx.compose(G, G2)
-G_G2_G3 = nx.compose(G_G2, G3)
-B = nx.compose(G_G2_G3, G4)
+#G_G2_G3 = nx.compose(G_G2, G3)
+#B = nx.compose(G_G2_G3, G4)
+B=nx.compose(G_G2,G4)
 
 print("Number of nodes:", B.number_of_nodes())
 print("Number of edges:", B.number_of_edges())
