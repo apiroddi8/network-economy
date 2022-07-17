@@ -11,3 +11,4 @@ df2.sort_values(['team2','season'], ascending=[True, True], inplace=True)
 df2.to_csv("Dataset//merged_squadre_ita.csv")
 
 
+
